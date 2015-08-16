@@ -8,11 +8,11 @@ In this class, we'll examine how personalized design can give people more meanin
 
 The course will have 3 main design challenges through which we will learn the above concepts:
 
-1. Making (Dry) Data Personal & Playful - Personality and playfulness can go a long way in creating richer interactions around data. We’ll examine how to make seemingly 'boring' data interesting through design and personalization strategies.
+1. **Making (Dry) Data Personal & Playful** - Personality and playfulness can go a long way in creating richer interactions around data. We’ll examine how to make seemingly 'boring' data interesting through design and personalization strategies.
 
-2. Designing for the Self - It often helps to start by designing for our own problems. We'll explore how to track and design around a dataset of our own that we'd like to better understand. 
+2. **Designing for the Self** - It often helps to start by designing for our own problems. We'll explore how to track and design around a dataset of our own that we'd like to better understand. 
 
-3. Re-Contextualizing Everyday Data - Given the sheer number of daily data interactions, there's so many opportunities to do it better. We'll explore how to take data we encounter everyday (the weather, food labels, subway delays) and re-contextualize it to give people more pleasant and smarter interactions.
+3. **Re-Contextualizing Everyday Data** - Given the sheer number of daily data interactions, there's so many opportunities to do it better. We'll explore how to take data we encounter everyday (the weather, food labels, subway delays) and re-contextualize it to give people more pleasant and smarter interactions.
 
 Students will learn techniques on how to work with existing Web APIs, how to build and use their own Web APIs (with Node.js and Mongodb), and will implement user-facing designs utilizing p5.js and other Web technologies. Class examples will be presented in Javascript. Javascript tutorials will be assigned as a pre-requisite for those with little to no Javascript experience.
 
@@ -21,10 +21,14 @@ Javascript Resources
 For those who may not have experience with Javacsript, it is recommended to do some outside video tutorials. The following are a list of suggested tutorials:
 
 Client-side Javascript:
+- [JS for Cats - Fun intro](http://jsforcats.com/)
 - [CodeSchool - JS Road Trip Part 1 and Part 2](https://www.codeschool.com/paths/javascript)
+- [Codecademy](https://www.codecademy.com/tracks/javascript)
 
-Server-side Javacsript
+Server-side Javascript
 - [CodeSchool - Real-time Web with Node.js](https://www.codeschool.com/courses/real-time-web-with-node-js)
+- [Nodeschool](http://nodeschool.io/)
+- [MEAN (MongoDB Express.js AngularJS Node.js) tutorial - More Advanced](https://thinkster.io/mean-stack-tutorial/)
 
 
 Week 1 -- Introduction, JS 101, JSON 101
