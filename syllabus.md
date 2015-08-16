@@ -22,7 +22,6 @@ For those who may not have experience with Javacsript, it is recommended to do s
 
 Client-side Javascript:
 - [CodeSchool - JS Road Trip Part 1 and Part 2](https://www.codeschool.com/paths/javascript)
-- 
 
 Server-side Javacsript
 - [CodeSchool - Real-time Web with Node.js](https://www.codeschool.com/courses/real-time-web-with-node-js)
