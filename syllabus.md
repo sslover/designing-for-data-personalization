@@ -72,16 +72,16 @@ Group Projects
 Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can pick from 2 topics:
 
 - **Design Critique** - Use an app, technology, or device that promises some degree of data personalization. How does it do it? What information does it need from the user? Does it live up to its promises? How could it be better? 
-- **Design Concept** - Pick a topic, dataset, or concept that you want to explore as a group. Do a rough  a product, service, application, experience, or installation,
+- **Design Concept** - Pick a topic, dataset, or concept that you want to explore as a group. How would you go about designing a product, service, application, experience, or installation that uses data personalization strategies? It is up to you how to present it - a series of sketches, mockups, wireframes, or a basic prototype.
 
 Design Challenges
 -----------------
 
 We will have 3 core design challenges through which you will get to develop and hone skills learned during the class. You will have ~3 weeks to do each design challenge. Presentations will occur on the following dates:
 
-- 
-
-
+- **Class 4 **: Making (Dry) Data Personal & Playful
+- **Class 9 **: Designing for the Self
+- **Class 12 **: Recontextualizng Everyday Data
 
 Javascript Resources
 ---------------------
@@ -97,6 +97,8 @@ Server-side Javascript
 - [Nodeschool](http://nodeschool.io/)
 - [MEAN (MongoDB Express.js AngularJS Node.js) tutorial - More Advanced](https://thinkster.io/mean-stack-tutorial/)
 
+Week-by-Week Topics & Assignments
+=================================
 
 Week 1 -- Introduction, JS 101, JSON 101
 ----------------------------------------
@@ -104,7 +106,7 @@ Week 1 -- Introduction, JS 101, JSON 101
 - Design Exercise - get to know eachother via data collection
 - Design Topic - Examples & Inspiration for the class
 — Group Activities Overview
-- Intro to servers, Web Development, and tools (POSTMAN, Sublime)
+- Intro to Web Development, Client/Server interactions, Javascript, and tools (POSTMAN, Sublime)
 — HTML/CSS/JS 101 - a well-formed page and simple script 
 — JSON 101 - rules & validation
 - Assignment Week 1: 
@@ -113,7 +115,7 @@ Week 1 -- Introduction, JS 101, JSON 101
     - Use JSON Lint to validate it.
     - Write a JS script that gets the above data and generates in it on a webpage 
 
-Week 2 -- Introduction, JS 101, JSON 101
+Week 2 -- Going deeper into JSON 102,
 ----------------------------------------
 - Intro to Designing for Data Personalization
 - Design Exercise - get to know eachother via data collection
