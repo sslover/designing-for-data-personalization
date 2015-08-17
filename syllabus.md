@@ -12,7 +12,7 @@ The world is awash with new data, but how can designers take the next step to ma
 
 In this class, we'll examine how personalized design can give people more meaningful and pleasant experiences with their data interactions. We'll explore how new technologies and designs are implementing these personalization strategies and how they're being successful (or not). We’ll learn how to model, generate, and store our own datasets; how to build our own APIs; and ultimately how to design meaningful applications and experiences around this data.
 
-The course will have 3 main design challenges through which we will learn the above concepts:
+The course will have 3 main design challenges through which we will learn & practice the above concepts:
 
 1. **Making (Dry) Data Personal & Playful** - Personality and playfulness can go a long way in creating richer interactions around data. We’ll examine how to make seemingly 'boring' data interesting through design and personalization strategies.
 
