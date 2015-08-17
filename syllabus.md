@@ -138,7 +138,7 @@ Week 2 -- Going deeper into Web - design + JS strategies
 
 Weeks 3-4
 ---------
-* Design Topics will include Designing for Personality & Playfulnes, User Onboarding
+* Design Topics will include Designing for Personality & Playfullnes, Effective User Onboarding
 * Technical Topics will go further into client-side Javascript, with examples presented in p5.js and pure JS. In week 4, we will introduce server-side javascript.
 
 Week 5
