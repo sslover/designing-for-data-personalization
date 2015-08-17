@@ -91,6 +91,7 @@ Client-side Javascript:
 - [JS for Cats - Fun intro](http://jsforcats.com/)
 - [CodeSchool - JS Road Trip Part 1 and Part 2](https://www.codeschool.com/paths/javascript)
 - [Codecademy](https://www.codecademy.com/tracks/javascript)
+- [P5js vs Processing - Learn how to go from Processing to P5](https://github.com/processing/p5.js/wiki/Processing-transition)
 
 Server-side Javascript
 - [CodeSchool - Real-time Web with Node.js](https://www.codeschool.com/courses/real-time-web-with-node-js)
