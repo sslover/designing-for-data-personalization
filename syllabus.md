@@ -112,8 +112,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 - Technical topics:
     - Intro to Web Development, Client/Server interactions, Javascript, and tools (POSTMAN, Sublime)
     — HTML/CSS/JS 101: a wellformed page and simple script 
-    — JSON 101: rules & validation
-
+    — JSON 101: rules & validation  
 - Assignment Week 1:
     - Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
     - Set up your class blog. Email slover@nyu.edu with the link.
