@@ -54,7 +54,7 @@ This class covers numerous Web programming topics, and as a result, we will use 
 Weekly Assignments
 ------------------
 
-We will have small weekly assignments that build on material presented in class. It is expected that you post all assignments to your blog, and come prepared to present your work (and respectfully engage with your peers when they are presenting).
+We will have small weekly assignments that build on material presented in class. It is expected that you post all assignments to your blog, and come prepared to talk about your work (and respectfully engage with your peers when they are presenting).
 
 Attendance
 ----------
