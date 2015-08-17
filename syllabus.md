@@ -79,9 +79,9 @@ Design Challenges
 
 We will have 3 core design challenges through which you will get to develop and hone skills learned during the class. You will have ~3 weeks to do each design challenge. Presentations will occur on the following dates:
 
-- **Class 4 **: Making (Dry) Data Personal & Playful
-- **Class 9 **: Designing for the Self
-- **Class 12 **: Recontextualizng Everyday Data
+- **Class 4**: Making (Dry) Data Personal & Playful
+- **Class 9**: Designing for the Self
+- **Class 12**: Recontextualizng Everyday Data
 
 Javascript Resources
 ---------------------
