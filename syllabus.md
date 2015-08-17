@@ -117,21 +117,55 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
     * Set up your class blog. Email slover@nyu.edu with the link.
     * This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly). In your class blog, describe your interactions? What did you like about it? What bugged you? Did it live up to its promise of personalization?
-    * Create a simple JSON file on any personal dataset. Don't overthink it, something simple is fine.
-    * Use [JSON Lint](http://jsonlint.com) to validate it
-    * Write a JS script that gets the above data and generates in it on a webpage 
+    * If needed, do the above Javascript tutorial videos
 
 Week 2 -- Going deeper into Web - design + JS strategies
 --------------------------------------------------------
-- Intro to Designing for Data Personalization
-- Class Exercise - get to know eachother via data collection
-- Design Topic - Examples & Inspiration for the class
-— Group Activities Overview
-- Intro to servers, Web Development, and tools (POSTMAN, Sublime)
-— HTML/CSS/JS 101 - a well-formed page and simple script 
-— JSON 101 - rules & validation
-- Assignment Week 1: 
-    - This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly). In your class blog, describe your interactions? What did you like about it? What bugged you? Did it live up to its promise of personalization?
-    - Create a simple JSON file on a personal dataset that you care about.
-    - Use JSON Lint to validate it.
-    - Write a JS script that gets the above data and generates in it on a webpage
+* Present last week's work
+* Design Exercise - pen and paper wireframing
+* Design Topic - Wireframing
+
+**BREAK**
+
+* Technical topics:
+    * JS 102 - going deeper into client-side js
+    * p5js 101 - Processing like visuals on the Web
+* Assignment Week 2:
+    * Create a simple JSON file on any personal dataset. Don't overthink it, something simple is fine.
+    * Use [JSON Lint](http://jsonlint.com) to validate it
+    * Write a JS script that gets the above data and generates in it on a webpage. Try to do something interesting with the data.
+    * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the dataset, and what you would like to express to the user.
+
+Weeks 3-4
+---------
+* Design Topics will include Designing for Personality & Playfulnes, User Onboarding
+* Technical Topics will go further into client-side Javascript, with examples presented in p5.js and pure JS. In week 4, we will introduce server-side javascript.
+
+Week 5
+------
+* **Student Presentations: Making (Dry) Data Personal & Playful**
+
+Weeks 6-8
+---------
+* Server-side javascript with node.js, mongodb, express.js.
+* We will cover topics including:
+    * Modeling, storing, retrieving data
+    * Making Data into an API
+    * Designing APIs for Consumption
+    * The Anatomy of A Data-Driven App
+
+Week 9
+------
+* **Student Presentations: Designing for the Self**
+
+Week 10
+-------
+*  Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!) 
+
+Week 11
+-------
+* Going beyond the browser. Data on Mobile.
+
+Week 12
+-------
+* **Recontextualizng Everyday Data**
