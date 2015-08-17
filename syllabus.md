@@ -110,7 +110,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 **BREAK**
 
 - Technical topics:
-    - Intro to Web Development, Client/Server interactions, Javascript, and tools (POSTMAN, Sublime)
+    - Intro to Web Development, Client-Server interactions, Javascript, and tools [POSTMAN, Sublime]
     — HTML/CSS/JS 101: a wellformed page and simple script 
     — JSON 101: rules & validation  
 - Assignment Week 1:
