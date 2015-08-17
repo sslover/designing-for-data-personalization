@@ -103,16 +103,16 @@ Week-by-Week Topics & Assignments
 Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 ---------------------------------------------------------
 - Intro to Designing for Data Personalization
-- Design Exercise - get to know eachother via data collection
-- Design Topic - Examples & Inspiration for the class
+- Design Exercise: get to know eachother via data collection
+- Design Topic: Examples & Inspiration for the class
 — Group Activities Overview
 
 **BREAK**
 
 - Technical topics:
     - Intro to Web Development, Client/Server interactions, Javascript, and tools (POSTMAN, Sublime)
-    — HTML/CSS/JS 101 - a well-formed page and simple script 
-    — JSON 101 - rules & validation
+    — HTML/CSS/JS 101: a well-formed page and simple script 
+    — JSON 101: rules & validation
 - Assignment Week 1: 
     - This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly). In your class blog, describe your interactions? What did you like about it? What bugged you? Did it live up to its promise of personalization?
     - Create a simple JSON file on a personal dataset that you care about
