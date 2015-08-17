@@ -2,7 +2,7 @@ Designing for Data Personalization Syllabus
 ============================================
 Overview
 ---------------------
-- **Instructor** - Sam Slover (email: [slover@nyu.edu](slover@nyu.edu))
+- **Instructor** - Sam Slover (email: [mailto:slover@nyu.edu](slover@nyu.edu))
 - **Office Hours** - Thursdays from 12 to 3. Signup at [Google Calendar](https://www.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
 - **Group/Listserv**: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
 
@@ -59,19 +59,29 @@ We will have small weekly assignments that build on material presented in class.
 Attendance
 ----------
 
-Attendance is mandatory. Please inform me via email if you are going to miss a class. Habitually showing up late for class or an excessive number of absences will adversely affect your grade.
+Attendance is mandatory. You must inform me via email if you are going to miss a class. Habitually showing up late for class or an excessive number of absences will adversely affect your grade.
 
-CLASS PARTICIPATION
+Class Participation
+-------------------
 
-As if I haven't said this enough. This class will be participatory, you are expected to participate in discussions and give feedback to other students both in class and participate with their projects. This (along with attendance) is 20% of your overall grade.
+Class participation is a critical part of the class, and (along with attendance) makes up 25% of your final grade. We expect pro-active participation and feedback throughout class discussions and presentations. 
 
-GROUP PROJECT
+Group Projects
+--------------
 
-Starting on the 4th class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration utilizing technology from the previous class (chat, audio streaming, video streaming and so on).
+Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can present on 2 topics:
 
-FINAL PROJECTS
+- **Design Critique** - Use an app, technology, or device that promises some degree of data personalization. How does it do it? What information does it need from the user? Does it live up to its promises? How could it be better? 
+- **Design Concept## - Pick a topic, dataset, or concept that you want to explore as a group. Do a rough  a product, service, application, experience, or installation,
 
-Class will culminate final projects. It is expected that these will be both technology and content driven. Projects such as the development of a tool or a vehicle for live interaction will be considered but should be used in combination with content elements.
+Design Challenges
+-----------------
+
+We will have 3 core design challenges through which you will get to develop and hone skills learned during the class. You will have ~3 weeks to do each design challenge. Presentations will occur on the following dates:
+
+- 
+
+
 
 Javascript Resources
 ---------------------
