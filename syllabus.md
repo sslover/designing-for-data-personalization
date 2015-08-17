@@ -102,10 +102,10 @@ Week-by-Week Topics & Assignments
 
 Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 ---------------------------------------------------------
-- Intro to Designing for Data Personalization
-- Design Exercise: get to know eachother via data collection
-- Design Topic: Examples & Inspiration for the class
-— Group Activities Overview
+* Intro to Designing for Data Personalization
+* Design Exercise: get to know eachother via data collection
+* Design Topic: Examples & Inspiration for the class
+* Group Activities Overview
 
 **BREAK**
 
