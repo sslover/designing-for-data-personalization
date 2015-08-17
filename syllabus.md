@@ -109,17 +109,17 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 
 **BREAK**
 
-- Technical topics:
-    - Intro to Web Development, Client-Server interactions, Javascript, and tools [POSTMAN, Sublime]
-    — HTML/CSS/JS 101: a wellformed page and simple script 
-    — JSON 101: rules & validation  
-- Assignment Week 1:
-    - Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
-    - Set up your class blog. Email slover@nyu.edu with the link.
-    - This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly). In your class blog, describe your interactions? What did you like about it? What bugged you? Did it live up to its promise of personalization?
-    - Create a simple JSON file on any personal dataset. Don't overthink it, something simple is fine.
-    - Use [JSON Lint](http://jsonlint.com) to validate it
-    - Write a JS script that gets the above data and generates in it on a webpage 
+* Technical topics:
+    * Intro to Web Development, Client-Server interactions, Javascript, and tools [POSTMAN, Sublime]
+    * HTML/CSS/JS 101: a wellformed page and simple script 
+    * JSON 101: rules & validation  
+* Assignment Week 1:
+    * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
+    * Set up your class blog. Email slover@nyu.edu with the link.
+    * This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly). In your class blog, describe your interactions? What did you like about it? What bugged you? Did it live up to its promise of personalization?
+    * Create a simple JSON file on any personal dataset. Don't overthink it, something simple is fine.
+    * Use [JSON Lint](http://jsonlint.com) to validate it
+    * Write a JS script that gets the above data and generates in it on a webpage 
 
 Week 2 -- Going deeper into Web - design + JS strategies
 --------------------------------------------------------
