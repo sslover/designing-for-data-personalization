@@ -36,7 +36,7 @@ Class Blog
 
 It is expected that everyone in the class will create and maintain a blog for their assignments.
 
-Email [slover@nyu.edu](slover@nyu.edu) with a link to you blog. I will add it to the class repo.
+Email slover@nyu.edu with a link to you blog. I will add it to the class repo.
 
 Listserv
 --------
