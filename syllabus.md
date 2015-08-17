@@ -98,6 +98,14 @@ Server-side Javascript
 - [Nodeschool](http://nodeschool.io/)
 - [MEAN (MongoDB Express.js AngularJS Node.js) tutorial - More Advanced](https://thinkster.io/mean-stack-tutorial/)
 
+HTML/CSS Resources
+-------------------
+
+While not specifically required for the class, you may find the following tutorials helpful in building your projects.
+
+* [http://learn.shayhowe.com/html-css/](Learn To Code HTML/CSS)
+* [http://learnlayout.com/](Learn CSS Layout)
+
 Week-by-Week Topics & Assignments
 =================================
 
