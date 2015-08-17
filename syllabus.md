@@ -100,23 +100,27 @@ Server-side Javascript
 Week-by-Week Topics & Assignments
 =================================
 
-Week 1 -- Introduction, JS 101, JSON 101
-----------------------------------------
+Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
+---------------------------------------------------------
 - Intro to Designing for Data Personalization
 - Design Exercise - get to know eachother via data collection
 - Design Topic - Examples & Inspiration for the class
 — Group Activities Overview
-- Intro to Web Development, Client/Server interactions, Javascript, and tools (POSTMAN, Sublime)
-— HTML/CSS/JS 101 - a well-formed page and simple script 
-— JSON 101 - rules & validation
+
+**BREAK**
+
+- Technical topics:
+    - Intro to Web Development, Client/Server interactions, Javascript, and tools (POSTMAN, Sublime)
+    — HTML/CSS/JS 101 - a well-formed page and simple script 
+    — JSON 101 - rules & validation
 - Assignment Week 1: 
     - This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly). In your class blog, describe your interactions? What did you like about it? What bugged you? Did it live up to its promise of personalization?
-    - Create a simple JSON file on a personal dataset that you care about.
+    - Create a simple JSON file on a personal dataset that you care about
     - Use JSON Lint to validate it.
     - Write a JS script that gets the above data and generates in it on a webpage 
 
-Week 2 -- Going deeper into JSON 102,
-----------------------------------------
+Week 2 -- Going deeper into Web - design + JS strategies
+--------------------------------------------------------
 - Intro to Designing for Data Personalization
 - Design Exercise - get to know eachother via data collection
 - Design Topic - Examples & Inspiration for the class
