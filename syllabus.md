@@ -69,10 +69,10 @@ Class participation is a critical part of the class, and (along with attendance)
 Group Projects
 --------------
 
-Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can present on 2 topics:
+Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can pick from 2 topics:
 
 - **Design Critique** - Use an app, technology, or device that promises some degree of data personalization. How does it do it? What information does it need from the user? Does it live up to its promises? How could it be better? 
-- **Design Concept## - Pick a topic, dataset, or concept that you want to explore as a group. Do a rough  a product, service, application, experience, or installation,
+- **Design Concept** - Pick a topic, dataset, or concept that you want to explore as a group. Do a rough  a product, service, application, experience, or installation,
 
 Design Challenges
 -----------------
