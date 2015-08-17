@@ -103,8 +103,8 @@ HTML/CSS Resources
 
 While not specifically required for the class, you may find the following tutorials helpful in building your projects.
 
-* [http://learn.shayhowe.com/html-css/](Learn To Code HTML/CSS)
-* [http://learnlayout.com/](Learn CSS Layout)
+* [Learn To Code HTML/CSS](http://learn.shayhowe.com/html-css/)
+* [Learn CSS Layout](http://learnlayout.com/)
 
 Week-by-Week Topics & Assignments
 =================================
