@@ -1,6 +1,12 @@
 Designing for Data Personalization Syllabus
 ============================================
 Overview
+---------------------
+- **Instructor** - Sam Slover (email: [slover@nyu.edu](slover@nyu.edu))
+- **Office Hours** - Thursdays from 12 to 3. Signup at [Google Calendar](https://www.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
+- **Group/Listserv**: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
+
+Description
 --------------------------------
 The world is awash with new data, but how can designers take the next step to make this data more meaningful in people's day-to-day lives and interactions? Put differently, instead of giving people yet more data and visualizations to interpret, how can we personalize this data to provide simple insights that more intimately connect with what an individual really cares about?
 
@@ -16,9 +22,60 @@ The course will have 3 main design challenges through which we will learn the ab
 
 Students will learn techniques on how to work with existing Web APIs, how to build and use their own Web APIs (with Node.js and Mongodb), and will implement user-facing designs utilizing p5.js and other Web technologies. Class examples will be presented in Javascript. Javascript tutorials will be assigned as a pre-requisite for those with little to no Javascript experience.
 
+Grades
+------
+
+Grades will be determined according to the following breakdown:
+- 3 Design Challenges: 50%
+- Participation and Attendance: 25%
+- Weekly Assignments: 15%
+- Group Project: 10%
+
+Class Blog
+----------
+
+It is expected that everyone in the class will create and maintain a blog for their assignments.
+
+Email [slover@nyu.edu](slover@nyu.edu) with a link to you blog. I will add it to the class repo.
+
+Listserv
+--------
+
+We will use a listserv both to have discussions outside of class, and for any technical help questions. Please email the listserv with all technical help questions (often, someone else will have a very similar question, or will at least find the answer useful).
+
+Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
+
+
+Laptops
+-------
+
+This class covers numerous Web programming topics, and as a result, we will use laptops extensively throughout our class time. However, use of the computer outside of class topics (for example, chatting on Gmail or checking Facebook) is highly frowned upon and disrespectful. Repeated violators will be asked to leave the classroom. 
+
+Weekly Assignments
+------------------
+
+We will have small weekly assignments that build on material presented in class. It is expected that you post all assignments to your blog, and come prepared to present your work (and respectfully engage with your peers when they are presenting).
+
+Attendance
+----------
+
+Attendance is mandatory. Please inform me via email if you are going to miss a class. Habitually showing up late for class or an excessive number of absences will adversely affect your grade.
+
+CLASS PARTICIPATION
+
+As if I haven't said this enough. This class will be participatory, you are expected to participate in discussions and give feedback to other students both in class and participate with their projects. This (along with attendance) is 20% of your overall grade.
+
+GROUP PROJECT
+
+Starting on the 4th class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration utilizing technology from the previous class (chat, audio streaming, video streaming and so on).
+
+FINAL PROJECTS
+
+Class will culminate final projects. It is expected that these will be both technology and content driven. Projects such as the development of a tool or a vehicle for live interaction will be considered but should be used in combination with content elements.
+
 Javascript Resources
 ---------------------
-For those who may not have experience with Javacsript, it is recommended to do some outside video tutorials. The following are a list of suggested tutorials:
+For those who may not have prior experience with Javacsript, it is strongly recommended to do some outside video tutorials. The following are a list of suggested tutorials:
 
 Client-side Javascript:
 - [JS for Cats - Fun intro](http://jsforcats.com/)
