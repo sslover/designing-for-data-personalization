@@ -41,7 +41,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to the class repo.
 Listserv
 --------
 
-We will use a listserv both to have discussions outside of class, and for any technical help questions. Please email the listserv with all technical help questions (often, someone else will have a very similar question, or will at least find the answer useful).
+We will use a listserv both to conduct discussions outside of class, and for any technical help questions. Please email the listserv with all technical help questions (often, someone else will have a very similar question, or will at least find the answer informative).
 
 Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
 
