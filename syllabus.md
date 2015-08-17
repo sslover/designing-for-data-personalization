@@ -168,4 +168,4 @@ Week 11
 
 Week 12
 -------
-* **Recontextualizng Everyday Data**
+* **Student Presentations: Recontextualizng Everyday Data**
