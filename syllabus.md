@@ -13,8 +13,9 @@ By the end of the class, you should have a solid understanding of the following 
 
 - **Designing Data Applications**- How to design and build a 'full-stack' data application.
 - **User-facing Web design concepts** - How to create user-facing interfaces to communicate data.
+- **Designing Personalization**- How to design and build systems that can personalize data. 
 - **Using APIs** - How to interact with and use an API from within your client application.
-- **Designing, Structuring, & Storing Data** - How to build and store your own data systems.
+- **Designing, Structuring, & Storing Data** - How to build and store your own data.
 - **Building APIs** - How to build your own API and offer it up to client applications.
 
 Description
