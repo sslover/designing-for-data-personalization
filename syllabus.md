@@ -6,6 +6,17 @@ Overview
 - **Office Hours** - Thursdays from 12 to 3. Signup at [Google Calendar](https://www.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
 - **Group/Listserv**: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
 
+Objectives
+---------------------
+
+By the end of the class, you should have a solid understanding of the following concepts:
+
+- **Designing Data Applications**- How to design and build a 'full-stack' data application.
+- **User-facing Web design concepts** - How to create user-facing interfaces to communicate data.
+- **Using APIs** - How to interact with and use an API from within your client application.
+- **Designing, Structuring, & Storing Data** - How to build and store your own data systems.
+- **Building APIs** - How to build your own API and offer it up to client applications.
+
 Description
 --------------------------------
 The world is awash with new data, but how can designers take the next step to make this data more meaningful in people's day-to-day lives and interactions? Put differently, instead of giving people yet more data and visualizations to interpret, how can we personalize this data to provide simple insights that more intimately connect with what an individual really cares about?
