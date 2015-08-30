@@ -91,6 +91,7 @@ Starting on the 3rd class, we will have weekly student projects. I will divide t
     * Where does the user encounter this application or experience? 
     * Do you need to get any data from the user? How would you do that?
     * What are some key design decisions?
+    * What is the key user interaction? How does it work technically?
     * Are there are any privacy concerns? Data Limitations? How would you overcome these?
 
 It is up to you how to present it - a series of sketches, mockups, wireframes, or a basic prototype.
