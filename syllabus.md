@@ -74,7 +74,7 @@ We will have small weekly assignments that build on material presented in class.
 Attendance
 ----------
 
-Attendance is mandatory. You must inform me via email if you are going to miss a class. Habitually showing up late for class or an excessive number of absences will adversely affect your grade. More than 2 absences will result in a failing grade.
+Attendance is mandatory. You must inform me via email if you are going to miss a class. Habitually showing up late for class or an excessive number of absences will adversely affect your grade.
 
 Class Participation
 -------------------
@@ -86,13 +86,12 @@ Group Projects
 
 Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration:
 
-- **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group. 
-
-* How would you go about designing a product, service, application, experience, or installation that gives the world something better than what it has right now? 
-* Where does the user encounter this application or experience? 
-* Do you need to get any data from the user? How would you do that?
-* What are some key design decisions?
-* Are there are any privacy concerns? Data Limitations? How would you overcome these?
+* **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group.
+    * How would you go about designing a product, service, application, experience, or installation that gives the world something better than what it has right now? 
+    * Where does the user encounter this application or experience? 
+    * Do you need to get any data from the user? How would you do that?
+    * What are some key design decisions?
+    * Are there are any privacy concerns? Data Limitations? How would you overcome these?
 
 It is up to you how to present it - a series of sketches, mockups, wireframes, or a basic prototype.
 
