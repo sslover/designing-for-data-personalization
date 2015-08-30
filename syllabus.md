@@ -28,12 +28,12 @@ Objectives
 By the end of the class, you should have a solid understanding of the following concepts:
 
 - **Full-Stack Javascript** - Familiarity with both client-side and server-side Javascript.
-- **Designing Data-Driven Applications**- Knowledge of how to design and build a 'full-stack' data application.
-- **User-facing Web design concepts** - Proficiency in creating user-facing interfaces that communicate data.
+- **Designing Data-Driven Applications**- How to design and build a 'full-stack' data application.
+- **User-facing Web design concepts** - How to user-facing interfaces that communicate data.
 - **Designing Personalization Systems**- How to design and build systems that can collect user information and personalize data. 
 - **Using APIs** - How to interact with and use an API from within your client application.
 - **Designing, Structuring, & Storing Data** - How to build and store your own data.
-- **Building APIs** - How to build your own APIs and offer it up to client applications.
+- **Building APIs** - How to build your own APIs and use the data within client applications.
 
 Grades
 ------
@@ -49,12 +49,14 @@ Class Blog
 
 It is expected that everyone in the class will create and maintain a blog for their assignments.
 
-Email slover@nyu.edu with a link to you blog. I will add it to the class repo.
+Email slover@nyu.edu with a link to you blog. I will add it to a list here:
+
+* Student Name - blogURl
 
 Listserv
 --------
 
-We will use a listserv both to conduct discussions outside of class, and for any technical help questions. Please email the listserv with all technical help questions (often, someone else will have a very similar question, or will at least find the answer informative).
+We will use a listserv both to conduct discussions outside of class, and for any technical help questions. **Please email the listserv with all technical help questions (often, someone else will have a very similar question, or will at least find the answer informative).**
 
 Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
 
@@ -62,7 +64,7 @@ Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personaliza
 Laptops
 -------
 
-This class covers numerous Web programming topics, and as a result, we will use laptops extensively throughout our class time. However, use of the computer outside of class topics (for example, chatting on Gmail or checking Facebook) is highly frowned upon and disrespectful. Repeated violators will be asked to leave the classroom. 
+This class covers numerous Web programming topics, and as a result, we will use laptops extensively throughout class time. However, use of the computer outside of class topics (for example, chatting on Gmail or checking Facebook) is quite disrespectful and repeated violators will be asked to leave the classroom. 
 
 Weekly Assignments
 ------------------
@@ -72,7 +74,7 @@ We will have small weekly assignments that build on material presented in class.
 Attendance
 ----------
 
-Attendance is mandatory. You must inform me via email if you are going to miss a class. Habitually showing up late for class or an excessive number of absences will adversely affect your grade.
+Attendance is mandatory. You must inform me via email if you are going to miss a class. Habitually showing up late for class or an excessive number of absences will adversely affect your grade. More than 2 absences will result in a failing grade.
 
 Class Participation
 -------------------
@@ -82,10 +84,17 @@ Class participation is a critical part of the class, and (along with attendance)
 Group Projects
 --------------
 
-Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can pick from 2 topics:
+Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration:
 
-- **Design Critique** - Use an app, technology, or device that promises some degree of data personalization. How does it do it? What information does it need from the user? Does it live up to its promises? How could it be better? 
-- **Design Concept** - Pick a topic, dataset, or concept that you want to explore as a group. How would you go about designing a product, service, application, experience, or installation that uses data personalization strategies? It is up to you how to present it - a series of sketches, mockups, wireframes, or a basic prototype.
+- **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group. 
+
+* How would you go about designing a product, service, application, experience, or installation that gives the world something better than what it has right now? 
+* Where does the user encounter this application or experience? 
+* Do you need to get any data from the user? How would you do that?
+* What are some key design decisions?
+* Are there are any privacy concerns? Data Limitations? How would you overcome these?
+
+It is up to you how to present it - a series of sketches, mockups, wireframes, or a basic prototype.
 
 Design Challenges
 -----------------
