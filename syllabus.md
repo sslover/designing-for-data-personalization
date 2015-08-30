@@ -145,10 +145,28 @@ Week-by-Week Topics & Assignments
 
 Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 ---------------------------------------------------------
-* Intro to Designing for Data Personalization
 * Class Exercise: get to know eachother via data collection
-* Design Topic: Examples & Inspiration for the class
-    * [Salaries in Real-Time](http://www.retale.com/info/salaries-in-real-time/)
+* Intro to Designing for Data Personalization - Syllabus Overview
+* Design Topic: Examples & Inspiration for the class   
+    * **Making Dry/Unapproachable Data Personal & Playful**
+        * [NYC Income Inequality](http://projects.newyorker.com/story/subway/)
+        * [Slavery Footprint](http://slaveryfootprint.org/#where_do_you_live)
+        * [Out of Sight, Out of Mind - Drone Strikes](http://drones.pitchinteractive.com/)
+        * [Every Last Drop - Water Conversation](http://everylastdrop.co.uk/)
+        * [Salaries in Real-Time](http://www.retale.com/info/salaries-in-real-time/)
+        * [Dogs of NYC](http://project.wnyc.org/dogs-of-nyc/)
+        * [Just Landed - Mapping the World's Flights ](https://vimeo.com/4587178)
+        * [Carbon Emissions](http://emissionsglobe.com/)
+    * **Designing for the Self**
+        * [AprilZero - Self-Tracking Dashboard](https://aprilzero.com/)
+        * [Feltron Annual Reports](http://feltron.com/)
+        * [Reporter App to self track](http://www.reporter-app.com/)
+        * [WrapGenius - Personalized Journey Into Food](http://wrapgenius.me/)
+    * **Re-contextualizing Everyday Data (Apps)**
+        * [Poncho - Personalized Weather](http://poncho.is/)
+        * [Foursquare - Personalized Recommendations](https://foursquare.com)
+        * [Google Now - Personalized Information](https://www.google.com/landing/now/#cards)
+        * [Yummly - Personalized Recipes](http://www.yummly.com/)
 * Group Activities Overview
 
 **BREAK**
