@@ -29,11 +29,11 @@ By the end of the class, you should have a solid understanding of the following 
 
 - **Full-Stack Javascript** - Familiarity with both client-side and server-side Javascript.
 - **Designing Data-Driven Applications**- How to design and build a 'full-stack' data application.
-- **User-facing Web design concepts** - How to user-facing interfaces that communicate data.
+- **User-facing Web design concepts** - How to design and build user-facing interfaces that communicate data.
 - **Designing Personalization Systems**- How to design and build systems that can collect user information and personalize data. 
 - **Using APIs** - How to interact with and use an API from within your client application.
 - **Designing, Structuring, & Storing Data** - How to build and store your own data.
-- **Building APIs** - How to build your own APIs and use the data within client applications.
+- **Building APIs** - How to build your own APIs and make the data available to client applications.
 
 Grades
 ------
