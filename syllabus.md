@@ -204,7 +204,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 * Technical topics:
     * JSON 101: rules & validation  
     * JS 102 - going deeper into client-side js. Common Javscript functions and use cases. Callbacks.
-    * Making an API request with AJAX and using the data within a Webpage (both a JSON file and a 3rd party API)
+    * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and a 3rd party API)
 
 * Assignment Week 2:
     * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want):
