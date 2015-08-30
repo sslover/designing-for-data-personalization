@@ -218,7 +218,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 Week 3
 ---------
 * Group Presentation 1
-* 1-minute roundtable: Which dataset are you thinking about for design challenge 1?
+* 1-minute roundtable: Which datasets are you thinking about for design challenge 1?
 * Design Topic - Designing for Personality & Playfulness (+ Human-Centered Design)
 
 **BREAK**
