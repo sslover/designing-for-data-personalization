@@ -275,7 +275,9 @@ Week 10
 Week 11
 -------
 * Group Presentations 7
-* Going beyond the browser. Data on Mobile.
+* Depending on class preference:
+    * More back-end node examples.
+    * Going beyond the browser. Data on Mobile.
 * Design Topic: Passive vs Active Data Collection
 
 Week 12
