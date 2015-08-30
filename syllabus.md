@@ -213,7 +213,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * [Instagram - Requires getting authenticated](https://instagram.com/developer/)
         * [Twitter - Requires getting authenticated](https://dev.twitter.com/rest/public)
     * Write a JS script that gets the above data and generates in it on a webpage. Try to do something interesting with the data.
-    * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the dataset, and what you would like to express to the user.
+    * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
 
 Week 3
 ---------
