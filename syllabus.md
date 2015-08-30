@@ -120,7 +120,7 @@ For those who may not have prior experience with Javacsript, it is strongly reco
 Client-side Javascript:
 - [JS for Cats - Fun intro](http://jsforcats.com/)
 - [CodeSchool - JS Road Trip Part 1 and Part 2](https://www.codeschool.com/paths/javascript)
-- [Codecademy](https://www.codecademy.com/tracks/javascript)
+- [Codecademy - Javascript](https://www.codecademy.com/tracks/javascript)
 - [P5js vs Processing - Learn how to go from Processing to P5](https://github.com/processing/p5.js/wiki/Processing-transition)
 
 Server-side Javascript
@@ -133,8 +133,12 @@ HTML/CSS Resources
 
 While not specifically required for the class, you may find the following tutorials helpful in building your projects.
 
+* [Codecademy - HTML & CSS](https://www.codecademy.com/tracks/web)
 * [Learn To Code HTML/CSS](http://learn.shayhowe.com/html-css/)
 * [Learn CSS Layout](http://learnlayout.com/)
+* [W3 - Intro to HTML](http://www.w3schools.com/html/html_intro.asp)
+* [W3 - Intro to CSS](http://www.w3schools.com/css/css_intro.asp)
+
 
 Week-by-Week Topics & Assignments
 =================================
