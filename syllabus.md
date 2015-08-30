@@ -188,7 +188,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
     * Read about JSON:
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
-    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine. Examples could be: a list of your pets and the year you got them; a list of vacations you've been on; information about your family turned into JSON; etc.
+    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine. Examples could be: a list of your pets - name, the year you got them, color, size; a list of vacations you've been on - location, year, companions, favorite activity; information about your family - relationship, name, year born, current location; etc.
     * Use [JSON Lint](http://jsonlint.com) to validate it
     * If needed, do the above Javascript/HTML/CSS tutorial videos
 
