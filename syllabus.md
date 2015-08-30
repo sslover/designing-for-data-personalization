@@ -89,9 +89,10 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
 * **Design Presentation/Critique** - Pick a new or somewhat new technology (hardware, software or service) that relates to the overall topics in the class. 
 
     * Make a presentation that covers what the technology/service is, what is novel about it, how are people using it and so on.
-    * Are there are any privacy concerns? Data Limitations?
     * What do you like about it? What would you do differently?
     * Notice their design decisions (user experience, interactions, etc.). What is effective? What is not?
+    * Are there are any privacy concerns? Data Limitations?
+    * Does it fulfill its promise? Where could you see it going in the future?    
 
 * **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group.
     * How would you go about designing a product, service, application, experience, or installation that gives the world a better data interaction than what it has right now? 
