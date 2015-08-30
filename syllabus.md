@@ -84,7 +84,14 @@ Class participation is a critical part of the class, and (along with attendance)
 Group Projects
 --------------
 
-Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration:
+Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can pick from 2 topics:
+
+* **Design Presentation/Critique** - Pick a new or somewhat new technology (hardware, software or service) that relates to the overall topics in the class. 
+
+    * Make a presentation that covers what the technology/service is, what is novel about it, how are people using it and so on.
+    * Are there are any privacy concerns? Data Limitations?
+    * What do you like about it? What would you do differently?
+    * Notice their design decisions (user experience, interactions, etc.). What is effective? What is not?
 
 * **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group.
     * How would you go about designing a product, service, application, experience, or installation that gives the world a better data interaction than what it has right now? 
