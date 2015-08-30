@@ -143,7 +143,7 @@ While not specifically required for the class, you may find the following tutori
 Week-by-Week Topics & Assignments
 =================================
 
-Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
+Week 1 -- Introduction, HTML/CSS Primer, JS 101
 ---------------------------------------------------------
 * Class Exercise: get to know eachother via data collection
 * Intro to Designing for Data Personalization:
@@ -189,8 +189,8 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
     * 
     * If needed, do the above Javascript tutorial videos
 
-Week 2 -- Going deeper into Web - design + JS strategies
---------------------------------------------------------
+Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
+------------------------------------------------------------------
 * Present last week's work
 * Group Activities Overview + Group Assignments
 * Design Exercise - pen and paper wireframing
@@ -202,6 +202,7 @@ Week 2 -- Going deeper into Web - design + JS strategies
     * JSON 101: rules & validation  
     * JS 102 - going deeper into client-side js. Common Javscript functions and use cases. Callbacks.
     * JSON 101 - data structures and JSON.
+    * Making an API request with AJAX
 
 * Assignment Week 2:
     * Create a simple JSON file on any personal dataset. Don't overthink it, something simple is fine.
