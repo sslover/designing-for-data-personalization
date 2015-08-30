@@ -190,7 +190,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
     * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine.
     * Use [JSON Lint](http://jsonlint.com) to validate it
-    * If needed, do the above Javascript tutorial videos
+    * If needed, do the above Javascript/HTML/CSS tutorial videos
 
 Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
