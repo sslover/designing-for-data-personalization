@@ -167,7 +167,6 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
         * [Foursquare - Personalized Recommendations](https://foursquare.com)
         * [Google Now - Personalized Information](https://www.google.com/landing/now/#cards)
         * [Yummly - Personalized Recipes](http://www.yummly.com/)
-* Group Activities Overview
 
 **BREAK**
 
@@ -184,6 +183,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 Week 2 -- Going deeper into Web - design + JS strategies
 --------------------------------------------------------
 * Present last week's work
+* Group Activities Overview + Group Assignments
 * Design Exercise - pen and paper wireframing
 * Design Topic - Wireframing
 
