@@ -146,9 +146,11 @@ Week-by-Week Topics & Assignments
 Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 ---------------------------------------------------------
 * Class Exercise: get to know eachother via data collection
-* Intro to Designing for Data Personalization - Syllabus Overview
+* Intro to Designing for Data Personalization:
+    * Instructor/Topic Intro
+    * Syllabus Overview
 * Design Topic: Examples & Inspiration for the class   
-    * **Making Dry/Unapproachable Data Personal & Playful**
+    * **Making 'Dry/Unapproachable' Data Personal & Playful**
         * [NYC Income Inequality](http://projects.newyorker.com/story/subway/)
         * [Slavery Footprint](http://slaveryfootprint.org/#where_do_you_live)
         * [Out of Sight, Out of Mind - Drone Strikes](http://drones.pitchinteractive.com/)
@@ -171,9 +173,8 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
 **BREAK**
 
 * Technical topics:
-    * Intro to Web Development, Client-Server interactions, Javascript, and tools [POSTMAN, Sublime]
+    * Intro to Web Development, Client-Server interactions, Javascript, and tools [HTML Shell, POSTMAN, Sublime, Github]
     * HTML/CSS/JS 101: a wellformed page and simple script 
-    * JSON 101: rules & validation  
 * Assignment Week 1:
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
     * Set up your class blog. Email slover@nyu.edu with the link.
@@ -190,18 +191,44 @@ Week 2 -- Going deeper into Web - design + JS strategies
 **BREAK**
 
 * Technical topics:
-    * JS 102 - going deeper into client-side js
-    * p5js 101 - Processing like visuals on the Web
+    * JSON 101: rules & validation  
+    * JS 102 - going deeper into client-side js. Common Javscript functions and use cases. Callbacks.
+    * JSON 101 - data structures and JSON.
+
 * Assignment Week 2:
     * Create a simple JSON file on any personal dataset. Don't overthink it, something simple is fine.
     * Use [JSON Lint](http://jsonlint.com) to validate it
     * Write a JS script that gets the above data and generates in it on a webpage. Try to do something interesting with the data.
     * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the dataset, and what you would like to express to the user.
 
-Weeks 3-4
+Week 3
 ---------
-* Design Topics will include Designing for Personality & Playfullnes, Effective User Onboarding
-* Technical Topics will go further into client-side Javascript, with examples presented in p5.js and pure JS. In week 4, we will introduce server-side javascript.
+* Group Presentation
+* 1-minute roundtable: Which dataset are you thinking about for design challenge 1?
+* Design Topic - Designing for Personality & Playfulness (+ Human-Centered Design)
+
+**BREAK**
+
+* Technical topic:
+    * Using 3rd party APIs
+    * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API)
+    
+* Assignment Week 3:
+    * Create a simple JSON file on any personal dataset. Don't overthink it, something simple is fine.
+    * Use [JSON Lint](http://jsonlint.com) to validate it
+    * Write a JS script that gets the above data and generates in it on a webpage. Try to do something interesting with the data.
+    * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the dataset, and what you would like to express to the user.
+
+Week 4
+-------
+* Group Presentation
+* Design Topic: Color Theory & Typography - Setting the Mood
+
+**BREAK**
+
+* Technical topic:
+    * Using Javascript to create charts - chart.js
+    * How to create a cohesive Web page utilizing a combination of regular html/css/js and p5js sketches.
 
 Week 5
 ------
