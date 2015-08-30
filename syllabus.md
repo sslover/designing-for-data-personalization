@@ -195,9 +195,9 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
 Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
 * Present last week's work
-* Group Activities Overview + Group Assignments
+* Group Activities Overview + Assigning Groups
 * Design Exercise - pen and paper wireframing
-* Design Topic - Wireframing
+* Design Topic - Wireframing: Tools & Strategies 
 
 **BREAK**
 
@@ -208,13 +208,13 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
     * Making an API request with AJAX
 
 * Assignment Week 2:
-
+    * Request data from a 3rd party API
     * Write a JS script that gets the above data and generates in it on a webpage. Try to do something interesting with the data.
     * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the dataset, and what you would like to express to the user.
 
 Week 3
 ---------
-* Group Presentation
+* Group Presentation 1
 * 1-minute roundtable: Which dataset are you thinking about for design challenge 1?
 * Design Topic - Designing for Personality & Playfulness (+ Human-Centered Design)
 
@@ -225,14 +225,11 @@ Week 3
     * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API)
     
 * Assignment Week 3:
-    * Create a simple JSON file on any personal dataset. Don't overthink it, something simple is fine.
-    * Use [JSON Lint](http://jsonlint.com) to validate it
-    * Write a JS script that gets the above data and generates in it on a webpage. Try to do something interesting with the data.
-    * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the dataset, and what you would like to express to the user.
+    * Work on Design Challenge 1 - Making (Dry) Data Personal & Playful 
 
 Week 4
 -------
-* Group Presentation
+* Group Presentation 2
 * Design Topic: Color Theory & Typography - Setting the Mood
 
 **BREAK**
@@ -241,18 +238,26 @@ Week 4
     * Using Javascript to create charts - chart.js
     * How to create a cohesive Web page utilizing a combination of regular html/css/js and p5js sketches.
 
+* Assignment Week 4:
+    * Complete Design Challenge 1 - Making (Dry) Data Personal & Playful
+
 Week 5
 ------
 * **Student Presentations: Making (Dry) Data Personal & Playful**
 
 Weeks 6-8
 ---------
+* Group Presentations 3, 4, 5
 * Server-side javascript with node.js, mongodb, express.js.
-* We will cover topics including:
+* We will cover technical topics including:
     * Modeling, storing, retrieving data
     * Making Data into an API
     * Designing APIs for Consumption
     * The Anatomy of A Data-Driven App
+* We will cover design topics including:
+    * User Onboarding
+    * Passive vs Active Data Collection
+    * Designing for Multiple Devices & Personalization (cards!)
 
 Week 9
 ------
@@ -260,11 +265,15 @@ Week 9
 
 Week 10
 -------
-*  Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!) 
+* Group Presentations 6
+* Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
+* Design Topic: API Documentation Design
 
 Week 11
 -------
+* Group Presentations 7
 * Going beyond the browser. Data on Mobile.
+* Design Topic: Passive vs Active Data Collection
 
 Week 12
 -------
