@@ -174,7 +174,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
 **BREAK**
 
 * Technical topics:
-    * Intro to Web Development, Client-Server interactions, Javascript, and tools [HTML Shell, POSTMAN, Sublime, Github]
+    * Intro to Web Development, Client-Server interactions, Javascript, and tools [HTML Shell, JSONLint, POSTMAN, JSONView, Sublime, Github]
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
 
 * Assignment Week 1:
@@ -188,7 +188,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
     * Read about JSON:
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
-    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine.
+    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine. Examples could be: a list of your pets and the year you got them; a list of vacations you've been on; information about your family turned into JSON; etc.
     * Use [JSON Lint](http://jsonlint.com) to validate it
     * If needed, do the above Javascript/HTML/CSS tutorial videos
 
