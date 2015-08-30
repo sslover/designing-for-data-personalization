@@ -169,16 +169,24 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101, JSON 101
         * [Foursquare - Personalized Recommendations](https://foursquare.com)
         * [Google Now - Personalized Information](https://www.google.com/landing/now/#cards)
         * [Yummly - Personalized Recipes](http://www.yummly.com/)
+        * [Mint - Personalized Financial Reports](https://www.mint.com/)
 
 **BREAK**
 
 * Technical topics:
     * Intro to Web Development, Client-Server interactions, Javascript, and tools [HTML Shell, POSTMAN, Sublime, Github]
-    * HTML/CSS/JS 101: a wellformed page and simple script 
+    * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a project. 
 * Assignment Week 1:
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
     * Set up your class blog. Email slover@nyu.edu with the link.
-    * This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly). In your class blog, describe your interactions? What did you like about it? What bugged you? Did it live up to its promise of personalization?
+    * Download useful tools:
+        * [JSONView - Chrome Extension That Formats JSON](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) 
+        * [POSTMAN - Chrome Extension That Simulates API requests](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
+        * [Sublime Text Editor](http://www.sublimetext.com/3)
+    * This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly, Google Now, Reporter App, Mint.com, Slavery Footprint). In your class blog, describe your interactions? What did you like about it? What bugged you? What would you do differently? Where could you see it going in the future?
+    * Read about JSON:
+        * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
+    * 
     * If needed, do the above Javascript tutorial videos
 
 Week 2 -- Going deeper into Web - design + JS strategies
