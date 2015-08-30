@@ -224,7 +224,7 @@ Week 3
 **BREAK**
 
 * Technical topic:
-    * Using 3rd party APIs
+    * More examples of using 3rd party APIs
     * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API)
     
 * Assignment Week 3:
