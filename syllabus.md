@@ -87,7 +87,7 @@ Group Projects
 Starting on the 3rd class, we will have weekly student projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration:
 
 * **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group.
-    * How would you go about designing a product, service, application, experience, or installation that gives the world something better than what it has right now? 
+    * How would you go about designing a product, service, application, experience, or installation that gives the world a better data interaction than what it has right now? 
     * Where does the user encounter this application or experience? 
     * Do you need to get any data from the user? How would you do that?
     * What are some key design decisions?
