@@ -175,7 +175,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
 
 * Technical topics:
     * Intro to Web Development, Client-Server interactions, Javascript, and tools [HTML Shell, POSTMAN, Sublime, Github]
-    * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a project.
+    * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
 
 * Assignment Week 1:
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
@@ -204,8 +204,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 * Technical topics:
     * JSON 101: rules & validation  
     * JS 102 - going deeper into client-side js. Common Javscript functions and use cases. Callbacks.
-    * JSON 101 - data structures and JSON.
-    * Making an API request with AJAX
+    * Making an API request with AJAX and using the data within a Webpage.
 
 * Assignment Week 2:
     * Request data from a 3rd party API
