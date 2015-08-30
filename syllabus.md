@@ -95,7 +95,7 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
     * Does it fulfill its promise? Where could you see it going in the future?    
 
 * **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group.
-    * How would you go about designing a product, service, application, experience, or installation that gives the world a better data interaction than what it has right now? 
+    * How would you go about designing a product, service, application, experience, or installation that gives the world a better data interaction than what is available right now? 
     * Where does the user encounter this application or experience? 
     * Do you need to get any data from the user? How would you do that?
     * What are some key design decisions?
