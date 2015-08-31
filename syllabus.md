@@ -174,18 +174,19 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
 **BREAK**
 
 * Technical topics:
-    * Intro to Web Development, Client-Server interactions, Javascript, and tools:
+    * Intro to Web Development, Client-Server interactions, Javascript
         * [Presentation](https://docs.google.com/presentation/d/1zrPtcWFkc0u6A5i4lDVioH8in-2pF7-8mp8riB3AYAE/edit?usp=sharing)
+    * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
+        * Demo is available at http://itp.nyu.edu/~sjs663/instagram-demo/ and code is at https://github.com/sslover/instagram-demo.
+        * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
+    * Useful Tools
         * [HTML Shell](http://htmlshell.com/)
         * [JSONLint](http://jsonlint.com/)
         * [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
         * [JSONView](https://chrome.google.com/webstore/detail/jsonview)
         * [Sublime Text Editor](http://www.sublimetext.com/3), 
         * [Github](http://www.github.com)
-    * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
-        * Demo is available at http://itp.nyu.edu/~sjs663/instagram-demo/ and code is at https://github.com/sslover/instagram-demo.
-        * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
-
+        
 * Assignment Week 1:
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
     * Set up your class blog. Email slover@nyu.edu with the link.
