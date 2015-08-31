@@ -175,6 +175,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
 
 * Technical topics:
     * Intro to Web Development, Client-Server interactions, Javascript, and tools:
+        * [Presentation](https://docs.google.com/presentation/d/1zrPtcWFkc0u6A5i4lDVioH8in-2pF7-8mp8riB3AYAE/edit#slide=id.gc71a367b6_0_30)
         * [HTML Shell](http://htmlshell.com/)
         * [JSONLint](http://jsonlint.com/)
         * [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
