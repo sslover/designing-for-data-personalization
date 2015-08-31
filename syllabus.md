@@ -174,7 +174,13 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
 **BREAK**
 
 * Technical topics:
-    * Intro to Web Development, Client-Server interactions, Javascript, and tools ([HTML Shell](http://htmlshell.com/), [JSONLint](http://jsonlint.com/), [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en), [JSONView](https://chrome.google.com/webstore/detail/jsonview/), [Sublime Text Editor](http://www.sublimetext.com/3), Github)
+    * Intro to Web Development, Client-Server interactions, Javascript, and tools:
+        * [HTML Shell](http://htmlshell.com/)
+        * [JSONLint](http://jsonlint.com/)
+        * [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
+        * [JSONView](https://chrome.google.com/webstore/detail/jsonview)
+        * [Sublime Text Editor](http://www.sublimetext.com/3), 
+        * [Github](http://www.github.com)
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
         * Demo is available at http://itp.nyu.edu/~sjs663/instagram-demo/ and code is at https://github.com/sslover/instagram-demo.
         * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
