@@ -177,6 +177,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
     * Intro to Web Development, Client-Server interactions, Javascript, and tools [HTML Shell, JSONLint, POSTMAN, JSONView, Sublime, Github]
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
         * Demo is available at http://itp.nyu.edu/~sjs663/instagram-demo/ and code is at https://github.com/sslover/instagram-demo.
+        * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
 
 * Assignment Week 1:
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
