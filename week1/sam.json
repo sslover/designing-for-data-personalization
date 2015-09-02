@@ -45,7 +45,7 @@
     ],
     "experience": [
         {
-            "company": "Sage",
+            "organization": "Sage",
             "role": "Founder",
             "description": "Sage is a digital platform (mobile & Web) that's building the future of food labeling.",
             "location": "New York City",
@@ -53,7 +53,7 @@
             "endDate": "-"
         },
         {
-            "company": "NYU ITP",
+            "organization": "NYU ITP",
             "role": "Adjunct Professor",
             "description": "Teaching the course 'Designing for Data Personalization,' a course on tracking data, building APIs, and designing personalized applications around the data. ITP is a two-year graduate program located in the Tisch School of the Arts whose mission is to explore the imaginative use of communications technologies — how they might augment, improve, and bring delight and art into people's lives. Perhaps the best way to describe us is as a Center for the Recently Possible.",
             "location": "New York City",
@@ -61,7 +61,7 @@
             "endDate": "-"
         },
         {
-            "company": "NYU ITP",
+            "organization": "NYU ITP",
             "role": "Adjunct Professor",
             "description": "ITP is a two-year graduate program located in the Tisch School of the Arts whose mission is to explore the imaginative use of communications technologies — how they might augment, improve, and bring delight and art into people's lives. Perhaps the best way to describe us is as a Center for the Recently Possible.",
             "location": "New York City",
@@ -69,7 +69,7 @@
             "endDate": "-"
         },
         {
-            "company": "Learn It Live",
+            "organization": "Learn It Live",
             "role": "Co-Founder / Head of Technology",
             "description": "Led the design and development of an online education platform that connects people to experts in live video sessions.",
             "location": "Atlanta",
@@ -77,7 +77,7 @@
             "endDate": "January, 2015"
         },
         {
-            "company": "Dorm Room Fund",
+            "organization": "Dorm Room Fund",
             "role": "Founding Partner & Head of Design",
             "description": "Founding member and head of design for Dorm Room Fund, a venture fund that invests in student-run companies in New York City.",
             "location": "New York City",
@@ -85,7 +85,7 @@
             "endDate": "June, 2015"
         },
         {
-            "company": "Canadian Government",
+            "organization": "Canadian Government",
             "role": "Seed Capital Program Lead",
             "description": "Designed and oversaw the initial implementation of a seed and start-up capital program for PRO RURAL, a Bolivian organization providing financing to rural farmer co-ops.",
             "location": "La Paz, Bolivia",
