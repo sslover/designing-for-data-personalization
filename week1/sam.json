@@ -1,7 +1,6 @@
 {
     "facts": {
         "name": "Sam Slover",
-        "bornDate": "May 9, 1985",
         "bornLocation": "Atlanta",
         "currentLocation": "New York City",
         "email": "sam@samslover.com",
