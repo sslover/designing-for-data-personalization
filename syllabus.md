@@ -189,7 +189,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
     * If time permits, a quick intro to JSON:
         * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
 
-* Assignment Week 1:
+* **Assignment Week 1:**
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
     * Set up your class blog. Email slover@nyu.edu with the link.
     * Download useful tools:
