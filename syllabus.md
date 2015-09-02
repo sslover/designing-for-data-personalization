@@ -202,13 +202,13 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
         * [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
     * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine. Examples could be: 
-        * a list of your pets - name, the year you got them, color, size; 
+        * a list of your pets - name, the year you got them, color, weight; 
         * a list of vacations you've been on - location, year, companions, favorite activity; 
         * information about your family - relationship, name, year born, current location;
         * a list of your favorite bands - year founded, list of albums, awards won, links to songs;
     * Use [JSON Lint](http://jsonlint.com) to validate the JSON you create
     * If needed, do the above Javascript/HTML/CSS tutorial videos
-    * If all of the above was very easy for you, write a Javacsript that renders your JSON from above onto a Webpage.
+    * If all of the above was very easy for you, write a Javacsript script that renders your JSON from above onto a Webpage. 
 
 Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
