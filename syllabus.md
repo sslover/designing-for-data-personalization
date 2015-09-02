@@ -179,13 +179,15 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
         * Demo is available at http://itp.nyu.edu/~sjs663/instagram-demo/ and code is at https://github.com/sslover/instagram-demo.
         * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
-    * Useful Tools
+    * Overview of Useful Tools
         * [HTML Shell](http://htmlshell.com/)
         * [JSONLint](http://jsonlint.com/)
         * [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
         * [JSONView](https://chrome.google.com/webstore/detail/jsonview)
         * [Sublime Text Editor](http://www.sublimetext.com/3), 
         * [Github](http://www.github.com)
+    * If time permits, a quick intro to JSON:
+        * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
 
 * Assignment Week 1:
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
@@ -198,6 +200,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
     * Read about JSON:
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
+        * [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
     * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine. Examples could be: 
         * a list of your pets - name, the year you got them, color, size; 
         * a list of vacations you've been on - location, year, companions, favorite activity; 
