@@ -208,6 +208,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
         * a list of your favorite bands - year founded, list of albums, awards won, links to songs;
     * Use [JSON Lint](http://jsonlint.com) to validate the JSON you create
     * If needed, do the above Javascript/HTML/CSS tutorial videos
+    * If the above was very easy for you, write a Javacsript that renders your JSON from above onto a Webpage.
 
 Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
