@@ -190,6 +190,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
         * [Sublime Text Editor](http://www.sublimetext.com/3), 
         * [Bootstrap HTML/CSS/JS Framework](http://getbootstrap.com/)
         * [WrapBootstrap - Bootstrap Themes](https://wrapbootstrap.com)
+        * [Google Fonts](https://www.google.com/fonts)
         * [Github](http://www.github.com)
     * If time permits, a quick intro to JSON:
         * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)

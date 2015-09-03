@@ -115,23 +115,42 @@
             "name": "Sage",
             "url": "www.sage.is",
             "description": "Sage is a smarter food labeling platform.",
-            "photo": "",
+            "photo": "https://photos-1.dropbox.com/t/2/AADdglahpLTihVv1qTSXu9sKVZbyJ9Fsl_xFwPwDHhmlFQ/12/27536779/jpeg/32x32/1/_/1/2/sage-home-page1.jpg/EPe63RQYguUNIAcoBw/MENl3ARGLtOzrUuKOUHzCIlkRFGDvshfY5AZObUiduk?size=1024x768&size_mode=2",
             "pressLinks": [
                 {
-                    
+                    "url": "http://techcrunch.com/2015/05/12/sage-is-on-a-mission-to-make-food-labels-smarter/",
+                    "title": "Sage Is On A Mission To Make Food Labels Smarter",
+                    "publication": "Techcrunch"
                 },
                 {
-
+                    "url": "http://www.crainsnewyork.com/article/20150716/TECHNOLOGY/150719916/finally-an-app-that-labels-food-in-a-smart-meaningful-way",
+                    "title": "Finally, an app that labels food in a smart, meaningful way",
+                    "publication": "Crain's"
                 }
-
             ]
         },
         {
             "name": "WrapGenius",
-            "url": "",
-            "description": "",
-            "photo": "",
-            "pressLinks": []
+            "url": "http://www.wrapgenius.me/",
+            "description": "Wrap Genius is a personal journey into better food labeling. For 12 weeks, I carefully tracked all of my grocery purchases, recorded the data, and created a new visual framework to better make sense of it all. It's my dream food label, designed for the interests of the consumer.",
+            "photo": "http://samslover.com/lib/img/wrapgenius.jpg",
+            "pressLinks": [
+                {
+                    "url": "http://www.inc.com/christine-lagorio/nutrition-label-reinvention.html",
+                    "title": "A Radical Reimagining of the Good Old Food Label",
+                    "publication": "INC Magazine"
+                },
+                {
+                    "url": "http://www.fastcodesign.com/3030813/could-personalized-food-labels-make-you-eat-healthier",
+                    "title": "Could Personalized Food Labels Help You Eat Better?",
+                    "publication": "FastCo.Design"
+                },
+                {
+                    "url": "http://www.psfk.com/2014/05/wrap-genius-food-tracker.html",
+                    "title": "Food Visualizer Tracks Actual Nutrition Of What You’re Eating Today",
+                    "publication": "PSFK"
+                }
+            ]
         }
     ],
     "press": [
