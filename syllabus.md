@@ -32,7 +32,8 @@ By the end of the class, you should have a solid understanding of the following 
 - **User-facing Web design & data visualization concepts** - How to design and build user-facing interfaces & visualizations that effectively communicate data.
 - **Designing Personalization Systems**- How to design systems that can collect user information and personalize data. 
 - **Using APIs** - How to interact with and use an API from within your client application.
-- **Designing, Structuring, & Storing Data** - How to build and store your own data.
+- **Structuring Data** - How to intelligently structure data.
+- **Storing Data** - How to build systems to store your own data.
 - **Building APIs** - How to build your own APIs and make the data available to client applications.
 
 Grades
