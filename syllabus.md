@@ -164,6 +164,8 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
         * [Feltron Annual Reports](http://feltron.com/)
         * [Reporter App to self track](http://www.reporter-app.com/)
         * [WrapGenius - Personalized Journey Into Food](http://wrapgenius.me/)
+        * [Wellness Mirror](http://itp.nyu.edu/~msd403/blog/?p=1301)
+        * [Glance](http://www.natashadzurny.com/blog/glance/)
     * **Re-contextualizing Everyday Data (Apps)**
         * [Poncho - Personalized Weather](http://poncho.is/)
         * [Foursquare - Personalized Recommendations](https://foursquare.com)
