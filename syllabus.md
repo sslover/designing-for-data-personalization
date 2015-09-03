@@ -147,12 +147,12 @@ Week-by-Week Topics & Assignments
 Week 1 -- Introduction, HTML/CSS Primer, JS 101
 ---------------------------------------------------------
 * Class Exercise: get to know eachother via data collection
-        * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
-        * We will be collecting the following 4 data points from our partner:
-            * name
-            * homeLocation
-            * vacationLocation
-            * dataInterest
+    * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
+    * We will be collecting the following 4 data points from our partner
+        * name
+        * homeLocation
+        * vacationLocation
+        * dataInterest
 * Intro to Designing for Data Personalization:
     * Instructor/Topic Intro
     * Syllabus Overview
