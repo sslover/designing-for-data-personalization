@@ -85,7 +85,7 @@ Class participation is a critical part of the class, and (along with attendance)
 Group Projects
 --------------
 
-Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can pick from 2 topics:
+Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
 
 * **Design Presentation/Critique** - Pick a new or somewhat new technology (hardware, software or service) that relates to the overall topics in the class. 
 
@@ -96,7 +96,7 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
     * Does it fulfill its promise? Where could you see it going in the future?    
 
 * **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group.
-    * How would you go about designing a product, service, application, experience, or installation that gives the world a better data interaction than what is available right now? 
+    * How would you go about designing a product, service, application, experience, or installation that gives the world a better (or different) data interaction than what is available right now? 
     * Where does the user encounter this application or experience? 
     * Do you need to get any data from the user? How would you do that?
     * What are some key design decisions?
@@ -147,6 +147,12 @@ Week-by-Week Topics & Assignments
 Week 1 -- Introduction, HTML/CSS Primer, JS 101
 ---------------------------------------------------------
 * Class Exercise: get to know eachother via data collection
+        * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
+        * We will be collecting the following 4 data points from our partner:
+            * name
+            * homeLocation
+            * vacationLocation
+            * dataInterest
 * Intro to Designing for Data Personalization:
     * Instructor/Topic Intro
     * Syllabus Overview
@@ -207,11 +213,12 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
         * [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
-    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine. Examples could be: 
+    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine... but it should be on something interesting to you: Examples could be: 
         * a list of your pets - name, the year you got them, color, weight; 
         * a list of vacations you've been on - location, year, companions, favorite activity; 
         * information about your family - relationship, name, year born, current location;
         * a list of your favorite bands - year founded, list of albums, awards won, links to songs;
+        * make your CV/resume into JSON.. example: [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
     * Use [JSON Lint](http://jsonlint.com) to validate the JSON you create
     * If needed, do the above Javascript/HTML/CSS tutorial videos
     * If all of the above was very easy for you, write a Javacsript script that renders your JSON from above onto a Webpage. 
@@ -220,36 +227,41 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
 * Present last week's work
 * Group Activities Overview + Assigning Groups
-* Design Exercise - pen and paper wireframing
-* Design Topic - Wireframing: Tools & Strategies 
+* Design Exercise - sketching an initial story via pen and paper wireframing
+* Design Topic - Wireframing: Tools, Strategies, & Story Flow
 
 **BREAK**
 
 * Technical topics:
     * JSON 101: rules & validation  
     * JS 102 - going deeper into client-side js. Common Javscript functions and use cases. Callbacks.
-    * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and a 3rd party API)
+    * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and an external 3rd party API)
 
 * Assignment Week 2:
     * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want):
         * [OpenWeather - No authentication](http://openweathermap.org/api)
         * [YahooWeather - No authentication](https://developer.yahoo.com/weather/)
+        * [DroneStream - No authentication](http://api.dronestre.am/)
         * [Instagram - Requires getting authenticated](https://instagram.com/developer/)
         * [Twitter - Requires getting authenticated](https://dev.twitter.com/rest/public)
-    * Write a JS script that gets the above data and generates in it on a webpage. Try to do something interesting with the data.
+    * Write a JS script that gets the above data and generates in it on a webpage. Do something interesting with the data. Some options:
+        * Make your CV/Resume into a simple interactive Webpage/experience. 
+        * Tell a simple data story about your pets.
+        * Tell a simple data story about your family.
+
     * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
 
 Week 3
 ---------
 * Group Presentation 1
 * 1-minute roundtable: Which datasets are you thinking about for design challenge 1?
-* Design Topic - Designing for Personality & Playfulness (+ Human-Centered Design)
+* Design Topic - Setting the Mood: Colors, Typography and more.
 
 **BREAK**
 
 * Technical topic:
     * More examples of using 3rd party APIs
-    * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API)
+    * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
     
 * Assignment Week 3:
     * Work on Design Challenge 1 - Making (Dry) Data Personal & Playful 
@@ -257,13 +269,13 @@ Week 3
 Week 4
 -------
 * Group Presentation 2
-* Design Topic: Color Theory & Typography - Setting the Mood
+* Design Topic: Designing for Personality & Playfulness (+ Human-Centered Design)
 
 **BREAK**
 
 * Technical topic:
     * Using Javascript to create charts - chart.js demo
-    * How to create a cohesive Web page utilizing a combination of regular html/css/js and p5js sketches.
+    * How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
 
 * Assignment Week 4:
     * Complete Design Challenge 1 - Making (Dry) Data Personal & Playful
@@ -279,8 +291,11 @@ Weeks 6-8
 * We will cover technical topics including:
     * Modeling, storing, retrieving data
     * Making Data into an API
-    * Designing APIs for Consumption
+    * Designing APIs for Public Consumption
     * The Anatomy of A Data-Driven App
+    * Using NPM (3rd party libraries)
+    * Hosting locally and on Heroku 
+    * Common database operations tips and tricks
 * We will cover design topics including:
     * User Onboarding
     * Passive vs Active Data Collection
