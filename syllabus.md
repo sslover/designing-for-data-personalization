@@ -296,6 +296,7 @@ Weeks 6-8
     * Using NPM (3rd party libraries)
     * Hosting locally and on Heroku 
     * Common database operations tips and tricks
+    * Twilio (SMS) integration
 * We will cover design topics including:
     * User Onboarding
     * Passive vs Active Data Collection
