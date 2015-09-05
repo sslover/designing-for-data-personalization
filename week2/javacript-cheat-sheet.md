@@ -23,6 +23,7 @@ It's often a good idea to comment the steps needed for a function before actuall
 	// step 3 - in that function, 
 
 Data Types / Variables
+----------------------
 
 JavaScript variables can hold many data types: 
 
