@@ -302,19 +302,88 @@ forEach loop
 	})
 
 
-comparisons
+Comparisons
+-----------
 
-if/else and switch statements
+**if(condition)**
 
-rounding (ceiling, floor)
+	var name = "Laura";
 
+	if (name == "Laura") {
+	    console.log("they match!");
+	}
+
+**Operators && (and) || (or) ! (negate)**
+
+	var isAwake = true;
+	var isAtItp = true;
+
+	if (isAwake == true) { 
+		console.log("Good Morning!"); 
+	}
+
+	// multiple conditions using the && (and) operator
+	if (isAwake && isAtItp) {
+	    console.log("I'm so busy");
+	}
+
+	// negate condition with !
+	if (!isAwake) {
+	    console.log("You must be asleep then");
+	}
+
+	// negate condition with !
+	if (!isAwake && isAtItp) {
+	    console.log("You are sleeping at ITP");
+	}
+
+	// the OR operator
+	var hasCoffee = true;
+	var hasTea = false;
+
+	if ( hasCoffee || hasTea ) {
+	    console.log("I can stay awake");
+	}
+
+**if(condition) / else if(condition) / else**
+
+	var hasCoffee = true;
+	var hasTea = false;
+	var isWeekend = true;
+
+	if ( hasCoffee || hasTea ) {
+	  console.log("I can stay awake");
+	}
+	else if(isWeekend){
+		console.log("I'll drink beer instead")
+	}
+	else{
+		console.log("I need coffee or tea")
+	}
+
+**Switch Statements**
+
+
+Rounding
+--------
+
+Rounding down:
+
+Rounding up
+
+Random Number
+-------------
 random 
 
+Undefined Data Type
+-------------------
+
+Null Data Type
+--------------
 undefined and null
 
 typeOf
 
-c
 callbacks
 
 the anatomy of a JS program... event based
