@@ -153,15 +153,27 @@ The toString() method converts a number to a string.
 
 The parseInt() function parses a string and returns an integer.
 
-	var a = parseInt("10")
+	var age = "10";
+	var a = parseInt(age)
 
+	console.log(age) // prints the string "10"
+	console.log(a) // prints the number 10
 
-parseFloat()
+The parseFloat() function parses a string and returns a floating point number.
+
+	var price = "9.99";
+	var pFloat = parseFloat(price);
+	var pInt = parseInt(price);
+
+	console.log(price) // prints the string "9.99"
+	console.log(pFloat) // prints the number 9.99
+	console.log(pInt) // prints the number 9
+
 
 Functions
 ---------
 
-Functions are the core part of your javascript program
+Functions are the core part of your Javascript program. They specify functionality.
 
 There are 2 ways of declaring a function.
 
@@ -173,7 +185,11 @@ There are 2 ways of declaring a function.
 		console.log('hello');
 	}
 
-The main difference between the 2 is when they can be invoked. The first example can only be invoked *after* it is declared:
+	// call the functions
+	sayHi();
+	sayHello();
+
+The main difference between the 2 is when they can be called. The first example can only be called *after* it is declared:
 
 	sayHi(); // this is an error, not declared yet
 
