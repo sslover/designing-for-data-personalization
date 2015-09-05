@@ -87,7 +87,7 @@ Objects can hold any combination of date types
 
 	// a pet object
 	var pet = {
-		name: "Billy"
+		name: "Billy",
 		age: 12,
 		interests: ["Eating", "Sleeping", "Playing"],
 		isDog: true,
