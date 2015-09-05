@@ -459,14 +459,13 @@ Random Number
 Callbacks
 ---------
 
-the anatomy of a JS program... event based
+The Anatomy of a JS Program - Events
+------------------------------------
 
+Client-Side Events
+------------------
 events can be... onload, onclick, onsubmit, onresize, onscroll, etc etc etc
 
-writing a clean program
+Writing a Clean Program
+-----------------------
 
-common js examples...do this in conjunction with CV/resume example
-
-adding/deleting from the DOM
-
-dynamically/inserting CSS
