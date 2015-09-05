@@ -83,7 +83,7 @@ JavaScript objects are written with curly braces.
 
 Object properties are written as key:value pairs, separated by commas.
 
-Objects can hold any combination of data types, so provide a very flexible structure.
+Objects can hold any combination of data types:
 
 	// a pet object
 	var pet = {
