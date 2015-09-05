@@ -199,7 +199,7 @@ The main difference between the 2 is when they can be called. The first example 
 
 	sayHi(); // prints 'hi'
 
-The second example can be invoked anywhere within its scope, even before it has been declared.
+The second example can be called anywhere within its scope, even before it has been declared.
 
 	sayHello(); // prints 'hello'
 
@@ -207,9 +207,23 @@ The second example can be invoked anywhere within its scope, even before it has 
 		console.log('hello');
 	}
 
-functions can take any number of parameters
+Functions can take any number or parameters.
 
-functions can return values
+	function describePet(name,age){
+		console.log("This is " +name+ " and he is "+age+" yeard old.")
+
+		var humanYears = age*7;
+
+		console.log("In human years, that's like "+humanYears+" years");
+
+	}
+
+	describePet("Joey",7);
+
+	describePet("Jill",7);
+
+Functions can return values
+
 
 functions can take parameters and return values
 
