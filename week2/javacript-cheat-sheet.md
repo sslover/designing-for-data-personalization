@@ -16,11 +16,13 @@ Comments your code with //
 	// this is a comment
 	var dog; // this is a comment about a dog
 
-It's often a good idea to comment the steps needed for a function before actually coding it.
+It's often a good idea to comment the steps needed for a function before actually writing it:
 
-	// step 1 - make a request for data
-	// step 2 - when data returns, pass into a function that renders a map with the data
-	// step 3 - in that function, 
+	// step 1 - do this
+	// step 2 - then, do this
+	// step 3 - then, do this
+	// step 4 - if this condition, do this; else, do this
+	// step 5 - finally, do this 
 
 Data Types / Variables
 ----------------------
