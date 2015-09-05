@@ -222,9 +222,9 @@ Functions can take any number or parameters.
 
 	}
 
-	describePet("Joey",7,male);
+	describePet("Joey",7,"male");
 
-	describePet("Jill",4,female);
+	describePet("Jill",4,"female");
 
 Functions can return values
 
