@@ -363,16 +363,18 @@ Comparisons
 
 **Switch Statements**
 
-	switch(expression) {
-    case n:
-        code block
-        break;
-    case n:
-        code block
-        break;
-    default:
-        default code block
-	}
+Switch statements are another way to make comparisons:
+
+switch(expression) {
+  case n:
+      code block
+      break;
+  case n:
+      code block
+      break;
+  default:
+      default code block
+}
 
 	// example with a string
 
@@ -387,7 +389,7 @@ Comparisons
 		        return "need food"
 		        break;
 		    case "sad":
-		        code "boohoo";
+		        return "boohoo";
 		        break;
 		    case "happy":
 		        return "hooray";
