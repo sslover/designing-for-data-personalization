@@ -310,7 +310,7 @@ Comparisons
 	var name = "Laura";
 
 	if (name == "Laura") {
-	    console.log("they match!");
+	    console.log("the name is laura!");
 	}
 
 **Operators && (and) || (or) ! (negate)**
