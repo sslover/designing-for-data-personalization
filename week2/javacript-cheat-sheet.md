@@ -120,6 +120,9 @@ You can dynamically remove from the object:
 	delete pet.bestFriend; // the bestFriend key is completely deleted
 	delete pet['bestFriend'] // another way of doing the same thing
 
+Dynamic Data Types
+------------------
+
 JavaScript has dynamic types. This means that the same variable can be used as different types:
 
 	var x;               // Now x is undefined
@@ -133,15 +136,73 @@ JavaScript has dynamic types. This means that the same variable can be used as d
 
 	var x = ["John","Joe","Jason"] // Now x is an array
 
-functions (2 ways of declaring)
+Casting
+-------
+
+It's often useful to know casting - turning one data type into another
+
+The toString() method converts a number to a string.
+
+	var num = 15;
+	var n = num.toString();
+
+	console.log(num) // the number 15
+	console.log(n) // the string "15"
+
+The parseInt() function parses a string and returns an integer.
+
+	var a = parseInt("10")
+
+
+parseFloat()
+
+Functions
+---------
+
+Functions are the core part of your javascript program
+
+There are 2 ways of declaring a function.
+
+	var sayHi = function(){
+		console.log('hi');
+	}
+
+	function sayHello(){
+		console.log('hello');
+	}
+
+The main difference between the 2 is when they can be invoked. The first example can only be invoked *after* it is declared:
+
+	sayHi(); // this is an error, not declared yet
+
+	var sayHi = function(){
+		console.log('hi');
+	}
+
+	sayHi(); // prints 'hi'
+
+The second example can be invoked anywhere within its scope, even before it has been declared.
+
+	sayHello(); // prints 'hello'
+
+	function sayHello(){
+		console.log('hello');
+	}
+
+functions can take any number of parameters
+
+functions can return values
+
+functions can take parameters and return values
 
 iteration
+
+for()
+forEach
 
 comparisons
 
 if/else and switch statements
-
-casting (toString, etc)
 
 rounding (ceiling, floor)
 
@@ -149,12 +210,9 @@ random
 
 undefined and null
 
-return
-
 typeOf
 
-built-in functions (forEach)
-
+c
 callbacks
 
 the anatomy of a JS program... event based
