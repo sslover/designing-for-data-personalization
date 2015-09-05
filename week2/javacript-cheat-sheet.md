@@ -1,9 +1,15 @@
 Javascript Cheat Sheet
 ============================================
 
+Comments
+---------
+> Comments your code with //
+> // this is a comment
+> var dog; // this is a comment about a dog
 
+It's often a good idea to comment the steps needed for a function before actually coding it.
 
-comments... comment your function even before writing it
+>
 
 data types...
 
