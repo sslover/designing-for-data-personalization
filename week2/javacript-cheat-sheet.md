@@ -178,6 +178,35 @@ The parseFloat() function parses a string and returns a floating point number.
 	console.log(pFloat) // prints the number 9.99
 	console.log(pInt) // prints the number 9
 
+typeOf
+------
+You can use the JavaScript typeof operator to find the type of a JavaScript variable:
+
+	typeof "Tim"                // Returns string 
+	typeof 4.55                  // Returns number
+	typeof false                 // Returns boolean
+	typeof [1,2,3,4]             // Returns object
+	typeof {name:'John', age:19} // Returns object	
+
+Undefined && Null Data Types
+----------------------------
+
+In JavaScript, a variable without a value, has the value undefined. The typeof is also undefined.
+	
+	var person; // Value is undefined, type is undefined
+
+	person = {
+		name: "Joanna",
+		age: 27
+	} // it's an object now
+
+	// Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
+
+	person = undefined; // Value is undefined, type is undefined
+
+In JavaScript, null is "nothing". It is supposed to be something that doesn't exist. Can empty an object by setting it to null or undefined.
+
+	var person = null; // Value is null
 
 Functions
 ---------
@@ -414,18 +443,21 @@ Round a number upward to it's nearest integer:
 
 Random Number
 -------------
-random 
 
-Undefined Data Type
--------------------
+	// Return a random number between 0 (inclusive) and 1 (exclusive):
+	Math.random();
 
-Null Data Type
---------------
-undefined and null
+	// Return a random number between 0 (inclusive) and 3000 (exclusive):
+	Math.random(3000);
 
-typeOf
+	// Return a random number between 1 and 10:
+	Math.floor((Math.random() * 10) + 1);
 
-callbacks
+	// Return a random number between 1 and 100:
+	Math.floor((Math.random() * 100) + 1);
+
+Callbacks
+---------
 
 the anatomy of a JS program... event based
 
