@@ -232,18 +232,39 @@ Functions can return values
 	  return num * num;
 	};
 
-	var num = square(2); // 4
-	var num2 = square(7); // 49
+	var num = square(2); 
+	console.log(num); // prints 4
+
+	var num2 = square(7);
+	console.log(num2); // prints 49
 
 	var joinNames = function(firstName,lastName){
 		return firstName + " " + lastName;
 	}
 
-	var completeName = joinNames("Dan","Shiffman") // Dan Shiffman
+	var completeName = joinNames("Dan","Shiffman")
+
+	console.log(completeName); // prints Dan Shiffman
 
 Functions can take parameters and return values. This particularly useful when returning an object.
 
+	var message1 = createMessage("Jack","Jill","Let's get some water?");
+	var message2 = createMessage("Kanye","Taylor","Imma let you finish, but");
 
+	console.log(message1) // prints the message1 object
+	console.log(message2) // prints the message2 object
+
+	function createMessage(person1,person2,subject){
+		
+		var msgToReturn = {
+			from: person1,
+			to: person2,
+			subject: subject,
+			date : new Date()
+		}
+
+		return msgToReturn;
+	}
 
 iteration
 
