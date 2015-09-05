@@ -477,7 +477,7 @@ Callbacks are a key part of Javascript (but can be confusing):
 		var findDogsInArray = function(array,callback){
 		
 			// if no array is passed in, let's send back an error
-			if(!array || typeof array != "object") return callback("Error: required field missing", null);
+			if(!array || typeof array != "object") return callback("Error: required field is malformed", null);
 
 			var dogsToReturn = new Array();
 
@@ -520,7 +520,7 @@ Callbacks are a key part of Javascript (but can be confusing):
 
 		findDogsInArray(pets,function(err,data){
 			if(err) {
-				console.log("We have an error -->" + err);
+				console.log("We have an error --> " + err);
 			}
 			else{
 				var dogs = data;
