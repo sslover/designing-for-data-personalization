@@ -228,8 +228,22 @@ Functions can take any number or parameters.
 
 Functions can return values
 
+	var square = function(num) {
+	  return num * num;
+	};
 
-functions can take parameters and return values
+	var num = square(2); // 4
+	var num2 = square(7); // 49
+
+	var joinNames = function(firstName,lastName){
+		return firstName + " " + lastName;
+	}
+
+	var completeName = joinNames("Dan","Shiffman") // Dan Shiffman
+
+Functions can take parameters and return values. This particularly useful when returning an object.
+
+
 
 iteration
 
