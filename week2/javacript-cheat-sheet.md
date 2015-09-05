@@ -471,7 +471,8 @@ Callbacks are a key part of Javascript (but can be confusing):
 		// (but we cannot do #2 until #1 has completed, so we need a callback)
 
 		// first function takes in an array and callback
-		// the function operateson the array and returns the callback
+		// the function operates on the array and returns the callback
+		// the callback returns an error or the data
 		var findDogsInArray = function(array,callback){
 		
 			// if no array is passed in, let's send back an error
