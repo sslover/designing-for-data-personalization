@@ -78,6 +78,15 @@ You can add to an array with the push function
 
 	console.log(names); // prints ["Dan", "Dave", "Dexter", "Dante"]
 
+You can remove from an array with the pop function (removes the last item)
+
+	var names = ["Dan","Dave","Dexter"];
+	names.pop();
+
+	console.log(names); // prints ["Dan", "Dave"] 
+
+You can add/remove within the array with the splice() function. Read about it [here](http://www.w3schools.com/jsref/jsref_splice.asp).
+
 Objects
 -------
 
@@ -266,10 +275,32 @@ Functions can take parameters and return values. This particularly useful when r
 		return msgToReturn;
 	}
 
-iteration
+Iteration (Loops)
+-----------------
 
-for()
-forEach
+Regular for loop
+
+	var names = ["Maria","Xuedi","Rios","Katie","Surya"];
+	
+	// going forward
+	for(var i=0;i<names.length;i++){
+		console.log("Hi " + names[i]);
+	}
+
+	// going backward
+	for(var i=names.length-1;i>=0;i--){
+		console.log("Hi " + names[i]);
+	}	
+
+forEach loop
+	
+	var names = ["Maria","Xuedi","Rios","Katie","Surya"];
+
+	names.forEach(function(i,e){
+		console.log('we are on element #' + i);
+		console.log('the element is ' + e);
+	})
+
 
 comparisons
 
