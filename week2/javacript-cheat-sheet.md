@@ -473,6 +473,7 @@ Callbacks are a key part of Javascript (but can be confusing):
 		// first function takes in an array and callback
 		// the function operates on the array and returns the callback
 		// the callback returns an error or the data
+
 		var findDogsInArray = function(array,callback){
 		
 			// if no array is passed in, let's send back an error
@@ -480,7 +481,7 @@ Callbacks are a key part of Javascript (but can be confusing):
 
 			var dogsToReturn = new Array();
 
-			array.forEach(function(i,e){
+			array.forEach(function(e){
 				if(e.type=="dog") dogsToReturn.push(e)
 			})
 
@@ -490,8 +491,9 @@ Callbacks are a key part of Javascript (but can be confusing):
 
 		// now, let's write a function that takes in array 
 		// and says "Good Boy" to each of the elements
+
 		var sayGoodBoy = function(array){
-			array.forEach(function(i,e){
+			array.forEach(function(e){
 				console.log("Hi " + e.name);
 			})
 		}
@@ -515,12 +517,14 @@ Callbacks are a key part of Javascript (but can be confusing):
 		// now, let's call the function to findDogsInArray
 		// it takes in the pets array, and the callback, 
 		// which can return an error or the data
+
 		findDogsInArray(pets,function(err,data){
 			if(err) {
 				console.log("We have an error -->" + err);
 			}
 			else{
 				var dogs = data;
+				// now that we have the dogs data, can call the sayGoodBoy function
 				sayGoodBoy(dogs);
 			}
 		})
