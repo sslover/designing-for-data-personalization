@@ -464,10 +464,10 @@ Callbacks are a key part of Javascript (but can be confusing):
 * Callbacks basically allow the execution of a function to include 'next' steps when the requested function finishes.
 * Callbacks are functions passed into a function.
 
-		we want to do the following:
+		// we want to do the following:
 		// 1. take an array of pets and find all the dogs in that array
 		// 2. once we have done that, say "Good Boy" to all the dogs
-		// (we cannot do #2 until #1 has completed)
+		// (but we cannot do #2 until #1 has completed, so we need a callback)
 
 		// first function takes in an array and callback
 		// the function operateson the array and returns the callback
