@@ -188,8 +188,8 @@ You can use the JavaScript typeof operator to find the type of a JavaScript vari
 	typeof [1,2,3,4]             // Returns object
 	typeof {name:'John', age:19} // Returns object	
 
-Undefined && Null Data Types
-----------------------------
+Undefined and Null Data Types
+-----------------------------
 
 In JavaScript, a variable without a value, has the value undefined. The typeof is also undefined.
 	
