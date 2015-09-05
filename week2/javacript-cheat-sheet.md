@@ -214,7 +214,7 @@ Functions can take any number or parameters.
 		var genderPronoun = "she";
 		if(gender=="male") genderPronoun = "he";
 
-		console.log("This is " +name+ " and "+genderPronoun+" is "+age+" yeard old.")
+		console.log("This is " +name+ " and "+genderPronoun+" is "+age+" years old.")
 
 		var humanYears = age*7;
 
