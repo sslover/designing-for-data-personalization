@@ -363,6 +363,39 @@ Comparisons
 
 **Switch Statements**
 
+	switch(expression) {
+    case n:
+        code block
+        break;
+    case n:
+        code block
+        break;
+    default:
+        default code block
+	}
+
+	// example with a string
+
+	var message = computeMessage("happy");
+
+	function computeMessage(mood){
+
+		switch(mood) {
+		    case "hungry":
+		        return "need food"
+		        break;
+		    case "sad":
+		        code "boohoo";
+		        break;
+		    case "happy":
+		        return "hooray";
+		        break;		        
+		    default:
+		        return "here's just a default message";
+		}
+	
+	}
+
 
 Rounding
 --------
