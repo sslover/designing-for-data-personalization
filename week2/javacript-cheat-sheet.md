@@ -365,16 +365,16 @@ Comparisons
 
 Switch statements are another way to make comparisons:
 
-switch(expression) {
-  case n:
-      code block
-      break;
-  case n:
-      code block
-      break;
-  default:
-      default code block
-}
+	switch(expression) {
+	  case n:
+	      code block
+	      break;
+	  case n:
+	      code block
+	      break;
+	  default:
+	      default code block
+	}
 
 	// example with a string
 
