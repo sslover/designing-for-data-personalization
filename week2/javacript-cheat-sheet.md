@@ -404,9 +404,13 @@ Switch statements are another way to make comparisons:
 Rounding
 --------
 
-Rounding down:
+Round a number downward to its nearest integer:
 
-Rounding up
+	Math.floor(4.6); //4
+
+Round a number upward to it's nearest integer:
+
+	Math.ceil(4.4); // 5
 
 Random Number
 -------------
