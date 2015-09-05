@@ -83,7 +83,7 @@ JavaScript objects are written with curly braces.
 
 Object properties are written as key:value pairs, separated by commas.
 
-Objects can hold any combination of date types
+Objects can hold any combination of data types, so provide a very flexible structure.
 
 	// a pet object
 	var pet = {
@@ -107,13 +107,13 @@ You can access specific key:values with the . syntax
 
 	console.log(pet.socialMediaAccounts) // prints entire object
 	
-	console.log(pet.socialMediaAccounts.facebook) // "prints www.facebook.com/billyTheDog"
+	console.log(pet.socialMediaAccounts.facebook) // prints www.facebook.com/billyTheDog
 
 You can dynamically add to the object:
 
-	pet.bestFriend = "Billy"; // the object now includes the key bestFriend which has the value "Billy"
+	pet.bestFriend = "Zoe"; // the object now includes the key bestFriend which has the value "Zoe"
 
-	pet['bestFriend'] = "Billy"; // another way of doing the same thing
+	pet['bestFriend'] = "Zoe"; // another way of doing the same thing
 
 You can dynamically remove from the object:
 
@@ -133,8 +133,6 @@ JavaScript has dynamic types. This means that the same variable can be used as d
 
 	var x = ["John","Joe","Jason"] // Now x is an array
 
-var (strings, booleans, numbers, arrays, objects)
-objects
 functions (2 ways of declaring)
 
 iteration
