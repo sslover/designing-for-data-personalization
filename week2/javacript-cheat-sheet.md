@@ -209,8 +209,12 @@ The second example can be called anywhere within its scope, even before it has b
 
 Functions can take any number or parameters.
 
-	function describePet(name,age){
-		console.log("This is " +name+ " and he is "+age+" yeard old.")
+	function describePet(name,age,gender){
+
+		var genderPronoun = "she";
+		if(gender=="male") genderPronoun = "he";
+
+		console.log("This is " +name+ " and "+genderPronoun+" is "+age+" yeard old.")
 
 		var humanYears = age*7;
 
@@ -218,9 +222,9 @@ Functions can take any number or parameters.
 
 	}
 
-	describePet("Joey",7);
+	describePet("Joey",7,male);
 
-	describePet("Jill",7);
+	describePet("Jill",4,female);
 
 Functions can return values
 
