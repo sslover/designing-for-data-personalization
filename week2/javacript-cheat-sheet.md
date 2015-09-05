@@ -4,7 +4,8 @@ Javascript Cheat Sheet
 Printing Out Values
 -------------------
 
-Use console.log
+Use console.log to print out values:
+
 	var name = "Andrew";
 	console.log(name); // prints Andrew
 
