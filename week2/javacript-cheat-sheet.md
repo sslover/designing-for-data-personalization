@@ -27,7 +27,7 @@ It's often a good idea to comment the steps needed for a function before actuall
 Data Types / Variables
 ----------------------
 
-JavaScript variables can hold many data types: 
+JavaScript variables can hold the following data types: 
 
 * numbers
 * strings
@@ -377,6 +377,8 @@ Comparisons
 	// example with a string
 
 	var message = computeMessage("happy");
+
+	console.log(message); // prints hooray
 
 	function computeMessage(mood){
 
