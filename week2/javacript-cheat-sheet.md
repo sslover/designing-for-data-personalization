@@ -528,8 +528,8 @@ Callbacks are a key part of Javascript (but can be confusing):
 			}
 		})
 
-The Anatomy of a JS Program - Events
-------------------------------------
+The Anatomy of a Client-Side JS Program - Events
+------------------------------------------------
 
 Javascript is largely centered around events. You need to specify when you want a function to execute. There's many events that you can bind functions to:
 
@@ -539,6 +539,7 @@ Javascript is largely centered around events. You need to specify when you want 
 * etc
 
 For example, the following JS code would never run, because it isn't bound to any event. While we do declare the function, we never actually attach it to an event that will make it execute.
+
 
 	<!DOCTYPE html>
 	<html>
@@ -669,32 +670,31 @@ Some of the most useful:
 * onkeypress -	Fires when a user presses a key
 * onkeyup	-	Fires when a user releases a key
 
-	<!DOCTYPE html>
-	<html>
-	 <head>
-	  <meta charset="UTF-8">
-	  <title>hello world</title>
-	 </head>
-	 <body>
-	 	<a href="#" id="theLink">Click Me Please</a>
-	 </body>
+		<!DOCTYPE html>
+		<html>
+		 <head>
+		  <meta charset="UTF-8">
+		  <title>hello world</title>
+		 </head>
+		 <body>
+		 	<a href="#" id="theLink">Click Me Please</a>
+		 </body>
 
-	 <script type="text/javascript">
-	 		var counter = 0;
-	    function hootyHoo(event){
-	    	console.log(event); // gives us access to the event that triggered it
-	    	counter++;
-	      alert('hooty hoo ' + counter);
-	      event.preventDefault(); // stops the event from propagating the way it normally would; for example, there won't be a '#' in the URL
-	    }
-
-	    document.getElementById('theLink').addEventListener('click', hootyHoo);
-	 </script>
+		 <script type="text/javascript">
+		 		var counter = 0;
+		    function hootyHoo(event){
+		    	console.log(event); // gives us access to the event that triggered it
+		    	counter++;
+		      alert('hooty hoo ' + counter);
+		      event.preventDefault(); // stops the event from propagating the way it normally would; for example, there won't be a '#' in the URL
+		    }
+		    document.getElementById('theLink').addEventListener('click', hootyHoo);
+		 </script>
 
 preventDefault()
 ----------------
 
-Occassionally you will want to prevent a default action from happening. For example, in the above example, where we didn't want the page to actually treat it like a link and go to a new URL.
+Occassionally you will want to prevent a default action from happening. For example, in the above example, where we didn't want the page to actually treat it like a link and go to a new URL (we wanted to cancel that default action and just detect the click event).
 
 The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
 
