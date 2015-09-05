@@ -139,7 +139,7 @@ JavaScript has dynamic types. This means that the same variable can be used as d
 Casting
 -------
 
-It's often useful to know casting - turning one data type into another
+It's often useful to use casting - turning one data type into another
 
 The toString() method converts a number to a string.
 
