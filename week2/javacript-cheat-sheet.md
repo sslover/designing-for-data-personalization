@@ -16,7 +16,7 @@ Comments your code with //
 	// this is a comment
 	var dog; // this is a comment about a dog
 
-It's often a good idea to comment the steps needed for a function before actually writing it:
+It's often a good idea to comment the steps needed for a function before writing it:
 
 	// step 1 - do this
 	// step 2 - then, do this
@@ -284,7 +284,7 @@ Functions can return values
 
 	console.log(completeName); // prints Dan Shiffman
 
-Functions can take parameters and return values. This particularly useful when returning an object.
+Functions can take parameters and return values. This is particularly useful when returning an object.
 
 	var message1 = createMessage("Jack", "Jill", "Let's get some water?");
 	var message2 = createMessage("Kanye", "Taylor", "Imma let you finish, but");
@@ -459,12 +459,81 @@ Random Number
 Callbacks
 ---------
 
+Callbacks are a key part of Javascript (but can be confusing):
+
+* Callbacks basically allow the execution of a function to include 'next' steps when the requested function finishes.
+* Callbacks are functions passed into a function.
+
+	
+	// we want to do the following:
+	// 1. take an array of pets and find all the dogs in that array
+	// 2. once we have done that, say "Good Boy" to all the dogs
+	// (we cannot do #2 until #1 has completed)
+
+	// first function takes in an array and callback
+	// the function operateson the array and returns the callback
+	var findDogsInArray = function(array,callback){
+		
+		// if no array is passed in, let's send back an error
+		if(!array) return callback("Error: required field missing", null);
+
+		var dogsToReturn = new Array();
+
+		array.forEach(function(i,e){
+			if(e.type=="dog") dogsToReturn.push(e)
+		})
+
+		return callback(null,dogsToReturn);
+
+	}
+
+	// now, let's write a function that takes in array 
+	// and says "Good Boy" to each of the elements
+	var sayGoodBoy = function(array){
+		array.forEach(function(i,e){
+			console.log("Hi " + e.name);
+		})
+	}
+
+	// the pets array
+	var pets = [
+		{
+			name: "Lilly",
+			type: "dog"
+		},
+		{
+			name: "Smokey",
+			type: "cat"
+		},
+		{
+			name: "Zoe",
+			type: "dog"
+		}		
+	]
+
+	// now, let's call the function to findDogsInArray
+	// it takes in the pets array, and the callback, 
+	// which can return an error or the data
+	findDogsInArray(pets,function(err,data){
+		if(err) {
+			console.log("We have an error -->" + err);
+		}
+		else{
+			var dogs = data;
+			sayGoodBoy(dogs);
+		}
+	})
+
+
 The Anatomy of a JS Program - Events
 ------------------------------------
 
 Client-Side Events
 ------------------
-events can be... onload, onclick, onsubmit, onresize, onscroll, etc etc etc
+events can be... timed, onload, onclick, onsubmit, onresize, onscroll, etc etc etc
+
+preventDefault
+--------------
 
 Writing a Clean Program
 -----------------------
