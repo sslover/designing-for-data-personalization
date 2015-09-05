@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>hello world</title>
+ </head>
+ <body>
+ 	<input type="text" id="theInput" />
+ </body>
+
+ <script type="text/javascript">
+    function giveValue(event){
+    	console.log(event); // gives us access to the event that triggered it
+    	var val = document.getElementById('theInput').value;
+    	// or var val = event.target.value;
+      alert('the current value is -> ' + val);
+    }
+
+    document.getElementById('theInput').addEventListener('change', giveValue);
+ </script>

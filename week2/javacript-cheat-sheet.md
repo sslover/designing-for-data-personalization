@@ -475,7 +475,7 @@ Callbacks are a key part of Javascript (but can be confusing):
 		// the callback returns an error or the data
 
 		var findDogsInArray = function(array,callback){
-		
+
 			// if no array is passed in, let's send back an error
 			if(!array || typeof array != "object") return callback("Error: required field is malformed", null);
 
@@ -486,7 +486,6 @@ Callbacks are a key part of Javascript (but can be confusing):
 			})
 
 			return callback(null,dogsToReturn);
-
 		}
 
 		// now, let's write a function that takes in array 
@@ -529,17 +528,177 @@ Callbacks are a key part of Javascript (but can be confusing):
 			}
 		})
 
-
 The Anatomy of a JS Program - Events
 ------------------------------------
 
-Client-Side Events
+Javascript is largely centered around events. You need to specify when you want a function to execute. There's many events that you can bind functions to:
+
+* onload - when the page loads, execute function(s)
+* onclick - when the user clicks something, execute function(s)
+* timed events - after a certain amount of time, run a function(s)
+* etc
+
+For example, the following JS code would never run, because it isn't bound to any event. While we do declare the function, we never actually attach it to an event that will make it execute.
+
+	<!DOCTYPE html>
+	<html>
+	 <head>
+	  <meta charset="UTF-8">
+	  <title>hello world</title>
+	 </head>
+	 <body>
+	 </body>
+
+	 <script type="text/javascript">
+	 	function sayHi(){
+	 		alert('hi!');
+	 	}
+	 </script>
+
+To make it run, we could attach it to the onload event. Meaning, when the page loads, the code runs.
+
+	<!DOCTYPE html>
+	<html>
+	 <head>
+	  <meta charset="UTF-8">
+	  <title>hello world</title>
+	 </head>
+	 <body onload="sayHi()">
+	 </body>
+
+	 <script type="text/javascript">
+	 	function sayHi(){
+	 		alert('hi!');
+	 	}
+	 </script>
+
+Another way of doing the same thing is to attach an event listener:
+
+	<!DOCTYPE html>
+	<html>
+	 <head>
+	  <meta charset="UTF-8">
+	  <title>hello world</title>
+	 </head>
+	 <body>
+	 </body>
+
+	 <script type="text/javascript">
+	 	function sayHi(){
+	 		alert('hi!');
+	 	}
+
+	 	window.addEventListener('onload',sayHi);
+	 </script>
+
+Example of Events
 ------------------
-events can be... timed, onload, onclick, onsubmit, onresize, onscroll, etc etc etc
 
-preventDefault
---------------
+Onload is just one type of event. There are many events you can bind your functions to. **For a full list of events, see [this resource](http://www.w3schools.com/tags/ref_eventattributes.asp)**
 
-Writing a Clean Program
------------------------
+Some of the most useful include:
 
+**Window Events**
+
+Events triggered for the window object (applies to the <body> tag).
+
+Some of the most useful:
+
+* onload - Fires after the page is finished loading
+* onunload - Fires once a page has unloaded (or the browser window has been closed)
+* onresize - Fires when the browser window is resized
+
+To attach functions to these events, you can use window.addEventListener
+
+	function introduceMyself(){
+		alert("Hi, I'm a dog");
+	}
+
+	// run on page load
+	window.addEventListener("onload", introduceMyself);
+
+	// run on page resize
+	window.addEventListener("resize", introduceMyself);
+
+	// run on page unload/close
+	window.addEventListener("onunload", introduceMyself);
+
+**Form Events**
+
+Events triggered by actions inside a HTML form (applies to almost all HTML elements, but is most used in form elements).
+
+Some of the most useful:
+
+* onchange -	Fires the moment when the value of the form element is changed
+* onsubmit - Fires when a form is submitted
+
+To attach functions to these events, you can use document.getElementById('idName').addEventListener
+
+	<!DOCTYPE html>
+	<html>
+	 <head>
+	  <meta charset="UTF-8">
+	  <title>hello world</title>
+	 </head>
+	 <body>
+	 	<input type="text" id="theInput" />
+	 </body>
+
+	 <script type="text/javascript">
+	    function giveValue(event){
+	    	console.log(event); // gives us access to the event that triggered it
+	    	var val = document.getElementById('theInput').value;
+	    	// or var val = event.target.value;
+	      alert('the current value is -> ' + val);
+	    }
+
+	    document.getElementById('theInput').addEventListener('change', giveValue);
+	 </script>	
+
+**Mouse & Keyboard Events**
+
+Events triggered by a mouse, keyboard, or similar user actions.
+
+Some of the most useful:
+
+* onclick - Fires on a mouse click on the element
+* ondrag - Script to be run when an element is dragged
+* onscroll - Script to be run when an element's scrollbar is being scrolled 
+	* usually you will call this, determine where the user is, and call a function according to their position
+* onkeydown	-	Fires when a user is pressing a key
+* onkeypress -	Fires when a user presses a key
+* onkeyup	-	Fires when a user releases a key
+
+	<!DOCTYPE html>
+	<html>
+	 <head>
+	  <meta charset="UTF-8">
+	  <title>hello world</title>
+	 </head>
+	 <body>
+	 	<a href="#" id="theLink">Click Me Please</a>
+	 </body>
+
+	 <script type="text/javascript">
+	 		var counter = 0;
+	    function hootyHoo(event){
+	    	console.log(event); // gives us access to the event that triggered it
+	    	counter++;
+	      alert('hooty hoo ' + counter);
+	      event.preventDefault(); // stops the event from propagating the way it normally would; for example, there won't be a '#' in the URL
+	    }
+
+	    document.getElementById('theLink').addEventListener('click', hootyHoo);
+	 </script>
+
+preventDefault()
+----------------
+
+Occassionally you will want to prevent a default action from happening. For example, in the above example, where we didn't want the page to actually treat it like a link and go to a new URL.
+
+The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
+
+For example, this can be useful when:
+
+* Clicking on a "Submit" button, prevent it from submitting a form
+* Clicking on a link, prevent the link from following the URL
