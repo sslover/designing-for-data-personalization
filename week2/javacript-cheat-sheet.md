@@ -529,6 +529,8 @@ Callbacks are a key part of Javascript (but can be confusing):
 			}
 		})
 
+		console.log("notice that this will come before the sayGoodBoy function operates.");
+
 
 The Anatomy of a JS Program - Events
 ------------------------------------
