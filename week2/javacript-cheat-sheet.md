@@ -464,64 +464,64 @@ Callbacks are a key part of Javascript (but can be confusing):
 * Callbacks basically allow the execution of a function to include 'next' steps when the requested function finishes.
 * Callbacks are functions passed into a function.
 
-	we want to do the following:
-	// 1. take an array of pets and find all the dogs in that array
-	// 2. once we have done that, say "Good Boy" to all the dogs
-	// (we cannot do #2 until #1 has completed)
+		we want to do the following:
+		// 1. take an array of pets and find all the dogs in that array
+		// 2. once we have done that, say "Good Boy" to all the dogs
+		// (we cannot do #2 until #1 has completed)
 
-	// first function takes in an array and callback
-	// the function operateson the array and returns the callback
-	var findDogsInArray = function(array,callback){
+		// first function takes in an array and callback
+		// the function operateson the array and returns the callback
+		var findDogsInArray = function(array,callback){
 		
-		// if no array is passed in, let's send back an error
-		if(!array) return callback("Error: required field missing", null);
+			// if no array is passed in, let's send back an error
+			if(!array) return callback("Error: required field missing", null);
 
-		var dogsToReturn = new Array();
+			var dogsToReturn = new Array();
 
-		array.forEach(function(i,e){
-			if(e.type=="dog") dogsToReturn.push(e)
-		})
+			array.forEach(function(i,e){
+				if(e.type=="dog") dogsToReturn.push(e)
+			})
 
-		return callback(null,dogsToReturn);
+			return callback(null,dogsToReturn);
 
-	}
-
-	// now, let's write a function that takes in array 
-	// and says "Good Boy" to each of the elements
-	var sayGoodBoy = function(array){
-		array.forEach(function(i,e){
-			console.log("Hi " + e.name);
-		})
-	}
-
-	// the pets array
-	var pets = [
-		{
-			name: "Lilly",
-			type: "dog"
-		},
-		{
-			name: "Smokey",
-			type: "cat"
-		},
-		{
-			name: "Zoe",
-			type: "dog"
-		}		
-	]
-
-	// now, let's call the function to findDogsInArray
-	// it takes in the pets array, and the callback, 
-	// which can return an error or the data
-	findDogsInArray(pets,function(err,data){
-		if(err) {
-			console.log("We have an error -->" + err);
 		}
-		else{
-			var dogs = data;
-			sayGoodBoy(dogs);
+
+		// now, let's write a function that takes in array 
+		// and says "Good Boy" to each of the elements
+		var sayGoodBoy = function(array){
+			array.forEach(function(i,e){
+				console.log("Hi " + e.name);
+			})
 		}
-	})
+
+		// the pets array
+		var pets = [
+			{
+				name: "Lilly",
+				type: "dog"
+			},
+			{
+				name: "Smokey",
+				type: "cat"
+			},
+			{
+				name: "Zoe",
+				type: "dog"
+			}		
+		]
+
+		// now, let's call the function to findDogsInArray
+		// it takes in the pets array, and the callback, 
+		// which can return an error or the data
+		findDogsInArray(pets,function(err,data){
+			if(err) {
+				console.log("We have an error -->" + err);
+			}
+			else{
+				var dogs = data;
+				sayGoodBoy(dogs);
+			}
+		})
 
 
 The Anatomy of a JS Program - Events
