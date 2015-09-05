@@ -73,14 +73,14 @@ Array items are separated by commas.
 
 You can add to an array with the push function
 	
-	var names = ["Dan","Dave","Dexter"];
+	var names = ["Dan", "Dave", "Dexter"];
 	names.push("Dante");
 
 	console.log(names); // prints ["Dan", "Dave", "Dexter", "Dante"]
 
 You can remove from an array with the pop function (removes the last item)
 
-	var names = ["Dan","Dave","Dexter"];
+	var names = ["Dan", "Dave", "Dexter"];
 	names.pop();
 
 	console.log(names); // prints ["Dan", "Dave"] 
@@ -145,7 +145,7 @@ JavaScript has dynamic types. This means that the same variable can be used as d
 		name: "John"
 	} // Now x is an Object
 
-	var x = ["John","Joe","Jason"] // Now x is an array
+	var x = ["John", "Joe", "Jason"] // Now x is an array
 
 Casting
 -------
@@ -218,7 +218,7 @@ The second example can be called anywhere within its scope, even before it has b
 
 Functions can take any number or parameters.
 
-	function describePet(name,age,gender){
+	function describePet(name, age, gender){
 
 		var genderPronoun = "she";
 		if(gender=="male") genderPronoun = "he";
@@ -231,9 +231,9 @@ Functions can take any number or parameters.
 
 	}
 
-	describePet("Joey",7,"male");
+	describePet("Joey", 7, "male");
 
-	describePet("Jill",4,"female");
+	describePet("Jill", 4, "female");
 
 Functions can return values
 
@@ -247,23 +247,23 @@ Functions can return values
 	var num2 = square(7);
 	console.log(num2); // prints 49
 
-	var joinNames = function(firstName,lastName){
+	var joinNames = function(firstName, lastName){
 		return firstName + " " + lastName;
 	}
 
-	var completeName = joinNames("Dan","Shiffman")
+	var completeName = joinNames("Dan", "Shiffman")
 
 	console.log(completeName); // prints Dan Shiffman
 
 Functions can take parameters and return values. This particularly useful when returning an object.
 
-	var message1 = createMessage("Jack","Jill","Let's get some water?");
-	var message2 = createMessage("Kanye","Taylor","Imma let you finish, but");
+	var message1 = createMessage("Jack", "Jill", "Let's get some water?");
+	var message2 = createMessage("Kanye", "Taylor", "Imma let you finish, but");
 
 	console.log(message1) // prints the message1 object
 	console.log(message2) // prints the message2 object
 
-	function createMessage(person1,person2,subject){
+	function createMessage(person1, person2, subject){
 		
 		var msgToReturn = {
 			from: person1,
@@ -280,7 +280,7 @@ Iteration (Loops)
 
 Regular for loop
 
-	var names = ["Maria","Xuedi","Rios","Katie","Surya"];
+	var names = ["Maria", "Xuedi", "Rios", "Katie", "Surya"];
 	
 	// going forward
 	for(var i=0;i<names.length;i++){
@@ -294,7 +294,7 @@ Regular for loop
 
 forEach loop
 	
-	var names = ["Maria","Xuedi","Rios","Katie","Surya"];
+	var names = ["Maria", "Xuedi", "Rios", "Katie", "Surya"];
 
 	names.forEach(function(e,i){
 		console.log('we are on element #' + i);
