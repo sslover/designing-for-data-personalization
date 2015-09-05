@@ -296,7 +296,7 @@ forEach loop
 	
 	var names = ["Maria","Xuedi","Rios","Katie","Surya"];
 
-	names.forEach(function(i,e){
+	names.forEach(function(e,i){
 		console.log('we are on element #' + i);
 		console.log('the element is ' + e);
 	})
