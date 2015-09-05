@@ -27,11 +27,11 @@ Data Types / Variables
 
 JavaScript variables can hold many data types: 
 
-	* numbers
-	* strings
-	* booleans 
-	* arrays
-	* objects
+* numbers
+* strings
+* booleans 
+* arrays
+* objects
 
 Numbers
 -------
