@@ -432,6 +432,10 @@ Switch statements are another way to make comparisons:
 
 Rounding
 --------
+Round a number to its nearest integer
+
+	Math.round(4.4) // 4
+	Math.round(4.6) // 5
 
 Round a number downward to its nearest integer:
 
@@ -702,3 +706,57 @@ For example, this can be useful when:
 
 * Clicking on a "Submit" button, prevent it from submitting a form
 * Clicking on a link, prevent the link from following the URL
+
+AJAX
+----
+
+AJAX is the art of exchanging data with a server, and updating parts of a web page - without reloading the whole page.
+
+You can use AJAX to make any type of HTTP request from within your Javascript script. The most common will be GET requests (usually, getting data) and POST requests (usually, posting data).
+
+While you can do AJAX without JQuery, the JQuery way is generally the most straightforward. To use JQuery, you just need to link to it from your HTML (generally before your other JS scripts).
+
+	<!-- JQuery Library -->		
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- OUR JS -->
+  <script src="js/main.js"></script>
+	
+To make a GET Request with JQuery:
+
+	// GET REQUEST
+	$.ajax({
+	    url: 'http://theUrlThatYouAreRequestingFrom.com',
+	    type: 'GET',
+	    failure: function(err){
+	    	// what to do on failure
+	    	// generally, handle the error
+	    },
+	    success: function(response) {
+	    	// what to do on success
+	      console.log(response);
+	    }
+	});
+
+To make a POST Request with JQuery:
+
+	var dataToSend = {
+		name: "Billy",
+		animalType: "Dog",
+		currentState: "Sleeping"
+	}
+
+	// POST REQUEST
+	$.ajax({
+	    url: 'http://theUrlThatYouArePostingTo.com',
+	    type: 'POST',
+	    data: dataToSend, // the data object we're posting
+	    failure: function(err){
+	    	// what to do on failure
+	    	// generally, handle the error
+	    },
+	    success: function(response) {
+	    	// what to do on success
+	      console.log(response);
+	    }
+	});
