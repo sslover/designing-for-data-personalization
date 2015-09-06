@@ -716,10 +716,10 @@ You can use AJAX to make any type of HTTP request from within your Javascript sc
 
 While you can do AJAX without JQuery, the JQuery way is generally the most straightforward. To use JQuery, you just need to link to it from your HTML (generally before your other JS scripts).
 
-	<!-- JQuery Library -->		
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- OUR JS -->
-  <script src="js/main.js"></script>
+	<!-- JQuery Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- OUR JS -->
+	<script src="js/main.js"></script>
 	
 To make a GET Request with JQuery:
 
