@@ -236,18 +236,23 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
     * JSON 101: rules & validation  
     * JS 102 - going deeper into client-side js. Common Javscript functions, tips and tricks. Callbacks. Events. Etc.
     * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and an external 3rd party API)
-        * [Example project](http://samslover.com/examples/weather-dashboard/)
+        * [Example project 1 - API Request](http://samslover.com/examples/weather-dashboard/)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week2/weather-dashboard)**
+        * [Example project 2 - API Request + Using Our Own JSON File](http://samslover.com/examples/weather-dashboard2/)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week2/weather-dashboard-with-json)**
         * python -m SimpleHTTPServer
+            * When working locally and making AJAX requests, you need to run on a simple server. cd into your project and folder and then run the above command. Then, go to http://localhost:8000/
 
 * Assignment Week 2:
     * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want):
+        * [Forecast.io](https://developer.forecast.io/)
         * [OpenWeather - No authentication](http://openweathermap.org/api)
         * [YahooWeather - No authentication](https://developer.yahoo.com/weather/)
         * [DroneStream - No authentication](http://api.dronestre.am/)
         * [Instagram - Requires getting authenticated](https://instagram.com/developer/)
         * [Twitter - Requires getting authenticated](https://dev.twitter.com/rest/public)
-    * Write a JS script that gets the above data and generates in it on a webpage. Do something interesting with the data. Some options:
-        * Make your CV/Resume into a simple interactive Webpage/experience. 
+    * Write a JS script that gets the above data and generates in it on a webpage in an interesting way. Make it interactive based on user input, clicks, scrolling, etc. Some options:
+        * Make your CV/Resume into a simple interactive Webpage/experience. Generate visuals on the page based on the data.
         * Tell a simple data story about your pets.
         * Tell a simple data story about your family.
 
@@ -262,7 +267,6 @@ Week 3
 **BREAK**
 
 * Technical topic:
-    * More examples of using 3rd party APIs
     * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
     
 * Assignment Week 3:
@@ -324,4 +328,4 @@ Week 11
 
 Week 12
 -------
-* **Student Presentations: Recontextualizng Everyday Data**
+* **Student Presentations: Recontextualizing Everyday Data**

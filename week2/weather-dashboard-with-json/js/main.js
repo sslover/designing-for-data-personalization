@@ -1,3 +1,29 @@
+function init(){
+	// on page load, we want to ask our JSON file for all the locations
+	// we've lived in in the past; then render each one
+	// make a request for our own JSON file
+	$.ajax({
+	    url: './data/sam.json',
+	    type: 'GET',
+	    failure: function(err){
+	    	return console.log ("There was an issue getting the data");
+	    },
+	    success: function(response) {
+	      console.log('the response from our JSON is -- >');
+	      console.log(response);
+	      // let's pull out the array of locations to render
+	      var placesToRender = response.facts.otherLocations;
+	      // but I also want my home location and current location
+	      placesToRender.push(response.facts.bornLocation);
+	      placesToRender.push(response.facts.currentLocation);
+	      // now, let's get the weather for each one
+	      placesToRender.forEach(function(e){
+	      	geoCodeIt(e);
+	      }) 
+	    }
+	});	
+}
+
 function getWeather(event){
 
 	var val = document.getElementById('theInput').value;
@@ -72,7 +98,8 @@ function addCard(location, status, temp, icon){
 	  '</div>'+
 	'</div>';
 
-  return $('#card-holder').append(htmlToAppend);
+  return $('#card-holder').prepend(htmlToAppend);
 }
 
 document.getElementById('theInput').addEventListener('change', getWeather);
+window.addEventListener('onload', init());

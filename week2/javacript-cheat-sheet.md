@@ -718,7 +718,6 @@ While you can do AJAX without JQuery, the JQuery way is generally the most strai
 
 	<!-- JQuery Library -->		
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
   <!-- OUR JS -->
   <script src="js/main.js"></script>
 	
