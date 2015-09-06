@@ -284,7 +284,7 @@ Functions can return values
 
 	console.log(completeName); // prints Dan Shiffman
 
-Functions can take parameters and return values. This is particularly useful when returning an object.
+Functions can take parameters and return values. This can be particularly useful when returning an object.
 
 	var message1 = createMessage("Jack", "Jill", "Let's get some water?");
 	var message2 = createMessage("Kanye", "Taylor", "Imma let you finish, but");
@@ -467,7 +467,7 @@ Callbacks are a key part of Javascript (but can be confusing):
 		// CALLBACK EXAMPLE 
 		// we want to do the following:
 		// 1. take an array of pets and find all the dogs in that array
-		// 2. once we have done that, say "Good Boy" to all the dogs
+		// 2. once we have done that, say "Good Dog" to all the dogs
 		// (but we cannot do #2 until #1 has completed, so we need a callback)
 
 		// first function takes in an array and callback
@@ -489,11 +489,11 @@ Callbacks are a key part of Javascript (but can be confusing):
 		}
 
 		// now, let's write a function that takes in array 
-		// and says "Good Boy" to each of the elements
+		// and says "Good Dog" to each of the elements
 
-		var sayGoodBoy = function(array){
+		var sayGoodDog = function(array){
 			array.forEach(function(e){
-				console.log("Hi " + e.name);
+				console.log("You're a good dog " + e.name);
 			})
 		}
 
@@ -523,8 +523,8 @@ Callbacks are a key part of Javascript (but can be confusing):
 			}
 			else{
 				var dogs = data;
-				// now that we have the dogs data, can call the sayGoodBoy function
-				sayGoodBoy(dogs);
+				// now that we have the dogs data, can call the sayGoodDog function
+				sayGoodDog(dogs);
 			}
 		})
 

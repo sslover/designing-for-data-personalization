@@ -227,15 +227,17 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
 * Present last week's work
 * Group Activities Overview + Assigning Groups
-* Design Exercise - sketching an initial story via pen and paper wireframing
+* Design Exercise - Pen & Paper Wireframing
 * Design Topic - Wireframing: Tools, Strategies, & Story Flow
 
 **BREAK**
 
 * Technical topics:
     * JSON 101: rules & validation  
-    * JS 102 - going deeper into client-side js. Common Javscript functions and use cases. Callbacks.
+    * JS 102 - going deeper into client-side js. Common Javscript functions, tips and tricks. Callbacks. Events. Etc.
     * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and an external 3rd party API)
+        * [Example project](http://samslover.com/examples/weather-dashboard/)
+        * python -m SimpleHTTPServer
 
 * Assignment Week 2:
     * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want):
