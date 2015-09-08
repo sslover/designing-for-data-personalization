@@ -238,13 +238,14 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
     * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and an external 3rd party API)
         * [Example project 1 - API Request](http://samslover.com/examples/weather-dashboard/)
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week2/weather-dashboard)**
+            * live coding: dynamically changing the CSS; dynamically picking an icon based on a set of conditions;
         * [Example project 2 - API Request + Using Our Own JSON File](http://samslover.com/examples/weather-dashboard2/)
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week2/weather-dashboard-with-json)**
         * python -m SimpleHTTPServer
             * When working locally and making AJAX requests, you need to run on a simple server. cd into your project and folder and then run the above command. Then, go to http://localhost:8000/
 
 * Assignment Week 2:
-    * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want):
+    * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want - the most important is to try to pick something personally interesting):
         * [Forecast.io](https://developer.forecast.io/)
         * [OpenWeather - No authentication](http://openweathermap.org/api)
         * [YahooWeather - No authentication](https://developer.yahoo.com/weather/)
@@ -252,11 +253,14 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * [Instagram - Requires getting authenticated](https://instagram.com/developer/)
         * [Twitter - Requires getting authenticated](https://dev.twitter.com/rest/public)
     * Write a JS script that gets the above data and generates in it on a webpage in an interesting way. Make it interactive based on user input, clicks, scrolling, etc. Some options:
-        * Make your CV/Resume into a simple interactive Webpage/experience. Generate visuals on the page based on the data.
-        * Tell a simple data story about your pets.
-        * Tell a simple data story about your family.
+        * Make your CV/Resume into a simple interactive data experience. Generate visuals on the page based on the data and create a few key user interactions.
+        * Detect the user's location via the browser and do something based on it (see [this resource in getting geolocation from the browser](http://www.w3schools.com/html/html5_geolocation.asp))
+        * Tell a simple data story about your family, pets, favorite bands, etc.
 
     * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
+
+    * Read up on [Bootstrap](http://getbootstrap.com/), the HTML/CSS/JS Framework.
+        * In particular, look at [this page](http://getbootstrap.com/css/) and pay special attention to Bootstrap's Grid System
 
 Week 3
 ---------
@@ -271,6 +275,13 @@ Week 3
     
 * Assignment Week 3:
     * Work on Design Challenge 1 - Making (Dry) Data Personal & Playful 
+        * Requirements (due Week 5)
+            * A working interactive Web page
+            * A blog post that includes the following:
+                * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
+                * A sketch or wireframe of your concept.
+                * The color palette and fonts that you are using, any other options you were considering, and why you made these choices.
+                * Any next steps you think would be interesting for the project.
 
 Week 4
 -------
@@ -285,6 +296,13 @@ Week 4
 
 * Assignment Week 4:
     * Complete Design Challenge 1 - Making (Dry) Data Personal & Playful
+        * Requirements (due Week 5)
+            * A working interactive Web page
+            * A blog post that includes the following:
+                * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
+                * A sketch or wireframe of your concept.
+                * The color palette and fonts that you are using, and why you made these choices.
+                * Any next steps you think would be interesting for the project.
 
 Week 5
 ------
