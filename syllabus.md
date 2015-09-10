@@ -233,7 +233,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 **BREAK**
 
 * Technical topics:
-    * JSON 101: rules & validation  
+    * JSON 101: rules & validation. And why does it matter?
     * JS 102 - going deeper into client-side js. Common Javscript functions, tips and tricks. Callbacks. Events. Etc.
     * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and an external 3rd party API)
         * [Example project 1 - API Request](http://samslover.com/examples/weather-dashboard/)
@@ -244,7 +244,10 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * python -m SimpleHTTPServer
             * When working locally and making AJAX requests, you need to run on a simple server. cd into your project and folder and then run the above command. Then, go to http://localhost:8000/
 
-* Assignment Week 2:
+* **Assignment Week 2:**
+
+    * Read up on [Bootstrap](http://getbootstrap.com/), the HTML/CSS/JS Framework.
+        * In particular, look at [this page](http://getbootstrap.com/css/) and pay special attention to Bootstrap's Grid System
     * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want - the most important is to try to pick something personally interesting):
         * [Forecast.io](https://developer.forecast.io/)
         * [OpenWeather - No authentication](http://openweathermap.org/api)
@@ -258,9 +261,6 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * Tell a simple data story about your family, pets, favorite bands, etc.
 
     * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
-
-    * Read up on [Bootstrap](http://getbootstrap.com/), the HTML/CSS/JS Framework.
-        * In particular, look at [this page](http://getbootstrap.com/css/) and pay special attention to Bootstrap's Grid System
 
 Week 3
 ---------
@@ -286,7 +286,7 @@ Week 3
 Week 4
 -------
 * Group Presentation 2
-* Design Topic: Designing for Personality & Playfulness (+ Human-Centered Design)
+* Design Topic: User Onboarding
 
 **BREAK**
 
@@ -313,18 +313,19 @@ Weeks 6-8
 * Group Presentations 3, 4, 5
 * Server-side javascript with node.js, mongodb, express.js.
 * We will cover technical topics including:
+    * Setting up a node.js, express.js, mongodb application
+    * Hosting locally and on Heroku
     * Modeling, storing, retrieving data
     * Making Data into an API
     * Designing APIs for Public Consumption
     * The Anatomy of A Data-Driven App
     * Using NPM (3rd party libraries)
-    * Hosting locally and on Heroku 
     * Common database operations tips and tricks
     * Twilio (SMS) integration
 * We will cover design topics including:
-    * User Onboarding
-    * Passive vs Active Data Collection
     * Designing for Multiple Devices & Personalization (cards!)
+    * Passive vs Active Data Collection
+    * API Documentation Design
 
 Week 9
 ------
@@ -334,7 +335,7 @@ Week 10
 -------
 * Group Presentations 6
 * Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
-* Design Topic: API Documentation Design
+* Design Topic: Data on Physical Devices & Objects
 
 Week 11
 -------
@@ -342,7 +343,7 @@ Week 11
 * Depending on class preference:
     * More back-end node examples.
     * Going beyond the browser. Data on Mobile.
-* Design Topic: Passive vs Active Data Collection
+* Design Topic: TBD
 
 Week 12
 -------
