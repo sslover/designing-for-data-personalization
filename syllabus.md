@@ -242,8 +242,8 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 * Design Exercise - Pen & Paper Wireframing
     * Who's on the floor?
     * What have you eaten in the last 24 hours?
-    * 
-* Design Topic - Wireframing: Tools, Strategies, & Story Flow
+    * The dashboard of you: what datapoints would you show? How would you show them?
+* Design Topic - Design Structures + Wireframing
     * **[Presentation](https://docs.google.com/presentation/d/1Z8IH1punyYfVQJPUoqGlIQxWWyM_vkmxD_ByRWa1Dao/edit?usp=sharing)**
     * References:
         * Some Wireframing Tools
