@@ -59,6 +59,10 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Daria](http://dariarosedesigns.com/thoughts/)
 * [Thea](http://thea-rae.tumblr.com/tagged/ddfp)
 * [Allie](http://alliewist.com/2015/09/yummly-app-review/)
+* [Soni](http://www.sonihahn.com/data/)
+* [Matt](mattgoral.tv)
+* [Sung Hoon](https://wp.nyu.edu/sunghoonkim/category/data-personalization/)
+* [Jingwen](http://jingwenzhu.com/category/fall-2015/designing-for-data-personalization/)
 
 Listserv
 --------
@@ -259,6 +263,8 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * In particular, look at [this page](http://getbootstrap.com/css/) and pay special attention to Bootstrap's Grid System
     
     * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want - the most important is to try to pick something personally interesting):
+        * [This Big List of Open APIs courtesy of Craig Protzel](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
+        * [New York Open Data](https://nycopendata.socrata.com/)
         * [Forecast.io](https://developer.forecast.io/)
         * [OpenWeather - No authentication](http://openweathermap.org/api)
         * [YahooWeather - No authentication](https://developer.yahoo.com/weather/)
