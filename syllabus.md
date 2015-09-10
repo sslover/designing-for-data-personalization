@@ -64,6 +64,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Sung Hoon](https://wp.nyu.edu/sunghoonkim/category/data-personalization/)
 * [Jingwen](http://jingwenzhu.com/category/fall-2015/designing-for-data-personalization/)
 * [Eric](https://ericfrenchmonge.wordpress.com/2015/09/10/if-a-man-has-no-smartphone-does-he-exist/)
+* [Song](http://www.songhitp.com/?cat=19)
 
 Listserv
 --------
@@ -258,8 +259,8 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 **BREAK**
 
 * Technical topics:
-    * JSON 101: rules & validation. And why does it matter?
     * JS 102 - going deeper into client-side js. Common Javscript functions, tips and tricks. Callbacks. Events. Etc.
+    * JSON 101: rules & validation. And why does it matter?
     * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and an external 3rd party API)
         * [Example project 1 - API Request](http://samslover.com/examples/weather-dashboard/)
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week2/weather-dashboard)**

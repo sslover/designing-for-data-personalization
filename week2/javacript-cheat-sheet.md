@@ -76,6 +76,11 @@ Array items are separated by commas.
 	var names = ["Dan","Dave","Dexter"]; // array of Strings
 	var ages = [12,24,15] // array of numbers
 
+You can get the length of the array with .length
+	
+	var names = ["Dan","Dave","Dexter"]; // array of Strings
+	names.length // prints 3
+
 You can add to an array with the push function
 	
 	var names = ["Dan", "Dave", "Dexter"];
