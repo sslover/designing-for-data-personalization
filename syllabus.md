@@ -63,6 +63,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Matt](mattgoral.tv)
 * [Sung Hoon](https://wp.nyu.edu/sunghoonkim/category/data-personalization/)
 * [Jingwen](http://jingwenzhu.com/category/fall-2015/designing-for-data-personalization/)
+* [Eric](https://ericfrenchmonge.wordpress.com/2015/09/10/if-a-man-has-no-smartphone-does-he-exist/)
 
 Listserv
 --------
@@ -97,9 +98,9 @@ Group Projects
 
 Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 10-15 minute demonstration. You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
 
-* **Design Presentation/Critique** - Pick a new or somewhat new technology (hardware, software or service) that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. 
+* **Design Presentation/Critique** - Pick a new or somewhat new technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. 
 
-    * Make a presentation that covers what the technology/service is, what is novel about it, how are people using it and so on.
+    * Make a presentation that covers what the technology/service/project/theme is, what is novel about it, how are people using it and so on.
     * What do you like about it? What would you do differently?
     * Notice their design decisions (user experience, interactions, etc.). What is effective? What is not?
     * Are there are any privacy concerns? Data Limitations?
@@ -239,7 +240,20 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 * Present last week's work
 * Group Activities Overview + Assigning Groups
 * Design Exercise - Pen & Paper Wireframing
+    * Who's on the floor?
+    * What have you eaten in the last 24 hours?
+    * 
 * Design Topic - Wireframing: Tools, Strategies, & Story Flow
+    * **[Presentation](https://docs.google.com/presentation/d/1Z8IH1punyYfVQJPUoqGlIQxWWyM_vkmxD_ByRWa1Dao/edit?usp=sharing)**
+    * References:
+        * Some Wireframing Tools
+            * Pen & Paper
+            * [UI Stencils](http://www.uistencils.com/collections/stencils)
+            * [Kung Fu for Keynote](http://keynotekungfu.com/)
+            * [Balsamiq](https://balsamiq.com/)
+            * [Framerjs](http://framerjs.com/)
+            * Illustrator
+            * Web/CSS (HTML)
 
 **BREAK**
 
