@@ -66,6 +66,11 @@ Arrays
 
 JavaScript arrays are written with square brackets.
 
+Declare an array:
+
+	var names = [];
+	var names = new Array();
+
 Array items are separated by commas.
 
 	var names = ["Dan","Dave","Dexter"]; // array of Strings

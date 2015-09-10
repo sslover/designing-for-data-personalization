@@ -3,7 +3,7 @@ Designing for Data Personalization Syllabus
 Overview
 ---------------------
 - **Instructor** - Sam Slover (email: slover@nyu.edu)
-- **Office Hours** - Thursdays from 12 to 3. Signup at [Google Calendar](https://www.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
+- **Office Hours** - Tuesdays 7-9; Thursdays 3-5. Signup at [Google Calendar](https://www.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
 - **Group/Listserv**: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
 
 Description
@@ -52,7 +52,13 @@ It is expected that everyone in the class will create and maintain a blog for th
 
 Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 
-* Student Name - blogURl
+* [Martin](http://www.martsromero.com/designing-data-personalization/)
+* [Ross](http://www.thehypertext.com/category/fall-2015/data-personal/)
+* [Chanwook](http://chanwookmin.com/blog/?page_id=623)
+* [Edson](http://hiedson.com/courses/datapersonalization.html)
+* [Daria](http://dariarosedesigns.com/thoughts/)
+* [Thea](http://thea-rae.tumblr.com/tagged/ddfp)
+* [Allie](http://alliewist.com/2015/09/yummly-app-review/)
 
 Listserv
 --------
@@ -85,9 +91,9 @@ Class participation is a critical part of the class, and (along with attendance)
 Group Projects
 --------------
 
-Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 15 minute demonstration. You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
+Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 10-15 minute demonstration. You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
 
-* **Design Presentation/Critique** - Pick a new or somewhat new technology (hardware, software or service) that relates to the overall topics in the class. 
+* **Design Presentation/Critique** - Pick a new or somewhat new technology (hardware, software or service) that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. 
 
     * Make a presentation that covers what the technology/service is, what is novel about it, how are people using it and so on.
     * What do you like about it? What would you do differently?
@@ -96,10 +102,11 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
     * Does it fulfill its promise? Where could you see it going in the future?    
 
 * **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group.
-    * How would you go about designing a product, service, application, experience, or installation that gives the world a better (or different) data interaction than what is available right now? 
+    * How would you go about designing a product, service, application, experience, or installation that gives the world a different data interaction than what is available right now? 
     * Where does the user encounter this application or experience? 
     * Do you need to get any data from the user? How would you do that?
     * What are some key design decisions?
+    * What do you hope the user gets from it?
     * What is the key user interaction? How does it work technically?
     * Are there are any privacy concerns? Data Limitations? How would you overcome these?
 
@@ -241,13 +248,16 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
             * live coding: dynamically changing the CSS; dynamically picking an icon based on a set of conditions;
         * [Example project 2 - API Request + Using Our Own JSON File](http://samslover.com/examples/weather-dashboard2/)
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week2/weather-dashboard-with-json)**
+        * [Example project 3 - API Request + Detecting the User's Location From Their Browser](http://samslover.com/examples/weather-dashboard3/)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week2/weather-dashboard-with-location)**            
         * python -m SimpleHTTPServer
-            * When working locally and making AJAX requests, you need to run on a simple server. cd into your project and folder and then run the above command. Then, go to http://localhost:8000/
+            * When working locally and making AJAX requests, you need to run on a simple server. cd into your project and folder and then run the above command (enter python -m SimpleHTTPServer and press enter). Then, go to http://localhost:8000/
 
 * **Assignment Week 2:**
 
     * Read up on [Bootstrap](http://getbootstrap.com/), the HTML/CSS/JS Framework.
         * In particular, look at [this page](http://getbootstrap.com/css/) and pay special attention to Bootstrap's Grid System
+    
     * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want - the most important is to try to pick something personally interesting):
         * [Forecast.io](https://developer.forecast.io/)
         * [OpenWeather - No authentication](http://openweathermap.org/api)
@@ -255,6 +265,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * [DroneStream - No authentication](http://api.dronestre.am/)
         * [Instagram - Requires getting authenticated](https://instagram.com/developer/)
         * [Twitter - Requires getting authenticated](https://dev.twitter.com/rest/public)
+
     * Write a JS script that gets the above data and generates in it on a webpage in an interesting way. Make it interactive based on user input, clicks, scrolling, etc. Some options:
         * Make your CV/Resume into a simple interactive data experience. Generate visuals on the page based on the data and create a few key user interactions.
         * Detect the user's location via the browser and do something based on it (see [this resource in getting geolocation from the browser](http://www.w3schools.com/html/html5_geolocation.asp))
@@ -265,6 +276,8 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 Week 3
 ---------
 * Group Presentation 1
+    * Matthew
+    * Daria
 * 1-minute roundtable: Which datasets are you thinking about for design challenge 1?
 * Design Topic - Setting the Mood: Colors, Typography and more.
 
@@ -276,7 +289,7 @@ Week 3
 * Assignment Week 3:
     * Work on Design Challenge 1 - Making (Dry) Data Personal & Playful 
         * Requirements (due Week 5)
-            * A working interactive Web page
+            * A working interactive Web page that covers your dataset
             * A blog post that includes the following:
                 * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
                 * A sketch or wireframe of your concept.
@@ -286,6 +299,9 @@ Week 3
 Week 4
 -------
 * Group Presentation 2
+    * Marc
+    * Sam
+    * Soni
 * Design Topic: User Onboarding
 
 **BREAK**
@@ -310,7 +326,16 @@ Week 5
 
 Weeks 6-8
 ---------
-* Group Presentations 3, 4, 5
+* Group Presentations 3 (Week 6) 
+    * Ross
+    * Sung Hoon
+* Group Presentations 4 (Week 7)
+    * Ashley
+    * Eric
+    * Jingwen
+* Group Presentations 5 (Week 8)
+    * Gregoire
+    * Manxue
 * Server-side javascript with node.js, mongodb, express.js.
 * We will cover technical topics including:
     * Setting up a node.js, express.js, mongodb application
@@ -334,12 +359,16 @@ Week 9
 Week 10
 -------
 * Group Presentations 6
+    * Thea
+    * Changyeon
 * Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
 * Design Topic: Data on Physical Devices & Objects
 
 Week 11
 -------
 * Group Presentations 7
+    * Chanwook
+    * Edson
 * Depending on class preference:
     * More back-end node examples.
     * Going beyond the browser. Data on Mobile.
