@@ -65,6 +65,9 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Jingwen](http://jingwenzhu.com/category/fall-2015/designing-for-data-personalization/)
 * [Eric](https://ericfrenchmonge.wordpress.com/2015/09/10/if-a-man-has-no-smartphone-does-he-exist/)
 * [Song](http://www.songhitp.com/?cat=19)
+* [Manxue](http://www.manxuew.com/blog/?category=Designing+for+Data+Person)
+* [Greg](http://www.madebygreg.co/category/itp/designing-for-data-personalization/)
+* [Changyeon](http://www.changyeonlee.com/design-for-data-personalization/)
 
 Listserv
 --------
@@ -97,9 +100,9 @@ Class participation is a critical part of the class, and (along with attendance)
 Group Projects
 --------------
 
-Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 10-15 minute demonstration. You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
+Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 10-minute presentation. You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
 
-* **Design Presentation/Critique** - Pick a new or somewhat new technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. 
+* **Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. 
 
     * Make a presentation that covers what the technology/service/project/theme is, what is novel about it, how are people using it and so on.
     * What do you like about it? What would you do differently?
@@ -107,7 +110,7 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
     * Are there are any privacy concerns? Data Limitations?
     * Does it fulfill its promise? Where could you see it going in the future?    
 
-* **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group.
+* **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group. 
     * How would you go about designing a product, service, application, experience, or installation that gives the world a different data interaction than what is available right now? 
     * Where does the user encounter this application or experience? 
     * Do you need to get any data from the user? How would you do that?
@@ -357,6 +360,7 @@ Weeks 6-8
 * Group Presentations 5 (Week 8)
     * Gregoire
     * Manxue
+    * Martin
 * Server-side javascript with node.js, mongodb, express.js.
 * We will cover technical topics including:
     * Setting up a node.js, express.js, mongodb application
@@ -382,6 +386,7 @@ Week 10
 * Group Presentations 6
     * Thea
     * Changyeon
+    * Song
 * Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
 * Design Topic: Data on Physical Devices & Objects
 
