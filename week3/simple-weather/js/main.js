@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
 	// do something really simple
-	// let's set the background based 
+	// let's set the background based on the temp
 	// want equal width squares based on the number of values returned
 	// but let's only do half the values returned, to make it more readable
 	var w = width/(parseInt(weather.list.length/2)); 
