@@ -337,11 +337,11 @@ Week 4
 
 **BREAK**
 
-* Technical topic:
+* **Technical topic:**
     * Using Javascript to create charts - chart.js demo
     * How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
 
-* Assignment Week 4:
+* **Assignment Week 4:**
     * Complete Design Challenge 1 - Making Data Personal & Playful
         * Requirements (due Week 5)
             * A working interactive Web page
