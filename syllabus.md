@@ -308,11 +308,11 @@ Week 3
 
 **BREAK**
 
-* Technical topic:
+* **Technical topic:**
     * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
     * p5js boilerplate
     
-* Assignment Week 3:
+* **Assignment Week 3:**
     * Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
 
     * Start Work on Design Challenge 1 - Making Data Personal & Playful 
