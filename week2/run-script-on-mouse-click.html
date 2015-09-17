@@ -6,6 +6,7 @@
  </head>
  <body>
  	<a href="#" id="theLink">Click Me Please</a>
+ 	<h3>Times clicked: <span id="count">0</span></h3>
  </body>
 
  <script type="text/javascript">
@@ -13,7 +14,7 @@
     function hootyHoo(event){
     	console.log(event); // gives us access to the event that triggered it
     	counter++;
-      alert('hooty hoo ' + counter);
+      document.getElementById('count').innerHTML = counter;
       event.preventDefault(); // stops the event from propagating the way it normally would; for example, there won't be a '#' in the URL
     }
 
