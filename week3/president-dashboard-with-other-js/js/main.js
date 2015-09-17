@@ -2,10 +2,6 @@ var presidents = []; // the array of presidents we get from the json request
 var stats = {}; // an empty object; 
 // we will fill the stats object with: youngestToTakeOffice; oldestToTakeOffice; longestLife; shortestLife; 
 
-var presidents = []; // the array of presidents we get from the json request
-var stats = {}; // an empty object; 
-// we will fill the stats object with: youngestToTakeOffice; oldestToTakeOffice; longestLife; shortestLife; 
-
 var bgColor = '#FDFBEE';
 var darkBlue = '#3B4269';
 var lightBlue = '#91B3BC';
@@ -20,7 +16,7 @@ function setup() {
 	var width = document.getElementById('chart-holder').offsetWidth;
 	var myCanvas = createCanvas(width,2500);
 	myCanvas.parent('chart-holder')
-	background('#FDFBEE')
+	background(bgColor)
   determineAgeStats();
   drawChart();
   buildStatCards();
@@ -34,8 +30,8 @@ function draw() {
 function drawChart(){
 	// let's draw the chart
 	
-	var yPosition = 25; // the Y position; will increment it each time
-	var yIncrement = 55; // the amount of space we want to increment
+	var yPosition = 25; // the initial Y position; will increment it each time
+	var yIncrement = 55; // the amount of space we want to increment each time
 	for (var i=0; i<presidents.length; i++){
 
 		// first draw a background bar; helps with visibility

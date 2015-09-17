@@ -1,6 +1,4 @@
 var presidents = []; // the array of presidents we get from the json request
-var stats = {}; // an empty object; 
-// we will fill the stats object with: youngestToTakeOffice; oldestToTakeOffice; longestLife; shortestLife; 
 
 var bgColor = '#FDFBEE';
 var darkBlue = '#3B4269';
@@ -30,8 +28,8 @@ function draw() {
 function drawChart(){
 	// let's draw the chart
 
-	var yPosition = 25; // the Y position; will increment it each time
-	var yIncrement = 55; // the amount of space we want to increment
+	var yPosition = 25; // the initial Y position; will increment it each time
+	var yIncrement = 55; // the amount of space we want to increment each time
 	for (var i=0; i<presidents.length; i++){
 
 		// first draw a background bar; helps with visibility
@@ -40,7 +38,6 @@ function drawChart(){
 		rect(0,yPosition,width,10);
 
 		// now draw the data bars on top of the background bar
-
 		// the first bar will denote the age they died
 		// need to map the width
 		var w1 = map(presidents[i].death_age, 0, 100, 0, width);

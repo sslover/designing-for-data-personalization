@@ -312,8 +312,8 @@ Week 3
 **BREAK**
 
 * **Technical topic:**
-    * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
     * p5js boilerplate
+    * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
     
 * **Assignment Week 3:**
     * Review the following JS methods for updating the DOM:
