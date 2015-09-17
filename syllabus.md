@@ -59,7 +59,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Daria](http://dariarosedesigns.com/thoughts/)
 * [Thea](http://thea-rae.tumblr.com/tagged/ddfp)
 * [Soni](http://www.sonihahn.com/data/)
-* [Matt](mattgoral.tv)
+* [Matt](http://mattgoral.tv)
 * [Sung Hoon](https://wp.nyu.edu/sunghoonkim/category/data-personalization/)
 * [Jingwen](http://jingwenzhu.com/category/fall-2015/designing-for-data-personalization/)
 * [Song](http://www.songhitp.com/?cat=19)
