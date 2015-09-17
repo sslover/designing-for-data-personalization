@@ -58,12 +58,10 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Edson](http://hiedson.com/courses/datapersonalization.html)
 * [Daria](http://dariarosedesigns.com/thoughts/)
 * [Thea](http://thea-rae.tumblr.com/tagged/ddfp)
-* [Allie](http://alliewist.com/2015/09/yummly-app-review/)
 * [Soni](http://www.sonihahn.com/data/)
 * [Matt](mattgoral.tv)
 * [Sung Hoon](https://wp.nyu.edu/sunghoonkim/category/data-personalization/)
 * [Jingwen](http://jingwenzhu.com/category/fall-2015/designing-for-data-personalization/)
-* [Eric](https://ericfrenchmonge.wordpress.com/2015/09/10/if-a-man-has-no-smartphone-does-he-exist/)
 * [Song](http://www.songhitp.com/?cat=19)
 * [Manxue](http://www.manxuew.com/blog/?category=Designing+for+Data+Person)
 * [Greg](http://www.madebygreg.co/category/itp/designing-for-data-personalization/)
@@ -369,7 +367,6 @@ Weeks 6-8
     * Sung Hoon
 * Group Presentations 4 (Week 7)
     * Ashley
-    * Eric
     * Jingwen
 * Group Presentations 5 (Week 8)
     * Gregoire
