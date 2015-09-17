@@ -305,6 +305,9 @@ Week 3
     * Matthew
     * Daria
 * Design Topic - Setting the Mood: Colors, Typography and more.
+* More from last week. JS/JS Events/AJAX/Updating the DOM. Key links:
+    * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
+    * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
 
 **BREAK**
 
@@ -313,6 +316,10 @@ Week 3
     * p5js boilerplate
     
 * **Assignment Week 3:**
+    * Review the following JS methods for updating the DOM:
+        * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
+        * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
+
     * Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
 
     * Start Work on Design Challenge 1 - Making Data Personal & Playful 
