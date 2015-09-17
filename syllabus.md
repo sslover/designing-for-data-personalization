@@ -304,18 +304,21 @@ Week 3
 * Group Presentation 1
     * Matthew
     * Daria
-* 1-minute roundtable: Which datasets are you thinking about for design challenge 1?
 * Design Topic - Setting the Mood: Colors, Typography and more.
 
 **BREAK**
 
 * Technical topic:
     * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
+    * p5js boilerplate
     
 * Assignment Week 3:
-    * Work on Design Challenge 1 - Making (Dry) Data Personal & Playful 
+    * Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
+
+    * Start Work on Design Challenge 1 - Making Data Personal & Playful 
+        * By next week's class, you should be 100% clear on how you are getting your data (whether it is from a 3rd party API or your own JSON)
         * Requirements (due Week 5)
-            * A working interactive Web page that covers your dataset
+            * A working interactive Web page that does something interesting with your dataset
             * A blog post that includes the following:
                 * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
                 * A sketch or wireframe of your concept.
@@ -328,7 +331,9 @@ Week 4
     * Marc
     * Sam
     * Soni
-* Design Topic: User Onboarding
+* HW demos
+* 1-minute roundtable: Which datasets are you thinking about for design challenge 1?    
+* Finish p5js examples
 
 **BREAK**
 
@@ -337,7 +342,7 @@ Week 4
     * How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
 
 * Assignment Week 4:
-    * Complete Design Challenge 1 - Making (Dry) Data Personal & Playful
+    * Complete Design Challenge 1 - Making Data Personal & Playful
         * Requirements (due Week 5)
             * A working interactive Web page
             * A blog post that includes the following:
@@ -348,7 +353,7 @@ Week 4
 
 Week 5
 ------
-* **Student Presentations: Making (Dry) Data Personal & Playful**
+* **Student Presentations: Making Data Personal & Playful**
 
 Weeks 6-8
 ---------
@@ -375,6 +380,8 @@ Weeks 6-8
     * Common database operations tips and tricks
     * Twilio (SMS) integration
 * We will cover design topics including:
+    * Special guest on October 15th
+    * Design Topic: User Onboarding
     * Designing for Multiple Devices & Personalization (cards!)
     * Passive vs Active Data Collection
     * API Documentation Design
