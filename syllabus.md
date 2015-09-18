@@ -329,14 +329,14 @@ Week 3
 
     * Review the following p5js examples & documentation:
         * [Getting Started Guide](https://github.com/processing/p5.js/wiki/p5.js-overview)
-        * [createCanvas](http://p5js.org/reference/#/p5/createCanvas). See the Getting Started Guide for information on how to create a p5js canvas within a specific HTML element (rather than the entire body)
+        * [createCanvas](http://p5js.org/reference/#/p5/createCanvas). See the Getting Started Guide for information on how to create a p5js canvas within a specific HTML element (rather than within the entire body itself)
         * [loadJSON](http://p5js.org/reference/#/p5/loadJSON). Pay special attention to preload()
         * [p5js Objects](http://p5js.org/examples/examples/Objects_Objects.php) and [p5js Array of Objects](http://p5js.org/examples/examples/Objects_Array_of_Objects.php)
 
 
     * 2 options 
         * 1) Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
-        * 2) Continue on your work from last week or create an entirely new example that uses a JS script to get data and generate in it on a webpage in an interesting way.
+        * 2) Continue on your work from last week or create an entirely new small project that uses a JS script to get data and generate in it on a webpage in an interesting way.
 
     * Start Work on Design Challenge 1 - Making Data Personal & Playful 
         * **By next week's class, you should be 100% clear on how you are getting your data (whether it is from a 3rd party API or your own JSON)**
