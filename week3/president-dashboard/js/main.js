@@ -11,10 +11,12 @@ function preload() {
 }
 
 function setup() {
+	console.log(presidents);
 	// set the width equal to the chart-holder div width
 	var width = document.getElementById('chart-holder').offsetWidth;
 	var myCanvas = createCanvas(width,2500);
 	myCanvas.parent('chart-holder'); // set the chard-holder as the parent
+
 	background(bgColor)
   determineAgeStats();
   drawChart();

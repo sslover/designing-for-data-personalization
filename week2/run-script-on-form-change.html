@@ -14,7 +14,7 @@
     	console.log(event); // gives us access to the event that triggered it
     	var val = document.getElementById('theInput').value;
     	// or var val = event.target.value;
-      document.getElementById('userEntry').innerHTML = val;
+      document.getElementById('userEntry').innerHTML = '<p>The value the user entered is '+val+'</p>';
     }
 
     document.getElementById('theInput').addEventListener('change', giveValue);

@@ -5,7 +5,7 @@ function getWeather(event){
 	if(!val || val=="") return alert("Enter a Location");
 	console.log("the value is " + val);	
 	// else, need to geocode it 
-	geoCodeIt(val)
+	geoCodeIt(val);
 }
 
 function geoCodeIt(location){
@@ -48,8 +48,8 @@ function getTheWeatherAPI(location, lat, lon){
 	      console.log(response);
 	      // now that we have the weather details, we can build the card
 	      var status = response.currently.summary;
-	      var temp = Math.round(response.currently.temperature);
 	      var icon = response.currently.icon;
+	      var temp = Math.round(response.currently.temperature);
 
 	      // reset the input value
 	      document.getElementById("theInput").value = '';
@@ -72,7 +72,7 @@ function addCard(location, status, temp, icon){
 	  '</div>'+
 	'</div>';
 
-  return $('#card-holder').append(htmlToAppend);
+  return $('#card-holder').prepend(htmlToAppend);
 }
 
 document.getElementById('theInput').addEventListener('change', getWeather);

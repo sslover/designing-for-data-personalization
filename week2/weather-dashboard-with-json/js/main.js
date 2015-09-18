@@ -19,7 +19,7 @@ function init(){
 	      // now, let's get the weather for each one
 	      placesToRender.forEach(function(e){
 	      	geoCodeIt(e);
-	      }) 
+	      })
 	    }
 	});	
 }

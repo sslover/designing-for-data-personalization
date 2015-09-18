@@ -66,6 +66,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Manxue](http://www.manxuew.com/blog/?category=Designing+for+Data+Person)
 * [Greg](http://www.madebygreg.co/category/itp/designing-for-data-personalization/)
 * [Changyeon](http://www.changyeonlee.com/design-for-data-personalization/)
+* [Sam](http://samsonthebrave.github.io/Data-Personalization/)
 
 Listserv
 --------
@@ -326,7 +327,9 @@ Week 3
         * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
         * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
 
-    * Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
+    * 2 options 
+        * 1) Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
+        * 2) Continue on your work from last week or create an entirely new example that uses a JS script to get data and generate in it on a webpage in an interesting way.
 
     * Start Work on Design Challenge 1 - Making Data Personal & Playful 
         * By next week's class, you should be 100% clear on how you are getting your data (whether it is from a 3rd party API or your own JSON)

@@ -8,10 +8,10 @@ function preload() {
 function setup() {
 	console.log(weather);
 	createCanvas(windowWidth,windowHeight);
-	background(255);
 }
 
 function draw() {
+	background(255);
 	// do something really simple
 	// let's set the background based on the temp
 	// want equal width squares based on the number of values returned
