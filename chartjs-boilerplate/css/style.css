@@ -1,0 +1,12 @@
+/**************/
+/* Custom CSS */
+/**************/
+
+h1{
+	text-align: center
+}
+
+canvas{
+	margin: 0 auto;
+  display: block;
+}
