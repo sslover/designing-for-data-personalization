@@ -364,8 +364,11 @@ Week 4
     * Using Javascript to create charts - chart.js demo
         * [See Chart.js documentation here](http://www.chartjs.org/docs/)
         * [See Chart.js boilerplate folder here](https://github.com/sslover/designing-for-data-personalization/tree/master/chartjs-boilerplate)
+        * [Example project 1 - Charts](http://samslover.com/examples/simple-weather/)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example)**
     * How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
-
+        * [Example project 2 - Charts + Sketch](http://samslover.com/examples/charts-example-with-sketch/)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
 * **Assignment Week 4:**
     * Complete Design Challenge 1 - Making Data Personal & Playful
         * Requirements (due Week 5)
