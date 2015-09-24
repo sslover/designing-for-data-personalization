@@ -14,7 +14,7 @@ In this class, we'll examine how personalized design can give people more meanin
 
 The course will have 3 main design challenges through which we will learn & practice the above concepts:
 
-1. **Making (Dry) Data Personal & Playful** - Personality and playfulness can go a long way in creating richer interactions around data. We’ll examine how to make seemingly 'boring' data interesting through design and personalization strategies.
+1. **Making Data Personal & Playful** - Personality and playfulness can go a long way in creating richer interactions around data. We’ll examine how to make data more interesting through design and personalization strategies.
 
 2. **Designing for the Self** - It often helps to start by designing for our own problems. We'll explore how to track and design around a dataset of our own that we'd like to better understand. 
 
@@ -125,7 +125,7 @@ Design Challenges
 
 We will have 3 core design challenges through which you will get to develop and hone skills learned during the class. You will have ~3 weeks to do each design challenge. Presentations will occur on the following dates:
 
-- **Class 5 (October 1)**: Making (Dry) Data Personal & Playful
+- **Class 5 (October 1)**: Making Data Personal & Playful
 - **Class 9 (October 29)**: Designing for the Self
 - **Class 12 (November 19)**: Recontextualizng Everyday Data
 
@@ -172,7 +172,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
     * Instructor/Topic Intro
     * Syllabus Overview
 * Design Topic: Examples & Inspiration for the class   
-    * **Making 'Dry/Unapproachable' Data Personal & Playful**
+    * **Making Data Personal & Playful**
         * [NYC Income Inequality](http://projects.newyorker.com/story/subway/)
         * [Slavery Footprint](http://slaveryfootprint.org/#where_do_you_live)
         * [Out of Sight, Out of Mind - Drone Strikes](http://drones.pitchinteractive.com/)
@@ -296,14 +296,13 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * Detect the user's location via the browser and do something based on it (see [this resource in getting geolocation from the browser](http://www.w3schools.com/html/html5_geolocation.asp))
         * Tell a simple data story about your family, pets, favorite bands, etc.
 
-    * Investigate possible datasets for Design Challenge 1 - Making (Dry) Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
+    * Investigate possible datasets for Design Challenge 1 - Making Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
 
 Week 3
 ---------
 * Group Presentation 1
     * Matthew
     * Daria
-* Design Topic - Setting the Mood: Colors, Typography and more.
 * More from last week. JS/JS Events/AJAX/Updating the DOM. Key links:
     * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
     * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
@@ -355,13 +354,16 @@ Week 4
     * Sam
     * Soni
 * HW demos
-* 1-minute roundtable: Which datasets are you thinking about for design challenge 1?    
-* Finish p5js examples
+* 1-minute roundtable: Which datasets are you thinking about for design challenge 1? 
+* Design Topic - Setting the Mood: Colors, Typography and more.   
+* Finish p5js examples. Creating p5js objects. 
 
 **BREAK**
 
 * **Technical topic:**
     * Using Javascript to create charts - chart.js demo
+        * [See Chart.js documentation here]()
+        * [See Chart.js boilerplate folder here](http://www.chartjs.org/docs/)
     * How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
 
 * **Assignment Week 4:**
@@ -377,6 +379,9 @@ Week 4
 Week 5
 ------
 * **Student Presentations: Making Data Personal & Playful**
+
+* **Assignment Week 5:**
+    * In Weeks 6-8, we will be learning how to track and store our own data. In preparation, brainstorm 2-3 datasets that you are interested in tracking. **Post them to you blog**.
 
 Weeks 6-8
 ---------

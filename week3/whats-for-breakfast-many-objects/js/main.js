@@ -3,7 +3,7 @@ var images = []; // an array that will hold our images
 var foods = []; // an array that will hold our food instances
 var buttons = []; // an array that will hold our button instances
 var buttonLabels = ['Calories', 'Carbs', 'Fat', 'Protein']; // the labels for our buttons
-var shouldShowStats = false; // should we show stats
+var shouldShowStats = false; // should we be showing the stats on top of the products
 var currentStat; // the current stat to show
 
 function preload() {
@@ -13,33 +13,8 @@ function preload() {
 
 function setup() {
 	createCanvas(1200,1050);
-	// let's create our buttons
-	var buttonXPos = 50; // the starting X location point
-	var buttonYPos = 50; // the starting Y location point
-	var increment = 250; // the amount to increment each time
-	for(var i=0;i<buttonLabels.length;i++){
-		buttons[i] = new Button(buttonXPos,buttonYPos,200,50,'#5bb6d5',buttonLabels[i]);
-		buttonXPos += increment; // increment x location
-	}
-	// now, need to loop through the all our data
-	// 1. load all the images
-	// 2. create all our food instances
-	var xPos = 0; // the starting X location point
-	var yPos = 150; // the starting Y location point
-	var width = 300; // the width of the square; the amount we want to increment each time
-	for(var i=0;i<data.length;i++){
-		// load the image for the food in the p5 format
-		images[i] = loadImage("img/"+data[i].img);
-		// create the food instance, 
-		// passing in the data and the image for that food
-		foods[i] = new Food(data[i],images[i],xPos,yPos,width);
-		// increment the locations by the width
-		xPos += width;
-		if(xPos+width>width*4) {
-			xPos = 0; // if it gets above 4 in a row, xPos goes to back to 0
-			yPos += width; // yPos gets incremented to the next row
-		}
-	}
+	createButtons();
+	createFoods();
 }
 
 function draw() {
@@ -74,6 +49,39 @@ function mousePressed() {
 	}
   // prevent default
   return false;
+}
+
+function createButtons(){
+	// let's create our buttons
+	var buttonXPos = 50; // the starting X location point
+	var buttonYPos = 50; // the starting Y location point
+	var increment = 250; // the amount to increment each time
+	for(var i=0;i<buttonLabels.length;i++){
+		buttons[i] = new Button(buttonXPos,buttonYPos,200,50,'#5bb6d5',buttonLabels[i]);
+		buttonXPos += increment; // increment x location
+	}	
+}
+
+function createFoods(){
+	// now, need to loop through the all our data
+	// 1. load all the images
+	// 2. create all our food instances
+	var xPos = 0; // the starting X location point
+	var yPos = 150; // the starting Y location point
+	var width = 300; // the width of the square; the amount we want to increment each time
+	for(var i=0;i<data.length;i++){
+		// load the image for the food in the p5 format
+		images[i] = loadImage("img/"+data[i].img);
+		// create the food instance, 
+		// passing in the data and the image for that food
+		foods[i] = new Food(data[i],images[i],xPos,yPos,width);
+		// increment the locations by the width
+		xPos += width;
+		if(xPos+width>width*4) {
+			xPos = 0; // if it gets above 4 in a row, xPos goes to back to 0
+			yPos += width; // yPos gets incremented to the next row
+		}
+	}	
 }
 
 // our food class 
@@ -136,6 +144,9 @@ function Button(x,y,width,height,hex,label){
 		text(this.label,this.x+this.w/2,this.y+this.h/1.75);
 	}
 
+	// checks to see if the current mouse location is over the button
+	// if so, returns that buttons' label as a reference
+	// else returns null
 	this.isOver = function(xPos,yPos){
 		if(xPos >= this.x && xPos <= this.x+this.w && yPos >= this.y && yPos <= this.y+this.h){
 			return this.label;
