@@ -8,6 +8,10 @@ body{
 	font-family: 'Quattrocento Sans';
 }
 
+.container{
+		width: 1200px !important;
+    max-width: none !important;	
+}
 canvas {
 	width: 100%;
 }

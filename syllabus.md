@@ -363,7 +363,7 @@ Week 4
 * **Technical topic:**
     * Using Javascript to create charts - chart.js demo
         * [See Chart.js documentation here](http://www.chartjs.org/docs/)
-        * [See Chart.js boilerplate folder here]()
+        * [See Chart.js boilerplate folder here](https://github.com/sslover/designing-for-data-personalization/tree/master/chartjs-boilerplate)
     * How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
 
 * **Assignment Week 4:**

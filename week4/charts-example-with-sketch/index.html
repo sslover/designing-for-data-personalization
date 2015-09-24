@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello World</title>
 
     <!-- Custom Font -->
@@ -28,7 +27,7 @@
     <!-- ROW 1-->
       <div class="row">
         <!-- START DOUGHNUT CHART SECTION -->
-        <div class="col-md-4">
+        <div class="col-xs-4">
           <h4>Dinners Cooked Vs. Dinners Bought (Total)</h4>
           <div class="stats-holder">
             <span id="cookedCount"></span> Dinners Cooked
@@ -42,7 +41,7 @@
         </div>
         <!-- END DOUGHNUT CHART SECTION -->  
         <!-- START BAR CHART SECTION -->  
-        <div class="col-md-8">
+        <div class="col-xs-8">
           <h4>Dinners Cooked Vs. Dinners Bought (by Day)</h4>
           <div id="barChartLegend" class="legend"></div>
           <canvas id="barChart"></canvas>
@@ -53,7 +52,7 @@
     <!-- ROW 2 -->
       <div class="row">
         <!-- START LINE CHART SECTION -->
-        <div class="col-md-12">
+        <div class="col-xs-12">
           <h4>Dinners Cooked Vs. Dinners Bought (Sept, 2015 - Overall)</h4>
           <div id="lineChartLegend" class="legend"></div>
           <canvas id="lineChart"></canvas>
@@ -61,6 +60,16 @@
         <!-- END LINE CHART SECTION -->
       </div>
       <!-- END Row 2 -->
+      <!-- Row 3 -->
+      <div class="row">
+        <div class="col-xs-12">
+        <h4>Hover on a Day to See Its Data</h4>
+          <div id="sketch-holder">
+            
+          </div>
+        </div>
+      </div>
+      <!-- END Row 3-->
 
     </div>  
   </body>
@@ -71,6 +80,13 @@
     <!-- CHART JS -->
     <script src="js/Chart.js"></script>
 
+    <!-- P5 JS -->
+    <script src="js/P5.js"></script>
+
     <!-- CUSTOM JS -->
     <script src="js/main.js"></script>
+
+    <!-- CUSTOMER SKETCH JS -->
+    <script src="js/sketch.js"></script>
+
 </html>

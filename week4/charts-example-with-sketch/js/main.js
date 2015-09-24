@@ -20,8 +20,6 @@ function init(){
 
 // set default options for ALL charts
 function setChartDefaults(){
-	// make it responsive
-	Chart.defaults.global.responsive = true;
 	// set the default line
 	Chart.defaults.global.scaleLineColor = '#fff';
 	// set the font family
