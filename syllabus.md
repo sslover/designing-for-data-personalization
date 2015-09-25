@@ -339,7 +339,7 @@ Week 3
 
     * Start Work on Design Challenge 1 - Making Data Personal & Playful 
         * **By next week's class, you should be 100% clear on how you are getting your data (whether it is from a 3rd party API or your own JSON)**
-        * Requirements (due Week 5)
+        * Requirements (due Week 6)
             * A working interactive Web page that does something interesting with your dataset
             * A blog post that includes the following:
                 * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
@@ -371,7 +371,7 @@ Week 4
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
 * **Assignment Week 4:**
     * Complete Design Challenge 1 - Making Data Personal & Playful
-        * Requirements (due Week 5)
+        * Requirements (due Week 6)
             * A working interactive Web page
             * A blog post that includes the following:
                 * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
@@ -381,7 +381,7 @@ Week 4
 
 Week 5
 ------
-* Group Presentations 3 (Week 6) 
+* Group Presentations 3
     * Ross
     * Sung Hoon
 * More with chart.js
