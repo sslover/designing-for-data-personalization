@@ -381,16 +381,28 @@ Week 4
 
 Week 5
 ------
-* **Student Presentations: Making Data Personal & Playful**
-
-* **Assignment Week 5:**
-    * In Weeks 6-8, we will be learning how to track and store our own data. In preparation, brainstorm 2-3 datasets that you are interested in tracking. **Post them to you blog**.
-
-Weeks 6-8
----------
 * Group Presentations 3 (Week 6) 
     * Ross
     * Sung Hoon
+* More with chart.js
+    * [Example project 1 - Charts](http://samslover.com/examples/charts-example/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example)**
+* How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
+    * [Example project 2 - Charts + Sketch](http://samslover.com/examples/charts-example-with-sketch/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
+* Setting up for back-end JS
+* Go through front-end questions and examples
+
+
+Week 6
+------
+* **Student Presentations: Making Data Personal & Playful**
+
+* **Assignment Week 6:**
+    * In Weeks 6-8, we will be learning how to track and store our own data. In preparation, brainstorm 2-3 datasets that you are interested in tracking. **Post them to you blog**.
+
+Weeks 7-9
+---------
 * Group Presentations 4 (Week 7)
     * Ashley
     * Jingwen

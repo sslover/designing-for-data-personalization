@@ -1,0 +1,386 @@
+[
+	{
+		"name": "Bagel & Cream Cheese",
+		"img": "bagel.png",
+		"color": "#f6937b",
+		"nutrition": {
+			"calories": {
+				"total": "450",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "23"
+			},
+			"fat": {
+				"total": "21.5",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "33"
+			},
+			"carbs": {
+				"total": "54",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "18"
+			},
+			"sugars": {
+				"total": "4",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "14",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "28"
+			}										
+		}
+	},
+	{
+		"name": "Toast + Avocado",
+		"img": "toast-avocado.png",
+		"color": "#ffe28b",
+		"nutrition": {
+			"calories": {
+				"total": "380",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "19"
+			},
+			"fat": {
+				"total": "17",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "27"
+			},
+			"carbs": {
+				"total": "53",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "17"
+			},
+			"sugars": {
+				"total": "8.7",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "12",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "24"
+			}										
+		}
+	},
+	{
+		"name": "Eggs Benedict",
+		"img": "eggs-benedict.png",
+		"color": "#73f0b4",
+		"nutrition": {
+			"calories": {
+				"total": "920",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "46"
+			},
+			"fat": {
+				"total": "55",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "85"
+			},
+			"carbs": {
+				"total": "62",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "21"
+			},
+			"sugars": {
+				"total": "8",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "43",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "86"
+			}										
+		}
+	},
+	{
+		"name": "Donut & Coke",
+		"img": "donut-coke.png",
+		"color": "#ab7fd7",
+		"nutrition": {
+			"calories": {
+				"total": "430",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "22"
+			},
+			"fat": {
+				"total": "16",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "25"
+			},
+			"carbs": {
+				"total": "48",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "25"
+			},
+			"sugars": {
+				"total": "54",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "3",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "6"
+			}										
+		}
+	},
+	{
+		"name": "Pancakes & Syrup",
+		"img": "pancakes.png",
+		"color": "#ffe28b",
+		"nutrition": {
+			"calories": {
+				"total": "420",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "21"
+			},
+			"fat": {
+				"total": "9",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "14"
+			},
+			"carbs": {
+				"total": "75",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "24"
+			},
+			"sugars": {
+				"total": "42",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "9",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "18"
+			}										
+		}
+	},
+	{
+		"name": "Lucky Charms",
+		"img": "lucky-charms.png",
+		"color": "#ab7fd7",
+		"nutrition": {
+			"calories": {
+				"total": "142",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "7"
+			},
+			"fat": {
+				"total": "1",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "2"
+			},
+			"carbs": {
+				"total": "29",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "10"
+			},
+			"sugars": {
+				"total": "14",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "2",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "4"
+			}										
+		}
+	},
+	{
+		"name": "Cinnamon Roll",
+		"img": "cinnamon-roll.png",
+		"color": "#f6937c",
+		"nutrition": {
+			"calories": {
+				"total": "880",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "44"
+			},
+			"fat": {
+				"total": "36",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "85"
+			},
+			"carbs": {
+				"total": "127",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "42"
+			},
+			"sugars": {
+				"total": "59",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "26",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "13"
+			}										
+		}
+	},
+	{
+		"name": "Bacon, Egg & Cheese",
+		"img": "bacon-egg-cheese.png",
+		"color": "#73f0b4",
+		"nutrition": {
+			"calories": {
+				"total": "460",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "44"
+			},
+			"fat": {
+				"total": "11",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "17"
+			},
+			"carbs": {
+				"total": "67",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "22"
+			},
+			"sugars": {
+				"total": "7",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "46",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "23"
+			}										
+		}
+	},
+	{
+		"name": "Yogurt & Granola",
+		"img": "yogurt-granola.png",
+		"color": "#f6937b",
+		"nutrition": {
+			"calories": {
+				"total": "100",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "5"
+			},
+			"fat": {
+				"total": "0",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "0"
+			},
+			"carbs": {
+				"total": "7",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "2"
+			},
+			"sugars": {
+				"total": "7",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "36",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "18"
+			}										
+		}
+	},
+	{
+		"name": "Pizza Slice",
+		"img": "pizza.png",
+		"color": "#73f0b4",
+		"nutrition": {
+			"calories": {
+				"total": "285",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "14"
+			},
+			"fat": {
+				"total": "10",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "15"
+			},
+			"carbs": {
+				"total": "36",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "12"
+			},
+			"sugars": {
+				"total": "3.8",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "24",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "12"
+			}										
+		}
+	},
+	{
+		"name": "Muffin & Coffee",
+		"img": "muffin-coffee.png",
+		"color": "#ab7fd7",
+		"nutrition": {
+			"calories": {
+				"total": "426",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "21"
+			},
+			"fat": {
+				"total": "18",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "27"
+			},
+			"carbs": {
+				"total": "7",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "2"
+			},
+			"sugars": {
+				"total": "37",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "5",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "10"
+			}										
+		}
+	},
+	{
+		"name": "Smoothie King Smoothie",
+		"img": "smoothie.png",
+		"color": "#ffe28b",	
+		"nutrition": {
+			"calories": {
+				"total": "692",
+				"unitOfMeasure": "cals",
+				"dailyValuePercent": "35"
+			},
+			"fat": {
+				"total": "1.5",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "2"
+			},
+			"carbs": {
+				"total": "156",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "52"
+			},
+			"sugars": {
+				"total": "138",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": ""
+			},
+			"protein": {
+				"total": "10.5",
+				"unitOfMeasure": "g",
+				"dailyValuePercent": "21"
+			}										
+		}
+	}				
+]
