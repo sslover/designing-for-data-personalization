@@ -1,6 +1,6 @@
 Designing for Data Personalization Syllabus
 ============================================
-Overview
+Overview!
 ---------------------
 - **Instructor** - Sam Slover (email: slover@nyu.edu)
 - **Office Hours** - Tuesdays 7-9; Thursdays 3-5. Signup at [Google Calendar](https://www.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
