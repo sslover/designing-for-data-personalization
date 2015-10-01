@@ -391,13 +391,13 @@ Week 5
     * [Example project 2 - Charts + Sketch](http://samslover.com/examples/charts-example-with-sketch/)
         * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
 * Go through front-end examples
-    * Common JS Use cases our in the week 5 class folder
-    * [Example project - Chart in HTML/CSS](http://samslover.com/examples/charts-example-with-sketch/)
-        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)** 
-    * [Example project - Google Maps](http://samslover.com/examples/charts-example-with-sketch/)
-        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
-    * [Example project - Notes Dashboard](http://samslover.com/examples/charts-example-with-sketch/)
-        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**           
+    * Common JS Use Cases are in the [week 5 class folder](https://github.com/sslover/designing-for-data-personalization/tree/master/week5)
+    * [Example project - Chart in HTML/CSS/JS (no library)](http://samslover.com/examples/chart-in-html.html)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/blob/master/week5/chart-in-html.html)** 
+    * [Example project - Google Maps](http://samslover.com/examples/google-map/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/google-map)**
+    * [Example project - Notes Dashboard](http://samslover.com/examples/notes-dashboard/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/notes-dashboard)**           
 
 
 Week 6
