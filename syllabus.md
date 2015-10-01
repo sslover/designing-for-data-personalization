@@ -390,7 +390,14 @@ Week 5
 * How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
     * [Example project 2 - Charts + Sketch](http://samslover.com/examples/charts-example-with-sketch/)
         * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
-* Go through front-end questions and examples
+* Go through front-end examples
+    * Common JS Use cases our in the week 5 class folder
+    * [Example project - Chart in HTML/CSS](http://samslover.com/examples/charts-example-with-sketch/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)** 
+    * [Example project - Google Maps](http://samslover.com/examples/charts-example-with-sketch/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
+    * [Example project - Notes Dashboard](http://samslover.com/examples/charts-example-with-sketch/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**           
 
 
 Week 6

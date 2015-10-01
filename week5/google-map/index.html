@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Map</title>
+    <style type="text/css">
+      body,html{margin:0;padding:0;}
+      #map-legend{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 9;
+        background-color: rgba(41,41,41,0.95);
+        color: #fff;
+        text-align: center;
+        text-rendering: optimizeLegibility;
+        font-family: Arial;
+        padding: 20px;
+        overflow: scroll;
+      }
+      p{
+        text-align: left;
+        padding-bottom: 15px;
+        border-bottom: 1px solid white; 
+      }
+      ul {text-align: left;}
+
+      li { 
+         position:relative;
+         margin-top: 12px;
+      }
+      li:before {
+            content:'';
+            display: block;
+            position: absolute;
+            width: 10px;
+            height:10px;
+            border-radius:6px;
+            left: -17px;
+            top: .25em;
+            background-color: #fff;
+      }      
+      li.orange:before{
+        background-color: #fb7045;
+      }  
+      li.purple:before{
+        background-color: #572d88;
+      }
+      .holder{
+        padding: 15px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;        
+      }            
+    </style>
+</head>
+<body>
+  <div id="map-canvas"></div>
+  <div id="map-legend">
+    <h2>Class on a Map</h2>
+  </div>
+</body>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAcN6VtdpM55-CGGyEAWX2qEWs_Qwg4wXM"></script>
+
+  <script src="main.js"></script>
+
+</html>
