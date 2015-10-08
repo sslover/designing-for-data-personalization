@@ -18,11 +18,11 @@ THIS WILL DISAPPEAR IN 5 SECONDS!
 var counter = 0;
 //use set interval to call the count function once every 1000 miliseconds/ once every second
 window.setTimeout(function(){
-	count();
+	disappear();
 }, 5000);
 
 // this version of count() adds to the exisiting innerHTML using strings each time it is called
-var count = function(){
+var disappear = function(){
 	var container = document.getElementById("container");
 	container.innerHTML = 'TOLD YOU SO!';
 }

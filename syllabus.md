@@ -1,6 +1,6 @@
 Designing for Data Personalization Syllabus
 ============================================
-Overview!
+Overview
 ---------------------
 - **Instructor** - Sam Slover (email: slover@nyu.edu)
 - **Office Hours** - Tuesdays 7-9; Thursdays 3-5. Signup at [Google Calendar](https://www.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
@@ -67,6 +67,8 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Greg](http://www.madebygreg.co/category/itp/designing-for-data-personalization/)
 * [Changyeon](http://www.changyeonlee.com/design-for-data-personalization/)
 * [Sam](http://samsonthebrave.github.io/Data-Personalization/)
+* [Ashley](http://www.ashleyaplomb.com/category/ddp/)
+* Marc :(
 
 Listserv
 --------
@@ -370,7 +372,7 @@ Week 4
         * [Example project 2 - Charts + Sketch](http://samslover.com/examples/charts-example-with-sketch/)
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
 * **Assignment Week 4:**
-    * Complete Design Challenge 1 - Making Data Personal & Playful
+    * Work on Design Challenge 1 - Making Data Personal & Playful
         * Requirements (due Week 6)
             * A working interactive Web page
             * A blog post that includes the following:
@@ -398,14 +400,27 @@ Week 5
         * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/google-map)**
     * [Example project - Notes Dashboard](http://samslover.com/examples/notes-dashboard/)
         * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/notes-dashboard)**           
-
+* **Assignment Week 5:**
+    * Complete Design Challenge 1 - Making Data Personal & Playful
+        * Requirements (due Week 6)
+            * A working interactive Web page
+            * A blog post that includes the following:
+                * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
+                * A sketch or wireframe of your concept.
+                * The color palette and fonts that you are using, and why you made these choices.
+                * Any next steps you think would be interesting for the project.
 
 Week 6
 ------
 * **Student Presentations: Making Data Personal & Playful**
 
 * **Assignment Week 6:**
-    * In Weeks 6-8, we will be learning how to track and store our own data. In preparation, brainstorm 2-3 datasets that you are interested in tracking. **Post them to you blog**.
+    * In Weeks 7-9, we will be learning how to track and store our own data. In preparation, brainstorm 2-3 datasets that you are interested in tracking/collecting. **Post them to you blog**. 
+    
+    * Get set up for server-side node. Specifically, you **must** come to class with the following already done:
+        1) Download node.js if you have not already http://nodejs.org/. You can confirm that node is successfully installed on your machine by opening up Terminal (or PUTTY on PC) and typing 'node'. If you don't get an error, it's installed! You can exit the node process with Ctrl+c.
+        2) Download and install the Heroku Toolbelt https://toolbelt.heroku.com, this will give you Foreman and the Heroku CLI (command line interface).
+        3) Set up an account at https://heroku.com (Heroku is a simple way to host and deploy your node apps). You will be asked to enter a credit card, but the apps we will be doing will not incur any charges (they just need a card on file). In fact, all Heroku apps have a starter/free level.        
 
 Weeks 7-9
 ---------

@@ -18,6 +18,7 @@ function addNote(){
 	// now, let's reset the textarea
 	document.getElementById('noteText').value = '';
 
+	// now let's deal with those stats
 	totalNotes++; // increment the notes number by 1
 
 	// get the stats for this note
