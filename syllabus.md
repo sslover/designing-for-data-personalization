@@ -418,12 +418,12 @@ Week 6
     * In Weeks 7-9, we will be learning how to track and store our own data. In preparation, brainstorm 2-3 datasets that you are interested in tracking/collecting. **Post them to you blog**. 
 
     * Get set up for server-side node. Specifically, you **must** come to class with the following already done:
-    
-    1) Download node.js if you have not already <http://nodejs.org/>. You can confirm that node is successfully installed on your machine by opening up Terminal and typing 'node'. If you don't get an error, it's installed! You can exit the node process with Ctrl+c.
 
-    2) Download and install the Heroku Toolbelt <https://toolbelt.heroku.com>, this will give you Foreman and the Heroku CLI (command line interface).
+        1) Download node.js if you have not already <http://nodejs.org/>. You can confirm that node is successfully installed on your machine by opening up Terminal and typing 'node'. If you don't get an error, it's installed! You can exit the node process with Ctrl+c.
 
-    3) Set up an account at <https://heroku.com>. You will be asked to enter a credit card, but the app we are doing will not incur any charges (they just need a card on file). In fact, all Heroku apps have a starter/free level.     
+        2) Download and install the Heroku Toolbelt <https://toolbelt.heroku.com>, this will give you Foreman and the Heroku CLI (command line interface).
+
+        3) Set up an account at <https://heroku.com>. You will be asked to enter a credit card, but the apps we are doing will not incur any charges (they just need a card on file). In fact, all Heroku apps have a starter/free level.     
 
 Weeks 7-9
 ---------
