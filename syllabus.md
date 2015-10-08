@@ -434,6 +434,10 @@ Weeks 7-9
     * Gregoire
     * Manxue
     * Martin
+* Group Presentations 6 (Week 9)
+    * Thea
+    * Changyeon
+    * Song    
 * Server-side javascript with node.js, mongodb, express.js.
 * We will cover technical topics including:
     * Setting up a node.js, express.js, mongodb application
@@ -452,29 +456,20 @@ Weeks 7-9
     * Passive vs Active Data Collection
     * API Documentation Design
 
-Week 9
-------
-* **Student Presentations: Designing for the Self**
-
 Week 10
--------
-* Group Presentations 6
-    * Thea
-    * Changyeon
-    * Song
-* Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
-* Design Topic: Data on Physical Devices & Objects
+------
+* **Student Presentations: Designing for the Self - Demo your API**
 
 Week 11
 -------
+* Guest speakers!
 * Group Presentations 7
     * Chanwook
     * Edson
-* Depending on class preference:
-    * More back-end node examples.
-    * Going beyond the browser. Data on Mobile.
-* Design Topic: TBD
+* Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
+* Design Topic: Data on Physical Devices & Objects
+
 
 Week 12
 -------
-* **Student Presentations: Recontextualizing Everyday Data**
+* **Student Presentations - Final Project: Recontextualizing Data**
