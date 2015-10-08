@@ -24,9 +24,9 @@ function buildLineChart(){
     		// dataset 1
         {
             label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
+	            fillColor: "rgba(107,185,240,0.2)",
+	            strokeColor: "rgba(107,185,240,1)",
+	            pointColor: "rgba(107,185,240,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
@@ -36,9 +36,9 @@ function buildLineChart(){
         // dataset 2
         {
             label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
+	            fillColor: "rgba(107,185,240,0.2)",
+	            strokeColor: "rgba(107,185,240,1)",
+	            pointColor: "rgba(107,185,240,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
