@@ -16,9 +16,6 @@
 //declare and initialize counter variable
 var counter = 0;
 //use set interval to call the count function once every 1000 miliseconds/ once every second
-window.setInterval(function(){
-	count();
-}, 1000);
 
 // this version of count() adds to the exisiting innerHTML using strings each time it is called
 var count = function(){
@@ -26,5 +23,7 @@ var count = function(){
 	container.innerHTML += "<p>" + counter + "</p>";
 	counter++;
 }
+
+window.setInterval(count, 1000);
 
 </script>
