@@ -446,7 +446,7 @@ Week 7
     * .env
     * .gitignore
 * Routes / Routing
-* RESTful APIs
+* [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
 * Database Schemas
     * See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html)
 * CRUD
