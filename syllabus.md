@@ -460,14 +460,14 @@ Week 7
     * Create your first API!
     * Requirements
         * [Clone the boilerplate](https://github.com/sslover/node-express-api-boilerplate)
-        * Create a schema (i.e. model your database). See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html) 
+        * Create your own schema (i.e. model your database in the models folder). See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html) 
         * You must have 5 routes
             1) Create
             2) Retrieve All
             3) Retrive One
             4) Update
             5) Delete
-
+        * Use [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en) for POST requests
 
 Week 8
 -------
