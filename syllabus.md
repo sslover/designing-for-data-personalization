@@ -484,6 +484,7 @@ Week 8
 * More complex data structures (embedded vs ref)
 * Using npm libraries
     * Geocoder example
+    * AWS Example
 * More complex mongo queries (sorts, filters, populates, lean, pushIntoArray, preSave, etc.)
 
 Week 9
@@ -493,7 +494,6 @@ Week 9
     * Changyeon
     * Song    
 * Design Topic: Designing for Multiple Devices & Personalization (cards!)
-* AWS Example
 
 ** BREAK **
 
