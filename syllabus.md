@@ -429,11 +429,11 @@ Week 7
 ------
 
 * Guest Speaker
-    * Kuan Huang of [Poncho](www.poncho.is)
+    * Kuan Huang of [Poncho](http://poncho.is)
 * Group Presentations 4
     * Ashley
     * Jingwen
-* [[Presentation - Overview of Node.js + Express.js + Mongodb + Heroku](https://docs.google.com/presentation/d/1aMGEb074fOsWOj3tprXVgEV9VjrV5INSncwDcKr2Gg4/edit?usp=sharing)
+* [Presentation - Overview of Node.js + Express.js + Mongodb + Heroku](https://docs.google.com/presentation/d/1aMGEb074fOsWOj3tprXVgEV9VjrV5INSncwDcKr2Gg4/edit?usp=sharing)
 
 **BREAK**
 
@@ -472,7 +472,7 @@ Week 7
 Week 8
 -------
 * Guest Speaker
-    * Matt Kamen of [Foursquare](www.foursquare.com)
+    * Matt Kamen of [Foursquare](https://foursquare.com/)
 * Group Presentations 5
     * Gregoire
     * Manxue
