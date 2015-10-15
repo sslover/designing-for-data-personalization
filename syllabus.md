@@ -425,50 +425,97 @@ Week 6
 
         3) Set up an account at <https://heroku.com>. You will be asked to enter a credit card, but the apps we are doing will not incur any charges (they just need a card on file). In fact, all Heroku apps have a starter/free level.     
 
-Weeks 7-9
----------
-* Group Presentations 4 (Week 7)
+Week 7
+------
+
+* Guest Speaker
+    * Kuan Huang of [Poncho](www.poncho.is)
+* Group Presentations 4
     * Ashley
     * Jingwen
-* Group Presentations 5 (Week 8)
+* [[Presentation - Overview of Node.js + Express.js + Mongodb + Heroku](https://docs.google.com/presentation/d/1aMGEb074fOsWOj3tprXVgEV9VjrV5INSncwDcKr2Gg4/edit?usp=sharing)
+
+**BREAK**
+
+* [App Setup - Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
+* App Overview
+    * app.js
+    * routes
+    * models
+    * package.json / node_modules
+    * .env
+    * .gitignore
+* Routes / Routing
+* RESTful APIs
+* Database Schemas
+    * See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html)
+* CRUD
+    * Create
+    * Retrieve (one and all)
+    * Update
+    * Delete
+* To do POST requests, download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
+         
+* **Assignment Week 7:**
+    * Create your first API!
+    * Requirements
+        * [Clone the boilerplate](https://github.com/sslover/node-express-api-boilerplate)
+        * Create a schema (i.e. model your database). See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html) 
+        * You must have 5 routes
+            1) Create
+            2) Retrieve All
+            3) Retrive One
+            4) Update
+            5) Delete
+
+
+Week 8
+-------
+* Guest Speaker
+    * Matt Kamen of [Foursquare](www.foursquare.com)
+* Group Presentations 5
     * Gregoire
     * Manxue
     * Martin
-* Group Presentations 6 (Week 9)
+* Design Topic: User Onboarding
+
+** BREAK **
+
+* More complex data structures (embedded vs ref)
+* Using npm libraries
+    * Geocoder example
+* More complex mongo queries (sorts, filters, populates, lean, pushIntoArray, preSave, etc.)
+
+Week 9
+------
+* Group Presentations 6
     * Thea
     * Changyeon
     * Song    
-* Server-side javascript with node.js, mongodb, express.js.
-* We will cover technical topics including:
-    * Setting up a node.js, express.js, mongodb application
-    * Hosting locally and on Heroku
-    * Modeling, storing, retrieving data
-    * Making Data into an API
-    * Designing APIs for Public Consumption
-    * The Anatomy of A Data-Driven App
-    * Using NPM (3rd party libraries)
-    * Common database operations tips and tricks
-    * Twilio (SMS) integration
-* We will cover design topics including:
-    * Special guest on October 15th
-    * Design Topic: User Onboarding
-    * Designing for Multiple Devices & Personalization (cards!)
-    * Passive vs Active Data Collection
-    * API Documentation Design
+* Design Topic: Designing for Multiple Devices & Personalization (cards!)
+* AWS Example
+
+** BREAK **
+
+* Integrating SMS: Twilio Example
 
 Week 10
 ------
 * **Student Presentations: Designing for the Self - Demo your API**
 
+* Integrating Sockets / Emails
+
 Week 11
 -------
-* Guest speakers!
+* Guest speakers
 * Group Presentations 7
     * Chanwook
     * Edson
-* Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
 * Design Topic: Data on Physical Devices & Objects
 
+** BREAK **
+
+* Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
 
 Week 12
 -------
