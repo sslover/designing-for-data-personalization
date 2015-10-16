@@ -457,11 +457,29 @@ Week 7
 * To do POST requests, download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
          
 * **Assignment Week 7:**
-    * Create your first API!
+    * Get the boilerplate up and running. Email the class list if you run into any issue. Please provide the exact error you are getting and the command you ran that gave you that error.
     * Requirements
         * [Clone the boilerplate](https://github.com/sslover/node-express-api-boilerplate)
-        * Create your own schema (i.e. model your database in the models folder). See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html) 
-        * You must have 5 routes
+        * Add some data using [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
+            * Remember that POSTMAN is just a tool for simulating HTTP requests (the same requests that can originate from a browser, an Arduino Yun, a mobile app, etc.)
+            * You will be posting to the /api/create route.
+            * So, you will want to choose the POST option and then enter: http://localhost:3000/api/create
+            * Choose the "Body" tab and then x-www-form-urlencoded
+            * Enter key, value pairs. Look at the schema to see the data that is modeled. Examples:
+                * name: Billy
+                * tags: cute,black,puppy 
+                * age: 8
+            * (the tags example is a comma-separated list that gets made into an array.. this is a standard approach)
+        * Once you have some data, play around with the other routes that are in index.js (you can go to GET routes in your browser, but need to make POST routes from POSTMAN):
+            * http://localhost:3000/api/get (GET route)
+            * http://localhost:3000/api/get/:id (GET route)
+            * http://localhost:3000/api/delete/:id (GET route)
+            * http://localhost:3000/api/update/:id (POST route - use POSTMAN)
+            * http://localhost:3000/api/create (POST route - use POSTMAN)
+        * Once you are comfortable, push the app to the heroku app you created (see the repo... it's the part with git push heroku master)
+        * NOW - Create your own schema (i.e. model your database in the models folder). See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html) 
+        * If you are comfortable, update the boilerplate to work with your own schema (i.e. change it away from the animal schema to the schema you have created)
+        * You should have at least 5 routes, and they should be done in a RESTful style:
             1) Create
             2) Retrieve All
             3) Retrive One
