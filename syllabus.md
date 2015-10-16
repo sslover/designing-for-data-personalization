@@ -471,11 +471,16 @@ Week 7
                 * age: 8
             * (the tags example is a comma-separated list that will get made into an array.. this is a standard approach)
         * Once you have some data, play around with the other routes that are in index.js (you can go to GET routes in your browser, but need to make POST routes from POSTMAN):
-            * http://localhost:3000/api/get (GET route)
-            * http://localhost:3000/api/get/:id (GET route - copy and paste the id in place of :id... you can see the id in the response of http://localhost:3000/api/get)
-            * http://localhost:3000/api/delete/:id (GET route - copy and paste the id in place of :id... you can see the id in the response of http://localhost:3000/api/get)
-            * http://localhost:3000/api/update/:id (POST route - use POSTMAN)
-            * http://localhost:3000/api/create (POST route - use POSTMAN)
+            * http://localhost:3000/api/get
+                * (GET route)
+            * http://localhost:3000/api/get/:id
+                * (GET route - copy and paste the id in place of :id... you can see the id in the response of http://localhost:3000/api/get)
+            * http://localhost:3000/api/delete/:id
+                * (GET route - copy and paste the id in place of :id... you can see the id in the response of http://localhost:3000/api/get)
+            * http://localhost:3000/api/update/:id 
+                * (POST route - use POSTMAN)
+            * http://localhost:3000/api/create 
+                * (POST route - use POSTMAN)
         * Once you are comfortable, push the app to the heroku app you created (see the repo... it's the part with git push heroku master)
         * NOW - Create your own schema (i.e. model your database in the models folder). See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html) 
         * If you are comfortable, update the boilerplate to work with your own schema (i.e. change it away from the animal schema to the schema you have created)
