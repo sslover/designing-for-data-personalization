@@ -459,7 +459,7 @@ Week 7
 * **Assignment Week 7:**
     * Get the boilerplate up and running. Email the class list if you run into any issue. Please provide the exact error you are getting and the command you ran that gave you that error.
     * Requirements
-        * [Clone the boilerplate](https://github.com/sslover/node-express-api-boilerplate)
+        * [Download the boilerplate zip](https://github.com/sslover/node-express-api-boilerplate) (do not clone it!)
         * Add some data using [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
             * Remember that POSTMAN is just a tool for simulating HTTP requests (the same requests that can originate from a browser, an Arduino Yun, a mobile app, etc.)
             * You will be posting to the /api/create route.
