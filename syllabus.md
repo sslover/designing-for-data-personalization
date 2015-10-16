@@ -469,7 +469,7 @@ Week 7
                 * name: Billy
                 * tags: cute,black,puppy 
                 * age: 8
-            * (the tags example is a comma-separated list that gets made into an array.. this is a standard approach)
+            * (the tags example is a comma-separated list that will get made into an array.. this is a standard approach)
         * Once you have some data, play around with the other routes that are in index.js (you can go to GET routes in your browser, but need to make POST routes from POSTMAN):
             * http://localhost:3000/api/get (GET route)
             * http://localhost:3000/api/get/:id (GET route)
