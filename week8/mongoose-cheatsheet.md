@@ -4,10 +4,10 @@ Mongoose Cheat Sheet
 Common methods for interacting with Mongodb via Mongoose.
 
 There are 4 core activities:
-	* Creating
-	* Retrieving
-	* Updating
-	* Deleting
+* Creating
+* Retrieving
+* Updating
+* Deleting
 
 When retrieving documents, there's also some goodies that allow you to make better queries:
 	* Where - define specific attributes to search by
