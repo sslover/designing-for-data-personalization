@@ -129,9 +129,9 @@ Let's try it out, using a combination of these (you can use just 1 of these, or 
 		.where('name').equals('Sam')
 		.where('age').gt(17).lt(40)
 		.sort('-name')
-	  .limit(5)
-	  .skip(2)
-	  .exec(function(err,data){
+		.limit(5)
+		.skip(2)
+		.exec(function(err,data){
 			// err
 			if(err) console.log('we have error -> ' + err);
 
