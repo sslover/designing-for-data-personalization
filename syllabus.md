@@ -545,7 +545,7 @@ Week 9
 
 Week 10
 ------
-* **Student Presentations: Designing for the Self - Demo your API**
+* **Student Presentations: Demo your API**
 
 * Integrating AWS for saving images/files, etc.
 * Integrating emails
