@@ -311,15 +311,15 @@ Removes all documents that match a given parameter
 A slightly different way of doing it:
 
 	// let's remove all documents where age is greater than 20
-  Person.remove().where('age').gt(20).exec(function(err,data){
+	Person.remove().where('age').gt(20).exec(function(err,data){
 		// err
 		if(err) console.log('we have error -> ' + err);
 
 		// let's log out all the results
 		console.log(data);
-  })
+	})
 
-Or, if you're feeling crazy, remove all docs
+Or, if you're really feeling crazy, remove all docs
 
 	Person.remove({},function(err,data){
 			// err
