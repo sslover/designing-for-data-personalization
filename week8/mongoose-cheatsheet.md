@@ -3,7 +3,7 @@ Mongoose Cheat Sheet
 
 Common methods for interacting with Mongodb via Mongoose.
 
-There are 4 core activities:
+There are 4 core activities you'll do when interacting with your database:
 * Creating
 * Retrieving
 * Updating
