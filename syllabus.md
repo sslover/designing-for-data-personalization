@@ -505,16 +505,17 @@ Week 8
 ** BREAK **
 
 * Talking to your APIs from a client-application
+* Overview of Routing
+    * [Routing in express.js](http://expressjs.com/guide/routing.html)
+* Overview of Mongoose Cheatsheet
+* Simple Form Example
+* Simple AJAX Example
 * Using npm libraries
     * Geocoder example
-    * AWS Example
-* More complex mongo queries (sorts, filters, populates, lean, pushIntoArray, preSave, etc.)
-* More complex data structures (embedded vs ref)
 
 Week 9
 ------
 * Group Presentations 6
-    * Thea
     * Changyeon
     * Song    
 * Design Topic: Designing for Multiple Devices & Personalization (cards!)
@@ -527,7 +528,8 @@ Week 10
 ------
 * **Student Presentations: Designing for the Self - Demo your API**
 
-* Integrating Sockets / Emails
+* Integrating AWS for saving images/files, etc.
+* Integrating emails
 
 Week 11
 -------
@@ -535,6 +537,7 @@ Week 11
 * Group Presentations 7
     * Chanwook
     * Edson
+    * Thea    
 * Design Topic: Data on Physical Devices & Objects
 
 ** BREAK **
