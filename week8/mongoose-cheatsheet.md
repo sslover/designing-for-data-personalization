@@ -107,6 +107,7 @@ But, if we wanted to include specific search queries, we could do the following:
 		console.log(data);
 	})
 
+But sometimes, we'll want even more-specific queries.
 This is where the following commands really can help:
 
 * Where - define specific attributes to search by
