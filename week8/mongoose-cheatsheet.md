@@ -108,7 +108,7 @@ But, if we wanted to include specific search queries, we could do the following:
 	})
 
 But sometimes, we'll want even more-specific queries.
-This is where the following commands really can help:
+This is where the following commands can really help:
 
 * Where - define specific parameters to search by
 * Sort - sort the values that are returned by a property
