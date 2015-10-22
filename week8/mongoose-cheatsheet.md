@@ -58,7 +58,7 @@ To save a document, you call the .save() method
 	}
 
 	// now we need to create an instance of the Schema/model
-	// and wee pass in the data object from above	
+	// and we pass in the data object from above	
 	var person = new Person(dataToSave);
 
 	// now, we can save the above instance to the db
@@ -66,7 +66,7 @@ To save a document, you call the .save() method
 		// err
 		if(err) console.log('we have error -> ' + err);
 
-		//
+		// let's log out what just got saved
 		console.log(data);
 	})
 
@@ -74,15 +74,82 @@ To save a document, you call the .save() method
 Finding (Retriveing)
 --------------------
 
-We have many different ways of finding docs in our database.
+We have many different ways of finding and returning docs in our database.
 
-**find** 
+See http://mongoosejs.com/docs/queries.html
 
 findById
 
 findOne
 
+**find** 
+
+Find is used to find multiple documents that match a set of queries.
+
+For example, to find all persons in our database (with no specific parameters), we could do:
+
+	Person.find(function(err,data){
+		// err
+		if(err) console.log('we have error -> ' + err);
+
+		// let's log out all the results
+		console.log(data);
+	})
+
+But, if we wanted to include specific search queries, we could do the following:
+
+	// this would return all results where the name matches Barack
+	Person.find({name:"Barack"},function(err,data){
+		// err
+		if(err) console.log('we have error -> ' + err);
+
+		// let's log out all the results
+		console.log(data);
+	})
+
+This is where the following commands really can help:
+
+* Where - define specific attributes to search by
+* Sort - sort the values that are returned by a property
+* Limit - limit the number of results that are returned
+* Skip - skip a certain number of results
+
+Let's try it out, using a combination of these (you can use just 1 of these, or many of them together):
+
+	// this would return all results where:
+	// 1. the name field is equal to Sam
+	// 2. the age is greater than 17, but less than 40
+	// 3. the results returned are sorted by the name
+	// 4. the results returnd are limited to just 5 result
+	// 5. we skip the first 2 results
+
+	Person
+		.find()
+		.where('name').equals('Sam')
+		.where('age').gt(17).lt(40)
+		.sort('-name')
+	  .limit(5)
+	  .skip(2)
+	  .exec(function(err,data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the results
+			console.log(data);
+	  })
+
+A simpler example (remember, we can chain however we want):
+
+	Person.find({name:"Sam"}).sort('-name').limit(15).exec(function(err,data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the results
+			console.log(data);
+	})
+
 Updating (Editing)
+==================
 
 update
 
