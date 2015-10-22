@@ -48,8 +48,7 @@ See http://mongoosejs.com/docs/api.html#model_Model-save
 
 To save a document, you call the .save() method
 
-	// now we need to create an instance of the Schema/model
-	// We do so by passin in a data object of the fields we want to save
+	// First, we create a data object of the fields we want to save
 	var dataToSave = {
 		name: "Barack",
 		age: 54,
@@ -57,6 +56,9 @@ To save a document, you call the .save() method
 		bio: "President of the United States",
 		imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/440px-President_Barack_Obama.jpg"
 	}
+
+	// now we need to create an instance of the Schema/model
+	// We pass in the data object from above	
 	var person = new Person(dataToSave);
 
 	// now, we can save the above instance to the db
