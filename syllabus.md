@@ -528,7 +528,7 @@ Week 8
             4) Update
             5) Delete
         * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
-        * You should submit (POST) data via an HTML form or via AJAX
+        * Submits (POST) data via an HTML form or via AJAX
         * Shows the data on a Webpage
     * Push it to heroku and send me the URL
 
