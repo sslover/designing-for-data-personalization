@@ -273,7 +273,7 @@ We can also remove documents.
 Removes a document based on its id:
 
 	// Mongoose method to remove, http://mongoosejs.com/docs/api.html#model_Model.findByIdAndRemove
-	
+
 	Person.findByIdAndRemove(idWeWantToRemove,function(err, data){
 			// err
 			if(err) console.log('we have error -> ' + err);
@@ -287,13 +287,13 @@ Removes a document based on its id:
 Removes a document based on a given parameter:
 
 	// let's remove the document where name is "Sam Slover"
-  Person.findOneAndRemove({name:"Sam Slover"},function(err, data){
+	Person.findOneAndRemove({name:"Sam Slover"},function(err, data){
 			// err
 			if(err) console.log('we have error -> ' + err);
 
 			// let's log out all the updated data
 			console.log(data);
-  })
+	})
 
 **remove**
 
