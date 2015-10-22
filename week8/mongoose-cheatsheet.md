@@ -308,6 +308,8 @@ Removes all documents that match a given parameter
 			console.log(data);
 	})
 
+A slightly different way of doing it:
+
 	// let's remove all documents where age is greater than 20
   Person.remove().where('age').gt(20).exec(function(err,data){
 		// err
