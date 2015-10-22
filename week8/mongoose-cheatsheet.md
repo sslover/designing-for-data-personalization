@@ -58,7 +58,7 @@ To save a document, you call the .save() method
 	}
 
 	// now we need to create an instance of the Schema/model
-	// We pass in the data object from above	
+	// and wee pass in the data object from above	
 	var person = new Person(dataToSave);
 
 	// now, we can save the above instance to the db
