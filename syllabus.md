@@ -501,15 +501,15 @@ Week 8
     * Gregoire
     * Manxue
     * Martin
-* Design Topic: User Onboarding
 
 ** BREAK **
 
-* More complex data structures (embedded vs ref)
+* Talking to your APIs from a client-application
 * Using npm libraries
     * Geocoder example
     * AWS Example
 * More complex mongo queries (sorts, filters, populates, lean, pushIntoArray, preSave, etc.)
+* More complex data structures (embedded vs ref)
 
 Week 9
 ------
