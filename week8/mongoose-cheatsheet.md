@@ -273,6 +273,7 @@ We can also remove documents.
 Removes a document based on its id:
 
 	// Mongoose method to remove, http://mongoosejs.com/docs/api.html#model_Model.findByIdAndRemove
+	
 	Person.findByIdAndRemove(idWeWantToRemove,function(err, data){
 			// err
 			if(err) console.log('we have error -> ' + err);
