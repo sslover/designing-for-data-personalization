@@ -522,12 +522,13 @@ Week 8
     * Read through the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
     * This week you should build a simple app that does the following:
         * Has at least 5 routes:
-            1) Create
-            2) Retrieve All
-            3) Retrive One
-            4) Update
-            5) Delete
-        * Submits data via an HTML form or via AJAX
+        1) Create
+        2) Retrieve All
+        3) Retrive One
+        4) Update
+        5) Delete
+        * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+        * You should submit (POST) data via an HTML form or via AJAX
         * Shows the data on a Webpage
     * Push it to heroku and send me the URL
 
