@@ -10,10 +10,10 @@ There are 4 core activities you'll do when interacting with your database:
 * Deleting
 
 When retrieving documents, there's also some goodies that allow you to make better queries:
-	* Where - define specific attributes to search by
-	* Sort - sort the values that are returned by a property
-	* Limit - limit the number of results that are returned
-	* Skip - skip a certain number of results
+* Where - define specific attributes to search by
+* Sort - sort the values that are returned by a property
+* Limit - limit the number of results that are returned
+* Skip - skip a certain number of results
 
 All the below examples assume the following Schema (in our models file):
 
