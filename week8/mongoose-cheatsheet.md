@@ -9,7 +9,7 @@ There are 4 core activities you'll do when interacting with your database:
 * Updating
 * Deleting
 
-When retrieving documents, there's also some goodies that allow you to make better queries:
+When retrieving documents, there's also some goodies that allow you to make smarter, more-specific queries:
 * Where - define specific attributes to search by
 * Sort - sort the values that are returned by a property
 * Limit - limit the number of results that are returned
