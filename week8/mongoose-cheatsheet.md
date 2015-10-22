@@ -272,14 +272,14 @@ We can also remove documents.
 
 Removes a document based on its id:
 
-  // Mongoose method to remove, http://mongoosejs.com/docs/api.html#model_Model.findByIdAndRemove
-  Person.findByIdAndRemove(idWeWantToRemove,function(err, data){
+	// Mongoose method to remove, http://mongoosejs.com/docs/api.html#model_Model.findByIdAndRemove
+	Person.findByIdAndRemove(idWeWantToRemove,function(err, data){
 			// err
 			if(err) console.log('we have error -> ' + err);
 
 			// let's log out all the updated data
 			console.log(data);
-  })
+	})
 
 **findOneAndRemove**
 
@@ -299,13 +299,13 @@ Removes a document based on a given parameter:
 Removes all documents that match a given parameter
 
 	// let's remove all documents where gender is male
-  Person.remove({gender:"male"},function(err, data){
+	Person.remove({gender:"male"},function(err, data){
 			// err
 			if(err) console.log('we have error -> ' + err);
 
 			// let's log out all the updated data
 			console.log(data);
-  })
+	})
 
 	// let's remove all documents where age is greater than 20
   Person.remove().where('age').gt(20).exec(function(err,data){
