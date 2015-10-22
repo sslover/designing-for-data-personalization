@@ -139,8 +139,13 @@ Let's try it out, using a combination of these (you can use just 1 of these, or 
 			console.log(data);
 	  })
 
-A simpler example (remember, we can chain however we want):
+A simpler example (remember, we can chain these however we want):
 
+	// this would return all results where:
+	// 1. name is equal to Sam
+	// 2. the results are sorted by the name
+	// 3. we limit to 15 results
+	
 	Person.find({name:"Sam"}).sort('-name').limit(15).exec(function(err,data){
 			// err
 			if(err) console.log('we have error -> ' + err);
