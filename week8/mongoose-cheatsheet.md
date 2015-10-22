@@ -110,7 +110,7 @@ But, if we wanted to include specific search queries, we could do the following:
 But sometimes, we'll want even more-specific queries.
 This is where the following commands really can help:
 
-* Where - define specific attributes to search by
+* Where - define specific parameters to search by
 * Sort - sort the values that are returned by a property
 * Limit - limit the number of results that are returned
 * Skip - skip a certain number of results
