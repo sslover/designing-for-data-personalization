@@ -507,11 +507,29 @@ Week 8
 * Talking to your APIs from a client-application
 * Overview of Routing
     * [Routing in express.js](http://expressjs.com/guide/routing.html)
-* Overview of Mongoose Cheatsheet
-* Simple Form Example
-* Simple AJAX Example
+* [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+* Simple Form Example (in class example)
+* Simple AJAX Example:
+    * Interacting with a node-express-mongoose app using AJAX and Google's 
+    geocoder:
+        * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
+        * [Demo](https://pets-of-nyc.herokuapp.com/pets)
 * Using npm libraries
-    * Geocoder example
+    * Geocoder example in above app
+
+* **Assignment Week 8:**
+    * Design topic: Read [Why Cards are the Future of the Web](https://blog.intercom.io/why-cards-are-the-future-of-the-web/)
+    * Read through the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+    * This week you should build a simple app that does the following:
+        * Has at least 5 routes:
+            1) Create
+            2) Retrieve All
+            3) Retrive One
+            4) Update
+            5) Delete
+        * Submits data via an HTML form or via AJAX
+        * Shows the data on a Webpage
+    * Push it to heroku and send me the URL
 
 Week 9
 ------
