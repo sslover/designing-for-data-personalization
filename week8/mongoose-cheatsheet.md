@@ -78,9 +78,32 @@ We have many different ways of finding and returning docs in our database.
 
 See http://mongoosejs.com/docs/queries.html
 
-findById
+**findById**
 
-findOne
+findById allows us to find and return a single document in our db based on its id
+
+	Person.findById(theIdWeWantToFind,function(err,data){
+		// err
+		if(err) console.log('we have error -> ' + err);
+
+		// let's log out all the results
+		console.log(data);		
+	})
+
+**findOne**
+
+However, sometimes we'll want to find a single document based on a parameter other than its id. findOne allows us to do that:
+
+	// let's find the person with name "Kevin Parker"
+	Person.findOne({name:"Kevin Parker"},function(err,data){
+		// err
+		if(err) console.log('we have error -> ' + err);
+
+		// let's log out the result
+		console.log(data);	
+	})
+
+NOTE that if we have multiple "Kevin Parker" results in the above database, it would just return the first one.
 
 **find** 
 
@@ -106,6 +129,17 @@ But, if we wanted to include specific search queries, we could do the following:
 		// let's log out all the results
 		console.log(data);
 	})
+
+One more:
+
+	// this would return all females
+	Person.find({gender:"female"},function(err,data){
+		// err
+		if(err) console.log('we have error -> ' + err);
+
+		// let's log out all the results
+		console.log(data);
+	})	
 
 But sometimes, we'll want even more-specific queries.
 This is where the following commands can really help:
@@ -145,7 +179,7 @@ A simpler example (remember, we can chain these however we want):
 	// 1. name is equal to Sam
 	// 2. the results are sorted by the name
 	// 3. we limit to 15 results
-	
+
 	Person.find({name:"Sam"}).sort('-name').limit(15).exec(function(err,data){
 			// err
 			if(err) console.log('we have error -> ' + err);
@@ -157,24 +191,137 @@ A simpler example (remember, we can chain these however we want):
 Updating (Editing)
 ==================
 
-update
+Update let's us find and update documents in our database.
 
-findOneAndUpdate
+**findByIdAndUpdate**
 
-findByIdAndUpdate
+findByIdAndUpdate allows us to find and update a single document in our db based on its id
+
+	// let's find a specific document and update its name and age
+
+	var dataToUpdate = {
+		name: "Maria",
+		age: 28
+	}
+
+	Person.findByIdAndUpdate(theIdWeWantToFindAndUpdate, dataToUpdate, function(err,data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the updated data
+			console.log(data);
+	})
+
+**findOneAndUpdate**
+
+However, sometimes we'll want to find and update a single document based on a parameter other than its id. findOneAndUpdate allows us to do that:
+
+	// let's find the user with name Daniel O'Sullivan, and change his name to Dano and his bio to "best chair"
+
+	var dataToUpdate = {
+		name: "Dano",
+		bio: "Best Chair"
+	}
+
+	Person.findOneAndUpdate({name:"Daniel O'Sullivan"}, dataToUpdate, function(err,data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the updated data
+			console.log(data);
+	})
+
+**update**
+
+We can also update multiple documents at the same time. We do this using the update function.
+
+For example, if we wanted to find and update every user with the name Sam, and make their bio "Best name evaaaah!"
+
+	var dataToUpdate = {
+		bio: "Best name evaaaah!"
+	}
+
+	Person.update({name:"Sam"},dataToUpdate,function(err,data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the updated data
+			console.log(data);
+	})
+
+Or, let's say we wanted to run a command that updates EVERY person in our database.
+
+	var dataToUpdate = {
+		imageUrl: "https://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif"
+	}
+
+	Person.update({},dataToUpdate,function(err,data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the updated data
+			console.log(data);
+	})
 
 Removing (Deleting)
+===================
 
-findByIdAndRemove
+We can also remove documents.
 
-findOneAndRemove
+**findByIdAndRemove**
 
-Other goodies
+Removes a document based on its id:
 
-sort
+  // Mongoose method to remove, http://mongoosejs.com/docs/api.html#model_Model.findByIdAndRemove
+  Person.findByIdAndRemove(idWeWantToRemove,function(err, data){
+			// err
+			if(err) console.log('we have error -> ' + err);
 
-limit
+			// let's log out all the updated data
+			console.log(data);
+  })
 
-skip
+**findOneAndRemove**
 
+Removes a document based on a given parameter:
 
+	// let's remove the document where name is "Sam Slover"
+  Person.findOneAndRemove({name:"Sam Slover"},function(err, data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the updated data
+			console.log(data);
+  })
+
+**remove**
+
+Removes all documents that match a given parameter
+
+	// let's remove all documents where gender is male
+  Person.remove({gender:"male"},function(err, data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the updated data
+			console.log(data);
+  })
+
+	// let's remove all documents where age is greater than 20
+  Person.remove().where('age').gt(20).exec(function(err,data){
+		// err
+		if(err) console.log('we have error -> ' + err);
+
+		// let's log out all the results
+		console.log(data);
+  })
+
+Or, if you're feeling crazy, remove all docs
+
+	Person.remove({},function(err,data){
+			// err
+			if(err) console.log('we have error -> ' + err);
+
+			// let's log out all the updated data
+			console.log(data);		
+	})
