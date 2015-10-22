@@ -42,7 +42,7 @@ And that the following has been declared at the top of our routes file (index.js
 Creating (Saving)
 -----------------
 
-** Save **
+**Save**
 
 See http://mongoosejs.com/docs/api.html#model_Model-save
 
