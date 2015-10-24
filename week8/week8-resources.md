@@ -2,7 +2,7 @@
 * [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
 
 **Class Example - ITP Directory:**
-* [Demo](http://localhost:3000/directory)
+* [Demo](https://itp-directory.herokuapp.com/directory)
 * [Github Repo](https://github.com/sslover/class-example-itp-directory)
 
 **Interacting with a node-express-mongoose app using AJAX and Google's geocoder:**
