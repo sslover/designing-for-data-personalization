@@ -508,10 +508,9 @@ Week 8
 * Overview of Routing
     * [Routing in express.js](http://expressjs.com/guide/routing.html)
 * [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
-* Simple Form Example (in class example)
 * Simple AJAX Example:
     * Class Example - ITP Directory:
-        * [Demo](http://localhost:3000/directory)
+        * [Demo](https://itp-directory.herokuapp.com/directory)
         * [Github Repo](https://github.com/sslover/class-example-itp-directory)
     * Interacting with a node-express-mongoose app using AJAX and Google's 
     geocoder:
