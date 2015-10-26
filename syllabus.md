@@ -508,10 +508,10 @@ Week 8
 * Overview of Routing
     * [Routing in express.js](http://expressjs.com/guide/routing.html)
 * [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+* Class Example - ITP Directory:
+    * [Demo](https://itp-directory.herokuapp.com/directory)
+    * [Github Repo](https://github.com/sslover/class-example-itp-directory)
 * Simple AJAX Example:
-    * Class Example - ITP Directory:
-        * [Demo](https://itp-directory.herokuapp.com/directory)
-        * [Github Repo](https://github.com/sslover/class-example-itp-directory)
     * Interacting with a node-express-mongoose app using AJAX and Google's 
     geocoder:
         * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
@@ -534,21 +534,47 @@ Week 8
 
 Week 9
 ------
+* Group Presentations 5
+    * Gregoire
+    * Manxue
+    * Martin
 * Group Presentations 6
     * Changyeon
     * Song    
-* Design Topic: Designing for Multiple Devices & Personalization (cards!)
+* Design Topic: Onboarding!
+    * Oscar Health
+    * Poncho
+    * Yummly
+    * Sage
 
 ** BREAK **
 
+* Continue ITP Directory Example
+    * [Demo](https://itp-directory.herokuapp.com/directory)
+    * [Github Repo](https://github.com/sslover/class-example-itp-directory)
+
+* Topics:
+    * [jQuery validation](http://jqueryvalidation.org/) for validating forms
+    * Creating slugs
+    * Edit routes
+    * View Engine ([Hogan Express](https://github.com/vol4ok/hogan-express))
+    * [req.params](http://expressjs.com/api.html#req.params) and [req.query](http://expressjs.com/api.html#req.query)
+
+* Simple AJAX Example:
+    * Interacting with a node-express-mongoose app using AJAX and Google's 
+    geocoder:
+        * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
+        * [Demo](https://pets-of-nyc.herokuapp.com/pets)
+* Using npm libraries
+    * Geocoder example in above app
 * Integrating SMS: Twilio Example
 
 Week 10
 ------
 * **Student Presentations: Demo your API**
 
+* Integrating SMS: Twilio Example
 * Integrating AWS for saving images/files, etc.
-* Integrating emails
 
 Week 11
 -------
