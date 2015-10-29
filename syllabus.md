@@ -582,9 +582,11 @@ Week 9
             4) Edit (via a form POST or via ajax POST)
 
             5) Delete
-            
+
      * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
-    * This week, you must also decide on your final project. This can cover any dataset you are interested in, and should have both a back-end (storage/API) component and a front-end visualization component.
+    
+    * This week, you must also come up with your final project proposal. This can cover any dataset you are interested in, and should have both a back-end (storage/API) component and a front-end visualization component.
+
     * Prepare a 4-minute (max) presentation that covers the following:
         * The API you have created (show us the model and then the working data feed)
         * Tell us about your final project (1-2 slides)
