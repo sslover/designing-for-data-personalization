@@ -567,7 +567,21 @@ Week 9
         * [Demo](https://pets-of-nyc.herokuapp.com/pets)
 * Using npm libraries
     * Geocoder example in above app
-* Integrating SMS: Twilio Example
+
+* **Assignment Week 9:**
+    * This week, you must complete a fully working data app that has the following features:
+        * Has your own data model
+        * Has at least 5 routes:
+            1) Create (via a form post or via ajax post)
+            2) Retrieve One (by ID or some other parameter)
+            3) Retrieve All
+            4) Edit (via a form post or via ajax post)
+            5) Delete
+     * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+    * This week, you must also decide on your final project. This can cover any dataset you are interested in, and should have both a back-end (storage/API) component and a front-end visualization component.
+    * Prepare a 4-minute (max) presentation that covers the following:
+        * The API you have created (show us the model and then the working data feed)
+        * Tell us about your final project (1-2 slides)
 
 Week 10
 ------
