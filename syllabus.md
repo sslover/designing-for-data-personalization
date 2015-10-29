@@ -585,7 +585,7 @@ Week 9
 
      * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
     
-    * This week, you must also come up with your final project proposal. This can cover any dataset you are interested in, and should have both a back-end (storage/API) component and a front-end visualization component.
+    * This week, you must also come up with your final project proposal. This can cover any dataset you are interested in, and should have both a back-end (storage/API) component and a front-end visualization component. However, if there is another type of project you are passionate about that strays from the above, you may also propose it (physical data viz, Web storytelling, etc.)
 
     * Prepare a 4-minute (max) presentation that covers the following:
         * The API you have created (show us the model and then the working data feed)
