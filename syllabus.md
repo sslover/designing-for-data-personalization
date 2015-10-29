@@ -615,4 +615,4 @@ Week 11
 
 Week 12
 -------
-* **Student Presentations - Final Project **
+* **Student Presentations - Final Project**
