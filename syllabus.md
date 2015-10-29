@@ -593,7 +593,9 @@ Week 9
 
 Week 10
 ------
-* **Student Presentations: Demo your API**
+* **Student Presentations: Demo your API + Present Your Final Project Proposal**
+
+** BREAK **
 
 * Integrating SMS: Twilio Example
 * Integrating AWS for saving images/files, etc.
