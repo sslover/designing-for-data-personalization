@@ -12,11 +12,11 @@ The world is awash with new data, but how can designers take the next step to ma
 
 In this class, we'll examine how personalized design can give people more meaningful and pleasant experiences with their data interactions. We'll explore how new technologies and designs are implementing these personalization strategies and how they're being successful (or not). We’ll learn how to model, generate, and store our own datasets; how to build our own APIs; and ultimately how to design meaningful applications and experiences around this data.
 
-The course will have 3 main design challenges through which we will learn & practice the above concepts:
+The course will have 3 main design topics through which we will learn & practice the above concepts:
 
 1. **Making Data Personal & Playful** - Personality and playfulness can go a long way in creating richer interactions around data. We’ll examine how to make data more interesting through design and personalization strategies.
 
-2. **Designing for the Self** - It often helps to start by designing for our own problems. We'll explore how to track and design around a dataset of our own that we'd like to better understand. 
+2. **Designing for the Self** - It often helps to start by designing for our own problems. We'll explore how to track and design around datasets of our own that we'd like to better understand. 
 
 3. **Re-Contextualizing Everyday Data** - Given the sheer number of daily data interactions, there's so many opportunities to do it better. We'll explore how to take data we encounter everyday (the weather, food labels, subway delays) and re-contextualize it to give people more pleasant and smarter interactions.
 
@@ -40,7 +40,7 @@ Grades
 ------
 
 Grades will be determined according to the following breakdown:
-- 3 Design Challenges: 50%
+- 3 Main Projects: 50%
 - Participation and Attendance: 25%
 - Weekly Assignments: 15%
 - Group Project: 10%
@@ -121,15 +121,6 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
     * Are there are any privacy concerns? Data Limitations? How would you overcome these?
 
 It is up to you how to present it - a series of sketches, mockups, wireframes, or a basic prototype.
-
-Design Challenges
------------------
-
-We will have 3 core design challenges through which you will get to develop and hone skills learned during the class. You will have ~3 weeks to do each design challenge. Presentations will occur on the following dates:
-
-- **Class 5 (October 1)**: Making Data Personal & Playful
-- **Class 9 (October 29)**: Designing for the Self
-- **Class 12 (November 19)**: Recontextualizng Everyday Data
 
 Javascript Resources
 ---------------------
@@ -298,7 +289,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * Detect the user's location via the browser and do something based on it (see [this resource in getting geolocation from the browser](http://www.w3schools.com/html/html5_geolocation.asp))
         * Tell a simple data story about your family, pets, favorite bands, etc.
 
-    * Investigate possible datasets for Design Challenge 1 - Making Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
+    * Investigate possible datasets for Design Project 1 - Making Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
 
 Week 3
 ---------
@@ -339,7 +330,7 @@ Week 3
         * 1) Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
         * 2) Continue on your work from last week or create an entirely new small project that uses a JS script to get data and generate in it on a webpage in an interesting way.
 
-    * Start Work on Design Challenge 1 - Making Data Personal & Playful 
+    * Start Work on Design Project 1 - Making Data Personal & Playful 
         * **By next week's class, you should be 100% clear on how you are getting your data (whether it is from a 3rd party API or your own JSON)**
         * Requirements (due Week 6)
             * A working interactive Web page that does something interesting with your dataset
@@ -356,7 +347,7 @@ Week 4
     * Sam
     * Soni
 * HW demos
-* 1-minute roundtable: Which datasets are you thinking about for design challenge 1? 
+* 1-minute roundtable: Which datasets are you thinking about for design project 1? 
 * Design Topic - Setting the Mood: Colors, Typography and more.   
 * Finish p5js examples. Creating p5js objects. 
 
@@ -372,7 +363,7 @@ Week 4
         * [Example project 2 - Charts + Sketch](http://samslover.com/examples/charts-example-with-sketch/)
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
 * **Assignment Week 4:**
-    * Work on Design Challenge 1 - Making Data Personal & Playful
+    * Work on Design Project 1 - Making Data Personal & Playful
         * Requirements (due Week 6)
             * A working interactive Web page
             * A blog post that includes the following:
@@ -401,7 +392,7 @@ Week 5
     * [Example project - Notes Dashboard](http://samslover.com/examples/notes-dashboard/)
         * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/notes-dashboard)**           
 * **Assignment Week 5:**
-    * Complete Design Challenge 1 - Making Data Personal & Playful
+    * Complete Design Project 1 - Making Data Personal & Playful
         * Requirements (due Week 6)
             * A working interactive Web page
             * A blog post that includes the following:
