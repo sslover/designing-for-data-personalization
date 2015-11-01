@@ -154,5 +154,5 @@ We will do this in the route /api/create/image
 	  });// end of read file
 	})
 
-12. Go back and look in your AWS bucket. You can see you'll have some images there!
+12) Go back and look in your AWS bucket. You can see you'll have some images there!
 
