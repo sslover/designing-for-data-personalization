@@ -6,7 +6,7 @@
 
 3) Click on "S3 - Scalable Storage in the Cloud"
 
-4) Click "Create Bucket". A bucket is AWS terminology for the location where you'll be saving files to. Add a name (names cannot have spaces, so do something like this-is-a-name. Choose the Region closest to you. Click "Create".
+4) Click "Create Bucket". A bucket is AWS terminology for the location where you'll be saving files to. Add a name for your bucket (names cannot have spaces, so do something like this-is-a-name). Choose the Region closest to you and click "Create".
 
 You may want to write down your bucket name. We will be using it in a later step.
 
@@ -20,7 +20,7 @@ You may want to write down your bucket name. We will be using it in a later step
 
 	npm install --save connect-multiparty
 
-8) Now, we need to add your AWS credentials to the .env file (remember that this is a secret file that holds credentials and other private information - we have it in .gitignore so it will not be shared on Github).
+8) Now, we need to add our AWS credentials to the .env file (remember that this is a secret file that holds credentials and other private information - we have it in .gitignore so it will not be shared on Github).
 
 You can get your AWS Access Key and Secret Key by going to https://console.aws.amazon.com/iam/home#security_credential
 
@@ -60,7 +60,7 @@ Now, create a file input:
 
 	<input type="file" name="image" id="image" value="Select a Photo">
 
-The full form HTML is available at [here](https://github.com/sslover/class-example-itp-directory/blob/master/views/add.html)
+The full form HTML is available [here](https://github.com/sslover/class-example-itp-directory/blob/master/views/add.html)
 
 11) Now, we need to add the code on our server's side to be able to 1. accept the file, 2. save it to AWS S3, and 3. save the s3 location of the file to our database.
 
