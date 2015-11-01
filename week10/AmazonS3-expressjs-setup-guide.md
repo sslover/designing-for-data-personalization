@@ -33,6 +33,10 @@ In the .env file, add the following (replacing with your AWS specifics)
 	AWS_BUCKET_NAME=your-bucket-name-goes-here
 	AWS_S3_PATH=https://s3.amazonaws.com/your-bucket-name-goes-here
 
+We also need to add these credentials over at Heroku. Log in to your Heroku account. Click on your app. In the top area, click "Settings." Then click "Reveal Config Vars". 
+
+We'll need to add the above 4 as Config Vars. For example, AWS_ACCESS_KEY will be the 'value' field and YourAccessKeyGoesHere will be the 'key' field. **Make sure you do this for all 4 of the above.**
+
 9) Now, in routes > index.js, add the following code near the top (above your first route):
 
 	// S3 File dependencies
@@ -150,4 +154,5 @@ We will do this in the route /api/create/image
 	  });// end of read file
 	})
 
+12. Go back and look in your AWS bucket. You can see you'll have some images there!
 
