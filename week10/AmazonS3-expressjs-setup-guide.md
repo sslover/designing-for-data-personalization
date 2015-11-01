@@ -154,5 +154,25 @@ We will do this in the route /api/create/image
 	  });// end of read file
 	})
 
+	function cleanFileName (filename) {
+	    
+	    // cleans and generates new filename for example userID=abc123 and filename="My Pet Dog.jpg"
+	    // will return "abc123_my_pet_dog.jpg"
+	    var fileParts = filename.split(".");
+	    
+	    //get the file extension
+	    var fileExtension = fileParts[fileParts.length-1]; //get last part of file
+	    
+	    //add time string to make filename a little more random
+	    d = new Date();
+	    timeStr = d.getTime();
+	    
+	    //name without extension
+	    newFileName = fileParts[0];
+	    
+	    return newFilename = timeStr + "_" + fileParts[0].toLowerCase().replace(/[^\w ]+/g,'').replace(/ +/g,'_') + "." + fileExtension;
+	    
+	}
+
 12) Go back and look in your AWS bucket. You can see you'll have some images there!
 
