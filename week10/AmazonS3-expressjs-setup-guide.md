@@ -10,7 +10,7 @@
 
 You may want to write down your bucket name. We will be using it in a later step.
 
-5) Now, go to your Node/Expressjs app.
+5) Now, go to your Node/Expressjs app (**important -- your node/expressjs app should already be setup and able to run, using the setup guide in the readme. If you have not done that yet, take a minute to setup your app**).
 
 6) In terminal, let's add the AWS npm module. This will allow us to easily interface with our AWS S3 bucket.
 	
