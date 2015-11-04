@@ -37,7 +37,7 @@ We also need to add these credentials over at Heroku. Log in to your Heroku acco
 
 We'll need to add the above 4 as Config Vars. For example, AWS_ACCESS_KEY will be the 'value' field and YourAccessKeyGoesHere will be the 'key' field. **Make sure you do this for all 4 of the above.**
 
-9) Now, in routes > index.js, add the following code near the top (above your first route):
+9) Now, in routes > index.js, add the following code near the top (above your first route). You can reference [this file](https://github.com/sslover/class-example-itp-directory/blob/master/routes/index.js) for an example:
 
 	// S3 File dependencies
 	var AWS = require('aws-sdk');
@@ -54,21 +54,23 @@ We'll need to add the above 4 as Config Vars. For example, AWS_ACCESS_KEY will b
 	var multipart = require('connect-multiparty');
 	var multipartMiddleware = multipart();
 
-10) Now, let's update our form (html) to be able to accept and post files. We need to make the following additions to our form:
+10) Now, let's update our form (html) to be able to accept and post files. The full form HTML is available [here](https://github.com/sslover/class-example-itp-directory/blob/master/views/add-with-image.html) and you can find a demo [here](https://itp-directory.herokuapp.com/add-person-with-image)
+
+We need to make the following additions to our form:
 
 In the opening form tag, add enctype="multipart/form-data"
 
 	<form method="post" action="/your/route/path" id="myForm" enctype="multipart/form-data">
 
-Now, create a file input:
+Now, create a file input (notice the type below):
 
 	<input type="file" name="image" id="image" value="Select a Photo">
-
-The full form HTML is available [here](https://github.com/sslover/class-example-itp-directory/blob/master/views/add.html)
 
 11) Now, we need to add the code on our server's side to be able to 1. accept the file, 2. save it to AWS S3, and 3. save the s3 location of the file to our database.
 
 We will do this in the route /api/create/image
+
+See [this file](https://github.com/sslover/class-example-itp-directory/blob/master/routes/index.js) to find the below code:
 
 	router.post('/api/create/image', multipartMiddleware, function(req,res){
 
@@ -175,4 +177,3 @@ We will do this in the route /api/create/image
 	}
 
 12) Go back and look in your AWS bucket. You can see you'll have some images there!
-
