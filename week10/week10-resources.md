@@ -1,10 +1,10 @@
 **Setting up Amazon S3 for file/image storage**
-* [Setup Guide]()
+* [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week10/AmazonS3-expressjs-setup-guide.md)
 * Example App:
-	* [Demo](https://itp-directory.herokuapp.com/add-person)
+	* [Demo](https://itp-directory.herokuapp.com/add-person-with-image)
 	* [Github Repo](https://github.com/sslover/class-example-itp-directory)
-		* [add.html - the form]()
-		* [index. js - look at/api/create]()
+		* [add-with-image.html - the form](https://github.com/sslover/class-example-itp-directory/blob/master/views/add-with-image.html)
+		* [index. js - look at /api/create/image](https://github.com/sslover/class-example-itp-directory/blob/master/routes/index.js)
 
 **Class Example - ITP Directory:**
 * [Demo](https://itp-directory.herokuapp.com/directory)
