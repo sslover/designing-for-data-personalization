@@ -36,7 +36,7 @@ First thing we'll want to do is install the Twilio npm module for our app. In te
 
 8) We can now interact with our twilio number!
 
-There's a few steps to think through here:
+There's a few steps here:
 
 1. Twilio receives the incoming message.
 2. We setup a callback with Twilio (i.e. how should Twilio communicate the incoming message **back** to your app)
