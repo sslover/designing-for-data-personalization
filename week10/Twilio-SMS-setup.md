@@ -40,7 +40,7 @@ There's a few steps here:
 
 1. Twilio receives the incoming message.
 2. We setup a callback with Twilio (i.e. how should Twilio communicate the incoming message **back** to your app)
-3. Receive the message within the callback
+3. Receive the message within the callback in index.js
 4. Process the message and save to database
 5. Respond back to the user via an SMS
 
@@ -48,7 +48,7 @@ There's a few steps here:
 
 Every time a message comes in, we need to tell Twilio what to do with it. We do that by dictating a callback route on our server (where Twilio should POST that message).
 
-First, we'll set it up at Twilio. Go to your [Phone Numbers](https://www.twilio.com/user/account/messaging/phone-numbers). Click on the phone number you are using.
+First, we'll set that up at Twilio. Go to your [Twilio Phone Numbers](https://www.twilio.com/user/account/messaging/phone-numbers). Click on the phone number you are using.
 
 In the Request URL field, put the following:
 
