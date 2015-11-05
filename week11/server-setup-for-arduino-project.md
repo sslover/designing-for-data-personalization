@@ -10,10 +10,10 @@ Make a note of your static IP. Mine is 54.83.205.153
 
 3) Configure your Arduino Yun to be able to GET data and POST data to your server:
 
-	* Example of Arduino Yun GET sketch
-	* Example of Arduino Yun POST sketch
+* Example of Arduino Yun GET sketch
+* Example of Arduino Yun POST sketch
 
 4) Notice the following routes in the demo project (in index.js):
 
-	
+
 
