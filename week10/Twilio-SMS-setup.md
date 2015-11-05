@@ -1,6 +1,6 @@
 **Setting up Twilio for SMS**
 
-1) First and foremost, make sure you have a working node/express app. If you have not done that yet, go [here](https://github.com/sslover/node-express-api-boilerplate), download the boilerplate repo, and go through the complete setup.
+1) First and foremost, make sure you have a working node/express app. If you have not done that yet, go [here](https://github.com/sslover/node-express-api-boilerplate), download the boilerplate repo, and go through **the complete setup**.
 
 2) Set up an account at Twilio (the SMS service we will be using) - https://www.twilio.com/
 
@@ -19,13 +19,13 @@ In the .env file, add the following (replacing with your Twilio specifics)
 
 We also need to add these credentials over at Heroku. Log in to your Heroku account. Click on your app. In the top area, click "Settings." Then click "Reveal Config Vars". 
 
-We'll need to add the above 2 as Config Vars. For example, TWILIO_ACCOUNT_SID will be the 'value' field and YourAccountSidGoesHere will be the 'key' field. **Make sure you do this for all 2 of the above.** 
+We'll need to add the above 2 as Config Vars. For example, TWILIO_ACCOUNT_SID will be the 'value' field and YourAccountSidGoesHere will be the 'key' field. **Make sure you do this for both of the above.** 
 
 (if you don't do the above setup, your app won't work on Heroku)
 
 6) Now, let's get setup with the Twilio npm module. Full documentation is [here](http://twilio.github.io/twilio-node/)
 
-First thing we'll want to do is install the Twilio npm module. In terminal:
+First thing we'll want to do is install the Twilio npm module for our app. In terminal, navigate to your app and then run:
 
 	npm install --save twilio
 
@@ -36,17 +36,17 @@ First thing we'll want to do is install the Twilio npm module. In terminal:
 
 8) We can now interact with our twilio number!
 
-There's a few steps here:
+There's a few steps to think through here:
 
-1. Receive an incoming message
-2. Setup a callback with Twilio (i.e. how should Twilio communicate the incoming message to your app)
+1. Twilio receives the incoming message.
+2. We setup a callback with Twilio (i.e. how should Twilio communicate the incoming message **back** to your app)
 3. Receive the message within the callback
 4. Process the message and save to database
 5. Respond back to the user via an SMS
 
 **Step 1 -  Receive an incoming message**
 
-Every time a message comes in, we need to tell Twilio what to do with it. We do that by dictating a callback route on our server (where Twilio should send POST that message).
+Every time a message comes in, we need to tell Twilio what to do with it. We do that by dictating a callback route on our server (where Twilio should POST that message).
 
 First, we'll set it up at Twilio. Go to your [Phone Numbers](https://www.twilio.com/user/account/messaging/phone-numbers). Click on the phone number you are using.
 
@@ -56,6 +56,95 @@ https://your-app-name-here.herokuapp.com/twilio-callback
 
 Now, every time a message comes in, Twilio will post it to that route.
 
-In our index.js, we need to create that callback route:
+**Step 2 -  Create the Callback Route**
 
-	router.
+In our index.js, we now need to create that callback route:
+
+	// this route gets called whenever Twilio receives a message
+	router.post('/twilio-callback', function(req,res){
+
+	  // there's lots contained in the body
+	  console.log(req.body);
+
+	  // the actual message is contained in req.body.Body
+	  var incomingMsg = req.body.Body;
+
+		// full fields available in the req.body:
+		// { ToCountry: 'US',
+		// ToState: 'NY',
+		// SmsMessageSid: 'SM9115146d8b3d53529e6b83a79448a6a9',
+		// NumMedia: '0',
+		// ToCity: '',
+		// SmsSid: 'SM9115146d8b3d53529e6b83a79448a6a9',
+		// FromState: 'GA',
+		// FromZip: '30294',
+		// SmsStatus: 'received',
+		// To: '+16468468769',
+		// FromCity: 'ATLANTA',
+		// ApiVersion: '2010-04-01' 
+		// NumSegments: '1',
+		// MessageSid: 'SM9115146d8b3d53529e6b83a79448a6a9',
+		// From: '+14043230470',
+		// AccountSid: 'AC7cc044438cf51cbf44b75a095b40bf05',
+		// ToZip: '',
+		// Body: 'Just testing this demo!',
+		// FromCountry: 'US'}			  
+
+	})
+
+**Step 3, 4, 5 -  Receive the message in the callback, save to database**
+
+	router.post('/twilio-callback', function(req,res){
+
+	  // there's lots contained in the body
+	  console.log(req.body);
+
+	  // the actual message is contained in req.body.Body
+	  var incomingMsg = req.body.Body;
+	  console.log(incomingMsg);
+
+	  var incomingNum = req.body.From;
+
+	  // now, let's save it to our Database
+	  var msgToSave = {
+	    status: incomingMsg,
+	    from: incomingNum
+	  }
+
+	  var status = new Status(msgToSave)
+
+	  status.save(function(err,data){
+	    // set up the twilio response
+	    var twilioResp = new twilio.TwimlResponse();
+	    if(err){
+	      // respond to user
+	      twilioResp.sms('Oops! We couldn\'t save status --> ' + incomingMsg);
+	      // respond to twilio
+	      res.set('Content-Type', 'text/xml');
+	      res.send(twilioResp.toString());      
+	    }
+	    else {
+	      // respond to user
+	      twilioResp.sms('Successfully saved status! --> ' + incomingMsg);
+	      // respond to twilio
+	      res.set('Content-Type', 'text/xml');
+	      res.send(twilioResp.toString());     
+	    }
+	  })
+
+
+	})
+
+9) And we're good to go! Unfortunately, we cannot test this locally as there isn't a great way for Twilio to send a POST to localhost (which is running on your computer). So, we'll need to push it to Heroku and test there:
+
+	git push heroku master
+
+10) Now, we can see the incoming message by turning on server logs at Heroku. In terminal:
+	
+	heroku logs --tail
+
+11) Send a text message to your Twilio number and you should see it come in the Terminal (which is showing the logs of your Heroku server)
+
+
+
+	
