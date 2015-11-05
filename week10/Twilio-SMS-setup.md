@@ -135,7 +135,9 @@ In our index.js, we now need to create that callback route (/twilio-callback):
 
 	})
 
-9) And we're good to go! Unfortunately, we cannot test this locally as there isn't a great way for Twilio to send a POST to localhost (which is running on your computer). So, we'll need to push it to Heroku and test there:
+Full code is [here](https://github.com/sslover/node-express-twilio-sms/blob/master/routes/index.js).
+
+9) And we're good to go! Unfortunately, we cannot test this locally as there isn't really a way for Twilio to send a POST to localhost (remember, that is running on your computer, not a publicly accessible server). So, we'll need to push the app to Heroku and test there:
 
 	git push heroku master
 
@@ -144,7 +146,3 @@ In our index.js, we now need to create that callback route (/twilio-callback):
 	heroku logs --tail
 
 11) Send a text message to your Twilio number and you should see it come in the Terminal (which is showing the logs of your Heroku server)
-
-
-
-	
