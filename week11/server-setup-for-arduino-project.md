@@ -1,4 +1,4 @@
-**Setting up Amazon S3 for file/image storage**
+**Connecting an Arduino Yun to your node server**
 
 1) First and foremost, make sure you have a working node/express app. If you have not done that yet, go [here](https://github.com/sslover/node-express-api-boilerplate), download the boilerplate repo, and go through the complete setup.
 
