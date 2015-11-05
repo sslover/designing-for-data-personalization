@@ -10,7 +10,7 @@
 
 5) Now, we need to add our Twilio credentials to the .env file (remember that this is a secret file that holds credentials and other private information - we have it in .gitignore so it will not be shared on Github).
 
-You can get these credentials by clicking "Show API Credentials" in top right.
+You can get these credentials by clicking "Show API Credentials" in the top right of [this page](https://www.twilio.com/user/account/messaging/dashboard)
 
 In the .env file, add the following (replacing with your Twilio specifics)
 
