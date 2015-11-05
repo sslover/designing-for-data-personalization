@@ -92,7 +92,7 @@ In our index.js, we now need to create that callback route (/twilio-callback):
 
 	})
 
-**Step 3, 4, 5 -  Receive the message in the callback, save to database**
+**Step 3, 4, 5 -  Receive the message in the callback, save to database, respond back to user with an SMS**
 
 	router.post('/twilio-callback', function(req,res){
 
