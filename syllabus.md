@@ -604,12 +604,11 @@ Week 10
 
 Week 11
 -------
-* Guest speakers
+* Guest speakers - Design Topic: Data on Physical Devices & Objects
 * Group Presentations 7
     * Chanwook
     * Edson
     * Thea    
-* Design Topic: Data on Physical Devices & Objects
 
 ** BREAK **
 
