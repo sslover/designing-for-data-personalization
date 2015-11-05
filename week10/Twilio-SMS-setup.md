@@ -54,11 +54,11 @@ In the Request URL field, put the following:
 
 https://your-app-name-here.herokuapp.com/twilio-callback
 
-Now, every time a message comes in, Twilio will post it to that route.
+Now, every time a message comes in, Twilio will post it to the route /twilio-callback on your server.
 
 **Step 2 -  Create the Callback Route**
 
-In our index.js, we now need to create that callback route:
+In our index.js, we now need to create that callback route (/twilio-callback):
 
 	// this route gets called whenever Twilio receives a message
 	router.post('/twilio-callback', function(req,res){
