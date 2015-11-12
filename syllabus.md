@@ -617,7 +617,7 @@ Week 11
 
 * Twilio - Multiple Fields
 
-* More Complex Mongoose - Subdocuments, req.param vs req.query, sort, where
+* More ComplexServer/Mongoose - Layout, Subdocuments, req.param vs req.query, sort, where
 
 
 **HOMEWORK - FINISH YOUR FINAL PROJECT**
