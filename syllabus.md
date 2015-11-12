@@ -619,9 +619,21 @@ Week 11
 * Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
     * [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week11/week11-resources.md)
 
+**HOMEWORK - FINISH YOUR FINAL PROJECT**
 
+For your final project, the following are requirements:
 
-
+    * You must create a working project that you demo in class.
+    * The project should have 2 public links:
+        * Project demo
+        * Github link
+    * You must document it on your blog:
+        * What data did you decide to work with? Why?
+        * What were your key design considerations?
+        * What are some of the key technology processes you used? What was interesting or tricky?
+        * What are the key takeaways for yourself or for your target audience? What did you want them to get from your project?
+        * Where else could you see this project going?
+    * You must email me a link to the blog post, project demo, and github repo.
 
 Week 12
 -------
