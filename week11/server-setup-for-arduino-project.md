@@ -35,6 +35,8 @@ You can now join the network you assigned to the Yún.
 Example of Arduino Yun GET Example
 ----------------------------------
 
+The first example will allow our Yun to get data from our server.
+
 In our server, we have a route that gives us a simple status that our Arduino can act on. Examples of what a server could give our Yun:
 
  * Server relays a status like "awake", "asleep". Our Yun gets that message and acts based on it.
