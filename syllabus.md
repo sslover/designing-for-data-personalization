@@ -626,7 +626,13 @@ For your final project, the following are requirements:
 * You must create a working project that you demo in class.
 * The project should have 2 public links:
     * Project demo
-    * Github link
+    * Github link 
+        * If you've never pushed a repo to github. Here's the deal:
+            * Sign in to your account
+            * Click "New repository" in top right (the + sign)
+            * Give it a name and description and click Create
+            * Then, in terminal, enter the 2 commands in the 2nd box ("push an existing repository from the command line")
+            * Refresh the page and you'll see your repo
 * You must document it on your blog:
     * What data did you decide to work with? Why?
     * What were your key design considerations?
