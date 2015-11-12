@@ -46,6 +46,7 @@ In our server, we'll have a route that gives us a simple status that our Arduino
 **Example of Arduino Yun GET sketch**
 
 See this route: https://twilio-sms-example.herokuapp.com/api/get/latest
+
 Code (see /api/get/latest): https://github.com/sslover/node-express-twilio-sms/blob/master/routes/index.js
 
 We have a route that offers up the latest status from our database. Notice that we are using res.send(), as opposed to res.json(), because we are sending a simple message rather than JSON. This is desirable -- it is best to do most of your logic on the server, and then send a simple state or message for your Arduino to act on.
