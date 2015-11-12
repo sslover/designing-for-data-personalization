@@ -74,7 +74,7 @@ Now, you need to download and configure the proximo add-on. Run the following co
 	git add bin/proximo vendor/dante
 	git commit -m "add proximo stacklet"
 
-Now, we need configure our package.json so that any incoming connectinos will be forwarded through our proxy. In package.json, make sure the start script is as follows:
+Now, we need configure our package.json so that any incoming connections will be forwarded through our proxy. In package.json, make sure the start script is as follows:
 
 	"start": "bin/proximo node ./bin/www"
 
