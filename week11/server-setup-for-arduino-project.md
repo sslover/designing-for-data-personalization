@@ -58,7 +58,7 @@ It is based on Tom Igoe's HTTPClient example: https://www.arduino.cc/en/Tutorial
 Example of Arduino Yun POST Sketch
 -----------------------------------
 
-The above is the process for getting data from the server, but how could we post data to the server. 
+The above is the process for getting data from the server, but how could we post data to the server? It's a tad trickier. 
 
 The first thing we'll have to do is to configure our Heroku app to have a static IP (so that our Yun can post to it). We will use the Heroku add-on [Proximo](https://devcenter.heroku.com/articles/proximo) to accomplish this. In terminal, do the following (note that this costs $5/month, so be sure to cancel it once you're done with this app... you can cancel by removing the add-on at Heroku).
 	
