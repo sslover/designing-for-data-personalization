@@ -628,7 +628,7 @@ For your final project, the following are requirements:
     * Project demo
     * Github link 
         * If you've never pushed a repo to github. Here's the deal:
-            * Sign in to your account
+            * Sign in to your Github account
             * Click "New repository" in top right (the + sign)
             * Give it a name and description and click Create
             * Then, in terminal, enter the 2 commands in the 2nd box ("push an existing repository from the command line")
