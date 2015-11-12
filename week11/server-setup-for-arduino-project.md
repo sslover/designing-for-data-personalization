@@ -84,7 +84,7 @@ Now, push the app to heroku
 
 5) Create the API route on your server
 
-We need a route that can accept data from our Yun as it comes in:
+We need a POST route that can accept data from our Yun as it comes in:
 
 See https://github.com/sslover/node-express-api-arduino-yun/blob/master/routes/index.js
 
