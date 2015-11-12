@@ -639,7 +639,7 @@ For your final project, the following are requirements:
     * What are some of the key technology processes you used? What was interesting or tricky?
     * What are the key takeaways for yourself or for your target audience? What did you want them to get from your project?
     * Where else could you see this project going?
-* You must email me a link to the blog post, project demo, and github repo.
+* **You must email me a link to the blog post, project demo, and github repo.**
 
 Week 12
 -------
