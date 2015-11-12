@@ -634,7 +634,7 @@ For your final project, the following are requirements:
             * Then, in terminal, enter the 2 commands in the 2nd box ("push an existing repository from the command line"). Or, if you've yet to start tracking it with Git, then go with the 1st box ("create a new repository on the command line")
             * Refresh the page and you'll see your repo
 * **You must document it on your blog:**
-    * What data did you decide to work with? Why were you interested in it?
+    * What data did you decide to work with? Why were you interested in this data?
     * What were your key design considerations?
     * What are some of the key technology processes you used? What was interesting or tricky?
     * What are the key takeaways for yourself or for your target audience? What did you want them to get from your project?
