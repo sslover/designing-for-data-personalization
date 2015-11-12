@@ -614,7 +614,7 @@ Week 11
 
 * Twilio - Multiple Fields
 * Mongoose Embedded Docs
-** Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)**
+* Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
 * [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week11/week11-resources.md)
 
 
