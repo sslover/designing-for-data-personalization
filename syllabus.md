@@ -631,7 +631,7 @@ For your final project, the following are requirements:
             * Sign in to your Github account
             * Click "New repository" in top right (the + sign)
             * Give it a name and description and click Create
-            * Then, in terminal, enter the 2 commands in the 2nd box ("push an existing repository from the command line")
+            * Then, in terminal, enter the 2 commands in the 2nd box ("push an existing repository from the command line"). Or, if you've yet to start tracking it with Git, then go with the 1st box ("create a new repository on the command line")
             * Refresh the page and you'll see your repo
 * You must document it on your blog:
     * What data did you decide to work with? Why?
