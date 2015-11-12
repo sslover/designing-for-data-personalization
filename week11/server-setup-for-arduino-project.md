@@ -55,8 +55,8 @@ To see how the Arduino Yun can connect to the above data, see this example: http
 
 It is based on Tom Igoe's HTTPClient example: https://www.arduino.cc/en/Tutorial/HttpClient
 
-Example of Arduino Yun GET Example
-----------------------------------
+Example of Arduino Yun POST Sketch
+-----------------------------------
 
 The above is the process for getting data from the server, but how could we post data to the server. 
 
