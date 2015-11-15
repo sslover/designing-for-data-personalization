@@ -125,22 +125,6 @@ Pinterest
 
 		})
 
-		router.get('/api/get/pinterest/account', function(req,res){
-
-		  var requestedAccount = req.params.account;
-
-		  // Create a new object and set the accountname 
-		  var pinterest = pinterestAPI(requestedAccount);
-
-
-		  // Get all boards for the above account name 
-		  pinterest.getBoards(true, function (boards) {
-		    console.log(boards);
-		    res.json(boards);      
-		  }); 
-
-		})
-
 		router.get('/api/get/pinterest/pins/:account/board/:board', function(req,res){
 
 		  var requestedAccount = req.params.account;
