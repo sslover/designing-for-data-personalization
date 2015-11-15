@@ -63,10 +63,20 @@ Add all 4 of the above as Config Vars, in the manner of key/values (with the fir
 
 For a full list of API methods at Twitter, see https://dev.twitter.com/rest/public
 
-You can change the api method by changing the following in the above example:
+You can change the api method by changing the following in the below code:
 
-* 'statuses/user_timeline' (change to the method you want)
+* 'statuses/user_timeline' (change to the specific method you want to use)
 * {screen_name: requestedScreeName} (change to any parameters you want to pass)
+
+	client.get('statuses/user_timeline', {screen_name: requestedScreeName}, function(error, tweets, response){
+	if (!error) {
+	  console.log(tweets);
+	}
+
+	console.log(tweets);
+
+	res.json(tweets);
+	});
 
 Instagram
 ---------
