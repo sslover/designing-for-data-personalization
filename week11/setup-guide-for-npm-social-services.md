@@ -78,9 +78,85 @@ You can change the api method by changing the following in the below code:
 			res.json(tweets);
 		});
 
-Instagram
+Pinterest
 ---------
 
+1) Install the Pinterest npm module. In terminal:
+
+	cd path/to/your/app
+	npm install --save pinterest-api
+
+2) Declare it at the top of your index.js file
+
+	// PINTEREST SETUP //
+	var pinterestAPI = require('pinterest-api');
+
+3) Now, you need to choose how to use the API (see https://www.npmjs.com/package/pinterest-api). Some basic examples are below. **For each one, you must pass in the account name that you want to get pins for.**
+
+		router.get('/api/get/pinterest/boards/:account', function(req,res){
+
+		  var requestedAccount = req.params.account;
+
+		  // Create a new object and set the accountname 
+		  var pinterest = pinterestAPI(requestedAccount);
+
+
+		  // Get all boards for the above account name 
+		  pinterest.getBoards(true, function (boards) {
+		    console.log(boards);
+		    res.json(boards);      
+		  }); 
+
+		})
+
+		router.get('/api/get/pinterest/pins/:account', function(req,res){
+
+		  var requestedAccount = req.params.account;
+
+		  // Create a new object and set the accountname 
+		  var pinterest = pinterestAPI(requestedAccount);
+
+
+		  // Get all boards for the above account name 
+		  pinterest.getPins(function (pins) {
+		    console.log(pins);
+		    res.json(pins);      
+		  }); 
+
+		})
+
+		router.get('/api/get/pinterest/account', function(req,res){
+
+		  var requestedAccount = req.params.account;
+
+		  // Create a new object and set the accountname 
+		  var pinterest = pinterestAPI(requestedAccount);
+
+
+		  // Get all boards for the above account name 
+		  pinterest.getBoards(true, function (boards) {
+		    console.log(boards);
+		    res.json(boards);      
+		  }); 
+
+		})
+
+		router.get('/api/get/pinterest/pins/:account/board/:board', function(req,res){
+
+		  var requestedAccount = req.params.account;
+		  var requestedBoard = req.params.board;
+
+		  // Create a new object and set the accountname 
+		  var pinterest = pinterestAPI(requestedAccount);
+
+
+		  // Get pins from a board (second parameter determines whether you want the results paginated and to include some metadata) 
+		  pinterest.getPinsFromBoard(requestedBoard, true, function (pins) {
+		    console.log(pins);
+		    res.json(pins);
+		  });
+
+		})
 
 
 
