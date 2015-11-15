@@ -93,6 +93,8 @@ Pinterest
 
 3) Now, you need to choose how to use the API (see https://www.npmjs.com/package/pinterest-api). Some basic examples are below. **For each one, you must pass in the account name that you want to get pins for.**
 
+i.e. you can change the value of :account or :board
+
 		router.get('/api/get/pinterest/boards/:account', function(req,res){
 
 		  var requestedAccount = req.params.account;
