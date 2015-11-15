@@ -5,3 +5,9 @@
 	* [Sketch 1 - Arduino Yun GET example](https://github.com/sslover/node-express-api-arduino-yun/blob/master/arduino_http_client/HttpClientExample.ino)
 	* [Sketch 2 - Arduino Yun POST example](https://github.com/sslover/node-express-api-arduino-yun/blob/master/arduino_post_to_server/arduino_post_to_server.ino)
 
+**Setting up Social Services (NPM)**
+* [Setup Guide]()
+* Example App:
+	* [Repo](https://github.com/sslover/npm-examples-node-express)
+	* [App](https://npm-examples.herokuapp.com/)
+
