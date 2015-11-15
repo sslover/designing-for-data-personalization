@@ -95,6 +95,7 @@ Pinterest
 
 i.e. you can change the value of :account or :board
 
+		// get all boards for the given :account
 		router.get('/api/get/pinterest/boards/:account', function(req,res){
 
 		  var requestedAccount = req.params.account;
@@ -111,6 +112,7 @@ i.e. you can change the value of :account or :board
 
 		})
 
+		// get all pins for the given :account
 		router.get('/api/get/pinterest/pins/:account', function(req,res){
 
 		  var requestedAccount = req.params.account;
@@ -127,6 +129,8 @@ i.e. you can change the value of :account or :board
 
 		})
 
+
+		// get all pins for the board :board for the given :account
 		router.get('/api/get/pinterest/pins/:account/board/:board', function(req,res){
 
 		  var requestedAccount = req.params.account;
