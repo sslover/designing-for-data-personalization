@@ -68,15 +68,15 @@ You can change the api method by changing the following in the below code:
 * 'statuses/user_timeline' (change to the specific method you want to use)
 * {screen_name: requestedScreeName} (change to any parameters you want to pass)
 
-	client.get('statuses/user_timeline', {screen_name: requestedScreeName}, function(error, tweets, response){
-	if (!error) {
-	  console.log(tweets);
-	}
+		client.get('statuses/user_timeline', {screen_name: requestedScreeName}, function(error, tweets, response){
+		if (!error) {
+		  console.log(tweets);
+		}
 
-	console.log(tweets);
+		console.log(tweets);
 
-	res.json(tweets);
-	});
+		res.json(tweets);
+		});
 
 Instagram
 ---------
