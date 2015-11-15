@@ -6,7 +6,7 @@ The below assumes you already have set-up a working nodejs/express app. If you h
 Twitter
 -------
 
-1) Install the Twitter npm modul. In terminal:
+1) Install the Twitter npm module. In terminal:
 
 	cd path/to/your/app
 	npm install --save twitter
