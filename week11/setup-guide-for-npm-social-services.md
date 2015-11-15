@@ -1,7 +1,7 @@
 Setting up Social Services (NPM)
 ================================
 
-All of this assumes you already have set-up a working nodejs/express app. If you have not done that yet, go [here](https://github.com/sslover/node-express-api-boilerplate), download the boilerplate repo, and go through the complete setup.
+The below assumes you already have set-up a working nodejs/express app. If you have not done that yet, go [here](https://github.com/sslover/node-express-api-boilerplate), download the boilerplate repo, and go through the complete setup.
 
 Twitter
 -------
