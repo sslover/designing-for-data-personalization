@@ -101,8 +101,8 @@ You can pick from 2 topics (although if you are really enthusiastic about doing 
 
 * **Topic 2: Quick and dirty visualization project - compile a dataset and visualize it!** - Pick a dataset that you want to compile as a group (you can manually collect it). For example, the average # of dishes left in the ITP sink at different times, noise levels on the ITP floor at different times, style trends spotted on the L train (septum piercings vs sleeve tattoos), etc. It can be anything you find interesting and worth compiling/visualizing.
     * Compile the dataset using any process that works for you (just be prepared to present your process) -- pen/paper, Google Spreadsheet, tallies on a notepad, App connected to a database, etc.
-    * Visualize the dataset in a way that helps relay its key themes and insights -- pen/paper, basic Web dashboard, 3D print, P5 sketch, performance, etc.
-    * Present your project: why did you choose the dataset? what was interesting about it? how did you compile it? what were your hypotheses? how did you ultimately design around the data? what were your key learnings?
+    * Visualize the dataset in a way that helps relay its key themes and insights -- pen/paper, basic Web dashboard, 3D print, P5 sketch, performance, game, etc.
+    * Present your project: why did you choose the dataset? what was interesting about it? how did you compile the data? what were your hypotheses? how did you ultimately design around the data? what were your key learnings? what were some challenges?
 
 Javascript Resources
 ---------------------
@@ -140,9 +140,10 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
     * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
     * We will be collecting the following 4 data points from our partner
         * name
-        * homeLocation
-        * vacationLocation
-        * dataInterest
+        * Home Location
+        * Ideal Vacation Location
+        * Data Interest
+        * Javascript level (1 to 10)
 * Intro to Designing for Data Personalization:
     * Instructor/Topic Intro
     * Syllabus Overview
