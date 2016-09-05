@@ -17,7 +17,7 @@ We will do so by designing 2 core applications or experiences over the course of
 
 1. Midterm project - Designing a new (playful) interaction around a dataset that you personally care about or find deeply interesting (the most important consideration for this project is that it is a dataset that you find uniquely interesting). This dataset can be from an existing source or you can create it.
 
-2. Final project - Designing around your own data (as designing for the self is often the best starting place). Over the course of the 2nd half of the class, you will build an API around a personal dataset that you want to track and better understand, and then will design an application or experience around your personal data (personal data can be extended to community data, like ITP).
+2. Final project - Designing around your own data (as designing for the self is often the best starting place). Over the course of the 2nd half of the class, you will build an API around a personal dataset that you want to track and better understand, and then will design an application or experience around your personal data (personal data can include community data, like ITP).
 
 Students will learn techniques on how to work with existing Web APIs, how to build and use their own Web APIs (with Node.js and Mongodb), and will implement user-facing designs utilizing p5.js and other Web technologies. Class examples will be presented in Javascript. Javascript tutorials will be assigned as a pre-requisite for those with little to no Javascript experience.
 
@@ -86,9 +86,9 @@ Class participation is a critical part of the class, and (along with attendance)
 Group Projects
 --------------
 
-Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 10-minute presentation. 
+Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 15-minute presentation. 
 
-You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
+You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may propose it):
 
 
 * **Topic 1: Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. See Week 1 "Design Topic: Examples & Inspiration for the class" for some services you could analyze
