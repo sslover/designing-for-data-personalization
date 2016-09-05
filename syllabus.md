@@ -15,7 +15,7 @@ In this class, we'll examine how personalized design can give people more meanin
 
 We will do so by designing 2 core applications or experiences over the course of the class:
 
-1. Midterm project - Designing a new (playful) interaction around a dataset that you personally care about or find deeply interesting (the most important consideration for this project is that it is a dataset that you find uniquely interesting). This dataset can be from an existing source or you can create it.
+1. Midterm project - Designing a new (playful) interaction around a dataset that you personally care about or find deeply interesting (the most important consideration for this project is that it is a dataset that **you** find really interesting). This dataset can be from an existing source or you can create it.
 
 2. Final project - Designing around your own data (as designing for the self is often the best starting place). Over the course of the 2nd half of the class, you will build an API around a personal dataset that you want to track and better understand, and then will design an application or experience around your personal data (personal data can include community data, like ITP).
 
@@ -91,7 +91,7 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
 You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may propose it):
 
 
-* **Topic 1: Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. See Week 1 "Design Topic: Examples & Inspiration for the class" for some services you could analyze
+* **Topic 1: Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. See Week 1 "Design Topic: Examples & Inspiration for the class" for some services you could evaluate.
 
     * Make a presentation that covers what the technology/service/project/theme is, what is novel about it, how are people using it and so on.
     * What do you like about it? What would you do differently?
