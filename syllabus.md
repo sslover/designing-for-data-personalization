@@ -298,7 +298,7 @@ Week 5
 
 Week 6
 ------
-* **Student Presentations: **
+* **Student Presentations: Designing a new (playful) interaction around a personally meaningful dataset **
 * Assignment: install everything needed for server-side JS   
 
 Week 7
