@@ -15,7 +15,7 @@ In this class, we'll examine how personalized design can give people more meanin
 
 We will do so by designing 2 core applications or experiences over the course of the class:
 
-1. Midterm project - Designing a new (playful) interaction around a dataset that you personally care about or find deeply interesting (the most important consideration is that it is a dataset that you are uniquely interested in). This dataset could be from an existing source or can be newly created by you.
+1. Midterm project - Designing a new (playful) interaction around a dataset that you personally care about or find deeply interesting (the most important consideration for this project is that it is a dataset that you find uniquely interesting). This dataset could be from an existing source or you can create it.
 
 2. Final project - Designing around our own data (as designing for the self is often the best starting place). Over the course of the 2nd half of the class, students will build an API around a personal dataset that they want to track and better understand, and then will design an application or experience around this personal data.
 
