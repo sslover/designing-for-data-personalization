@@ -15,9 +15,9 @@ In this class, we'll examine how personalized design can give people more meanin
 
 We will do so by designing 2 core applications or experiences over the course of the class:
 
-1. Midterm project - Designing a new (playful) interaction around a dataset that you personally care about or find deeply interesting (the most important consideration for this project is that it is a dataset that you find uniquely interesting). This dataset could be from an existing source or you can create it.
+1. Midterm project - Designing a new (playful) interaction around a dataset that you personally care about or find deeply interesting (the most important consideration for this project is that it is a dataset that you find uniquely interesting). This dataset can be from an existing source or you can create it.
 
-2. Final project - Designing around our own data (as designing for the self is often the best starting place). Over the course of the 2nd half of the class, students will build an API around a personal dataset that they want to track and better understand, and then will design an application or experience around this personal data.
+2. Final project - Designing around your own data (as designing for the self is often the best starting place). Over the course of the 2nd half of the class, you will build an API around a personal dataset that you want to track and better understand, and then will design an application or experience around your personal data (personal data can be extended to community data, like ITP).
 
 Students will learn techniques on how to work with existing Web APIs, how to build and use their own Web APIs (with Node.js and Mongodb), and will implement user-facing designs utilizing p5.js and other Web technologies. Class examples will be presented in Javascript. Javascript tutorials will be assigned as a pre-requisite for those with little to no Javascript experience.
 
