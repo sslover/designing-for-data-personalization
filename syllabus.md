@@ -139,7 +139,7 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
 * Class Exercise: get to know eachother via data collection
     * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
     * We will be collecting the following 4 data points from our partner
-        * name
+        * Name
         * Home Location
         * Ideal Vacation Location
         * Data Interest
@@ -157,7 +157,7 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
         * [Dogs of NYC](http://project.wnyc.org/dogs-of-nyc/)
         * [Just Landed - Mapping the World's Flights ](https://vimeo.com/4587178)
         * [Carbon Emissions](http://emissionsglobe.com/)
-    * **Self-tracking Projects*
+    * **Self-tracking Projects**
         * [Feltron Annual Reports](http://feltron.com/)
         * [WrapGenius - Personalized Journey Into Food](http://wrapgenius.me/)
         * [Reporter App to self track](http://www.reporter-app.com/)
