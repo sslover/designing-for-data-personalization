@@ -91,7 +91,9 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
 You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may propose it):
 
 
-* **Topic 1: Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. See Week 1 "Design Topic: Examples & Inspiration for the class" for some services you could evaluate.
+* **Topic 1: Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around personal data; data personalization; data tracking; physical data installations. 
+
+See Week 1 "Design Topic: Examples & Inspiration for the class" for examples of the types of services you could evaluate.
 
     * Make a presentation that covers what the technology/service/project/theme is, what is novel about it, how are people using it and so on.
     * What do you like about it? What would you do differently?
@@ -99,7 +101,7 @@ You can pick from 2 topics (although if you are really enthusiastic about doing 
     * Are there are any privacy concerns? Data Limitations?
     * Does it fulfill its promise? Where could you see it going in the future?    
 
-* **Topic 2: Quick and dirty project - compile a dataset and visualize it!** - Pick a dataset that you want to compile as a group (you can manually collect it). For example, the average # of dishes left in the ITP sink at different times, noise levels on the ITP floor at different times, the style trends spotted on the L train (septum piercings vs sleeve tattoos), etc.
+* **Topic 2: Quick and dirty project - compile a dataset and visualize it!** - Pick a dataset that you want to compile as a group (you can manually collect it). For example, the average # of dishes left in the ITP sink at different times, noise levels on the ITP floor at different times, style trends spotted on the L train (septum piercings vs sleeve tattoos), etc. It can be anything you find interesting and worth compiling/visualizing.
     * Compile the dataset using any process that works for you (just be prepared to present your process) -- pen/paper, Google Spreadsheet, tallies on a notepad, App connected to a database, etc.
     * Visualize the dataset in a way that helps relay its key themes and insights -- pen/paper, basic Web dashboard, 3D print, P5 sketch, performance, etc.
 
