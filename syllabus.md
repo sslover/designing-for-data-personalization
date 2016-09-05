@@ -3,7 +3,8 @@ Designing for Data Personalization Syllabus
 Overview
 ---------------------
 - **Instructor** - Sam Slover (email: slover@nyu.edu)
-- **Office Hours** - Tuesdays 6-9:30; Signup at [Google Calendar](https://calendar.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
+- **Office Hours** - Wednesday 7-9:30 and Thursday 5:30-6:30 (these Thursday office hours should be for last-minute trouble-shooting and bug fixes); 
+Signup at [Google Calendar](https://calendar.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
 - **Group/Listserv**: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
 
 Description
@@ -12,13 +13,7 @@ The world is awash with new data, but how can designers take the next step to ma
 
 In this class, we'll examine how personalized design can give people more meaningful and pleasant experiences with their data interactions. We'll explore how new technologies and designs are implementing these personalization strategies and how they're being successful (or not). We’ll learn how to model, generate, and store our own datasets; how to build our own APIs; and ultimately how to design meaningful applications and experiences around this data.
 
-The course will have 3 main design topics through which we will learn & practice the above concepts:
-
-1. **Making Data Personal & Playful** - Personality and playfulness can go a long way in creating richer interactions around data. We’ll examine how to make data more interesting through design and personalization strategies.
-
-2. **Designing for the Self** - It often helps to start by designing for our own problems. We'll explore how to track and design around datasets of our own that we'd like to better understand. 
-
-3. **Re-Contextualizing Everyday Data** - Given the sheer number of daily data interactions, there's so many opportunities to do it better. We'll explore how to take data we encounter everyday (the weather, food labels, subway delays) and re-contextualize it to give people more pleasant and smarter interactions.
+We will do so by designing around our own data (as designing for the self is often the best starting place). Students will build an API around a personal dataset that they want to track and better understand, and then will design an application or experience around this personal data.
 
 Students will learn techniques on how to work with existing Web APIs, how to build and use their own Web APIs (with Node.js and Mongodb), and will implement user-facing designs utilizing p5.js and other Web technologies. Class examples will be presented in Javascript. Javascript tutorials will be assigned as a pre-requisite for those with little to no Javascript experience.
 
@@ -40,7 +35,7 @@ Grades
 ------
 
 Grades will be determined according to the following breakdown:
-- 3 Main Projects: 50%
+- 2 Main Projects (Midterm and Final): 50%
 - Participation and Attendance: 25%
 - Weekly Assignments: 15%
 - Group Project: 10%
@@ -52,23 +47,7 @@ It is expected that everyone in the class will create and maintain a blog for th
 
 Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 
-* [Martin](http://www.martsromero.com/designing-data-personalization/)
-* [Ross](http://www.thehypertext.com/category/fall-2015/data-personal/)
-* [Chanwook](http://chanwookmin.com/blog/?page_id=623)
-* [Edson](http://hiedson.com/courses/datapersonalization.html)
-* [Daria](http://dariarosedesigns.com/thoughts/)
-* [Thea](http://thea-rae.tumblr.com/tagged/ddfp)
-* [Soni](http://www.sonihahn.com/data/)
-* [Matt](http://mattgoral.tv)
-* [Sung Hoon](https://wp.nyu.edu/sunghoonkim/category/data-personalization/)
-* [Jingwen](http://jingwenzhu.com/category/fall-2015/designing-for-data-personalization/)
-* [Song](http://www.songhitp.com/?cat=19)
-* [Manxue](http://www.manxuew.com/blog/?category=Designing+for+Data+Person)
-* [Greg](http://www.madebygreg.co/category/itp/designing-for-data-personalization/)
-* [Changyeon](http://www.changyeonlee.com/design-for-data-personalization/)
-* [Sam](http://samsonthebrave.github.io/Data-Personalization/)
-* [Ashley](http://www.ashleyaplomb.com/category/ddp/)
-* Marc :(
+* [Your Name](http://itp.nyu.edu)
 
 Listserv
 --------
@@ -81,7 +60,9 @@ Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personaliza
 Laptops
 -------
 
-This class covers numerous Web programming topics, and as a result, we will use laptops extensively throughout class time. However, use of the computer outside of class topics (for example, chatting on Gmail or checking Facebook) is quite disrespectful and repeated violators will be asked to leave the classroom. 
+This class covers numerous Web programming topics, and as a result, we will use laptops extensively throughout class time. However, use of the computer outside of class topics (for example, chatting on Gmail or checking Facebook) is disrespectful and repeated violators will be asked to leave the classroom. 
+
+Also - while your classmates are presenting, it is mandatory to put your laptop lid down and focus all of your attention on your colleague's presentation.
 
 Weekly Assignments
 ------------------
