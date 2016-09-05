@@ -207,12 +207,12 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
         * [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
-    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine... but it should be on something interesting to you: Examples could be: 
-        * a list of your pets - name, the year you got them, color, weight; 
-        * a list of vacations you've been on - location, year, companions, favorite activity; 
-        * information about your family - relationship, name, year born, current location;
-        * a list of your favorite bands - year founded, list of albums, awards won, links to songs;
+    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine... but it should be something that is interesting to you. Post it to your class blog. Examples could be: 
         * make your CV/resume into JSON.. example: [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
+        * create a list of your pets - name, the year you got them, color, weight; 
+        * create a list of vacations you've been on - location, year, companions, favorite activity; 
+        * compile information about your family - relationship, name, year born, current location;
+        * create a list of your favorite bands - year founded, list of albums, awards won, links to songs;
     * Use [JSON Lint](http://jsonlint.com) to validate the JSON you create
     * If needed, do the above Javascript/HTML/CSS tutorial videos
     * If all of the above was very easy for you, write a Javacsript script that renders your JSON from above onto a Webpage. 
@@ -221,10 +221,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
 * Present last week's work
 * Group Activities Overview + Assigning Groups
-* Design Exercise - Pen & Paper Wireframing
-    * Who's on the floor?
-    * What have you eaten in the last 24 hours?
-    * The dashboard of you: what datapoints would you show? How would you show them?
+* Design Exercise - Pen & Paper Wireframing 
 * Design Topic - Design Structures + Wireframing
     * **[Presentation](https://docs.google.com/presentation/d/1Z8IH1punyYfVQJPUoqGlIQxWWyM_vkmxD_ByRWa1Dao/edit?usp=sharing)**
     * References:
@@ -275,356 +272,88 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * Detect the user's location via the browser and do something based on it (see [this resource in getting geolocation from the browser](http://www.w3schools.com/html/html5_geolocation.asp))
         * Tell a simple data story about your family, pets, favorite bands, etc.
 
-    * Investigate possible datasets for Design Project 1 - Making Data Personal & Playful. Post to your blog and talk about why you're potentially interested in the datasets, what you would like to express to the user, and what are some initial design concepts you are considering.
-
 Week 3
 ---------
 * Group Presentation 1
-* More from last week. JS/JS Events/AJAX/Updating the DOM. Key links:
-    * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
-    * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
-
-**BREAK**
-
-* **Technical topic:**
-    * p5js boilerplate
-    * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
-        * [Example project 1 - Simple Weather](http://samslover.com/examples/simple-weather/)
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/simple-weather)**
-        * [Example project 2 - President Dashboard](http://samslover.com/examples/president-dashboard/)
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/president-dashboard)**
-        * [Example project 3 - President Dashboard with Other JS](http://samslover.com/examples/president-dashboard-with-other-js/)
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/president-dashboard-with-other-js)**
-        * [Example project 4 - What's For Breakfast? - Many Objects](http://samslover.com/examples/whats-for-breakfast-many-objects)
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/whats-for-breakfast-many-objects)**             
-    
-* **Assignment Week 3:**
-    * Review the following JS & JQuery methods for updating the DOM:
-        * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
-        * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
-
-    * Review the following p5js examples & documentation:
-        * [Getting Started Guide](https://github.com/processing/p5.js/wiki/p5.js-overview)
-        * [createCanvas](http://p5js.org/reference/#/p5/createCanvas). See the Getting Started Guide for information on how to create a p5js canvas within a specific HTML element (rather than within the entire body itself)
-        * [loadJSON](http://p5js.org/reference/#/p5/loadJSON). Pay special attention to preload()
-        * [p5js Objects](http://p5js.org/examples/examples/Objects_Objects.php) and [p5js Array of Objects](http://p5js.org/examples/examples/Objects_Array_of_Objects.php)
-
-
-    * 2 options 
-        * 1) Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
-        * 2) Continue on your work from last week or create an entirely new small project that uses a JS script to get data and generate in it on a webpage in an interesting way.
-
-    * Start Work on Design Project 1 - Making Data Personal & Playful 
-        * **By next week's class, you should be 100% clear on how you are getting your data (whether it is from a 3rd party API or your own JSON)**
-        * Requirements (due Week 6)
-            * A working interactive Web page that does something interesting with your dataset
-            * A blog post that includes the following:
-                * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
-                * A sketch or wireframe of your concept.
-                * The color palette and fonts that you are using, any other options you were considering, and why you made these choices.
-                * Any next steps you think would be interesting for the project.
+* JS/JS Events/AJAX/Updating the DOM
+* p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)          
+* Choose dataset/topic for Midterm (due week 6)
 
 Week 4
 -------
 * Group Presentation 2
-    * Marc
-    * Sam
-    * Soni
-* HW demos
-* 1-minute roundtable: Which datasets are you thinking about for design project 1? 
-* Design Topic - Setting the Mood: Colors, Typography and more.   
+* 1-minute round-table: topics for midterm
+* Designing around Data - Colors, Typography and more.   
 * Finish p5js examples. Creating p5js objects. 
-
-**BREAK**
-
-* **Technical topic:**
-    * Using Javascript to create charts - chart.js demo
-        * [See Chart.js documentation here](http://www.chartjs.org/docs/)
-        * [See Chart.js boilerplate folder here](https://github.com/sslover/designing-for-data-personalization/tree/master/chartjs-boilerplate)
-        * [Example project 1 - Charts](http://samslover.com/examples/charts-example/)
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example)**
-    * How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
-        * [Example project 2 - Charts + Sketch](http://samslover.com/examples/charts-example-with-sketch/)
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
-* **Assignment Week 4:**
-    * Work on Design Project 1 - Making Data Personal & Playful
-        * Requirements (due Week 6)
-            * A working interactive Web page
-            * A blog post that includes the following:
-                * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
-                * A sketch or wireframe of your concept.
-                * The color palette and fonts that you are using, and why you made these choices.
-                * Any next steps you think would be interesting for the project.
+* Implementing Charts with chart.js
+* Custom charts
+* Assignment: Work on Midterm
 
 Week 5
 ------
-* Group Presentations 3
-    * Ross
-    * Sung Hoon
-* More with chart.js
-    * [Example project 1 - Charts](http://samslover.com/examples/charts-example/)
-        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example)**
-* How to create a cohesive Web page utilizing a combination of regular HTML/CSS/JS, 3rd party Javascript libraries (like chart.js), and p5js sketches.
-    * [Example project 2 - Charts + Sketch](http://samslover.com/examples/charts-example-with-sketch/)
-        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/charts-example-with-sketch)**
-* Go through front-end examples
-    * Common JS Use Cases are in the [week 5 class folder](https://github.com/sslover/designing-for-data-personalization/tree/master/week5)
-    * [Example project - Chart in HTML/CSS/JS (no library)](http://samslover.com/examples/chart-in-html.html)
-        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/blob/master/week5/chart-in-html.html)** 
-    * [Example project - Google Maps](http://samslover.com/examples/google-map/)
-        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/google-map)**
-    * [Example project - Notes Dashboard](http://samslover.com/examples/notes-dashboard/)
-        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/notes-dashboard)**           
-* **Assignment Week 5:**
-    * Complete Design Project 1 - Making Data Personal & Playful
-        * Requirements (due Week 6)
-            * A working interactive Web page
-            * A blog post that includes the following:
-                * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
-                * A sketch or wireframe of your concept.
-                * The color palette and fonts that you are using, and why you made these choices.
-                * Any next steps you think would be interesting for the project.
+* Group Presentation 3
+* Combining multiple interactive elements on 1 Web page (p5 sketch, charts, interactive Web elements)
+* Assignment: Work on Midterm
+
 
 Week 6
 ------
-* **Student Presentations: Making Data Personal & Playful**
-
-* **Assignment Week 6:**
-    * In Weeks 7-9, we will be learning how to track and store our own data. In preparation, brainstorm 2-3 datasets that you are interested in tracking/collecting. **Post them to you blog**. 
-
-    * Get set up for server-side node. Specifically, you **must** come to class with the following already done:
-
-        1) Download node.js if you have not already <http://nodejs.org/>. You can confirm that node is successfully installed on your machine by opening up Terminal and typing 'node'. If you don't get an error, it's installed! You can exit the node process with Ctrl+c.
-
-        2) Download and install the Heroku Toolbelt <https://toolbelt.heroku.com>, this will give you Foreman and the Heroku CLI (command line interface).
-
-        3) Set up an account at <https://heroku.com>. You will be asked to enter a credit card, but the apps we are doing will not incur any charges (they just need a card on file). In fact, all Heroku apps have a starter/free level.     
+* **Student Presentations: **
+* Assignment: install everything needed for server-side JS   
 
 Week 7
 ------
-
-* Guest Speaker
-    * Kuan Huang of [Poncho](http://poncho.is)
-* Group Presentations 4
-    * Ashley
-    * Jingwen
-* [Presentation - Overview of Node.js + Express.js + Mongodb + Heroku](https://docs.google.com/presentation/d/1aMGEb074fOsWOj3tprXVgEV9VjrV5INSncwDcKr2Gg4/edit?usp=sharing)
-
-**BREAK**
-
-* [App Setup - Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
-* App Overview
-    * app.js
-    * routes
-    * models
-    * package.json / node_modules
-    * .env
-    * .gitignore
-* Routes / Routing
-* [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
-* Database Schemas
-    * See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html)
-* CRUD
-    * Create
-    * Retrieve (one and all)
-    * Update
-    * Delete
-* To do POST requests, download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
-         
-* **Assignment Week 7:**
-    * Get the boilerplate up and running. Email the class list if you run into any issue. Please provide the exact error you are getting and the command you ran that gave you that error.
-    * Requirements
-        * [Download the boilerplate zip](https://github.com/sslover/node-express-api-boilerplate) (do not clone it!)
-        * Read through the entire readme! Go step by step.
-        * Add some data using [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
-            * Remember that POSTMAN is just a tool for simulating HTTP requests (HTTP requests can originate from a browser, an Arduino Yun, a mobile app, etc. POSTMAN is just a tool for testing these requests.)
-            * You will be posting to the /api/create route.
-            * So, you will want to choose the POST option and then enter: http://localhost:3000/api/create
-            * Choose the "Body" tab and then x-www-form-urlencoded
-            * Enter key, value pairs. Look at the schema to see the data that is modeled. Examples:
-                * name: Billy
-                * tags: cute,black,puppy 
-                * age: 8
-            * (the tags example is a comma-separated list that will get made into an array.. this is a standard approach)
-        * Once you have some data, play around with the other routes that are in index.js (you can go to GET routes in your browser, but need to make POST routes from POSTMAN):
-            * http://localhost:3000/api/get
-                * (GET route)
-            * http://localhost:3000/api/get/:id
-                * (GET route - copy and paste the id in place of :id... you can see the id in the response of http://localhost:3000/api/get)
-            * http://localhost:3000/api/delete/:id
-                * (GET route - copy and paste the id in place of :id... you can see the id in the response of http://localhost:3000/api/get)
-            * http://localhost:3000/api/update/:id 
-                * (POST route - use POSTMAN)
-            * http://localhost:3000/api/create 
-                * (POST route - use POSTMAN)
-        * Once you are comfortable, push the app to the heroku app you created (see the repo... it's the part with git push heroku master)
-        * NOW - Create your own schema (i.e. model your database in the models folder). See [Mongoose Schemas](http://mongoosejs.com/docs/guide.html) 
-        * If you are comfortable, update the boilerplate to work with your own schema (i.e. change it away from the animal schema to the schema you have created)
-        * You should have at least 5 routes, and they should be done in a RESTful style:
-            1) Create
-            2) Retrieve All
-            3) Retrive One
-            4) Update
-            5) Delete
-        * Use [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en) for POST requests
+* Guest Speaker 1
+* Group Presentation 4
+* Intro to server-side javascript & building your own API - Node.js + Express.js + Mongodb + Heroku
+* Assignment: get boilerplate app up and running
 
 Week 8
 -------
-* Guest Speaker
-    * Matt Kamen of [Foursquare](https://foursquare.com/)
-* Group Presentations 5
-    * Gregoire
-    * Manxue
-    * Martin
-
-** BREAK **
-
-* Talking to your APIs from a client-application
-* Overview of Routing
-    * [Routing in express.js](http://expressjs.com/guide/routing.html)
-* [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
-* Class Example - ITP Directory:
-    * [Demo](https://itp-directory.herokuapp.com/directory)
-    * [Github Repo](https://github.com/sslover/class-example-itp-directory)
-* Simple AJAX Example:
-    * Interacting with a node-express-mongoose app using AJAX and Google's 
-    geocoder:
-        * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
-        * [Demo](https://pets-of-nyc.herokuapp.com/pets)
-* Using npm libraries
-    * Geocoder example in above app
-
-* **Assignment Week 8:**
-    * Design topic: Read [Why Cards are the Future of the Web](https://blog.intercom.io/why-cards-are-the-future-of-the-web/)
-    * Read through the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
-    * This week you should build a simple app that does the following:
-        * Has at least 3 routes:
-            1) Create
-            2) Retrieve (One or All)
-            3) Delete
-        * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
-        * Submits (POST) data via an HTML form or via AJAX
-        * Shows the data on a Webpage
-    * Push it to heroku and send me the URL
-
-Week 9
-------
-* Group Presentations 5
-    * Gregoire
-    * Manxue
-    * Martin
-* Group Presentations 6
-    * Changyeon
-    * Song    
+* Group Presentation 5
 * Design Topic: Onboarding!
     * Oscar Health
     * Poncho
     * Yummly
-    * Sage
+    * Sage Project
+* Connecting your client application to your API
+* Assignment: build simple API to track and relay a dataset
 
-** BREAK **
-
-* Continue ITP Directory Example
-    * [Demo](https://itp-directory.herokuapp.com/directory)
-    * [Github Repo](https://github.com/sslover/class-example-itp-directory)
-
-* Topics:
-    * [jQuery validation](http://jqueryvalidation.org/) for validating forms
-    * Creating slugs
-    * Edit routes
-    * View Engine ([Hogan Express](https://github.com/vol4ok/hogan-express))
-    * [req.params](http://expressjs.com/api.html#req.params) and [req.query](http://expressjs.com/api.html#req.query)
-
-* Simple AJAX Example:
-    * Interacting with a node-express-mongoose app using AJAX and Google's 
-    geocoder:
-        * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
-        * [Demo](https://pets-of-nyc.herokuapp.com/pets)
+Week 9
+------
+* Group Presentation 5
+* Group Presentation 6
+* Going deeper into APIs (validation, implementing AJAX)
 * Using npm libraries
-    * Geocoder example in above app
+* Assignment: build a fully working data app that has the following features:
+    * Has your own data model
+    * Has at least 5 routes:
 
-* **Assignment Week 9:**
-    * This week, you must complete a fully working data app that has the following features:
-        * Has your own data model
-        * Has at least 5 routes:
+        1) Create (via a form POST or via ajax POST)
 
-            1) Create (via a form POST or via ajax POST)
+        2) Retrieve One (by ID or some other parameter)
 
-            2) Retrieve One (by ID or some other parameter)
+        3) Retrieve All
 
-            3) Retrieve All
+        4) Edit (via a form POST or via ajax POST)
 
-            4) Edit (via a form POST or via ajax POST)
+        5) Delete
 
-            5) Delete
-
-     * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
-    
-    * This week, you must also come up with your final project proposal. This can cover any dataset you are interested in, and ideally should have both a back-end (storage/API) component and a front-end visualization component. However, if there is another type of project you are passionate about that strays from the above, you may also propose it (physical data viz, Web storytelling, etc.).
-
-    * Prepare a 4-minute (max) presentation that covers the following:
-        * The API you have created (show us the model and then the working data feed)
-        * Tell us about your final project (1-2 slides)
+* Assignment: Final Project Proposal
 
 Week 10
 ------
-* **Student Presentations: Demo your API + Present Your Final Project Proposal**
-
-** BREAK **
-
-**Amazon S3 for file/image storage**
-* [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week10/AmazonS3-expressjs-setup-guide.md)
-* Example App:
-    * [Demo](https://itp-directory.herokuapp.com/add-person-with-image)
-    * [Github Repo](https://github.com/sslover/class-example-itp-directory)
-        * [add-with-image.html - the form](https://github.com/sslover/class-example-itp-directory/blob/master/views/add-with-image.html)
-        * [index. js - look at /api/create/image](https://github.com/sslover/class-example-itp-directory/blob/master/routes/index.js)
-
-**Twilio for SMS**
-* [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week10/Twilio-SMS-setup.md)
-* Example App:
-    * [Demo](https://twilio-sms-example.herokuapp.com/)
-    * [Github Repo](https://github.com/sslover/node-express-twilio-sms)
+* **Student Presentations: Present Your Final Project Proposal**
+* **Amazon S3 for file/image storage**
+* **Twilio for SMS**
 
 Week 11
 -------
-* Guest speakers - Design Topic: Data on Physical Devices & Objects
-* Group Presentations 7
-    * Chanwook
-    * Edson
-    * Thea    
-
-** BREAK **
-
-* Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
-    * [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week11/week11-resources.md)
-
+* Guest speaker 2
+* Group Presentation 7
 * Twilio - Multiple Fields
-
 * More ComplexServer/Mongoose - Layout, Subdocuments, req.param vs req.query, sort, where
-
-
-**HOMEWORK - FINISH YOUR FINAL PROJECT**
-
-For your final project, the following are requirements:
-
-* **You must create a working project that you demo in class.**
-* **The project should have 2 public links:**
-    * Project demo
-    * Github link 
-        * If you've never pushed a repo to github. Here's the deal:
-            * Sign in to your Github account
-            * Click "New repository" in top right (the + sign)
-            * Give it a name and description and click Create
-            * Then, in terminal, enter the 2 commands in the 2nd box ("push an existing repository from the command line"). Or, if you've yet to start tracking it with Git, then go with the 1st box ("create a new repository on the command line")
-            * Refresh the page and you'll see your repo
-* **You must document it on your blog:**
-    * What data did you decide to work with? Why were you interested in this data?
-    * What were your key design considerations?
-    * What are some of the key technology processes you used? What was interesting or tricky?
-    * What are the key takeaways for yourself or for your target audience? What did you want them to get from your project?
-    * Where else could you see this project going?
-* **You must email me a link to the blog post, project demo, and github repo.**
+* **Assigment - FINISH YOUR FINAL PROJECT**
 
 Week 12
 -------
