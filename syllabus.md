@@ -167,6 +167,7 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
     * **Personalizing Data (Apps)**
         * [Poncho - Personalized Weather](http://poncho.is/)
         * [Sage Project - Personalized Food Data](http://sageproject.com)
+        * [Strava - Track Athletic Activity](https://www.strava.com/)
         * [Gyroscope - Dashboard of You](https://gyrosco.pe/)
         * [Foursquare - Personalized Recommendations](https://foursquare.com)
         * [Google Now - Personalized Information](https://www.google.com/landing/now/#cards)
@@ -201,7 +202,7 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
         * [JSONView - Chrome Extension That Formats JSON](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) 
         * [POSTMAN - Chrome Extension That Simulates API requests](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
         * [Sublime Text Editor](http://www.sublimetext.com/3)
-    * This week, use an app that tries to personalize data (Strave, Poncho, Foursquare, Yummly, Google Now, Reporter App, Mint.com, Slavery Footprint, Sage Project). In your class blog, describe your interactions? What did you like about it? What bugged you? What would you do differently? Where could you see it going in the future?
+    * This week, use an app that tries to personalize data (Poncho, Sage Project, Foursquare, Yummly, Google Now, Reporter App, Mint.com, Slavery Footprint, Strava). In your class blog, describe your interactions? What did you like about it? What bugged you? What would you do differently? Where could you see it going in the future?
     * Read about JSON:
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
