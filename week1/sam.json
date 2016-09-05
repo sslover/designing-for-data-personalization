@@ -1,0 +1,173 @@
+{
+    "facts": {
+        "name": "Sam Slover",
+        "bornLocation": "Atlanta",
+        "currentLocation": "New York City",
+        "bio": "Sam is a designer and developer working on interactive technology projects in NYC. He is the founder of Sage, a smarter food labeling platform. He co-founded Learn It Live, an online learning website that connects people to health and wellness experts in live video sessions. He was also an inaugural member of First Round Capital's Dorm Room Fund, where he invested in NYC student-run companies. He's previously worked on social entrepreneur initiatives with communities in Honduras and India, and launched a seed capital program at a micro-finance firm in Bolivia. His design work has been featured in Techcrunch, Fast Company, Forbes, Business Insider, Inc. Magazine, Mashable, Popular Science, PSFK, and BBC. He's a graduate of New York University's Interactive Telecommunications Program where he is an adjunct professor and was formerly in residency.",
+        "website": "www.samslover.com",
+        "photo": "https://pbs.twimg.com/profile_images/609763544729563139/3P8wWa83_400x400.png",
+        "otherLocations": [
+            "Vancouver, Canada",
+            "Sydney, Australia",
+            "La Paz, Bolivia",
+            "Delhi, India"
+        ],
+        "social": {
+            "twitter": "https://twitter.com/sloversam",
+            "facebook": "https://www.facebook.com/samslover",
+            "linkedin": "https://www.linkedin.com/in/samslover",
+            "github": "https://github.com/sslover"
+        }
+    },
+    "skills": [
+        "Javascript",
+        "Node.js",
+        "Mongodb/Mongoose.js",
+        "Express.js",
+        "Web APIs",
+        "Front-end Development (HTML/CSS/JS)",
+        "Front-end Javascript Frameworks (Angular/React)",
+        "Web Design (Photoshop & Illustrator)",
+        "Git and Github",
+        "Visual Prototyping",
+        "Interface Design",
+        "Interaction Design",
+        "User Experience Design",
+        "Processing",
+        "Java",
+        "Android",
+        "Arduino/Physical Computing",
+        "Live Web / Web Sockets",
+        "Entrepreneurship",
+        "Data Journalism",
+        "Data Visualization",
+        "Data Storytelling",
+        "Infographic Design"
+    ],
+    "experience": [
+        {
+            "organization": "Sage",
+            "role": "Founder",
+            "description": "Sage is a digital platform (mobile & Web) that's building the future of food labeling.",
+            "location": "New York City",
+            "startDate": "January, 2015",
+            "endDate": "-"
+        },
+        {
+            "organization": "NYU ITP",
+            "role": "Adjunct Professor",
+            "description": "Teaching the course 'Designing for Data Personalization,' a course on tracking data, building APIs, and designing personalized applications around the data. ITP is a two-year graduate program located in the Tisch School of the Arts whose mission is to explore the imaginative use of communications technologies — how they might augment, improve, and bring delight and art into people's lives. Perhaps the best way to describe us is as a Center for the Recently Possible.",
+            "location": "New York City",
+            "startDate": "September, 2015",
+            "endDate": "-"
+        },
+        {
+            "organization": "NYU ITP",
+            "role": "Adjunct Professor",
+            "description": "ITP is a two-year graduate program located in the Tisch School of the Arts whose mission is to explore the imaginative use of communications technologies — how they might augment, improve, and bring delight and art into people's lives. Perhaps the best way to describe us is as a Center for the Recently Possible.",
+            "location": "New York City",
+            "startDate": "September, 2015",
+            "endDate": "-"
+        },
+        {
+            "organization": "Learn It Live",
+            "role": "Co-Founder / Head of Technology",
+            "description": "Led the design and development of an online education platform that connects people to experts in live video sessions.",
+            "location": "Atlanta",
+            "startDate": "May, 2009",
+            "endDate": "January, 2015"
+        },
+        {
+            "organization": "Dorm Room Fund",
+            "role": "Founding Partner & Head of Design",
+            "description": "Founding member and head of design for Dorm Room Fund, a venture fund that invests in student-run companies in New York City.",
+            "location": "New York City",
+            "startDate": "April, 2013",
+            "endDate": "June, 2015"
+        },
+        {
+            "organization": "Canadian Government",
+            "role": "Seed Capital Program Lead",
+            "description": "Designed and oversaw the initial implementation of a seed and start-up capital program for PRO RURAL, a Bolivian organization providing financing to rural farmer co-ops.",
+            "location": "La Paz, Bolivia",
+            "startDate": "September, 2007",
+            "endDate": "May, 2009"
+        }
+    ],
+    "education": [
+        {
+            "school": "New York University",
+            "program": "Interactive Telecommunications Program",
+            "degree": "Master's in Professional Studies",
+            "focus": "Research focus on creative technology applications spanning digital design, mobile, Web, live video, data visualization, connected hardware, APIs, and more.",
+            "graduationYear": "2014"
+        },
+        {
+            "school": "University of British Columbia",
+            "program": "International Relations",
+            "degree": "Bachelor of Arts (honours)",
+            "focus": "Thesis: 'Entrepreneurship and Development: Lessons from East Asia",
+            "graduationYear": "2014"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Sage",
+            "url": "www.sage.is",
+            "description": "Sage is a smarter food labeling platform.",
+            "photo": "https://photos-1.dropbox.com/t/2/AADdglahpLTihVv1qTSXu9sKVZbyJ9Fsl_xFwPwDHhmlFQ/12/27536779/jpeg/32x32/1/_/1/2/sage-home-page1.jpg/EPe63RQYguUNIAcoBw/MENl3ARGLtOzrUuKOUHzCIlkRFGDvshfY5AZObUiduk?size=1024x768&size_mode=2",
+            "pressLinks": [
+                {
+                    "url": "http://techcrunch.com/2015/05/12/sage-is-on-a-mission-to-make-food-labels-smarter/",
+                    "title": "Sage Is On A Mission To Make Food Labels Smarter",
+                    "publication": "Techcrunch"
+                },
+                {
+                    "url": "http://www.crainsnewyork.com/article/20150716/TECHNOLOGY/150719916/finally-an-app-that-labels-food-in-a-smart-meaningful-way",
+                    "title": "Finally, an app that labels food in a smart, meaningful way",
+                    "publication": "Crain's"
+                }
+            ]
+        },
+        {
+            "name": "WrapGenius",
+            "url": "http://www.wrapgenius.me/",
+            "description": "Wrap Genius is a personal journey into better food labeling. For 12 weeks, I carefully tracked all of my grocery purchases, recorded the data, and created a new visual framework to better make sense of it all. It's my dream food label, designed for the interests of the consumer.",
+            "photo": "http://samslover.com/lib/img/wrapgenius.jpg",
+            "pressLinks": [
+                {
+                    "url": "http://www.inc.com/christine-lagorio/nutrition-label-reinvention.html",
+                    "title": "A Radical Reimagining of the Good Old Food Label",
+                    "publication": "INC Magazine"
+                },
+                {
+                    "url": "http://www.fastcodesign.com/3030813/could-personalized-food-labels-make-you-eat-healthier",
+                    "title": "Could Personalized Food Labels Help You Eat Better?",
+                    "publication": "FastCo.Design"
+                },
+                {
+                    "url": "http://www.psfk.com/2014/05/wrap-genius-food-tracker.html",
+                    "title": "Food Visualizer Tracks Actual Nutrition Of What You’re Eating Today",
+                    "publication": "PSFK"
+                }
+            ]
+        }
+    ],
+    "press": [
+        {
+            "url": "http://www.inc.com/christine-lagorio/nutrition-label-reinvention.html",
+            "title": "A Radical Reimagining of the Good Old Food Label",
+            "publication": "INC Magazine"
+        },
+        {
+            "url": "http://www.fastcodesign.com/3030813/could-personalized-food-labels-make-you-eat-healthier",
+            "title": "Could Personalized Food Labels Help You Eat Better?",
+            "publication": "FastCo.Design"
+        },
+        {
+            "url": "http://www.psfk.com/2014/05/wrap-genius-food-tracker.html",
+            "title": "Food Visualizer Tracks Actual Nutrition Of What You’re Eating Today",
+            "publication": "PSFK"
+        }
+    ]
+}

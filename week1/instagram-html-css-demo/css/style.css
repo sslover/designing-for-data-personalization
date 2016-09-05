@@ -1,0 +1,69 @@
+/*take away default margin/padding*/
+body {
+	margin: 0;
+	padding: 0;
+	background: #eaeaea;
+}
+
+#header {
+	width: 100%;
+	height: 44px;
+	background-color: #517fa4;	
+}
+
+#logo {
+	text-align: center;
+	padding-top: 8px;
+}
+
+#container {
+	width: 1071px;
+	margin: 0 auto;
+}
+
+.image-holder {
+	margin-right: 30px;
+	margin-top: 30px;
+	width: 176px;
+	height: 176px;
+	border-radius: 4px;
+	border: 1px solid #dcdcdc;
+	background-color: #fff;
+	float: left;
+}
+
+.image-holder:hover{
+	background: rgba(204,204,204,.9)url('http://d36xtkk24g8jdx.cloudfront.net/bluebar/f37a926/images/bg/white-gradient-300px.png') repeat-x 0 100%;
+	-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.04),0 1px 5px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 0 1px rgba(0,0,0,.04),0 1px 5px rgba(0,0,0,.1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,.04),0 1px 5px rgba(0,0,0,.1);
+	-webkit-transition: all .15s ease-out .1s;
+	-moz-transition: all .15s ease-out .1s;
+	-o-transition: all .15s ease-out .1s;
+	transition: all .15s ease-out .1s;
+}
+
+.first {
+	margin-left: 30px;
+}
+
+#popup {
+	display: none;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0.8);
+	height: 100%;
+}
+
+#popup img{
+	margin: 0 auto;
+	display: block;
+	margin-top: 50px;
+}
+
+.thumb {
+	padding: 7px;
+}

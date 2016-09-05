@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Instagram Example</title>
+  <meta name="author" content="Sam Slover Demo">
+  <meta name="description" content="We are re-creating my instagram!">
+  <meta name="keywords" content="sam slover, instagram, demo">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+ </head>
+ <body>
+
+
+	<div id="header">
+		<div id="logo">
+			<a href="#">
+				<img width="98" height="33" src="images/logo.png">
+			</a>
+		</div>
+	</div>
+
+
+ 	<div id="container">
+
+ 		<!-- row 1 begins -->
+		<div class="image-holder first" id="pop1">
+			<img class="thumb" width="161" src="http://scontent-a-lga.cdninstagram.com/hphotos-xpa1/t51.2885-15/925640_764400286934415_413964259_a.jpg">
+		</div>
+
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-a-lga.cdninstagram.com/hphotos-xaf1/t51.2885-15/10632454_509151359219112_197723150_a.jpg">
+		</div>
+
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-b-lga.cdninstagram.com/hphotos-xpa1/t51.2885-15/924553_303050776542923_351769177_a.jpg">
+		</div>
+
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-b-lga.cdninstagram.com/hphotos-xaf1/t51.2885-15/10570081_694626557286873_1681094511_a.jpg">
+		</div>
+		
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-b-lga.cdninstagram.com/hphotos-xfp1/t51.2885-15/10544283_352791831540134_755044006_a.jpg">
+		</div>		
+		<!-- row 1 ends -->
+
+		<!-- row 2 begins -->
+		<div class="image-holder first">
+			<img class="thumb" width="161" src="http://scontent-b-lga.cdninstagram.com/hphotos-xaf1/t51.2885-15/10561134_260788374117037_868669447_a.jpg">
+		</div>
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-a-lga.cdninstagram.com/hphotos-xaf1/t51.2885-15/10593253_1688424124716940_1512920280_a.jpg">
+		</div>
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-b-lga.cdninstagram.com/hphotos-xfa1/t51.2885-15/915686_294762074039939_9906023_a.jpg">
+		</div>
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-b-lga.cdninstagram.com/hphotos-xpf1/t51.2885-15/10523590_426994507438595_375033646_a.jpg">
+		</div>
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-a-lga.cdninstagram.com/hphotos-xpa1/t51.2885-15/10520269_1444028442535987_1178150207_a.jpg">
+		</div>		
+		<!-- row 2 ends -->	
+
+		<!-- row 3 begins -->
+		<div class="image-holder first">
+			<img class="thumb" width="161" src="http://scontent-a-lga.cdninstagram.com/hphotos-xpa1/t51.2885-15/10523582_295006090680446_1124615907_a.jpg">
+		</div>
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-a-lga.cdninstagram.com/hphotos-xfp1/t51.2885-15/10448873_1454778791446120_66027591_a.jpg">
+		</div>
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-b-lga.cdninstagram.com/hphotos-xpa1/t51.2885-15/10523242_1509375502628677_374469408_a.jpg">
+		</div>
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-b-lga.cdninstagram.com/hphotos-xpa1/t51.2885-15/10499180_771296552923312_1077172959_a.jpg">
+		</div>
+		<div class="image-holder">
+			<img class="thumb" width="161" src="http://scontent-a-lga.cdninstagram.com/hphotos-xap1/t51.2885-15/10499202_654007084692364_1648142634_a.jpg">
+		</div>		
+		<!-- row 3 ends -->									 	
+
+	<div id="popup">
+		<img width="550" src="http://photos-h.ak.instagram.com/hphotos-ak-xpa1/925640_764400286934415_413964259_n.jpg">
+	</div>	
+
+ 	</div>	
+ </body>
+
+<!-- JS convention is to put script tags down here below body -->	
+<script>
+var thediv;
+
+function init() {
+	thediv = document.getElementById('pop1');
+	thediv.addEventListener('click', showPopUp);
+}			
+
+function showPopUp() {
+	var popup = document.getElementById('popup');
+	popup.style.display = 'block';
+	popup.addEventListener('click', hidePopUp);
+};
+
+function hidePopUp(){
+	var popup = document.getElementById('popup');
+	popup.style.display = 'none';
+}
+
+window.addEventListener('load', init);
+</script>
+
+</html>

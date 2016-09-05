@@ -102,11 +102,11 @@ You can pick from 2 topics (although if you are really enthusiastic about doing 
 * **Topic 2: Quick and dirty project - compile a dataset and visualize it!** - Pick a dataset that you want to compile as a group (you can manually collect it). For example, the average # of dishes left in the ITP sink at different times, noise levels on the ITP floor at different times, style trends spotted on the L train (septum piercings vs sleeve tattoos), etc. It can be anything you find interesting and worth compiling/visualizing.
     * Compile the dataset using any process that works for you (just be prepared to present your process) -- pen/paper, Google Spreadsheet, tallies on a notepad, App connected to a database, etc.
     * Visualize the dataset in a way that helps relay its key themes and insights -- pen/paper, basic Web dashboard, 3D print, P5 sketch, performance, etc.
-    * Present your project: why did you choose the dataset? how did you compile it? what were your hypotheses? how did you ultimately design around the data? what were your key learnings?
+    * Present your project: why did you choose the dataset? what was interesting about it? how did you compile it? what were your hypotheses? how did you ultimately design around the data? what were your key learnings?
 
 Javascript Resources
 ---------------------
-For those who may not have prior experience with Javacsript, it is strongly recommended to do some outside video tutorials. The following are a list of suggested tutorials:
+For those who may not have prior experience with Javacsript, it is strongly recommended to do some outside tutorials. The following are a list of suggested tutorials:
 
 Client-side Javascript:
 - [JS for Cats - Fun intro](http://jsforcats.com/)
@@ -156,16 +156,17 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
         * [Dogs of NYC](http://project.wnyc.org/dogs-of-nyc/)
         * [Just Landed - Mapping the World's Flights ](https://vimeo.com/4587178)
         * [Carbon Emissions](http://emissionsglobe.com/)
-    * **Designing for the Self**
-        * [AprilZero - Self-Tracking Dashboard](https://aprilzero.com/)
+    * **Self-tracking Projects*
         * [Feltron Annual Reports](http://feltron.com/)
-        * [Reporter App to self track](http://www.reporter-app.com/)
         * [WrapGenius - Personalized Journey Into Food](http://wrapgenius.me/)
-        * [Wellness Mirror](http://itp.nyu.edu/~msd403/blog/?p=1301)
-        * [Glance](http://www.natashadzurny.com/blog/glance/)
-    * **Re-contextualizing Everyday Data**
+        * [Reporter App to self track](http://www.reporter-app.com/)
+        * [AprilZero - Self-Tracking Dashboard](https://aprilzero.com/)
+        * [Wellness Mirror - Physical](http://itp.nyu.edu/~msd403/blog/?p=1301)
+        * [Glance - Physical](http://www.natashadzurny.com/blog/glance/)
+    * **Personalizing Data (Apps)**
         * [Poncho - Personalized Weather](http://poncho.is/)
         * [Sage Project - Personalized Food Data](http://sageproject.com)
+        * [Gyroscope - Dashboard of You](https://gyrosco.pe/)
         * [Foursquare - Personalized Recommendations](https://foursquare.com)
         * [Google Now - Personalized Information](https://www.google.com/landing/now/#cards)
         * [Yummly - Personalized Recipes](http://www.yummly.com/)
@@ -179,7 +180,9 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
         * Demo is available at http://itp.nyu.edu/~sjs663/instagram-demo/ and code is at https://github.com/sslover/instagram-demo.
         * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
-    * Overview of Useful Tools
+    * Quick intro to JSON:
+        * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)    
+    * List of Useful Tools
         * [HTML Shell](http://htmlshell.com/)
         * [JSONLint](http://jsonlint.com/)
         * [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
@@ -189,8 +192,6 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
         * [WrapBootstrap - Bootstrap Themes](https://wrapbootstrap.com)
         * [Google Fonts](https://www.google.com/fonts)
         * [Github](http://www.github.com)
-    * If time permits, a quick intro to JSON:
-        * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
 
 * **Assignment Week 1:**
     * Sign up to the listserv: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
