@@ -91,9 +91,7 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
 You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may propose it):
 
 
-* **Topic 1: Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around personal data; data personalization; data tracking; physical data installations. 
-
-See Week 1 "Design Topic: Examples & Inspiration for the class" for examples of the types of services you could evaluate.
+* **Topic 1: Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around personal data; data personalization; data tracking; physical data installations. See Week 1 "Design Topic: Examples & Inspiration for the class" for examples of the types of services you could evaluate.
 
     * Make a presentation that covers what the technology/service/project/theme is, what is novel about it, how are people using it and so on.
     * What do you like about it? What would you do differently?
