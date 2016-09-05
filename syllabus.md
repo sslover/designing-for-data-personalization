@@ -3,7 +3,7 @@ Designing for Data Personalization Syllabus
 Overview
 ---------------------
 - **Instructor** - Sam Slover (email: slover@nyu.edu)
-- **Office Hours** - Wednesday 7-9:30 and Thursday 5:30-6:30 (these Thursday office hours should be for last-minute trouble-shooting and bug fixes); 
+- **Office Hours** - Wednesday 7-9 and Thursday 5:30-6:30 (these Thursday office hours should be for last-minute trouble-shooting and bug fixes); 
 Signup at [Google Calendar](https://calendar.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
 - **Group/Listserv**: Go [here](https://groups.google.com/forum/#!forum/designing-for-data-personalization) and click "Subscribe to this group"
 
@@ -13,7 +13,11 @@ The world is awash with new data, but how can designers take the next step to ma
 
 In this class, we'll examine how personalized design can give people more meaningful and pleasant experiences with their data interactions. We'll explore how new technologies and designs are implementing these personalization strategies and how they're being successful (or not). We’ll learn how to model, generate, and store our own datasets; how to build our own APIs; and ultimately how to design meaningful applications and experiences around this data.
 
-We will do so by designing around our own data (as designing for the self is often the best starting place). Students will build an API around a personal dataset that they want to track and better understand, and then will design an application or experience around this personal data.
+We will do so by designing 2 core applications or experiences over the course of the class:
+
+1. Midterm project - Designing a new (playful) interaction around a dataset that you personally care about or find deeply interesting (the most important consideration is that it is a dataset that you are uniquely interested in). This dataset could be from an existing source or can be newly created by you.
+
+2. Final project - Designing around our own data (as designing for the self is often the best starting place). Over the course of the 2nd half of the class, students will build an API around a personal dataset that they want to track and better understand, and then will design an application or experience around this personal data.
 
 Students will learn techniques on how to work with existing Web APIs, how to build and use their own Web APIs (with Node.js and Mongodb), and will implement user-facing designs utilizing p5.js and other Web technologies. Class examples will be presented in Javascript. Javascript tutorials will be assigned as a pre-requisite for those with little to no Javascript experience.
 
@@ -82,9 +86,12 @@ Class participation is a critical part of the class, and (along with attendance)
 Group Projects
 --------------
 
-Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 10-minute presentation. You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
+Starting on the 3rd class, we will have weekly group projects. I will divide the class up into groups and each week one or two groups will give a 10-minute presentation. 
 
-* **Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. 
+You can pick from 2 topics (although if you are really enthusiastic about doing something else, you may do that as well):
+
+
+* **Topic 1: Design Presentation/Critique** - Pick a technology (hardware, software or service), project, or theme that relates to the overall topics in the class: designing around data; data personalization; data visualization of important topics; data tracking; physical data installations. See Week 1 "Design Topic: Examples & Inspiration for the class" for some services you could analyze
 
     * Make a presentation that covers what the technology/service/project/theme is, what is novel about it, how are people using it and so on.
     * What do you like about it? What would you do differently?
@@ -92,16 +99,9 @@ Starting on the 3rd class, we will have weekly group projects. I will divide the
     * Are there are any privacy concerns? Data Limitations?
     * Does it fulfill its promise? Where could you see it going in the future?    
 
-* **Design Concept** - Pick a topic, dataset, or data-oriented user experience that you want to explore as a group. 
-    * How would you go about designing a product, service, application, experience, or installation that gives the world a different data interaction than what is available right now? 
-    * Where does the user encounter this application or experience? 
-    * Do you need to get any data from the user? How would you do that?
-    * What are some key design decisions?
-    * What do you hope the user gets from it?
-    * What is the key user interaction? How does it work technically?
-    * Are there are any privacy concerns? Data Limitations? How would you overcome these?
-
-It is up to you how to present it - a series of sketches, mockups, wireframes, or a basic prototype.
+* **Topic 2: Quick and dirty project - compile a dataset and visualize it!** - Pick a dataset that you want to compile as a group (you can manually collect it). For example, the average # of dishes left in the ITP sink at different times, noise levels on the ITP floor at different times, the style trends spotted on the L train (septum piercings vs sleeve tattoos), etc.
+    * Compile the dataset using any process that works for you (just be prepared to present your process) -- pen/paper, Google Spreadsheet, tallies on a notepad, App connected to a database, etc.
+    * Visualize the dataset in a way that helps relay its key themes and insights -- pen/paper, basic Web dashboard, 3D print, P5 sketch, performance, etc.
 
 Javascript Resources
 ---------------------
@@ -133,8 +133,8 @@ While not specifically required for the class, you may find the following tutori
 Week-by-Week Topics & Assignments
 =================================
 
-Week 1 -- Introduction, HTML/CSS Primer, JS 101
----------------------------------------------------------
+Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
+-----------------------------------------------------------------
 * Class Exercise: get to know eachother via data collection
     * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
     * We will be collecting the following 4 data points from our partner
@@ -162,8 +162,9 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
         * [WrapGenius - Personalized Journey Into Food](http://wrapgenius.me/)
         * [Wellness Mirror](http://itp.nyu.edu/~msd403/blog/?p=1301)
         * [Glance](http://www.natashadzurny.com/blog/glance/)
-    * **Re-contextualizing Everyday Data (Apps)**
+    * **Re-contextualizing Everyday Data**
         * [Poncho - Personalized Weather](http://poncho.is/)
+        * [Sage Project - Personalized Food Data](http://sageproject.com)
         * [Foursquare - Personalized Recommendations](https://foursquare.com)
         * [Google Now - Personalized Information](https://www.google.com/landing/now/#cards)
         * [Yummly - Personalized Recipes](http://www.yummly.com/)
@@ -197,7 +198,7 @@ Week 1 -- Introduction, HTML/CSS Primer, JS 101
         * [JSONView - Chrome Extension That Formats JSON](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) 
         * [POSTMAN - Chrome Extension That Simulates API requests](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
         * [Sublime Text Editor](http://www.sublimetext.com/3)
-    * This week, use an app that tries to personalize data (Poncho, Foursquare, Yummly, Google Now, Reporter App, Mint.com, Slavery Footprint). In your class blog, describe your interactions? What did you like about it? What bugged you? What would you do differently? Where could you see it going in the future?
+    * This week, use an app that tries to personalize data (Strave, Poncho, Foursquare, Yummly, Google Now, Reporter App, Mint.com, Slavery Footprint, Sage Project). In your class blog, describe your interactions? What did you like about it? What bugged you? What would you do differently? Where could you see it going in the future?
     * Read about JSON:
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
@@ -275,8 +276,6 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 Week 3
 ---------
 * Group Presentation 1
-    * Matthew
-    * Daria
 * More from last week. JS/JS Events/AJAX/Updating the DOM. Key links:
     * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
     * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
