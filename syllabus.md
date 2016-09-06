@@ -178,7 +178,7 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
 * Technical topics:
     * Intro to Web Development, APIs, Client-Server interactions, Javascript
         * [Presentation](https://docs.google.com/presentation/d/1zrPtcWFkc0u6A5i4lDVioH8in-2pF7-8mp8riB3AYAE/edit?usp=sharing)
-    * Quick intro to JSON:
+    * Quick intro to JSON (JSON is the data format we will work with all semester):
         * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)    
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
         * Demo is available at http://samslover.com/intro-to-web/ and code is at https://github.com/sslover/designing-for-data-personalization/tree/master/week1/instagram-html-css-demo.
