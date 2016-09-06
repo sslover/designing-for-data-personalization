@@ -344,9 +344,9 @@ Week 9
 
 Week 10
 ------
-* **Student Presentations: Present Your Final Project Proposal**
-* **Amazon S3 for file/image storage**
-* **Twilio for SMS**
+* Student Presentations: Present Your Final Project Proposal
+* Amazon S3 for file/image storage
+* Twilio for SMS
 
 Week 11
 -------
