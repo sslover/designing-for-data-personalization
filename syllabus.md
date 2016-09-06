@@ -221,8 +221,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
 * Present last week's work
 * Group Activities Overview + Assigning Groups
-* Design Exercise - Pen & Paper Wireframing 
-* Design Topic - Design Structures + Wireframing
+* Design Topic - Common Design Structures + Wireframing
     * **[Presentation](https://docs.google.com/presentation/d/1Z8IH1punyYfVQJPUoqGlIQxWWyM_vkmxD_ByRWa1Dao/edit?usp=sharing)**
     * References:
         * Some Wireframing Tools
@@ -233,6 +232,8 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
             * [Framerjs](http://framerjs.com/)
             * Illustrator
             * Web/CSS (HTML)
+* Design Exercise/Sprint - Pen & Paper Wireframing 
+
 
 **BREAK**
 
