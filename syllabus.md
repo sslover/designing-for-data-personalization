@@ -99,7 +99,7 @@ You can pick from 2 topics (although if you are really enthusiastic about doing 
     * Are there are any privacy concerns? Data Limitations?
     * Does it fulfill its promise? Where could you see it going in the future?    
 
-* **Topic 2: Quick and dirty visualization project - compile a dataset and visualize it!** - Pick a dataset that you want to compile as a group (you can manually collect it). For example, the average # of dishes left in the ITP sink at different times, noise levels on the ITP floor at different times, style trends spotted on the L train (septum piercings vs sleeve tattoos), etc. It can be anything you find interesting and worth compiling/visualizing.
+* **Topic 2: Quick and dirty visualization project - compile a dataset and visualize it!** - Pick a dataset that you want to compile as a group (you can manually collect it). For example, the average # of dishes left in the ITP sink at different times, noise levels on the ITP floor at different times, style trends spotted on the L train (septum piercings vs sleeve tattoos vs no socks), etc. It can be anything you find interesting and worth compiling/visualizing.
     * Compile the dataset using any process that works for you (just be prepared to present your process) -- pen/paper, Google Spreadsheet, tallies on a notepad, App connected to a database, etc.
     * Visualize the dataset in a way that helps relay its key themes and insights -- pen/paper, basic Web dashboard, 3D print, P5 sketch, performance, game, etc.
     * Present your project: why did you choose the dataset? what was interesting about it? how did you compile the data? what were your hypotheses? how did you ultimately design around the data? what were your key learnings? what were some challenges?
@@ -179,11 +179,11 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
 * Technical topics:
     * Intro to Web Development, APIs, Client-Server interactions, Javascript
         * [Presentation](https://docs.google.com/presentation/d/1zrPtcWFkc0u6A5i4lDVioH8in-2pF7-8mp8riB3AYAE/edit?usp=sharing)
+    * Quick intro to JSON:
+        * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)    
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
         * Demo is available at http://itp.nyu.edu/~sjs663/instagram-demo/ and code is at https://github.com/sslover/instagram-demo.
         * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
-    * Quick intro to JSON:
-        * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)    
     * List of Useful Tools
         * [HTML Shell](http://htmlshell.com/)
         * [JSONLint](http://jsonlint.com/)
