@@ -207,15 +207,15 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
         * [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
-    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine... but it should be something that is interesting to you. Post it to your class blog. Examples could be: 
+    * Using the above examples as a starting place, create a simple JSON file on anything. Don't overthink it, something simple is fine... but it should be something that is interesting to you. Examples could be: 
         * make your CV/resume into JSON.. example: [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
         * create a list of your pets - name, the year you got them, color, weight; 
         * create a list of vacations you've been on - location, year, companions, favorite activity; 
         * compile information about your family - relationship, name, year born, current location;
         * create a list of your favorite bands - year founded, list of albums, awards won, links to songs;
-    * Use [JSON Lint](http://jsonlint.com) to validate the JSON you create
-    * If needed, do the above Javascript/HTML/CSS tutorial videos
-    * If all of the above was very easy for you, write a Javacsript script that renders your JSON from above onto a Webpage. 
+    * Use [JSON Lint](http://jsonlint.com) to validate the JSON you create and then **post it to your class blog**
+    * If needed, do the above Javascript/HTML/CSS tutorials
+    * If all of the above was very easy for you, write a simple Javascript program that renders your JSON from above onto a Webpage. 
 
 Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
