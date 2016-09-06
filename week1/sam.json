@@ -3,7 +3,7 @@
         "name": "Sam Slover",
         "bornLocation": "Atlanta",
         "currentLocation": "New York City",
-        "bio": "Sam is a designer and developer working on interactive technology projects in NYC. He is the founder of Sage, a smarter food labeling platform. He co-founded Learn It Live, an online learning website that connects people to health and wellness experts in live video sessions. He was also an inaugural member of First Round Capital's Dorm Room Fund, where he invested in NYC student-run companies. He's previously worked on social entrepreneur initiatives with communities in Honduras and India, and launched a seed capital program at a micro-finance firm in Bolivia. His design work has been featured in Techcrunch, Fast Company, Forbes, Business Insider, Inc. Magazine, Mashable, Popular Science, PSFK, and BBC. He's a graduate of New York University's Interactive Telecommunications Program where he is an adjunct professor and was formerly in residency.",
+        "bio": "Sam Slover is the co-founder and CEO of the Sage Project, a new type of food data platform with a simple mission: make food data smart, simple, and personalized. He previously co-founded Learn It Live, an online learning website that connects people to health and wellness experts in live video sessions. Sam was also a founding partner of First Round Capital's Dorm Room Fund, where he invested in NYC student-run companies. He's previously worked on social entrepreneur initiatives with communities in Honduras and India, and launched a seed capital program at a micro-finance firm in Bolivia. His design work has been featured in the New York Times, Techcrunch, Fast Company, Forbes, Business Insider, Inc. Magazine, Mashable, Popular Science, PSFK, and BBC. He's a graduate of New York University's Interactive Telecommunications Program (ITP) where he is an adjunct professor and was formerly in residence. At ITP, Sam teaches a course called 'Designing for Data Personalization,' where students learn to self-track and visualize personal data.",
         "website": "www.samslover.com",
         "photo": "https://pbs.twimg.com/profile_images/609763544729563139/3P8wWa83_400x400.png",
         "otherLocations": [
@@ -46,9 +46,9 @@
     ],
     "experience": [
         {
-            "organization": "Sage",
+            "organization": "Sage Project",
             "role": "Founder",
-            "description": "Sage is a digital platform (mobile & Web) that's building the future of food labeling.",
+            "description": "The Sage Project is a new type of food data platform with a simple mission: make food information smart, simple, and personalized",
             "location": "New York City",
             "startDate": "January, 2015",
             "endDate": "-"
@@ -63,11 +63,11 @@
         },
         {
             "organization": "NYU ITP",
-            "role": "Adjunct Professor",
+            "role": "Resident",
             "description": "ITP is a two-year graduate program located in the Tisch School of the Arts whose mission is to explore the imaginative use of communications technologies — how they might augment, improve, and bring delight and art into people's lives. Perhaps the best way to describe us is as a Center for the Recently Possible.",
             "location": "New York City",
-            "startDate": "September, 2015",
-            "endDate": "-"
+            "startDate": "August, 2014",
+            "endDate": "August, 2015"
         },
         {
             "organization": "Learn It Live",
@@ -112,8 +112,8 @@
     ],
     "projects": [
         {
-            "name": "Sage",
-            "url": "www.sage.is",
+            "name": "Sage Project",
+            "url": "www.sageproject.com",
             "description": "Sage is a smarter food labeling platform.",
             "photo": "https://photos-1.dropbox.com/t/2/AADdglahpLTihVv1qTSXu9sKVZbyJ9Fsl_xFwPwDHhmlFQ/12/27536779/jpeg/32x32/1/_/1/2/sage-home-page1.jpg/EPe63RQYguUNIAcoBw/MENl3ARGLtOzrUuKOUHzCIlkRFGDvshfY5AZObUiduk?size=1024x768&size_mode=2",
             "pressLinks": [

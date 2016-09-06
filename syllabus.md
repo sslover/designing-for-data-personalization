@@ -202,7 +202,7 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
         * [JSONView - Chrome Extension That Formats JSON](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) 
         * [POSTMAN - Chrome Extension That Simulates API requests](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
         * [Sublime Text Editor](http://www.sublimetext.com/3)
-    * This week, use an app that tries to track or personalize data (Poncho, Gyroscope, Foursquare, Yummly, Google Now, Reporter App, Mint.com, Slavery Footprint, Strava, Runkeeper, Fitbit, Sage Project, etc.). In your class blog, describe your interactions? What did you like about it? What bugged you? What would you do differently? Where could you see it going in the future?
+    * This week, use an app that tries to track or personalize data (Poncho, Gyroscope App, Foursquare, Yummly, Google Now, Reporter App, Mint.com, Slavery Footprint, Strava, Runkeeper, Fitbit, Sage Project, etc.). In your class blog, describe your interactions? What did you like about it? What bugged you? What would you do differently? Where could you see it going in the future?
     * Read about JSON:
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
