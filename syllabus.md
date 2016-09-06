@@ -256,7 +256,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
     * Read up on [Bootstrap](http://getbootstrap.com/), the HTML/CSS/JS Framework.
         * In particular, look at [this page](http://getbootstrap.com/css/) and pay special attention to Bootstrap's Grid System
 
-    * For those new to Javascript, read through the [Javasript cheat sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week2/javacript-cheat-sheet.md). Run the code in the Javascript console (in Chrome --> View > Developer > Javascript Console)
+    * For those new to Javascript, read through the [Javascript cheat sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week2/javacript-cheat-sheet.md). Run the code in the Javascript console (in Chrome --> View > Developer > Javascript Console)
     
     * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want - the most important is to try to pick something personally interesting):
         * [This Big List of Open APIs courtesy of Craig Protzel](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
