@@ -137,8 +137,7 @@ Week-by-Week Topics & Assignments
 Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
 -----------------------------------------------------------------
 * Class Exercise: get to know eachother via data collection
-    * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
-    * We will be collecting the following 4 data points from our partner
+    * We will be collecting the following 5 data points from our partner
         * Name
         * Home Location
         * Ideal Vacation Location
