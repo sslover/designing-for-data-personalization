@@ -340,11 +340,11 @@ Week 9
 
         5) Delete
 
-* Assignment: Final Project Proposal
+* Assignment: Final Project Proposal --> Designing around your own data
 
 Week 10
 ------
-* Student Presentations: Present Your Final Project Proposal
+* Student Presentations: Present Your Final Project Proposal --> Designing around your own data
 * Amazon S3 for file/image storage
 * Twilio for SMS
 
@@ -357,4 +357,4 @@ Week 11
 
 Week 12
 -------
-* **Student Presentations - Final Project**
+* **Student Presentations - Final Project: Designing around your own data**
