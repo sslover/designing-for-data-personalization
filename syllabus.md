@@ -238,7 +238,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 **BREAK**
 
 * Technical topics:
-    * JS 102 - going deeper into client-side js. Common Javscript functions, tips and tricks. Callbacks. Events. Etc.
+    * JS 101 - going deeper into client-side js. Common Javscript functions, tips and tricks. Callbacks. Events. Etc.
     * JSON 101: rules & validation. And why does it matter?
     * Making an API request with AJAX and using the data within a Webpage (from both a JSON file and an external 3rd party API)
         * [Example project 1 - API Request](http://samslover.com/examples/weather-dashboard/)
