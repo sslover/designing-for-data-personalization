@@ -352,8 +352,7 @@ Week 11
 -------
 * Guest speaker 2
 * Group Presentation 7
-* Twilio - Multiple Fields
-* More ComplexServer/Mongoose - Layout, Subdocuments, req.param vs req.query, sort, where
+* More Complex Server/Mongoose commands - Layout, Subdocuments, req.param vs req.query, sort, where
 * **Assigment - FINISH YOUR FINAL PROJECT**
 
 Week 12
