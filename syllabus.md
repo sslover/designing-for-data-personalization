@@ -138,12 +138,12 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
 -----------------------------------------------------------------
 * Class Exercise: get to know eachother via data collection
     * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
-    * We will be collecting the following 5 data points from our partner
-        * Name
-        * Home Location
-        * Ideal Vacation Location
-        * Data Interest
-        * Javascript level (1 to 10)
+    * Get the following information from your partner, which we will POST to our API:
+        * name
+        * homeLocation
+        * vacationLocation
+        * dataInterest
+        * jsLevel (1 to 10)
 * Intro to Designing for Data Personalization:
     * Instructor/Topic Intro
     * Syllabus Overview
