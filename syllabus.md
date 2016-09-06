@@ -15,7 +15,7 @@ In this class, we'll examine how personalized design can give people more meanin
 
 We will do so by designing 2 core applications or experiences over the course of the class:
 
-1. Midterm project - Designing a new (playful) interaction around a personally meaningful dataset (the most important consideration for this project is that it is a dataset that **you** find deeply interesting). This dataset can be from an existing source or you can create it.
+1. Midterm project - Designing a new (playful) interaction around a dataset that you find personally meaningful (the most important consideration for this project is that it is a dataset that **you** find personally interesting). This dataset can be from an existing source or you can create it.
 
 2. Final project - Designing around your own data (as designing for the self is often the best starting place). Over the course of the 2nd half of the class, you will build an API around a personal dataset that you want to track and better understand, and then will design an application or experience around your personal data (personal data can include community data, like ITP).
 
@@ -182,7 +182,7 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
     * Quick intro to JSON:
         * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)    
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
-        * Demo is available at http://itp.nyu.edu/~sjs663/instagram-demo/ and code is at https://github.com/sslover/instagram-demo.
+        * Demo is available at http://samslover.com/intro-to-web/ and code is at https://github.com/sslover/designing-for-data-personalization/tree/master/week1/instagram-html-css-demo.
         * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
     * List of Useful Tools
         * [HTML Shell](http://htmlshell.com/)
@@ -298,7 +298,7 @@ Week 5
 
 Week 6
 ------
-* **Student Presentations: Designing a new (playful) interaction around a personally meaningful dataset **
+* **Student Presentations: Designing a new (playful) interaction around a dataset that you find personally meaningful**
 * Assignment: install everything needed for server-side JS   
 
 Week 7
