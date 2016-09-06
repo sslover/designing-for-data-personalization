@@ -181,6 +181,7 @@ Week 1 -- Introduction, Welcome to the Web: HTML/CSS Primer, JSON
     * Quick intro to JSON (JSON is the data format we will work with all semester):
         * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)    
     * HTML/CSS/JS 101: a wellformed page and simple script. How to structure a Web project.
+        * Create project folder (index.html, css, images, js)
         * Demo is available at http://samslover.com/intro-to-web/ and code is at https://github.com/sslover/designing-for-data-personalization/tree/master/week1/instagram-html-css-demo.
         * Presentation is available [here](https://docs.google.com/presentation/d/1sIhtbBNcvyKAx6BRr1IYIG2BoibFZWY62XPnj0V1OzI/edit#slide=id.p)
     * List of Useful Tools
