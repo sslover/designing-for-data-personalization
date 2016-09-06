@@ -353,7 +353,7 @@ Week 11
 * Guest speaker 2
 * Group Presentation 7
 * More Complex Server/Mongoose commands - Layout, Subdocuments, req.param vs req.query, sort, where
-* **Assigment - FINISH YOUR FINAL PROJECT**
+* **Assignment - FINISH YOUR FINAL PROJECT**
 
 Week 12
 -------
