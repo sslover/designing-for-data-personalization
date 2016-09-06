@@ -278,7 +278,7 @@ Week 3
 * Group Presentation 1
 * JS/JS Events/AJAX/Updating the DOM (pick up where we left off last week)
 * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)          
-* Choose dataset/topic for Midterm (due week 6)
+* Choose dataset/topic for Midterm (due week 6) - Designing a new (playful) interaction around a dataset that you find personally meaningful
 
 Week 4
 -------
@@ -299,7 +299,7 @@ Week 5
 
 Week 6
 ------
-* **Student Presentations: Designing a new (playful) interaction around a dataset that you find personally meaningful**
+* **Midterm Student Presentations: Designing a new (playful) interaction around a dataset that you find personally meaningful**
 * Assignment: install everything needed for server-side JS   
 
 Week 7
