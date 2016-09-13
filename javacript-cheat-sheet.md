@@ -39,7 +39,7 @@ Numbers
 -------
 JavaScript has only **one** type of numbers.
 
-Numbers can be written with, or without decimals:
+Numbers can be written with or without decimals:
 
 	var num = 12; // Written without decimals
 	var num = 12.43; // Written with decimals
@@ -66,10 +66,13 @@ Arrays
 
 JavaScript arrays are written with square brackets.
 
-Declare an array:
+Declare an array in 2 ways:
 
-	var names = [];
-	var names = new Array();
+	// one way to delcare an array
+	var cats = [];
+
+	// another way to declare an array 
+	var dogs = new Array();
 
 Array items are separated by commas.
 
@@ -79,7 +82,7 @@ Array items are separated by commas.
 You can get the length of the array with .length
 	
 	var names = ["Dan","Dave","Dexter"]; // array of Strings
-	names.length // prints 3
+	console.log(names.length) // prints 3
 
 You can add to an array with the push function
 	
@@ -214,7 +217,7 @@ In JavaScript, a variable without a value, has the value undefined. The typeof i
 
 	person = undefined; // Value is undefined, type is undefined
 
-In JavaScript, null is "nothing". It is supposed to be something that doesn't exist. Can empty an object by setting it to null or undefined.
+In JavaScript, null is "nothing". It is supposed to be something that doesn't exist. You can empty an object by setting it to null or undefined.
 
 	var person = null; // Value is null
 
@@ -225,10 +228,12 @@ Functions are the core part of your Javascript program. They specify functionali
 
 There are 2 ways of declaring a function.
 
+	// one way to call a function
 	var sayHi = function(){
 		console.log('hi');
 	}
 
+	// another way to call a function
 	function sayHello(){
 		console.log('hello');
 	}
@@ -239,13 +244,13 @@ There are 2 ways of declaring a function.
 
 The main difference between the 2 is when they can be called. The first example can only be called *after* it is declared:
 
-	sayHi(); // this is an error, not declared yet
+	sayHi(); // this will throw an error because it is not declared yet
 
 	var sayHi = function(){
 		console.log('hi');
 	}
 
-	sayHi(); // prints 'hi'
+	sayHi(); // this prints 'hi'
 
 The second example can be called anywhere within its scope, even before it has been declared.
 
@@ -255,7 +260,7 @@ The second example can be called anywhere within its scope, even before it has b
 		console.log('hello');
 	}
 
-Functions can take any number or parameters.
+Functions can take any number of parameters.
 
 	function describePet(name, age, gender){
 

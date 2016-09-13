@@ -1,0 +1,319 @@
+{
+	"status": "OK",
+	"people": [{
+		"_id": "57d1eb983c0917030013e154",
+		"name": "Don",
+		"dataInterest": "Text",
+		"jsLevel": 6,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:52:08.676Z",
+		"vacation": {
+			"name": "Korea",
+			"geo": [127.9784585, 37.66399759999999]
+		},
+		"location": {
+			"name": "Korea",
+			"geo": [127.9784585, 37.66399759999999]
+		}
+	}, {
+		"_id": "57d1ebbe3c0917030013e155",
+		"name": "Osama",
+		"dataInterest": "Automation",
+		"jsLevel": 6,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:52:46.745Z",
+		"vacation": {
+			"name": "Cuba",
+			"geo": [-77.781167, 21.521757]
+		},
+		"location": {
+			"name": "Pakistan",
+			"geo": [69.34511599999999, 30.375321]
+		}
+	}, {
+		"_id": "57d1ec3a3c0917030013e157",
+		"name": "Emanuel",
+		"dataInterest": "Polling",
+		"jsLevel": 5.5,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:54:50.850Z",
+		"vacation": {
+			"name": "Amazon Rainforest, Codajás - State of Amazonas, Brazil",
+			"geo": [-62.21588049999999, -3.4653053]
+		},
+		"location": {
+			"name": "Baltimore, MD, USA",
+			"geo": [-76.6121893, 39.2903848]
+		}
+	}, {
+		"_id": "57d1ec5c3c0917030013e158",
+		"name": "Jamal",
+		"dataInterest": "N/A (ITP)",
+		"jsLevel": 2,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:55:24.175Z",
+		"vacation": {
+			"name": "Barcelona, Spain",
+			"geo": [2.1734035, 41.3850639]
+		},
+		"location": {
+			"name": "Philadelphia, PA, USA",
+			"geo": [-75.1652215, 39.9525839]
+		}
+	}, {
+		"_id": "57d1ecad3c0917030013e159",
+		"name": "Naoki",
+		"dataInterest": "Live Data (Audience)",
+		"jsLevel": 6.5,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:56:45.402Z",
+		"vacation": {
+			"name": "France",
+			"geo": [2.213749, 46.227638]
+		},
+		"location": {
+			"name": "Tokyo, Japan",
+			"geo": [139.7319925, 35.7090259]
+		}
+	}, {
+		"_id": "57d1ece03c0917030013e15a",
+		"name": "Annie",
+		"dataInterest": "Behavioral",
+		"jsLevel": 4,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:57:36.532Z",
+		"vacation": {
+			"name": "New Orleans, LA, USA",
+			"geo": [-90.0715323, 29.95106579999999]
+		},
+		"location": {
+			"name": "New York, NY, USA",
+			"geo": [-74.0059413, 40.7127837]
+		}
+	}, {
+		"_id": "57d1ed1a3c0917030013e15b",
+		"name": "Skylar",
+		"dataInterest": "Human Interactions + Conversations",
+		"jsLevel": 2,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:58:34.867Z",
+		"vacation": {
+			"name": "Puerto Rico",
+			"geo": [-66.590149, 18.220833]
+		},
+		"location": {
+			"name": "Montana, USA",
+			"geo": [-110.3625658, 46.8796822]
+		}
+	}, {
+		"_id": "57d1ed623c0917030013e15c",
+		"name": "Ondina",
+		"dataInterest": "Nat Geo, Worldly, Nasa",
+		"jsLevel": 5,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:59:46.345Z",
+		"vacation": {
+			"name": "Bali, Indonesia",
+			"geo": [115.188916, -8.4095178]
+		},
+		"location": {
+			"name": "Cluj-Napoca, Romania",
+			"geo": [23.6236353, 46.7712101]
+		}
+	}, {
+		"_id": "57d1ed873c0917030013e15d",
+		"name": "Joakim",
+		"dataInterest": "Health",
+		"jsLevel": 8,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:00:23.657Z",
+		"vacation": {
+			"name": "New Zealand",
+			"geo": [174.885971, -40.900557]
+		},
+		"location": {
+			"name": "Denmark",
+			"geo": [9.501785, 56.26392]
+		}
+	}, {
+		"_id": "57d1ede23c0917030013e15e",
+		"name": "Joy",
+		"dataInterest": "Nation Branding",
+		"jsLevel": 6,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:01:54.729Z",
+		"vacation": {
+			"name": "Maldives",
+			"geo": [73.5361034, 1.9772469]
+		},
+		"location": {
+			"name": "Daejeon, South Korea",
+			"geo": [127.3845475, 36.3504119]
+		}
+	}, {
+		"_id": "57d1edff3c0917030013e15f",
+		"name": "Gustavo",
+		"dataInterest": "Visual Data",
+		"jsLevel": 2,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:02:23.393Z",
+		"vacation": {
+			"name": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
+			"geo": [-43.1728965, -22.9068467]
+		},
+		"location": {
+			"name": "Washington, DC, USA",
+			"geo": [-77.0368707, 38.9071923]
+		}
+	}, {
+		"_id": "57d1ee663c0917030013e160",
+		"name": "Yan",
+		"dataInterest": "Sensor Data (Machines, Humans)",
+		"jsLevel": 4,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:04:06.941Z",
+		"vacation": {
+			"name": "Seattle, WA, USA",
+			"geo": [-122.3320708, 47.6062095]
+		},
+		"location": {
+			"name": "Taiyuan, Shanxi, China",
+			"geo": [112.548879, 37.87059]
+		}
+	}, {
+		"_id": "57d1eebd3c0917030013e161",
+		"name": "Soy",
+		"dataInterest": "Environmental",
+		"jsLevel": 1.5,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:05:33.752Z",
+		"vacation": {
+			"name": "Hawaii, USA",
+			"geo": [-155.5827818, 19.8967662]
+		},
+		"location": {
+			"name": "Seoul, South Korea",
+			"geo": [126.9779692, 37.566535]
+		}
+	}, {
+		"_id": "57d1eee83c0917030013e162",
+		"name": "An",
+		"dataInterest": "Time Management",
+		"jsLevel": 4,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:06:16.734Z",
+		"vacation": {
+			"name": "Beijing, China",
+			"geo": [116.407395, 39.904211]
+		},
+		"location": {
+			"name": "Beijing, China",
+			"geo": [116.407395, 39.904211]
+		}
+	}, {
+		"_id": "57d1ef203c0917030013e163",
+		"name": "Yiting",
+		"dataInterest": "Sleep/Activity",
+		"jsLevel": 5,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:07:12.334Z",
+		"vacation": {
+			"name": "Iceland",
+			"geo": [-19.020835, 64.963051]
+		},
+		"location": {
+			"name": "Suzhou, Jiangsu, China",
+			"geo": [120.58529, 31.298979]
+		}
+	}, {
+		"_id": "57d1ef563c0917030013e164",
+		"name": "Nilomee",
+		"dataInterest": "Health",
+		"jsLevel": 2,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:08:06.055Z",
+		"vacation": {
+			"name": "Andama, Bihar, India",
+			"geo": [85.66018410000001, 26.2168777]
+		},
+		"location": {
+			"name": "Mumbai, Maharashtra, India",
+			"geo": [72.8776559, 19.0759837]
+		}
+	}, {
+		"_id": "57d1eb1b3c0917030013e153",
+		"name": "Sam",
+		"dataInterest": "Food and Food Systems",
+		"jsLevel": 7.5,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:50:03.778Z",
+		"vacation": {
+			"name": "Costa Rica",
+			"geo": [-83.753428, 9.748916999999999]
+		},
+		"location": {
+			"name": "Atlanta, GA, USA",
+			"geo": [-84.3879824, 33.7489954]
+		}
+	}, {
+		"_id": "57d1ebfb3c0917030013e156",
+		"name": "Xiqiao",
+		"dataInterest": "Retail",
+		"jsLevel": 4,
+		"__v": 0,
+		"dateAdded": "2016-09-08T22:53:47.044Z",
+		"vacation": {
+			"name": "California, USA",
+			"geo": [-119.4179324, 36.778261]
+		},
+		"location": {
+			"name": "Beijing, China",
+			"geo": [116.407395, 39.904211]
+		}
+	}, {
+		"_id": "57d1ef833c0917030013e165",
+		"name": "Ian",
+		"dataInterest": "Military/Veterans",
+		"jsLevel": 6,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:08:51.542Z",
+		"vacation": {
+			"name": "Alaska, USA",
+			"geo": [-149.4936733, 64.2008413]
+		},
+		"location": {
+			"name": "San Diego, CA, USA",
+			"geo": [-117.1610838, 32.715738]
+		}
+	}, {
+		"_id": "57d1ef9f3c0917030013e166",
+		"name": "Katie",
+		"dataInterest": "Urban/Infastructure",
+		"jsLevel": 5,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:09:19.607Z",
+		"vacation": {
+			"name": "Cuba",
+			"geo": [-77.781167, 21.521757]
+		},
+		"location": {
+			"name": "Detroit, MI, USA",
+			"geo": [-83.0457538, 42.331427]
+		}
+	}, {
+		"_id": "57d1efc43c0917030013e167",
+		"name": "Eve",
+		"dataInterest": "Income Inequality",
+		"jsLevel": 5,
+		"__v": 0,
+		"dateAdded": "2016-09-08T23:09:56.947Z",
+		"vacation": {
+			"name": "Bali, Indonesia",
+			"geo": [115.188916, -8.4095178]
+		},
+		"location": {
+			"name": "Marietta, GA, USA",
+			"geo": [-84.5499327, 33.95260200000001]
+		}
+	}]
+}
