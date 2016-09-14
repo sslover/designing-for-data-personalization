@@ -635,13 +635,13 @@ To attach functions to these events, you can use window.addEventListener
 	}
 
 	// run on page load
-	window.addEventListener("onload", introduceMyself);
+	window.addEventListener("load", introduceMyself);
 
 	// run on page resize
 	window.addEventListener("resize", introduceMyself);
 
 	// run on page unload/close
-	window.addEventListener("onunload", introduceMyself);
+	window.addEventListener("unload", introduceMyself);
 
 **Form Events**
 
