@@ -411,10 +411,10 @@ Switch statements are another way to make comparisons:
 
 	switch(expression) {
 	  case n:
-	      code block
+	      // code goes here
 	      break;
 	  case n:
-	      code block
+	      // code goes here
 	      break;
 	  default:
 	      default code block
