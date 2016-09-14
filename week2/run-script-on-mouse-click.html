@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>hello world</title>
+  <style type="text/css">
+  	.red{color:red;}
+  </style>
+ </head>
+ <body>
+ 	<a href="#" id="theLink">Click Me Please</a>
+ 	<h3>Times clicked: <span id="count">0</span></h3>
+ </body>
+
+ <script type="text/javascript">
+ 		var counter = 0;
+    function hootyHoo(event){
+    	console.log(event); // gives us access to the event that triggered it
+    	counter++;
+      document.getElementById('count').innerHTML = '<h1 class="red">'+counter+'</h1>';
+      event.preventDefault(); // stops the event from propagating the way it normally would; for example, there won't be a '#' in the URL
+    }
+
+    document.getElementById('theLink').addEventListener('click', hootyHoo);
+ </script>

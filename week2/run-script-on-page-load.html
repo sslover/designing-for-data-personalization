@@ -1,0 +1,23 @@
+	<!DOCTYPE html>
+	<html>
+	 <head>
+	  <meta charset="UTF-8">
+	  <title>hello world</title>
+	 </head>
+	 <body>
+	 </body>
+
+	 <script type="text/javascript">
+			function introduceMyself(){
+			    alert("Hi, I'm a dog");
+			}
+
+			// run on page load
+			window.addEventListener("onload", introduceMyself);
+
+			// run on page resize
+			window.addEventListener("resize", introduceMyself);
+
+			// run on page unload/close
+			window.addEventListener("onunload", introduceMyself);
+	 </script>
