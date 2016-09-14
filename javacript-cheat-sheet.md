@@ -472,8 +472,8 @@ Random Number
 	// Return a random number between 1 and 10:
 	Math.floor((Math.random() * 10) + 1);
 
-	// Return a random number between 17 and 54:
-	Math.floor((Math.random() * 54) + 17);
+	// Return a random number between 1 and 100:
+	Math.floor((Math.random() * 100) + 1);
 
 Callbacks
 ---------
