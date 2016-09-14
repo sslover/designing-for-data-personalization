@@ -260,8 +260,10 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * In particular, look at [this page](http://getbootstrap.com/css/) and pay special attention to Bootstrap's Grid System
 
     * For those new to Javascript, read through the [Javascript cheat sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week2/javacript-cheat-sheet.md). Run the code in the Javascript console (in Chrome --> View > Developer > Javascript Console)
+
+    * Design Assignment: Think about a dataset you've encountered in your day-to-day life (the weather, food labels, traffic, elevator status, restaurant wait times, etc.). Wireframe a simple app or dashboard that shows the data in a way that's more effective for you. Why is it more effective? Post the wireframe to your class blog.
     
-    * Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want - the most important is to try to pick something personally interesting):
+    * Programming Assignment: Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want - the most important is to try to pick something personally interesting):
         * [This Big List of Open APIs courtesy of Craig Protzel](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
         * [New York Open Data](https://nycopendata.socrata.com/)
         * [Forecast.io](https://developer.forecast.io/)
@@ -271,7 +273,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * [Instagram - Requires getting authenticated](https://instagram.com/developer/)
         * [Twitter - Requires getting authenticated](https://dev.twitter.com/rest/public)
 
-    * Write a JS script that gets the above data and generates in it on a webpage in an interesting way. Make it interactive based on user input, clicks, scrolling, etc. Some options:
+    * Write a JS script that gets the above data and generates in it on a webpage in an interesting way. Make it interactive based on at least one JS event: user input, clicks, scrolling, etc. Some options:
         * Make your CV/Resume into a simple interactive data experience. Generate visuals on the page based on the data and create a few key user interactions.
         * Detect the user's location via the browser and do something based on it (see [this resource in getting geolocation from the browser](http://www.w3schools.com/html/html5_geolocation.asp))
         * Tell a simple data story about your family, pets, favorite bands, etc.
