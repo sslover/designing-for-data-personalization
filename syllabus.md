@@ -231,7 +231,9 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
             * [Kung Fu for Keynote](http://keynotekungfu.com/)
             * [Balsamiq](https://balsamiq.com/)
             * [Framerjs](http://framerjs.com/)
-            * Illustrator
+            * [Sketch](https://www.sketchapp.com/) **can get 50% off as a student**
+            * [Experience Design](http://www.adobe.com/products/experience-design.html)            
+            * Adobe Illustrator
             * Web/CSS (HTML)
 * Design Exercise/Sprint - Pen & Paper Wireframing 
 
