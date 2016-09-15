@@ -66,6 +66,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Nilomee](http://www.nilomeejesrani.com/blog-4?category=Data+Personalization)
 * [Katie](http://www.katietworks.com/)
 * [Osama](https://osamasehgol.com/data-personalization/)
+* [Ian](http://www.iancgibson.com/category/fall-2016/data-personalization/)
 
 Listserv
 --------
