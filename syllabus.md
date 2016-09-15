@@ -51,7 +51,21 @@ It is expected that everyone in the class will create and maintain a blog for th
 
 Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 
-* [Your Name](http://itp.nyu.edu)
+* [Ondina](http://ondinafrate.com/category/itp-winter-2016/designing-for-data-personalization/)
+* [Joakim](http://www.joakimquach.com/blog/category/fall-2016/designing-for-data-personalization)
+* [Anne](http://annekgoodfriend.com/category/data-personalization/)
+* [Soyeon](http://www.soyeonchung.net/category/2016_fall/design-for-data-p/)
+* [Joy](http://eunjee-kim.com/category/fall-2016/design-for-data-personalization/)
+* [Yan](http://www.yanzhao20.com/2016/09/14/strava-personal-data/)
+* [Yiting](http://www.yitingliu.com/data/)
+* [Gustavo](http://www.bringyourownlasers.com/category/itp/designingfordatapersonalization/)
+* [Emmanuel](http://www.emmanuelklein.com/?cat=20)
+* [Eve](http://itpblog.evejweinberg.com/category/personal-api/)
+* [Jamal](http://jmcitp.tumblr.com/)
+* [Eve](http://itpblog.evejweinberg.com/category/personal-api/)
+* [Nilomee](http://www.nilomeejesrani.com/blog-4?category=Data+Personalization)
+* [Katie](http://www.katietworks.com/)
+* [Osama](https://osamasehgol.com/data-personalization/)
 
 Listserv
 --------
