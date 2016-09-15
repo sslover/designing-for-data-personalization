@@ -294,7 +294,10 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 
 Week 3
 ---------
-* Group Presentation 1
+* Group Presentation 1:
+    * Emmanuel
+    * Leslie
+    * Osama
 * JS/JS Events/AJAX/Updating the DOM (pick up where we left off last week)
 * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)          
 * Choose dataset/topic for Midterm (due week 6) - Designing a new (playful) interaction around a dataset that you find personally meaningful
@@ -302,6 +305,8 @@ Week 3
 Week 4
 -------
 * Group Presentation 2
+    * Joy
+    * Eve
 * 1-minute round-table: topics for midterm
 * Designing around Data - Colors, Typography and more.   
 * Finish p5js examples. Creating p5js objects. 
@@ -312,6 +317,8 @@ Week 4
 Week 5
 ------
 * Group Presentation 3
+    * Katie
+    * Xiqiao
 * Combining multiple interactive elements on 1 Web page (p5 sketch, charts, interactive Web elements)
 * Assignment: Work on Midterm
 
@@ -325,12 +332,17 @@ Week 7
 ------
 * Guest Speaker 1
 * Group Presentation 4
+    * Gustavo
+    * Ian
+    * Xingjian
 * Intro to server-side javascript & building your own API - Node.js + Express.js + Mongodb + Heroku
 * Assignment: get boilerplate app up and running
 
 Week 8
 -------
 * Group Presentation 5
+    * Jamal
+    * Yiting
 * Design Topic: Onboarding!
     * Oscar Health
     * Poncho
@@ -342,7 +354,7 @@ Week 8
 Week 9
 ------
 * Group Presentation 5
-* Group Presentation 6
+    * Waitlist group! (TBD)
 * Going deeper into APIs (validation, implementing AJAX)
 * Using npm libraries
 * Assignment: build a fully working data app that has the following features:
@@ -363,6 +375,9 @@ Week 9
 
 Week 10
 ------
+* Group Presentation 6
+    * Yan
+    * Nilomee
 * Student Presentations: Present Your Final Project Proposal --> Designing around your own data
 * Amazon S3 for file/image storage
 * Twilio for SMS
@@ -371,6 +386,8 @@ Week 11
 -------
 * Guest speaker 2
 * Group Presentation 7
+    * Skylar
+    * Soy
 * More Complex Server/Mongoose commands - Layout, Subdocuments, req.param vs req.query, sort, where
 * **Assignment - FINISH YOUR FINAL PROJECT**
 
