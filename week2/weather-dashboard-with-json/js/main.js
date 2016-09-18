@@ -11,12 +11,21 @@ function init(){
 	    success: function(response) {
 	      console.log('the response from our JSON is -- >');
 	      console.log(response);
-	      // let's pull out the array of locations to render
-	      var placesToRender = response.facts.otherLocations;
+	      // let's create an array to store our location
+	      var placesToRender = [];
+
+	      // first, let's put in the array of otherLocations I've been to	      
+	      placesToRender = response.facts.otherLocations
+
 	      // but I also want my home location and current location
+	      // let's push them into the array
 	      placesToRender.push(response.facts.bornLocation);
 	      placesToRender.push(response.facts.currentLocation);
-	      // now, let's get the weather for each one
+
+	      // log out our places
+	      console.log("we are going to render these places: --> " + placesToRender);
+
+	      // now, let's get the weather for reach one
 	      placesToRender.forEach(function(e){
 	      	geoCodeIt(e);
 	      })
@@ -102,4 +111,5 @@ function addCard(location, status, temp, icon){
 }
 
 document.getElementById('theInput').addEventListener('change', getWeather);
-window.addEventListener('onload', init());
+window.addEventListener('load', init);
+

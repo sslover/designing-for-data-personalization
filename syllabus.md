@@ -301,6 +301,7 @@ Week 3
     * Emmanuel
     * Leslie
     * Osama
+* Present last week's work
 * JS/JS Events/AJAX/Updating the DOM (pick up where we left off last week). Key links:
     * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
     * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)

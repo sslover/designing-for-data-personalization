@@ -1,11 +1,12 @@
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position){
-        	console.log('detected position is --> ' + position);
+        	console.log('detected position is --> ');
+        	console.dir(position);
         	var lat = position.coords.latitude;
         	var lon = position.coords.longitude;
         	console.log(lat + ' ' + lon);
-        	getTheWeatherAPI("Current Location", lat, lon);
+        	getTheWeatherAPI("My Current Location", lat, lon);
         });
     } else {
         return alert("Geolocation is not supported by this browser.");
@@ -94,4 +95,5 @@ function addCard(location, status, temp, icon){
 document.getElementById('theInput').addEventListener('change', getWeather);
 
 // on page load, let's get the user's location from the browser
-window.addEventListener('onload', getLocation());
+window.addEventListener('load', getLocation);
+
