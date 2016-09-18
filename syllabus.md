@@ -290,7 +290,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
         * [Instagram - Requires getting authenticated](https://instagram.com/developer/)
         * [Twitter - Requires getting authenticated](https://dev.twitter.com/rest/public)
 
-    * Write a JS script that gets the above data and generates in it on a webpage in an interesting way. Make it interactive based on at least one JS event: user input, clicks, scrolling, etc. Some options:
+    * Write a simple JS script that gets the above data and generates in it on a webpage in an interesting way. Make it interactive based on at least one JS event: user input, clicks, scrolling, etc. Some options:
         * Make your CV/Resume into a simple interactive data experience. Generate visuals on the page based on the data and create a few key user interactions.
         * Detect the user's location via the browser and do something based on it (see [this resource in getting geolocation from the browser](http://www.w3schools.com/html/html5_geolocation.asp))
         * Tell a simple data story about your family, pets, favorite bands, etc.
@@ -301,9 +301,48 @@ Week 3
     * Emmanuel
     * Leslie
     * Osama
-* JS/JS Events/AJAX/Updating the DOM (pick up where we left off last week)
-* p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)          
-* Choose dataset/topic for Midterm (due week 6) - Designing a new (playful) interaction around a dataset that you find personally meaningful
+* JS/JS Events/AJAX/Updating the DOM (pick up where we left off last week). Key links:
+    * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
+    * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
+
+**BREAK**
+
+* **Technical topic:**
+    * p5js boilerplate
+    * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
+        * [Example project 1 - Simple Weather](http://samslover.com/examples/simple-weather/)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/simple-weather)**
+        * [Example project 2 - President Dashboard](http://samslover.com/examples/president-dashboard/)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/president-dashboard)**
+        * [Example project 3 - President Dashboard with Other JS](http://samslover.com/examples/president-dashboard-with-other-js/)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/president-dashboard-with-other-js)**
+        * [Example project 4 - What's For Breakfast? - Many Objects](http://samslover.com/examples/whats-for-breakfast-many-objects)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/whats-for-breakfast-many-objects)**
+
+* **Assignment Week 3:**
+    * Review the following JS & JQuery methods for updating the DOM:
+        * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
+        * [http://youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
+
+    * Review the following p5js examples & documentation:
+        * [Getting Started Guide](https://github.com/processing/p5.js/wiki/p5.js-overview)
+        * [createCanvas](http://p5js.org/reference/#/p5/createCanvas). See the Getting Started Guide for information on how to create a p5js canvas within a specific HTML element (rather than within the entire body itself)
+        * [loadJSON](http://p5js.org/reference/#/p5/loadJSON). Pay special attention to preload()
+        * [p5js Objects](http://p5js.org/examples/examples/Objects_Objects.php) and [p5js Array of Objects](http://p5js.org/examples/examples/Objects_Array_of_Objects.php)
+
+    * Technical assignment - 2 options:
+        * 1) Write a simple p5js sketch that takes a dataset and visualizes it in a way that helps the user understand it. Could be based around charts, animations, text, etc. Bonus: can you combine your p5js sketch/canvas with other elements on the Webpage? A possibility is adding a p5js sketch to your week 2 project.
+        * 2) Continue on your work from last week or create an entirely new small project that uses a JS script to get data and generate in it on a webpage in an interesting way.
+
+    * Propose a dataset/topic for Midterm (due week 6) - Designing a new (playful) interaction around a dataset that you find personally meaningful
+        * **By next week's class, you should be 100% clear on how you are getting your data (whether it is from a 3rd party API or your own JSON)**
+        * Requirements (due Week 6)
+            * A working interactive Web page that does something interesting with your dataset
+            * A blog post that includes the following:
+                * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
+                * A sketch or wireframe of your concept.
+                * The color palette and fonts that you are using, any other options you were considering, and why you made these choices.
+                * Any next steps you think would be interesting for the project.
 
 Week 4
 -------
