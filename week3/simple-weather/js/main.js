@@ -1,7 +1,8 @@
 var weather;
+var apiKey = 'c72454a8787666ca4c7856e59dba4261';
 
 function preload() {
-  var url = 'http://api.openweathermap.org/data/2.5/forecast?q=NewYork,USA&units=imperial';
+  var url = 'http://api.openweathermap.org/data/2.5/forecast?q=NewYork,USA&units=imperial&APPID='+apiKey+'';
   weather = loadJSON(url);
 }
 
