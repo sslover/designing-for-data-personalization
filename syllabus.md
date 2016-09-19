@@ -282,6 +282,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
     
     * Programming Assignment: Request data from your own JSON file OR a 3rd party API. If you use a 3rd party API, some options (but you can choose whatever you want - the most important is to try to pick something personally interesting):
         * [This Big List of Open APIs courtesy of Craig Protzel](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
+        * [Huge repo of JSON data](https://github.com/dariusk/corpora/tree/master/data/)
         * [New York Open Data](https://nycopendata.socrata.com/)
         * [Forecast.io](https://developer.forecast.io/)
         * [OpenWeather - No authentication](http://openweathermap.org/api)
