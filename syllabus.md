@@ -312,19 +312,19 @@ Week 3
 * **Technical topic:**
     * p5js boilerplate
     * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
-        * [Example project 1 - Visualizing Embryo](http://samslover.com/examples/simple-weather/)
-            * **[Dataset is here]()
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/simple-weather)**
-        * [Example project 2 - Visualizing Embryo (Objects)](http://samslover.com/examples/simple-weather/)
-            * **[Dataset is here]()
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/simple-weather)**            
+        * [Example project 1 - Visualizing Embryo](http://samslover.com/examples/visualizing-embryo-size-simple/)
+            * **[Dataset is here](https://github.com/sslover/designing-for-data-personalization/blob/master/week3/visualizing-embryo-size-simple/data/data.json)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/visualizing-embryo-size-simple)**
+        * [Example project 2 - Visualizing Embryo (Objects)](http://samslover.com/examples/visualizing-embryo-size-objects/)
+            * **[Dataset is here](https://github.com/sslover/designing-for-data-personalization/blob/master/week3/visualizing-embryo-size-objects/data/data.json)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/visualizing-embryo-size-objects)**            
         * [Example project 3 - President Dashboard](http://samslover.com/examples/president-dashboard/)
-            * **[Dataset is here]()
+            * **[Dataset is here](https://raw.githubusercontent.com/hitch17/sample-data/master/presidents.json)
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/president-dashboard)**
         * [Example project 4 - President Dashboard with Other JS](http://samslover.com/examples/president-dashboard-with-other-js/)
-            * **[Dataset is here]()
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/
-
+            * **[Dataset is here](https://raw.githubusercontent.com/hitch17/sample-data/master/presidents.json)
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/)
+            
 * **Assignment Week 3:**
     * Review the following JS & JQuery methods for updating the DOM:
         * [http://www.w3schools.com/js/js_htmldom_document.asp](http://www.w3schools.com/js/js_htmldom_document.asp)
