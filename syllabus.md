@@ -312,14 +312,18 @@ Week 3
 * **Technical topic:**
     * p5js boilerplate
     * p5js - Processing-like-visuals with Javascript (with a focus on designing around data from a 3rd-party API or JSON file)
-        * [Example project 1 - Simple Weather](http://samslover.com/examples/simple-weather/)
+        * [Example project 1 - Visualizing Embryo](http://samslover.com/examples/simple-weather/)
+            * **[Dataset is here]()
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/simple-weather)**
-        * [Example project 2 - President Dashboard](http://samslover.com/examples/president-dashboard/)
+        * [Example project 2 - Visualizing Embryo (Objects)](http://samslover.com/examples/simple-weather/)
+            * **[Dataset is here]()
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/simple-weather)**            
+        * [Example project 3 - President Dashboard](http://samslover.com/examples/president-dashboard/)
+            * **[Dataset is here]()
             * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/president-dashboard)**
-        * [Example project 3 - President Dashboard with Other JS](http://samslover.com/examples/president-dashboard-with-other-js/)
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/president-dashboard-with-other-js)**
-        * [Example project 4 - What's For Breakfast? - Many Objects](http://samslover.com/examples/whats-for-breakfast-many-objects)
-            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/whats-for-breakfast-many-objects)**
+        * [Example project 4 - President Dashboard with Other JS](http://samslover.com/examples/president-dashboard-with-other-js/)
+            * **[Dataset is here]()
+            * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week3/
 
 * **Assignment Week 3:**
     * Review the following JS & JQuery methods for updating the DOM:
