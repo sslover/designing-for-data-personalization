@@ -62,13 +62,13 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Emmanuel](http://www.emmanuelklein.com/?cat=20)
 * [Eve](http://itpblog.evejweinberg.com/category/personal-api/)
 * [Jamal](http://jmcitp.tumblr.com/)
-* [Eve](http://itpblog.evejweinberg.com/category/personal-api/)
 * [Nilomee](http://www.nilomeejesrani.com/blog-4?category=Data+Personalization)
 * [Katie](http://www.katietworks.com/)
 * [Osama](https://osamasehgol.com/data-personalization/)
 * [Ian](http://www.iancgibson.com/category/fall-2016/data-personalization/)
 * [An](http://www.xingjianan.com/category/fall-2016/designing-for-data-personalization/)
 * [Xiqiao](http://www.zhouxiqiao.com/?cat=15)
+* [Leslie](http://www.leslieruckman.com/category/data-personalization/)
 
 Listserv
 --------
