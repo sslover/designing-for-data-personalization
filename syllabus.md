@@ -54,7 +54,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Ondina](http://ondinafrate.com/category/itp-winter-2016/designing-for-data-personalization/)
 * [Joakim](http://www.joakimquach.com/blog/category/fall-2016/designing-for-data-personalization)
 * [Anne](http://annekgoodfriend.com/category/data-personalization/)
-* [Soyeon](http://www.soyeonchung.net/category/2016_fall/design-for-data-p/)
+* [Soy](http://www.soyeonchung.net/category/2016_fall/design-for-data-p/)
 * [Joy](http://eunjee-kim.com/category/fall-2016/design-for-data-personalization/)
 * [Yan](http://www.yanzhao20.com/2016/09/14/strava-personal-data/)
 * [Yiting](http://www.yitingliu.com/data/)
@@ -69,6 +69,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [An](http://www.xingjianan.com/category/fall-2016/designing-for-data-personalization/)
 * [Xiqiao](http://www.zhouxiqiao.com/?cat=15)
 * [Leslie](http://www.leslieruckman.com/category/data-personalization/)
+* [Skylar](http://www.skylarjessen.com/datapersonalization)
 
 Listserv
 --------
