@@ -360,7 +360,7 @@ Week 4
 * Designing around Data - Colors, Typography and more.   
 * Finish p5js examples. Creating p5js objects. 
 
-** BREAK **
+**BREAK**
 
 * Implementing Charts with chart.js
     * [See Chart.js documentation here](http://www.chartjs.org/docs/)
@@ -370,7 +370,7 @@ Week 4
 
 * Custom chart demo
 * Assignment: Work on Midterm
-    * Designing around a dataset that is important to you - 2 main forms:
+    * Designing a new (playful) interaction around a dataset that you find personally meaningful (the most important consideration for this project is that it is a dataset that you find personally interesting). This dataset can be from an existing source or you can create it. 2 primary options:
         1) a dataset that is personally important to you (and that you want to design around in a novel way); 
         2) a dataset that you want to focus on tracking for a week or two (it could be your own data, community data, or any other dataset you want to newly create).
     * Requirements:
