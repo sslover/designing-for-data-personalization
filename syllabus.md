@@ -359,9 +359,27 @@ Week 4
 * 1-minute round-table: topics for midterm
 * Designing around Data - Colors, Typography and more.   
 * Finish p5js examples. Creating p5js objects. 
+
+** BREAK **
+
 * Implementing Charts with chart.js
-* Custom charts
+    * [See Chart.js documentation here](http://www.chartjs.org/docs/)
+    * [See Chart.js boilerplate folder here](https://github.com/sslover/designing-for-data-personalization/tree/master/chartjs-boilerplate)
+    * [Example project - Charts.js]()
+        * **[Code is here]()**
+
+* Custom chart demo
 * Assignment: Work on Midterm
+    * Designing around a dataset that is important to you - 2 main forms:
+        1) a dataset that is personally important to you (and that you want to design around in a novel way); 
+        2) a dataset that you want to focus on tracking for a week or two (it could be your own data, community data, or any other dataset you want to newly create).
+    * Requirements:
+        * Build a working interactive Web page or other experience/application that helps relay the key themes you want to highlight in the dataset
+        * Write a blog post that includes the following:
+            * A brief description of the data you chose, why you are interested in it, and what you wanted to express to the user.
+            * A sketch or wireframe of your concept.
+            * The color palette and fonts that you are using, any other options you were considering, and why you made these choices.
+            * Any next steps you think would be interesting for the project. 
 
 Week 5
 ------
