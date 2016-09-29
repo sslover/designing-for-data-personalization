@@ -357,7 +357,8 @@ Week 4
     * Joy
     * Eve
 * 1-minute round-table: topics for midterm
-* Designing around Data - Colors, Typography and more.   
+* Designing around Data - Colors, Typography and more. 
+    * [Presentation](https://docs.google.com/presentation/d/1C4yMAwX7m_HPoTyUQHgdOr2en-TGdmC0XTaVAToG7Xs/edit?usp=sharing)
 * Finish p5js examples. Creating p5js objects. 
 
 **BREAK**
