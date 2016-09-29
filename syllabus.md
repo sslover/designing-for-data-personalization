@@ -369,7 +369,8 @@ Week 4
         * **[Code is here]()**
 
 * Custom chart demo
-* Assignment: Work on Midterm
+
+* **Assignment Week 4: Work on Midterm**
     * Design a new (playful) interaction around a dataset that you find personally meaningful. This dataset can be from an existing source or you can create it. 2 primary options:
         * 1) choose an existing dataset that is personally important to you (and that you want to design around in a novel way); 
         * 2) create a dataset that you want to focus on by tracking it for a week or two (it could be your own data, community data, or any other dataset you want to newly create).
