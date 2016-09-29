@@ -9,7 +9,6 @@ function init(){
 }
 
 // see http://www.chartjs.org/docs/#line-chart-introduction
-// 
 function buildLineChart(){
 	
 	// a chart can take 2 objects:

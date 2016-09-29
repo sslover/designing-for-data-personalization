@@ -1,104 +1,140 @@
 window.addEventListener('load',init);
 
 function init(){
-	// on page load, build the charts
-	buildLineChart();
-	buildBarChart();
-	buildPieChart();
-	buildDoughnutChart();
-}
-
-// see http://www.chartjs.org/docs/#line-chart-introduction
-// 
-function buildLineChart(){
-	
-	// a chart can take 2 objects:
-	// 1. data - the data/information (required)
-	// 2. options - chart options (optional)
-
-	var data = {
-		// chart labels
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
-    // an array of datasets to plot
-    datasets: [
-    		// dataset 1
-        {
-            label: "My First dataset",
-            backgroundColor: "rgba(75,192,192,0.1)",
-            borderColor: "rgba(75,192,192,1)",
-            pointBackgroundColor: "rgba(75,192,192,1)",
-            pointRadius: 5,
-            // the data values that actually get plotted
-            data: [65, 59, 80, 81, 56, 55, 40]
-        },
-        // dataset 2
-        {
-            label: "My Second dataset",
-            backgroundColor: "rgba(107,185,240,0.2)",
-            borderColor: "rgba(107,185,240,1)",
-            pointBackgroundColor: "rgba(107,185,240,1)",
-            pointRadius: 5,            
-            // the data values that actually get plotted
-            data: [28, 48, 40, 19, 86, 27, 90]
-        }
-    ]
-	};	
-
-	// create chart options (this is optional)
-	// see list of options:
-	// global: http://www.chartjs.org/docs/#chart-configuration-creating-a-chart-with-options
-	// http://www.chartjs.org/docs/#line-chart-chart-options
-	var options = {
-       title: {
-            display: true,
-            text: 'My Line Chart'
-       },
-	    tooltips: {
-	        backgroundColor: 'pink',
-	    }       
-   }
-
-	// NOW, we actually create the chart
-	// first, get the context of the canvas where we're drawing the chart
-	var ctx = document.getElementById("lineChart").getContext("2d");
-	
-	// now, create the line chart, passing in:
-	// 1. the type (required)
-	// 2. the data (required)
-	// 3. chart options (optional)
-	var myLineChart = new Chart(ctx, {
-	    type: 'line',
-	    data: data,
-	    options: options
+	$.ajax({
+	    url: 'data/data.json',
+	    type: 'GET',
+	    failure: function(err){
+	    	console.log ("Could not get the data");
+	    	return alert("Something went wrong");
+	    },
+	    success: function(data) {
+	    	console.log(data);
+	    	setChartDefaults();
+	    	buildDoughnutChart(data);
+	    	buildBarChart(data);
+	    	buildLineChart(data);
+	    }
 	});
 }
 
-// see http://www.chartjs.org/docs/#bar-chart-introduction
-function buildBarChart(){
+// set default options for ALL charts
+// see 
+function setChartDefaults(){
+	// make it responsive
+	Chart.defaults.global.responsive = true;
+	// set the font color
+	Chart.defaults.global.defaultFontColor = '#222';
+	// set the font family
+	Chart.defaults.global.defaultFontFamily = "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif";
+}
 
+
+function buildDoughnutChart(data){
+
+	// first, let's just render the overall counts on the page 
+	document.getElementById('hillaryCount').innerHTML = data.overall.hillary + '%';
+	document.getElementById('trumpCount').innerHTML = data.overall.trump + '%';
+
+	// now, let's make the chart
 	// a chart can take 2 objects:
 	// 1. data - the data/information (required)
 	// 2. options - chart options (optional)
 
 	var data = {
+	    labels: [
+	        "Hillary Clinton",
+	        "Donald Trump",
+	    ],
+	    datasets: [
+	        {
+	            data: [data.overall.hillary, data.overall.trump],
+	            backgroundColor: [
+	                "#179ee0",
+	                "#ff5d40",
+	            ],
+	            hoverBackgroundColor: [
+	                "#1594d2",
+	                "#f0563a",
+	            ]
+	        }]
+	};
+
+	// create chart options (this is optional)
+	// see list of options:
+	// http://www.chartjs.org/docs/#doughnut-pie-chart-chart-options
+	var options = {
+		legend: {
+			position: 'bottom',
+			labels: {
+				fontColor: '#222',
+				boxWidth: 12.5,
+				padding: 20
+			},
+		},
+    tooltips: {
+        backgroundColor: '#222',
+    },		
+    animation:{
+        animateScale:false
+    }
+	} 
+
+	// first, get the context of the canvas where we're drawing the chart
+	var ctx = document.getElementById("doughnutChart").getContext("2d");
+	
+	// now, create the doughnut chart, passing in:
+	// 1. the type (required)
+	// 2. the data (required)
+	// 3. chart options (optional)
+	var myDoughnutChart = new Chart(ctx,{
+	    type: 'doughnut',
+	    data: data,
+	    options: options
+	});		
+}
+
+// see http://www.chartjs.org/docs/#bar-chart-introduction
+function buildBarChart(data){
+
+	// first, let's prepare the data
+	// let's pull out the labels we need; i.e. the state names
+	var labelsArray = [];
+	data.swingStates.forEach(function(e){
+		labelsArray.push(e.state)
+	});
+
+	//let's pull out the hillary stats we need
+	var hillaryArray = [];
+	data.swingStates.forEach(function(e){
+		hillaryArray.push(e.hillary);
+	})
+
+	//let's pull out the trump stats we need
+	var trumpArray = [];
+	data.swingStates.forEach(function(e){
+		trumpArray.push(e.trump);
+	})
+
+	// now, let's make the chart
+	// a chart can take 2 objects:
+	// 1. data - the data/information (required)
+	// 2. options - chart options (optional)
+	var data = {
 	    // chart labels
-	    labels: ["January", "February", "March", "April", "May", "June", "July"],
+	    labels: labelsArray,
 	    // array of datasets to plot
 	    // could be only 1 if there's just 1 dataset
 	    datasets: [
 	        {
-	            label: "My First dataset",
-	            backgroundColor: "rgba(75,192,192,0.3)",
-	            borderColor: "rgba(75,192,192,0.5)",
-	            borderWidth: 1,
-	            data: [65, 59, 80, 81, 56, 55, 40]
+	            label: "Hillary Clinton",
+	            backgroundColor: "#179ee0",
+	            data: hillaryArray
 	        },
 	        {
-	            label: "My Second dataset",
-	            backgroundColor: "rgba(107,185,240,0.2)",
-	            borderColor: "rgba(107,185,240,0.5)",
-	            borderWidth: 1,
-	            data: [28, 48, 40, 19, 86, 27, 90]
+	            label: "Donald Trump",
+	            backgroundColor: "#ff5d40",
+	            data: trumpArray
 	        }
 	    ]
 	};
@@ -107,9 +143,17 @@ function buildBarChart(){
 	// see list of options:
 	// http://www.chartjs.org/docs/#bar-chart-chart-options
 	var options = {
+		legend: {
+			position: 'bottom',
+			labels: {
+				fontColor: '#222',
+				boxWidth: 12.5,
+				padding: 20
+			},
+		},
     tooltips: {
-        backgroundColor: 'pink',
-    }
+        backgroundColor: '#222',
+    },
 	} 
 
 	// first, get the context of the canvas where we're drawing the chart
@@ -127,113 +171,92 @@ function buildBarChart(){
 	});
 }
 
-// see http://www.chartjs.org/docs/#doughnut-pie-chart-introduction
-function buildPieChart(){
-
-	// a chart can take 2 objects:
-	// 1. data - the data/information (required)
-	// 2. options - chart options (optional)
-
-	var data = {
-	    labels: [
-	        "Red",
-	        "Blue",
-	        "Yellow"
-	    ],
-	    datasets: [
-	        {
-	            data: [300, 50, 100],
-	            backgroundColor: [
-	                "#FF6384",
-	                "#36A2EB",
-	                "#FFCE56"
-	            ],
-	            hoverBackgroundColor: [
-	                "#FF6384",
-	                "#36A2EB",
-	                "#FFCE56"
-	            ]
-	        }]
-	};
-
-	// create chart options (this is optional)
-	// see list of options:
-	// http://www.chartjs.org/docs/#doughnut-pie-chart-chart-options
-	var options = {
-    tooltips: {
-        backgroundColor: 'black',
-    },		
-    animation:{
-        animateRotate:true
-    }
-	} 
-
-	// first, get the context of the canvas where we're drawing the chart
-	var ctx = document.getElementById("pieChart").getContext("2d");
+// see http://www.chartjs.org/docs/#line-chart-introduction
+function buildLineChart(data){
 	
-	// now, create the pie chart, passing in:
-	// 1. the type (required)
-	// 2. the data (required)
-	// 3. chart options (optional)
-	var myPieChart = new Chart(ctx,{
-	    type: 'pie',
-	    data: data,
-	    options: options
+	// first, let's prepare the data
+	// let's pull out the labels we need; i.e. the dates
+	var datesArray = [];
+	data.timeline.forEach(function(e){
+		datesArray.push(e.date)
 	});	
 
-}
+	//let's pull out the hillary stats we need
+	var hillaryArray = [];
+	data.timeline.forEach(function(e){
+		hillaryArray.push(e.hillary);
+	})
 
-// see http://www.chartjs.org/docs/#doughnut-pie-chart
+	//let's pull out the trump stats we need
+	var trumpArray = [];
+	data.timeline.forEach(function(e){
+		trumpArray.push(e.trump);
+	})
 
-function buildDoughnutChart(){
+
+	// now, let's make the chart
 	// a chart can take 2 objects:
 	// 1. data - the data/information (required)
 	// 2. options - chart options (optional)
 
 	var data = {
-	    labels: [
-	        "Red",
-	        "Blue",
-	        "Yellow"
-	    ],
-	    datasets: [
-	        {
-	            data: [300, 50, 100],
-	            backgroundColor: [
-	                "#FF6384",
-	                "#36A2EB",
-	                "#FFCE56"
-	            ],
-	            hoverBackgroundColor: [
-	                "#FF6384",
-	                "#36A2EB",
-	                "#FFCE56"
-	            ]
-	        }]
-	};
+		// chart labels
+    labels: datesArray,
+    // an array of datasets to plot
+    datasets: [
+    		// dataset 1
+        {
+            label: "Hillary Clinton",
+            borderColor: "#179ee0",
+            pointBackgroundColor: "#179ee0",
+            backgroundColor: 'transparent',
+            pointRadius: 3,
+            // the data values that actually get plotted
+            data: hillaryArray
+        },
+        // dataset 2
+        {
+            label: "Donald Trump",
+            borderColor: "#ff5d40",
+            pointBackgroundColor: "#ff5d40",
+            backgroundColor: 'transparent',
+            pointRadius: 3,          
+            // the data values that actually get plotted
+            data: trumpArray
+        }
+    ]
+	};	
 
 	// create chart options (this is optional)
 	// see list of options:
-	// http://www.chartjs.org/docs/#doughnut-pie-chart-chart-options
+	// global: http://www.chartjs.org/docs/#chart-configuration-creating-a-chart-with-options
+	// http://www.chartjs.org/docs/#line-chart-chart-options
 	var options = {
+		legend: {
+			position: 'bottom',
+			labels: {
+				fontColor: '#222',
+				boxWidth: 12.5,
+				padding: 20,
+			},
+		},
     tooltips: {
-        backgroundColor: 'black',
-    },		
-    animation:{
-        animateScale:true
-    }
+        backgroundColor: '#222',
+    },
 	} 
 
+	// NOW, we actually create the chart
 	// first, get the context of the canvas where we're drawing the chart
-	var ctx = document.getElementById("doughnutChart").getContext("2d");
+	var ctx = document.getElementById("lineChart").getContext("2d");
 	
-	// now, create the pie chart, passing in:
+	// now, create the line chart, passing in:
 	// 1. the type (required)
 	// 2. the data (required)
 	// 3. chart options (optional)
-	var myPieChart = new Chart(ctx,{
-	    type: 'doughnut',
+	var myLineChart = new Chart(ctx, {
+	    type: 'line',
 	    data: data,
 	    options: options
-	});		
+	});
 }
+

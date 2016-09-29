@@ -7,7 +7,7 @@
     <title>Hello World</title>
 
     <!-- Custom Font - Change 'Muli' to the font you want-->
-    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -24,18 +24,52 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Line Chart</h1>
-    <!-- canvas for line chart -->
-    <canvas id="lineChart" width="1200" height="500"></canvas>
-    <h1>Bar Chart</h1>
-    <!-- canvas for bar chart -->
-    <canvas id="barChart" width="1200" height="500"></canvas>
-    <h1>Pie Chart</h1>
-    <!-- canvas for pie chart -->
-    <canvas id="pieChart" width="1200" height="500"></canvas>
-    <h1>Doughnut Chart</h1>
-    <!-- canvas for doughnut chart -->
-    <canvas id="doughnutChart" width="1200" height="500"></canvas>
+    <div class="container">
+      <div class="heading-holder">
+        <h1>Who will win the presidency?</h1>          
+      </div>
+      <!-- ROW 1-->
+      <div class="row">
+        <!-- START DOUGHNUT CHART SECTION -->
+        <div class="col-md-4 section-holder">
+          <h4>Chances of Winning - Overall</h4>
+          <div class="stats-holder">
+            Hillary Clinton
+            <br>
+            <span id="hillaryCount"></span> 
+          </div>
+          <div class="stats-holder">
+            Donald Trump
+            <br>
+            <span id="trumpCount"></span> 
+          </div>
+          <div class="clear-fix"></div>
+          <div class="doughnutChartHolder">
+              <!-- DOUGHNUT CHART CANVAS --> 
+              <canvas id="doughnutChart"></canvas>
+          </div>
+        </div>
+        <!-- END DOUGHNUT CHART SECTION -->  
+        <!-- START BAR CHART SECTION -->  
+        <div class="col-md-8">
+          <h4>Chances of Winning - Swing States</h4>
+          <canvas id="barChart"></canvas>
+          <!-- END BAR CHART SECTION --> 
+        </div>      
+      </div> 
+    <!-- END ROW 1 -->
+    <!-- ROW 2 -->
+      <div class="row">
+        <!-- START LINE CHART SECTION -->
+        <div class="col-md-12">
+          <h4>How the odds have changed over time</h4>
+          <canvas id="lineChart"></canvas>
+        </div>
+        <!-- END LINE CHART SECTION -->
+      </div>
+      <!-- END Row 2 -->
+
+    </div> 
   </body>
 
     <!-- JQuery script -->
