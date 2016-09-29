@@ -365,8 +365,8 @@ Week 4
 * Implementing Charts with chart.js
     * [See Chart.js documentation here](http://www.chartjs.org/docs/)
     * [See Chart.js boilerplate folder here](https://github.com/sslover/designing-for-data-personalization/tree/master/chartjs-boilerplate)
-    * [Example project - Charts.js]()
-        * **[Code is here]()**
+    * [Example project - Charts.js](http://samslover.com/examples/presidency-2016/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week4/chart-example)**
 
 * Custom chart demo
 
