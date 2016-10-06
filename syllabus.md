@@ -396,6 +396,8 @@ Week 5
 **BREAK**
 
 * Combining multiple interactive elements on 1 Web page (p5 sketch, charts, interactive Web elements)
+    * [Example project - Presidency](http://samslover.com/examples/presidency-2016-expanded/)
+        * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/chart-example-expanded)** 
 * [Example project - Notes Dashboard](http://samslover.com/examples/notes-dashboard/)
     * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/notes-dashboard)** 
 * Common JS Use Cases are in the [week 5 class folder](https://github.com/sslover/designing-for-data-personalization/tree/master/week5)
