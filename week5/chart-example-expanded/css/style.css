@@ -22,7 +22,6 @@ h4{
 
 .heading-holder{
     padding: 0 0 10px 0px;
-    max-width: 824px;
     margin: 45px 0px 20px;
     border-bottom: 1px solid #cdcdcd;
 }
@@ -31,12 +30,57 @@ h4{
 	margin-top: 40px;
 }
 
+.barChart {
+  height: 25px;
+  width: 50%;
+  float: left; 
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;  
+}
+
+#hillarySection {
+  background-color: #179ee0;
+}
+
+#trumpSection {
+  background-color: #ff5d40;
+}
+
+#candidate-img-holder{
+  height: 72px;  
+}
+
+#customChartHolder{
+  margin: 20px 0 50px;
+}
+.chart-img img{
+  width: 110px;
+}
+
+.chart-img {
+  position: absolute;
+}
+
+.hillary-img {
+  left: 12px;
+}
+
+.trump-img{
+  right: 12px; 
+}
+
 .stats-holder{
-	float: left;
-  padding: 20px 35px 25px 0px;
+  float: right;
+  padding: 5px 50px 25px 18px;
   display: block;
   font-size: 13px;
-  letter-spacing: normal;  
+  letter-spacing: normal; 
+  font-weight: bold; 
+}
+
+.trump-img .stats-holder{
+  float: left;
+  padding: 5px 10px 25px 18px;
 }
 
 .stats-holder span{
@@ -70,5 +114,36 @@ canvas{
 }
 
 .doughnutChartHolder{
-	margin-top: 5px;
+	margin-top: 65px;
+}
+
+#canvas-holder{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;  
+}
+
+.button-holder {
+    float: right;
+    margin-top: -35px;
+}
+
+.button-holder a{
+    color: #222;
+    border: 1px solid #222;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#close-icon{
+  position: absolute;
+  top: 17.5px;
+  right: 17.5px;
+  z-index: 9;
+  width: 22.5px;
+  cursor: pointer;
+  display: none;
 }

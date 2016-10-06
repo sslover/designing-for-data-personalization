@@ -1,7 +1,7 @@
 {
 	"overall": {
-		"trump": 42.1,
-		"hillary": 57.9
+		"trump": 23.8,
+		"hillary": 76.2
 	},
 	"swingStates": [
 		{
@@ -75,6 +75,11 @@
 			"date": "October 1",
 			"hillary": 57.5,
 			"trump": 42.5
-		}					
+		},
+		{
+			"date": "October 8",
+			"trump": 23.8,
+			"hillary": 76.2
+		}							
 	]
 }

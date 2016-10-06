@@ -26,23 +26,40 @@
   <body>
     <div class="container">
       <div class="heading-holder">
-        <h1>Who will win the presidency?</h1>          
+        <h1>Who will win the presidency?</h1>
+        <div class="button-holder">
+          <a href="#" id="getNews">Show Recent News</a>
+        </div>
       </div>
-      <!-- ROW 1-->
+      <div class="row">
+        <div class="col-md-12" id="customChartHolder">
+          <div id="candidate-img-holder">
+            <div class="chart-img hillary-img">           
+              <img src="http://projects.fivethirtyeight.com/2016-election-forecast/images/clinton-alligator.png?v=de9aaa73c7e94a8bf67f8ed40b443c23" />
+              <div class="stats-holder">
+                Hillary Clinton
+                <br>
+                <span id="hillaryCount"></span> 
+              </div>              
+            </div>
+            <div class="chart-img trump-img">        
+              <div class="stats-holder">
+                Donald Trump
+                <br>
+                <span id="trumpCount"></span> 
+              </div>               
+              <img src="http://projects.fivethirtyeight.com/2016-election-forecast/images/trump-alligator.png?v=ae0583055d1c23846c2b29593b661382" />             
+            </div>             
+          </div>         
+          <div class="barChart" id="hillarySection"></div>
+          <div class="barChart" id="trumpSection"></div>
+        </div>
+      </div>
+      <!-- ROW 2-->
       <div class="row">
         <!-- START DOUGHNUT CHART SECTION -->
         <div class="col-md-4 section-holder">
           <h4>Chances of Winning - Overall</h4>
-          <div class="stats-holder">
-            Hillary Clinton
-            <br>
-            <span id="hillaryCount"></span> 
-          </div>
-          <div class="stats-holder">
-            Donald Trump
-            <br>
-            <span id="trumpCount"></span> 
-          </div>
           <div class="clear-fix"></div>
           <div class="doughnutChartHolder">
               <!-- DOUGHNUT CHART CANVAS --> 
@@ -69,15 +86,25 @@
       </div>
       <!-- END Row 2 -->
 
+    </div>
+    <!-- Our p5js canvas goes here -->
+    <div id="canvas-holder">
+      <img src="/img/delete_icon.png" id="close-icon">
     </div> 
   </body>
 
     <!-- JQuery script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+    <!-- p5JS -->
+    <script src="js/p5.js"></script>
+
     <!-- CHART JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
 
     <!-- CUSTOM JS -->
     <script src="js/main.js"></script>
+
+    <!-- Another Custom JS -->
+    <script src="js/my-p5-script.js"></script>    
 </html>

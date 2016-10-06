@@ -10,12 +10,19 @@ function init(){
 	    },
 	    success: function(data) {
 	    	console.log(data);
+	    	updateCustomChart(data);
 	    	setChartDefaults();
 	    	buildDoughnutChart(data);
 	    	buildBarChart(data);
 	    	buildLineChart(data);
 	    }
 	});
+}
+
+function updateCustomChart(data){
+	// set the chart's width equal to the live stats
+	document.getElementById('hillarySection').style.width = data.overall.hillary+'%';
+	document.getElementById('trumpSection').style.width = data.overall.trump+'%';
 }
 
 // set default options for ALL charts
