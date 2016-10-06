@@ -388,8 +388,20 @@ Week 5
 * Group Presentation 3
     * Katie
     * Xiqiao
+* Design topic: Isotype (picture language)
+    * [Link to presentation]()
+* Finish Charting example
+* Custom chart demo
+
+**BREAK**
+
 * Combining multiple interactive elements on 1 Web page (p5 sketch, charts, interactive Web elements)
-* Assignment: Work on Midterm
+* [Example project - Notes Dashboard](http://samslover.com/examples/notes-dashboard/)
+    * **[Code is here](https://github.com/sslover/designing-for-data-personalization/tree/master/week5/notes-dashboard)** 
+* Common JS Use Cases are in the [week 5 class folder](https://github.com/sslover/designing-for-data-personalization/tree/master/week5)
+* [Example project - Chart in HTML/CSS/JS (no library)](http://samslover.com/examples/chart-in-html.html)
+
+* Assignment: Complete Midterm! See Week 4 for requirements
 
 
 Week 6
