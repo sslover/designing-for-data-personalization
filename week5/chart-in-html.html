@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Chart</title>
+  <style>
+    body{
+      background-color: #eef1f3;
+    }
+  	.bar{
+  		background: rgba(39,185,241,1);
+  		height: 50px;
+  		margin-bottom: 15px;
+  	}
+  	.bar-blank{
+  		background: rgba(39,185,241,0.2);
+  		height: 50px;
+  		float:left;
+  	}
+  </style>
+ </head>
+ <body>
+	 <div id="barChartHolder">
+	 </div>
+ </body>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+	// let's render some data based on an array
+	var data = [{name:'M2M',points:4},
+	{name:'Fresh&Co',points:6},
+	{name:'Pizza Mercato',points:4},
+  {name:'Peter Luger',points:10}];
+
+	createBarChart(data);
+
+	function createBarChart(data){
+			// the forEach function goes through every element of the data array and operates on it
+      data.forEach(function(e){
+        var width = e.points * 10;
+        var html = '<div class="bar" style="width:'+width+'%"></div>';
+        $('#barChartHolder').append(html);
+      })
+
+
+
+
+
+
+
+
+      // data.forEach(function(e){
+      //   var width = e.points*10; // change 1-10 scale to 10-100
+      //   $('#barChartHolder').append(
+      //     '<div class="chart-holder">' +
+      //       '<div class="bar" style="width:'+width+'%"></div>' +
+      //       '<div class="bar-blank" style="width:'+(parseInt(100-width))+'%"></div>' +
+      //       '<p>'+e.name+' - '+e.points+'</p>' +
+      //     '</div>'          
+      //   );
+      // })			
+	}
+});
+</script>
+</html>

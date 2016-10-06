@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dynamic CSS</title>
+
+<style>
+.active {
+	background-color: #4abd98;
+	color: #fff;
+	font-size: 60px;
+}
+</style>
+</head>
+
+<body>
+<h1 id="changeme">I am not active :( Click me to change my style</h1>
+</body>
+
+<script type="text/javascript">
+
+var changeCSS = function(){
+	var element = document.getElementById("changeme");
+	// we are going to toggle the element
+	// let's see if the element has the CSS class "active" already
+	// if it does, let's remove that class "active"
+	if (element.classList.contains('active')) {
+   		element.classList.remove('active');
+   		element.innerHTML = "I am not active :( Click me to change my style";
+	}
+	// if it doesn't, let's add that class "active"
+	else{
+		element.classList.add('active');
+		element.innerHTML = "I am active! :) Click me to change my style";
+	}
+}
+
+var el = document.getElementById('changeme');
+el.addEventListener('click',changeCSS);
+
+</script>
+
+
+</html>

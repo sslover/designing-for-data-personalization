@@ -389,7 +389,7 @@ Week 5
     * Katie
     * Xiqiao
 * Design topic: Isotype (picture language)
-    * [Link to presentation]()
+    * [Link to presentation](https://docs.google.com/a/nyu.edu/presentation/d/16-c5uKJ_qW9OYymLvPcJYefLaBG7kFyYiJsC8-_nUj4/edit?usp=sharing)
 * Finish Charting example
 * Custom chart demo
 

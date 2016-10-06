@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interval With Dynamic Dom</title>
+</head>
+
+<body>
+
+<div id="container">
+</div>
+
+</html>
+
+<script type="text/javascript">
+//declare and initialize counter variable
+var counter = 0;
+//use set interval to call the count function once every 1000 miliseconds/ once every second
+
+// this version of count() adds to the exisiting innerHTML using strings each time it is called
+var count = function(){
+	var container = document.getElementById("container");
+	container.innerHTML += "<p>" + counter + "</p>";
+	counter++;
+}
+
+window.setInterval(count, 1000);
+
+</script>

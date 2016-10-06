@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Appending HTML</title>
+
+</head>
+
+<body>
+<h1>ITP Dans!</h1>
+<div id='danHolder'>
+</div>
+</body>
+
+<script type="text/javascript">
+
+window.addEventListener('load',renderPage());
+// this function is called the page is loaded
+
+function renderPage(){
+	// an array called data
+	// it contains 3 objects
+	var data = [{name:'Dan Shiffman', photo:'http://itp.nyu.edu/image.php?width=265&image=/people_pics/flash/shiffman_d_731179.jpg'},
+	{name:'Dan O\'Sullivan', photo:'http://itp.nyu.edu/image.php?width=265&image=/people_pics/flash/osullivan.jpg'},
+	{name:'Danny Rozin',photo:'http://itp.nyu.edu/image.php?width=265&image=/people_pics/flash/rozin.jpg'}]
+
+	var holder = document.getElementById('danHolder');
+  data.forEach(function(element) {
+  	console.log(element); // log out the element we're currently on
+  	holder.innerHTML += '<h3>'+element.name+'</h3>' + 
+  	'<img src="'+element.photo+'" width=200>';
+  });	
+}
+</script>
+
+
+</html>

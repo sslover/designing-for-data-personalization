@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hide/Show</title>
+
+</head>
+
+<body>
+	<button href="#" id="theButton">Click to Hide the Unicorn</button>
+
+	<img id="theImg" src='http://pre12.deviantart.net/1362/th/pre/f/2012/304/4/9/insane_unicorn_vector_by_jeremis-d5jilmm.png' width=500 style="block">
+
+</body>
+
+<script type="text/javascript">
+
+function hideShow(){
+	var img = document.getElementById('theImg');
+	var button = document.getElementById('theButton');
+	
+	if(img.style.display=='none'){
+		img.style.display = 'block';
+		button.innerHTML = 'Click to Hide the Unicorn';
+	}
+	else{
+		img.style.display = 'none';
+		button.innerHTML = 'Click to Show the Unicorn';
+	}
+
+}
+
+var el = document.getElementById('theButton');
+el.addEventListener('click',hideShow)
+
+</script>
+
+
+</html>

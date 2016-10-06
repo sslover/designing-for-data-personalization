@@ -1,0 +1,80 @@
+{
+	"overall": {
+		"trump": 42.1,
+		"hillary": 57.9
+	},
+	"swingStates": [
+		{
+			"state": "Florida",
+			"trump": 53.7,
+			"hillary": 46.3			
+		},
+		{
+			"state": "Pennsylvania",
+			"trump": 33.8,
+			"hillary": 66.2			
+		},
+		{
+			"state": "Michigan",
+			"trump": 29.8,
+			"hillary": 70.1			
+		},		
+		{
+			"state": "Ohio",
+			"trump": 61.5,
+			"hillary": 38.4			
+		},
+		{
+			"state": "North Carolina",
+			"trump": 58.4,
+			"hillary": 41.6		
+		}									
+	],
+	"timeline": [
+		{
+			"date": "June 1",
+			"hillary": 66.4,
+			"trump": 33.6
+		},
+		{
+			"date": "June 15",
+			"hillary": 72.2,
+			"trump": 27.7
+		},
+		{
+			"date": "July 1",
+			"hillary": 78,
+			"trump": 22
+		},
+		{
+			"date": "July 15",
+			"hillary": 66.7,
+			"trump": 33.3
+		},	
+		{
+			"date": "August 1",
+			"hillary": 64.8,
+			"trump": 35.1
+		},
+		{
+			"date": "August 15",
+			"hillary": 88.8,
+			"trump": 11.1
+		},
+		{
+			"date": "September 1",
+			"hillary": 73.8,
+			"trump": 26.2
+		},
+		{
+			"date": "September 15",
+			"hillary": 60.3,
+			"trump": 39.7
+		},
+		{
+			"date": "October 1",
+			"hillary": 57.5,
+			"trump": 42.5
+		}					
+	]
+}

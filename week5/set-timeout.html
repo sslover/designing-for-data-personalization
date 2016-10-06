@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interval With Dynamic Dom</title>
+</head>
+
+<body>
+
+<div id="container">
+THIS WILL DISAPPEAR IN 5 SECONDS!
+</div>
+
+</html>
+
+<script type="text/javascript">
+//declare and initialize counter variable
+var counter = 0;
+//use set interval to call the count function once every 1000 miliseconds/ once every second
+window.setTimeout(function(){
+	disappear();
+}, 5000);
+
+// this version of count() adds to the exisiting innerHTML using strings each time it is called
+var disappear = function(){
+	var container = document.getElementById("container");
+	container.innerHTML = 'TOLD YOU SO!';
+}
+
+</script>
