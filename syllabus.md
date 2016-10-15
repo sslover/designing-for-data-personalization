@@ -486,7 +486,7 @@ Week 8
     * Sage Project
 * Connecting your client application to your API
 
-* **Assignment Week 8:**
+**Assignment Week 8:**
 
 Build a simple API to track and relay a dataset of your choosing
 
