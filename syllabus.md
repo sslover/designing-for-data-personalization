@@ -485,16 +485,19 @@ Week 8
     * Yummly
     * Sage Project
 * Connecting your client application to your API
-* Assignment: build simple API to track and relay a dataset
 
-        * Update the boilerplate to work with your own schema (i.e. change it away from the animal schema to the schema you have created)
-        * You should have at least 5 routes, and they should be done in a RESTful style:
-            1) Create
-            2) Retrieve All
-            3) Retrive One
-            4) Update
-            5) Delete
-        * Use [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en) for POST requests
+* **Assignment Week 8:**
+
+Build a simple API to track and relay a dataset of your choosing
+
+* Update the boilerplate to work with your own schema (i.e. change it away from the animal schema to the schema you have created)
+* You should have at least 5 routes, and they should be done in a RESTful style:
+    1) Create
+    2) Retrieve All
+    3) Retrive One
+    4) Update
+    5) Delete
+* Use [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en) for POST requests
 
 Week 9
 ------
