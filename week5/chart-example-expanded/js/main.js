@@ -1,5 +1,7 @@
 window.addEventListener('load',init);
 
+var myDoughnutChart;
+
 function init(){
 	$.ajax({
 	    url: 'data/data.json',
@@ -94,7 +96,7 @@ function buildDoughnutChart(data){
 	// 1. the type (required)
 	// 2. the data (required)
 	// 3. chart options (optional)
-	var myDoughnutChart = new Chart(ctx,{
+	myDoughnutChart = new Chart(ctx,{
 	    type: 'doughnut',
 	    data: data,
 	    options: options

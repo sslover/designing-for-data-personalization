@@ -32,7 +32,7 @@ function showOverlay(){
 	var closeButton = document.getElementById('close-icon');
 	closeButton.style.display = 'block';
 	lastTime = millis();
-	getNYTData("Election 2016");	
+	getNYTData("2016 Election");	
 }
 
 function hideOverlay(){
@@ -52,6 +52,7 @@ function getNYTData(query){
 	url += '?' + $.param({
 	  'q': query,
 	});
+
 	$.ajax({
 	  url: url,
 	  method: 'GET',
