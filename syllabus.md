@@ -425,6 +425,7 @@ Week 7
 
 **BREAK**
 
+* Build "Hello World" expressjs app
 * [Presentation - Overview of Node.js + Express.js + Mongodb + Heroku](https://docs.google.com/presentation/d/1aMGEb074fOsWOj3tprXVgEV9VjrV5INSncwDcKr2Gg4/edit?usp=sharing)
 * [App Setup - Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
 * App Overview

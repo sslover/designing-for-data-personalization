@@ -2,6 +2,8 @@ window.addEventListener('load',init);
 
 var myDoughnutChart;
 
+myDoughnutChart.datasets = [];
+
 function init(){
 	$.ajax({
 	    url: 'data/data.json',
