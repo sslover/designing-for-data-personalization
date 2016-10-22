@@ -477,6 +477,7 @@ Week 7
 Week 8
 -------
 * Field trip!
+    * You need to come to Pirch SoHo by 6:25pm next Thursday. It is down the street from ITP (10 minute walk): 200 Lafayette St, New York, NY 10012
 * Group Presentation 5
     * Jamal
     * Yiting
