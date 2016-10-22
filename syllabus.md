@@ -447,7 +447,6 @@ Week 7
          
 * **Assignment Week 7:**
     * Read about [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
-    * 
     * Get the boilerplate up and running. Email the class list if you run into any issue. Please provide the exact error you are getting and the command you ran that gave you that error.
     * Requirements
         * [Download the boilerplate zip](https://github.com/sslover/node-express-api-boilerplate) (do not clone it!)
