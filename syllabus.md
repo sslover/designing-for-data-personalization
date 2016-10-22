@@ -476,16 +476,16 @@ Week 7
 
 Week 8
 -------
-* Surprise field trip!
+* Field trip!
 * Group Presentation 5
     * Jamal
     * Yiting
-* Design Topic: Onboarding!
-    * Oscar Health
-    * Poncho
-    * Yummly
-    * Sage Project
+
+**BREAK**
+
+* Finish boilerplate - get it completely up and running
 * Connecting your client application to your API
+* Rendering data onto a Webpage
 
 **Assignment Week 8:**
 
@@ -506,8 +506,17 @@ Week 9
     * Anne
     * Ondina
     * Joakim
-* Going deeper into APIs (validation, implementing AJAX)
+* Design Topic: Onboarding!
+    * Oscar Health
+    * Poncho
+    * Yummly
+    * Sage Project
+
+**BREAK**
+
 * Using npm libraries
+* Amazon S3 for file/image storage
+
 * Assignment: build a fully working data app that has the following features:
     * Has your own data model
     * Has at least 5 routes:
@@ -526,19 +535,19 @@ Week 9
 
 Week 10
 ------
+* Guest speaker
 * Group Presentation 6
     * Yan
     * Nilomee
 * Student Presentations: Present Your Final Project Proposal --> Designing around your own data
-* Amazon S3 for file/image storage
 * Twilio for SMS
 
 Week 11
 -------
-* Guest speaker 2
 * Group Presentation 7
     * Skylar
     * Soy
+* Socket / Live Data
 * More Complex Server/Mongoose commands - Layout, Subdocuments, req.param vs req.query, sort, where
 * **Assignment - FINISH YOUR FINAL PROJECT**
 
