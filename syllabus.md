@@ -485,6 +485,8 @@ Week 8
 **BREAK**
 
 * Finish boilerplate - get it completely up and running
+    * [Presentation - Overview of Node.js + Express.js + Mongodb + Heroku](https://docs.google.com/presentation/d/1aMGEb074fOsWOj3tprXVgEV9VjrV5INSncwDcKr2Gg4/edit?usp=sharing)
+    * [App Setup - Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
 * Talking to your APIs from a client-application
 * Overview of Routing
     * [Routing in express.js](http://expressjs.com/guide/routing.html)
