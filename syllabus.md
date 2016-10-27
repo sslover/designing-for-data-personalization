@@ -485,21 +485,33 @@ Week 8
 **BREAK**
 
 * Finish boilerplate - get it completely up and running
-* Connecting your client application to your API
-* Rendering data onto a Webpage
+* Talking to your APIs from a client-application
+* Overview of Routing
+    * [Routing in express.js](http://expressjs.com/guide/routing.html)
+* [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+* Class Example - ITP Directory:
+    * [Demo](https://itp-directory.herokuapp.com/directory)
+    * [Github Repo](https://github.com/sslover/class-example-itp-directory)
+* Simple AJAX Example:
+    * Interacting with a node-express-mongoose app using AJAX and Google's 
+    geocoder:
+        * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
+        * [Demo](https://pets-of-nyc.herokuapp.com/pets)
+* Using npm libraries
+    * Geocoder example in above app
 
-**Assignment Week 8:**
-
-Build a simple API to track and relay a dataset of your choosing
-
-* Update the boilerplate to work with your own schema (i.e. change it away from the animal schema to the schema you have created)
-* You should have at least 5 routes, and they should be done in a RESTful style:
-    1) Create
-    2) Retrieve All
-    3) Retrive One
-    4) Update
-    5) Delete
-* Use [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en) for POST requests
+* **Assignment Week 8:**
+    * Design topic: Read [Why Cards are the Future of the Web](https://blog.intercom.io/why-cards-are-the-future-of-the-web/)
+    * Read through the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+    * This week you should build a simple app that does the following:
+        * Has at least 3 routes:
+            1) Create
+            2) Retrieve (One or All)
+            3) Delete
+        * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+        * Submits (POST) data via an HTML form or via AJAX
+        * Shows the data on a Webpage
+    * Push it to heroku and send me the URL
 
 Week 9
 ------
