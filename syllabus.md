@@ -505,7 +505,7 @@ Week 8
 * **Assignment Week 8:**
     * Design topic: Read [Why Cards are the Future of the Web](https://blog.intercom.io/why-cards-are-the-future-of-the-web/)
     * Read through the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
-    * This week you should build a simple app that does the following:
+    * This week you should build a simple app that does the following (use the [boilerplate](https://github.com/sslover/node-express-api-boilerplate) as a starting point)
         * Has at least 3 routes:
             1) Create
             2) Retrieve (One or All)
