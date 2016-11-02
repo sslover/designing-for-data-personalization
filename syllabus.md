@@ -575,12 +575,14 @@ Week 10
     * Nilomee
 * Student Presentations: Present Your Final Project Proposal --> Designing around your own data
 * Twilio for SMS
+* AWS for image storage
 
 Week 11
 -------
 * Group Presentation 7
     * Skylar
     * Soy
+* AWS for image storage
 * Socket / Live Data
 * More Complex Server/Mongoose commands - Layout, Subdocuments, req.param vs req.query, sort, where
 * **Assignment - FINISH YOUR FINAL PROJECT**
