@@ -529,24 +529,43 @@ Week 9
 
 **BREAK**
 
+* ITP Directory Example
+    * [Demo](https://itp-directory.herokuapp.com/directory)
+    * [Github Repo](https://github.com/sslover/class-example-itp-directory)
+
+* Topics:
+    * [jQuery validation](http://jqueryvalidation.org/) for validating forms
+    * Creating slugs
+    * Edit routes
+    * View Engine ([Hogan Express](https://github.com/vol4ok/hogan-express))
+    * [req.params](http://expressjs.com/api.html#req.params) and [req.query](http://expressjs.com/api.html#req.query)
+
+* Simple AJAX Example:
+    * Interacting with a node-express-mongoose app using AJAX and Google's 
+    geocoder:
+        * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
+        * [Demo](https://pets-of-nyc.herokuapp.com/pets)
 * Using npm libraries
-* Amazon S3 for file/image storage
+    * Geocoder example in above app
 
-* Assignment: build a fully working data app that has the following features:
-    * Has your own data model
-    * Has at least 5 routes:
+* **Assignment Week 9:**
+    * This week, you must complete a fully working data app that has the following features:
+        * Has your own data model
+        * Has at least 5 routes:
 
-        1) Create (via a form POST or via ajax POST)
+            1) Create (via a form POST or via ajax POST)
 
-        2) Retrieve One (by ID or some other parameter)
+            2) Retrieve One (by ID or some other parameter)
 
-        3) Retrieve All
+            3) Retrieve All
 
-        4) Edit (via a form POST or via ajax POST)
+            4) Edit (via a form POST or via ajax POST)
 
-        5) Delete
+            5) Delete
 
-* Assignment: Final Project Proposal --> Designing around your own data
+     * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
+    
+    * This week, you must also come up with your final project proposal. You should propose 1-2 datasets you want to track over the final weeks of the class. This can be personal data, community data, or any other dataset you want to track and then visualize.
 
 Week 10
 ------
