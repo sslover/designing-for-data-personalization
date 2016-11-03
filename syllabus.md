@@ -545,6 +545,7 @@ Week 9
     geocoder:
         * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
         * [Demo](https://pets-of-nyc.herokuapp.com/pets)
+
 * Using npm libraries
     * Geocoder example in above app
 
@@ -565,7 +566,7 @@ Week 9
 
      * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
     
-    * This week, you must also come up with your final project proposal. You should propose 1-2 datasets you want to track over the final weeks of the class. This can be personal data, community data, or any other dataset you want to track and then visualize.
+    * This week, you must also come up with your final project proposal. You should propose 1-2 datasets you want to track over the final weeks of the class. This can be personal data, community data, or any other dataset you want to track and then visualize. For your final, you must show data that you've collected, expose it as an API, and design a personally meaningful application or experience around it.
 
 Week 10
 ------
@@ -575,6 +576,8 @@ Week 10
     * Nilomee
 * Student Presentations: Present Your Final Project Proposal --> Designing around your own data
 * Twilio for SMS
+
+** BREAK **
 * AWS for image storage
 
 Week 11
@@ -582,7 +585,7 @@ Week 11
 * Group Presentation 7
     * Skylar
     * Soy
-* AWS for image storage
+* AWS for image storage (continued)
 * Socket / Live Data
 * More Complex Server/Mongoose commands - Layout, Subdocuments, req.param vs req.query, sort, where
 * **Assignment - FINISH YOUR FINAL PROJECT**
