@@ -567,6 +567,7 @@ Week 9
      * The above routes should use the methods from the [Mongoose.js Cheat Sheet](https://github.com/sslover/designing-for-data-personalization/blob/master/week8/mongoose-cheatsheet.md)
     
     * This week, you must also come up with your final project proposal. You should propose 1-2 datasets you want to track over the final weeks of the class. This can be personal data, community data, or any other dataset you want to track and then visualize. For your final, you must show data that you've collected, expose it as an API, and design a personally meaningful application or experience around it.
+    * That said -- if there is another project idea you have in mind that fits the themes of the class, please propose it.
 
 Week 10
 ------
