@@ -600,7 +600,7 @@ Week 10
     * [Demo](https://twilio-sms-example.herokuapp.com/)
     * [Github Repo](https://github.com/sslover/node-express-twilio-sms)
 
-* **Assignment - WORK ON YOUR FINAL PROJECT**
+**Assignment - WORK ON YOUR FINAL PROJECT**
 
 Week 11
 -------
@@ -616,7 +616,8 @@ Week 11
 * Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
     * [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week11/week11-resources.md)
 * If time permits. More Complex Server/Mongoose commands - Layout, Subdocuments sort, where
-* **Assignment - FINISH YOUR FINAL PROJECT**
+
+**Assignment - FINISH YOUR FINAL PROJECT**
 
 Week 12
 -------
