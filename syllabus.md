@@ -575,10 +575,31 @@ Week 10
     * Yan
     * Nilomee
 * Student Presentations: Present Your Final Project Proposal --> Designing around your own data
-* Twilio for SMS
+* Simple AJAX Example:
+    * Interacting with a node-express-mongoose app using AJAX and Google's 
+    geocoder:
+        * [Github Repo](https://github.com/sslover/node-express-geolocation-with-ajax-example)
+        * [Demo](https://pets-of-nyc.herokuapp.com/pets)
+* Using npm libraries
+    * Geocoder example in above app
 
 ** BREAK **
-* AWS for image storage
+
+**Amazon S3 for file/image storage**
+* [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week10/AmazonS3-expressjs-setup-guide.md)
+* Example App:
+    * [Demo](https://itp-directory.herokuapp.com/add-person-with-image)
+    * [Github Repo](https://github.com/sslover/class-example-itp-directory)
+        * [add-with-image.html - the form](https://github.com/sslover/class-example-itp-directory/blob/master/views/add-with-image.html)
+        * [index. js - look at /api/create/image](https://github.com/sslover/class-example-itp-directory/blob/master/routes/index.js)
+
+**Twilio for SMS**
+* [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week10/Twilio-SMS-setup.md)
+* Example App:
+    * [Demo](https://twilio-sms-example.herokuapp.com/)
+    * [Github Repo](https://github.com/sslover/node-express-twilio-sms)
+
+* **Assignment - WORK ON YOUR FINAL PROJECT**
 
 Week 11
 -------
@@ -586,8 +607,14 @@ Week 11
     * Skylar
     * Soy
 * AWS for image storage (continued)
+* Twilio (continued)
 * Socket / Live Data
-* More Complex Server/Mongoose commands - Layout, Subdocuments, req.param vs req.query, sort, where
+
+** BREAK **
+
+* Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
+    * [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week11/week11-resources.md)
+* If time permits. More Complex Server/Mongoose commands - Layout, Subdocuments sort, where
 * **Assignment - FINISH YOUR FINAL PROJECT**
 
 Week 12
