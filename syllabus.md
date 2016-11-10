@@ -576,6 +576,7 @@ Week 10
     * Yan
     * Nilomee
 * Student Presentations: Present Your Final Project Proposal --> Designing around your own data
+* Search query route
 * Simple AJAX Example:
     * Interacting with a node-express-mongoose app using AJAX and Google's 
     geocoder:
