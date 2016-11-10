@@ -6,7 +6,7 @@
 
 3) Go to [Get Started With Messaging](https://www.twilio.com/user/account/messaging/getting-started)
 
-4) Click "Get Your First Twilio Phone Number". Write it down. The example app is (646) 846-8769.
+4) Click "Get Your First Twilio Phone Number". Write it down. The example app is (678)-264-6646.
 
 5) Now, we need to add our Twilio credentials to the .env file (remember that this is a secret file that holds credentials and other private information - we have it in .gitignore so it will not be shared on Github).
 
@@ -48,9 +48,9 @@ There's a few steps here:
 
 Every time a message comes in, we need to tell Twilio what to do with it. We do that by dictating a callback route on our server (where Twilio should POST that message).
 
-First, we'll set that up at Twilio. Go to your [Twilio Phone Numbers](https://www.twilio.com/user/account/messaging/phone-numbers). Click on the phone number you are using.
+First, we'll set that up at Twilio. Go to your [Twilio Phone Numbers](https://www.twilio.com/console/phone-numbers/incoming). Click on the phone number you are using.
 
-In the Request URL field, put the following:
+Go down to "Messaging", and choose "A MESSAGE COMES IN" --> "Webhook". In that first field, put:
 
 https://your-app-name-here.herokuapp.com/twilio-callback
 
