@@ -610,16 +610,37 @@ Week 11
     * Soy
 * AWS for image storage (continued)
 * Twilio (continued)
-* Socket / Live Data
 
 ** BREAK **
 
+* Socket / Live Data
+* Setting up Social Services (NPM)
 * Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
     * [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week11/week11-resources.md)
 * If time permits. More Complex Server/Mongoose commands - Layout, Subdocuments sort, where
 
-**Assignment - FINISH YOUR FINAL PROJECT**
+**HOMEWORK - FINISH YOUR FINAL PROJECT**
+
+For your final project, the following are requirements:
+
+* **You must create a working project that you demo in class.**
+* **The project should have 2 public links:**
+    * Project demo
+    * Github link 
+        * If you've never pushed a repo to github. Here's the deal:
+            * Sign in to your Github account
+            * Click "New repository" in top right (the + sign)
+            * Give it a name and description and click Create
+            * Then, in terminal, enter the 2 commands in the 2nd box ("push an existing repository from the command line"). Or, if you've yet to start tracking it with Git, then go with the 1st box ("create a new repository on the command line")
+            * Refresh the page and you'll see your repo
+* **You must document it on your blog:**
+    * What data did you decide to work with? Why were you interested in this data?
+    * What were your key design considerations?
+    * What are some of the key technology processes you used? What was interesting or tricky?
+    * What are the key takeaways for yourself or for your target audience? What did you want them to get from your project?
+    * Where else could you see this project going?
+* **You must email me a link to the blog post, project demo, and github repo.**
 
 Week 12
 -------
-* **Student Presentations - Final Project: Designing around your own data**
+* **Student Presentations - Final Project**
