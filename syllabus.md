@@ -614,7 +614,15 @@ Week 11
 ** BREAK **
 
 * Socket / Live Data
+    * Example App:
+        * [Repo](https://github.com/sslover/socketio-twitter-stream-example)
+        * [App Demo](http://socketio-twitter-demo.herokuapp.com/)
 * Setting up Social Services (NPM)
+    * Example App:
+        * [Repo](https://github.com/sslover/npm-examples-node-express)
+        * [App](https://npm-examples.herokuapp.com/)
+
+If you are interested, dig in on your own:
 * Going beyond the browser. Data on Physical Devices & Objects (hello Arduino Yun!)
     * [Setup Guide](https://github.com/sslover/designing-for-data-personalization/blob/master/week11/week11-resources.md)
 * If time permits. More Complex Server/Mongoose commands - Layout, Subdocuments sort, where
